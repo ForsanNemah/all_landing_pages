@@ -3,7 +3,7 @@ $info = array(
 
 
 
-    "website_title"=>" منصة  تعميد   ",
+    "website_title"=>"   مكتب حول الاصول للعقارات   ",
 
 "nav_h"=>" 
 
