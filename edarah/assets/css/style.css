@@ -13,7 +13,7 @@ body {
   color: #898989;
   font-family: "Poppins", helvetica;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 250;
   line-height: 20px;
   letter-spacing: 0.02em;
   overflow-x: hidden;
@@ -186,7 +186,7 @@ p {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 0px 0;
   background-color: #fff;
   top: -100%;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
@@ -456,7 +456,7 @@ p {
 #hero .hero-content {
   height: 100vh;
   text-align: left;
-  width: 100%;
+  width: 50%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -482,7 +482,7 @@ p {
 
 .hero-content .list-social li {
   float: left;
-  margin-right: 20px;
+  margin-right: 0px;
 }
 
 .hero-content .list-social li i {
