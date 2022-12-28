@@ -22,7 +22,7 @@ $info = array(
 
 
 
- "form_h1"=>" %
+ "form_h1"=>"  
          ",
 
  "header_h"=>" ",

@@ -271,7 +271,7 @@ include 'info.php';
 
                             </h1>
                             <br>
-                            <p class="text-light" style="font-size: 1.2em; font-size: 1.2em; font-family: inherit !important ">تتوفر خدمة  <b style="background-color:red"> التقسيط </b>على دفعات</p>
+ 
                             
                             
                         </div>
