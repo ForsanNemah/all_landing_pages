@@ -98,21 +98,6 @@ include 'info.php';
 
 </head>
 <body>
-
-
-
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd20LlWSC8CUZhsVfCCCTj4Ul4zcpJHo7IyMnetmUZU2ZYurw/viewform?embedded=true" width="640" height="1256" frameborder="0" marginheight="0" marginwidth="0">جارٍ التحميل…</iframe>
-
-
-
-
-
-
-
-
-
-
     <!-- Google Tag Manager (noscript) -->
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3FBVZL"
@@ -177,7 +162,7 @@ include 'info.php';
                     <div class="col-12 col-lg-6">
                         <div class="form">
                             <div class="text-center">
-                                <form name="myform" target="_self" onsubmit=" doSomething();"   action="register.php" method="post">
+                                <form name="myform" target="_self" onsubmit=" doSomething();"   action="https://script.google.com/macros/s/AKfycbxcwMigNCbS6KKAtTAA8edxJ9KdFoVUCAO9do4biMt0FK3EkIlBjsj539noFLnHq4vr/exec" method="post">
                                     <p class="appointment-title text-light"> 
 
 
@@ -223,30 +208,13 @@ include 'info.php';
                                         <input name="phn" type="number" class="form-control" placeholder="رقم الهاتف" required="">
                                     </div>
                                     <div class="form-group">
-                                        <input name="admin_id" id="admin_id"  type="hidden"   class="form-control" placeholder="رقم الهاتف"  >
+                                        <input name="email" type="text" class="form-control" placeholder=" الايميل  " >
                                     </div>
+
                                     <div class="form-group">
-                                          <select name="type" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required="true">
-
-                                             
-
-
-
-                                            <?php
-
-include 'info.php';
-
- 
-
-
-foreach ($items as $key => $value) {
-
-    echo "<option value='$value'>$value</option>";
-     
-   }
-?>
-                                        </select>
+                                        <input name="note" type="text" class="form-control" placeholder="ملاحظات   "  >
                                     </div>
+                                     
                                     
                                     <button id="send" type="submit" class="btn submit-btn"> 
 
@@ -265,6 +233,19 @@ include 'info.php';
 
 
                                     </button>
+                                    <br>
+                                    <br>
+
+                                    <button id="send" type="submit" class="btn submit-btn" style="background-color: #25D366"> <i >
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+  </svg>
+
+
+
+</i> احجز  عبر واتس اب </button>
                                 </form>
                               
 
@@ -292,15 +273,7 @@ include 'info.php';
                             <br>
                             <p class="text-light" style="font-size: 1.2em; font-size: 1.2em; font-family: inherit !important ">تتوفر خدمة  <b style="background-color:red"> التقسيط </b>على دفعات</p>
                             
-                            <a id="wsmalt" href="index2.php" class="btn submit-btn" style="background-color: #25D366"> <i >
-
-
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-                                  </svg>
-
-
-                            </i> احجز عبر واتس اب </a>
+                            
                         </div>
                     </div>
                 </div>
@@ -309,105 +282,7 @@ include 'info.php';
     </section>
    
     <section class="notification">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <div class="blood-bank d-inline-block" style="text-align:center">
-                        <img src="./index_files/doctors.png">
-                        <br>
-                        <h6 style="text-align: center; padding-top: 10px ">
-                        
-
-
-
-                        <?php
-
-include 'info.php';
-
- echo $info['service1_h'];
-
-
-
-
-?>
-
-
-
-
-                        </h6>
-                        <br> <span style="text-align: right;"></span>
-                     
-                        <?php
-
-include 'info.php';
-
- echo $info['service1_info'];
-
-
-
-
-?>  
-      
-                    
-                    
-                    
-                    
-                    </span>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <div class="quality-medicine d-inline-block" style="text-align:center">
-                        <img src="./index_files/dental.png">
-                        <br>
-                        
-                        
-                        <h6 style="text-align: center !important; padding-top: 10px">
-                    
-                    
-                    
-                        <?php
-
-include 'info.php';
-
- echo $info['service2_h'];
-
-
-
-
-?>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    </h6>
-                        <br> <span style="text-align: right;"></span>
-                     
-                        <?php
-
-include 'info.php';
-
- echo $info['service2_info'];
-
-
-
-
-?>  
-      
-                    
-                    
-                    
-                    
-                    </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+   
 
 
 
@@ -426,7 +301,9 @@ include 'info.php';
 
 
 
+<br>
 
+<img src="ads/doctor.jpg" class="img-fluid" alt="Responsive image">
 
 
 
@@ -460,7 +337,7 @@ include 'info.php';
     <div class="carousel-inner">
 
         <div class="carousel-item active">
-            <img class="d-block w-100" src="ads/1.jpg" alt="First slide">
+            <img class="d-block w-100" src="ads/8.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
                 <h5> </h5>
                 <p> </p>
@@ -468,11 +345,11 @@ include 'info.php';
         </div>
 
         <div class="carousel-item">
-            <img class="d-block w-100" src="ads/2.jpg" alt="Second slide">
+            <img class="d-block w-100" src="ads/7.jpg" alt="Second slide">
         </div>
 
         <div class="carousel-item">
-            <img class="d-block w-100" src="ads/1.jpg" alt="Third slide">
+            <img class="d-block w-100" src="ads/8.jpg" alt="Third slide">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -608,6 +485,14 @@ include 'info.php';
        
 function doSomething() {
     alert(msg);
+    
+ window.open("https://wa.me/"+phn);
+
+
+   //window.open(<?php echo "ttps://wa.me/966581536666"; ?>);
+
+
+
     return false;
 }
 
