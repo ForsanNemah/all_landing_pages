@@ -493,7 +493,7 @@ $(document).ready(function () {
 
 
 
-	 
+	//doSomething();
 
 
 
@@ -547,7 +547,7 @@ $(document).ready(function () {
 				data		: form_data,                         
 				type		: 'post',
 				success		: function(output){
-					window.location.replace("done.php");
+					alert("تمت بنجاح "); 				// display response from the PHP script, if any
 					
 				}
 		 }); 
@@ -627,7 +627,8 @@ $(document).ready(function () {
 				data		: form_data,                         
 				type		: 'post',
 				success		: function(output){
-					window.location.replace("done.php");
+					alert("تمت بنجاح "); 				// display response from the PHP script, if any
+					window.open("https://wa.me/"+phn);
 				}
 		 }); 
            
