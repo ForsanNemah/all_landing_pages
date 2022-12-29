@@ -486,8 +486,8 @@ include 'info.php';
 function doSomething() {
     alert(msg);
     
- window.open("https://wa.me/"+phn);
-
+ 
+window.open("https://wa.me/"+phn, "_self");
 
    //window.open(<?php echo "ttps://wa.me/966581536666"; ?>);
 
