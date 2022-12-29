@@ -342,7 +342,7 @@ include 'info.php';
         </div>
 
         <div class="carousel-item">
-            <img class="d-block w-100" src="ads/8.jpg" alt="Second slide">
+            <img class="d-block w-100" src="ads/7.jpg" alt="Second slide">
         </div>
 
         <div class="carousel-item">
