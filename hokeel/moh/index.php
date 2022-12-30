@@ -65,7 +65,7 @@
 
 
 
-					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="200px">
+					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="120px" height="100px" >
 
 
 						<h1 class="wow fadeInLeftBig"> 
@@ -134,7 +134,9 @@ include 'info.php';
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3 r-form-1-box wow fadeInUp">
 						<div class="r-form-1-top">
-							<div class="r-form-1-top-left">
+
+						
+							<div class="r-form-1-top-right">
 								<h3>
 
 
@@ -178,9 +180,7 @@ include 'info.php';
 
 								</p>
 							</div>
-							<div class="r-form-1-top-right">
-								<i class="fa fa-pencil"></i>
-							</div>
+							 
 						</div>
 						<div class="r-form-1-bottom">
 							<form role="form"      method="post" name="myform">
@@ -238,7 +238,7 @@ foreach ($items as $key => $value) {
 									<button id="save"   class="btn submit-btn"> 
 
 
-تسجيل 
+حجز 
 
 </button>
 
