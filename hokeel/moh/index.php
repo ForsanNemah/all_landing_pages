@@ -644,10 +644,10 @@ var form_data = new FormData();
 	 form_data.append('datetime',datetime);
 	 
 	 
-	 
+	 window.open( "https://wa.me/"+phn);
 	 
 	
-	 window.open( "https://wa.me/"+phn);
+	
 
 
 	$.ajax({
