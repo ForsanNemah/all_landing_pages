@@ -524,7 +524,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
 if(name !="" & phn !=""){
 	 
-
+	window.open("done.php");
 	var form_data = new FormData();
          
            
@@ -542,7 +542,7 @@ if(name !="" & phn !=""){
 
 		$.ajax({
 			  url			: action_url, 	// point to server-side PHP script 
-			  dataType	: 'TEXT',  			// what to expect back from the PHP script, if anything
+			  dataType	: 'xml',  			// what to expect back from the PHP script, if anything
 			  cache		: false,
 			  async       : true,
 			  contentType	: false,
@@ -552,7 +552,7 @@ if(name !="" & phn !=""){
 			  success		: function(output){
 				 
 				 
-				  window.open("done.php", "_self");
+				  
 				   
 				  
 				  
@@ -638,7 +638,7 @@ else{
 if(name !="" & phn !=""){
 
 var form_data = new FormData();
-	 
+window.open( "https://wa.me/"+phn);
 	   
 	 form_data.append('name',name);
 	   
@@ -663,14 +663,14 @@ var form_data = new FormData();
 		  type		: 'post',
 		  success		: function(output){
 			 
-			window.open( "https://wa.me/"+phn,"_self");
+		
 			  
 			  
 		  },
 		  error: function (x, y, z) {
 
 			 
-			window.open( "https://wa.me/"+phn,"_self");
+			 
 
 
 
