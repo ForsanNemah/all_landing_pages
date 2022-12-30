@@ -65,7 +65,7 @@
 
 
 
-					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="150px" height="150px" >
+					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="120px" height="100px" >
 
 
 						<h1 class="wow fadeInLeftBig"> 
@@ -187,21 +187,15 @@ include 'info.php';
 
 								<div class="form-group">
 									<label class="sr-only" for="r-form-1-first-name"> Name</label>
-									<input type="text" name="name"   placeholder="الأسم" class="r-form-1-first-name form-control" id="r-form-1-first-name"  required>
+									<input type="text" id="name"  placeholder="الأسم" class="r-form-1-first-name form-control" id="r-form-1-first-name"  required>
 								</div>
 								 
 								 
 
 
-								<div class="form-group" >
+								<div class="form-group">
 									<label class="sr-only" for="r-form-1-email">Email</label>
-									<input type="number" name="phn" placeholder="رقم الهاتف " class="r-form-1-email form-control" id="r-form-1-email" required>
-								</div>
-
-
-								<div class="form-group"  hidden >
-									<label class="sr-only" for="r-form-1-email">date</label>
-									<input type="text" name="datetime" id="today" placeholder=" التاريخ  " class="r-form-1-email form-control" id="r-form-1-email"  >
+									<input type="number" id="phn" placeholder="رقم الهاتف " class="r-form-1-email form-control" id="r-form-1-email" required>
 								</div>
 
 
@@ -241,7 +235,7 @@ foreach ($items as $key => $value) {
 
 
 
-									<button type="submit"   class="btn submit-btn"> 
+									<button id="save"   class="btn submit-btn"> 
 
 
 حجز 
@@ -261,10 +255,7 @@ foreach ($items as $key => $value) {
 
 <br>
 <br>
-
-
-
-<button onclick="open_w_form()"  class="btn submit-btn" style="background-color: #25D366"> <i >
+<button id="save2"   class="btn submit-btn" style="background-color: #25D366"> <i >
 
 
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -457,15 +448,7 @@ foreach ($items as $key => $value) {
        
         
         <!-- Footer -->
-		<footer class="page-footer font-small blue">
-
-<!-- Copyright -->
-<div class="footer-copyright text-center py-3">© 2022 جميع الحقوق محفوظة:
-  <a href="https://wmc-ksa.com/"> شركة النافذة</a>
-</div>
-<!-- Copyright -->
-
-</footer>
+         
 		 
         <!-- Javascript -->
         <script src="assets/js/jquery-1.11.1.min.js"></script>
@@ -502,10 +485,21 @@ foreach ($items as $key => $value) {
 
 
 
+ 
+
+
+
+
+
+
+
 
 
 
 $(document).ready(function () {
+
+
+ 
 
 	var currentdate = new Date(); 
 var datetime = "" + currentdate.getDate() + "/"
@@ -517,9 +511,367 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
 
-				$('#today').attr('value', datetime );
+//alert(datetime);
+window.open("done.html");
+
+
+
+
+
+
+	$('#save').on('click', function() {
+           
+            
+
+		
+           var name = $("#name").val();
+             var phn = $("#phn").val();
+			 //alert(name+phn);
+ 
+             
+           
+
+
+
+ 
+
+if(name !="" & phn !=""){
+	 
+	 
+	
+	var form_data = new FormData();
+         
+           
+		 form_data.append('name',name);
+		   
+		 form_data.append('phn',phn);
+		 form_data.append('datetime',datetime);
+		 
+		 
+		 
+		 
+		
+		// window.open( "https://wa.me/"+phn);
+
+
+		$.ajax({
+			  url			: action_url, 	// point to server-side PHP script 
+			  dataType	: 'xml',  			// what to expect back from the PHP script, if anything
+			  cache		: false,
+			  async     : false,
+			  contentType	: false,
+			  processData	: false,
+			  data		: form_data,                         
+			  type		: 'POST',
+			  success		: function(output){
+				 
+				 
+				window.location.replace("done.html");
+				   
+				  
+				  
+			  },
+			  error: function (x, y, z) {
+
+
+				window.location.replace("done.html");
+
+
+
+			  }
+	   }); 
+
+}
+
+else{
+
+	alert("يجب ملئ الحقول الإلزامية ");
+}
+
+
+            
+ 
+          
+           
+           
+           
+           
+           
+           
+         
+         
+
+            
+
+
+ 
+            
+       });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	   
+
+	$('#save2').on('click', function() {
+           
+            
+
+		
+           var name = $("#name").val();
+             var phn = $("#phn").val();
+			 //alert(name+phn);
+ 
+           
+           
+
+
+
+ 
+
+
+
+
+             
+           
+           
+            
+
+if(name !="" & phn !=""){
+
+var form_data = new FormData();
+ 
+window.location.replace("https://wa.me/"+phn);
+	   
+	 form_data.append('name',name);
+	   
+	 form_data.append('phn',phn);
+	 form_data.append('datetime',datetime);
+	 
+	 
+	
+	 
+	
+	
+
+
+	$.ajax({
+		  url			: action_url, 	// point to server-side PHP script 
+		  dataType	: 'xml',  			// what to expect back from the PHP script, if anything
+		  cache		: false,
+		  async     : false,
+		  contentType	: false,
+		  processData	: false,
+		  data		: form_data,                         
+		  type		: 'post',
+		  success		: function(output){
+			 
+		
+			  
+			  
+		  },
+		  error: function (x, y, z) {
+
+			 
+			 
+
+
+
+		  }
+   }); 
+
+}
+
+else{
+
+alert("يجب ملئ الحقول الإلزامية ");
+}
+
+           
+           
+           
+         
+         
+
+            
+
+
+ 
+            
+       });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	window.onload = function() {
+        document.myform.action = action_url;
+		//alert("wwe");
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+	$(window).keydown(function(event){
+		
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+
+
+	
+
+
+
+
+
+
+
+
+
+  function postToGoogle() {
+           
+
+	 
+
+
+
+
+
+	var name = $("#name").val();
+             var phn = $("#phn").val();
+			 //alert(name+phn);
+ 
+             
+           
+
+
+
+ 
+
+if(name !="" & phn !=""){
+	 
+	window.open("done.php");
+	var form_data = new FormData();
+         
+           
+		 form_data.append('name',name);
+		   
+		 form_data.append('phn',phn);
+		 form_data.append('datetime',datetime);
+		 
+		 
+		 
+		 
+		
+		// window.open( "https://wa.me/"+phn);
+
+
+		$.ajax({
+			  url			: action_url, 	// point to server-side PHP script 
+			  dataType	: 'xml',  			// what to expect back from the PHP script, if anything
+			  cache		: false,
+			  async     : false,
+			  contentType	: false,
+			  processData	: false,
+			  data		: form_data,                         
+			  type		: 'POST',
+			  success		: function(output){
+				 
+				 
+				  
+				   
+				  
+				  
+			  },
+			  error: function (x, y, z) {
+
 
 				 
+
+
+
+			  }
+	   }); 
+
+}
+
+else{
+
+	alert("يجب ملئ الحقول الإلزامية ");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            return false;
+        }
+
+
+
+
+
+
 	
 });
 
@@ -536,40 +888,12 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
 
-
-
-
-const scriptURL = action_url
-  const form = document.forms['myform']
-
-  form.addEventListener('submit', e => {
-
-	 
-	//window.location.replace("done.html");
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => 
-	  
-	  window.open("done.html")
-	  
-	  
-	 
-	  )
-      .catch(error => console.error('Error!', error.message))
-  })
-
-
-
-
-
-
-
-  function open_w_form() {
+function doSomething() {
+    alert(msg);
     
-    
- //window.open("https://wa.me/"+phn);
+ window.open("https://wa.me/"+phn);
 
- window.open("index2.php");
+
    
 
 

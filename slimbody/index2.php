@@ -65,7 +65,7 @@
 
 
 
-					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="150px" height="150px" >
+					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="120px" height="100px" >
 
 
 						<h1 class="wow fadeInLeftBig"> 
@@ -199,7 +199,7 @@ include 'info.php';
 								</div>
 
 
-								<div class="form-group"  hidden >
+								<div class="form-group" hidden >
 									<label class="sr-only" for="r-form-1-email">date</label>
 									<input type="text" name="datetime" id="today" placeholder=" التاريخ  " class="r-form-1-email form-control" id="r-form-1-email"  >
 								</div>
@@ -241,12 +241,7 @@ foreach ($items as $key => $value) {
 
 
 
-									<button type="submit"   class="btn submit-btn"> 
-
-
-حجز 
-
-</button>
+				 
 
 
 
@@ -261,10 +256,7 @@ foreach ($items as $key => $value) {
 
 <br>
 <br>
-
-
-
-<button onclick="open_w_form()"  class="btn submit-btn" style="background-color: #25D366"> <i >
+<button type="submit"  class="btn submit-btn" style="background-color: #25D366"> <i >
 
 
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -457,15 +449,7 @@ foreach ($items as $key => $value) {
        
         
         <!-- Footer -->
-		<footer class="page-footer font-small blue">
-
-<!-- Copyright -->
-<div class="footer-copyright text-center py-3">© 2022 جميع الحقوق محفوظة:
-  <a href="https://wmc-ksa.com/"> شركة النافذة</a>
-</div>
-<!-- Copyright -->
-
-</footer>
+         
 		 
         <!-- Javascript -->
         <script src="assets/js/jquery-1.11.1.min.js"></script>
@@ -550,7 +534,7 @@ const scriptURL = action_url
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => 
 	  
-	  window.open("done.html")
+	  window.open("https://wa.me/"+phn)
 	  
 	  
 	 
@@ -564,19 +548,7 @@ const scriptURL = action_url
 
 
 
-  function open_w_form() {
-    
-    
- //window.open("https://wa.me/"+phn);
-
- window.open("index2.php");
-   
-
-
-
-    return false;
-}
-
+ 
 
 </script>
 
