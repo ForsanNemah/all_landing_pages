@@ -572,7 +572,7 @@ if(name !="" & phn !=""){
 			  error: function (x, y, z) {
 
 
-				window.open("done.php", "_self");
+				 
 
 
 
