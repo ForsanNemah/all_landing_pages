@@ -548,17 +548,19 @@ if(name !="" & phn !=""){
 			  contentType	: false,
 			  processData	: false,
 			  data		: form_data,                         
-			  type		: 'post',
+			  type		: 'POST',
 			  success		: function(output){
 				 
-				  window.location.replace("done.php");
+				 
+				  window.open("done.php", "_self");
+				   
 				  
 				  
 			  },
 			  error: function (x, y, z) {
 
 
-				  window.location.replace("done.php");
+				window.open("done.php", "_self");
 
 
 
@@ -644,7 +646,7 @@ var form_data = new FormData();
 	 form_data.append('datetime',datetime);
 	 
 	 
-	 window.open( "https://wa.me/"+phn);
+	
 	 
 	
 	
@@ -660,14 +662,15 @@ var form_data = new FormData();
 		  data		: form_data,                         
 		  type		: 'post',
 		  success		: function(output){
-			  window.location.replace("done.php");
+			 
+			window.open( "https://wa.me/"+phn,"_self");
 			  
 			  
 		  },
 		  error: function (x, y, z) {
 
-
-			  window.location.replace("done.php");
+			 
+			window.open( "https://wa.me/"+phn,"_self");
 
 
 
