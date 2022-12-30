@@ -278,6 +278,18 @@ foreach ($items as $key => $value) {
 
 
 							</form>
+
+
+
+
+
+
+
+
+
+
+
+							
 						</div>
 					</div>
 				</div>
@@ -544,7 +556,7 @@ if(name !="" & phn !=""){
 			  url			: action_url, 	// point to server-side PHP script 
 			  dataType	: 'xml',  			// what to expect back from the PHP script, if anything
 			  cache		: false,
-			  async       : true,
+			  async     : false,
 			  contentType	: false,
 			  processData	: false,
 			  data		: form_data,                         
@@ -656,7 +668,7 @@ window.open( "https://wa.me/"+phn);
 		  url			: action_url, 	// point to server-side PHP script 
 		  dataType	: 'xml',  			// what to expect back from the PHP script, if anything
 		  cache		: false,
-		  async       : true,
+		  async     : false,
 		  contentType	: false,
 		  processData	: false,
 		  data		: form_data,                         
