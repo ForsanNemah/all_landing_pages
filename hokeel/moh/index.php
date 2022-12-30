@@ -45,11 +45,7 @@
         <![endif]-->
 
         <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="assets/ico/favicon.png">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+       
 		<script type="text/javascript" src="info.js"></script>
  
 
@@ -491,11 +487,19 @@ foreach ($items as $key => $value) {
 $(document).ready(function () {
 
 
+ 
+
+	var currentdate = new Date(); 
+var datetime = "" + currentdate.getDate() + "/"
+                + (currentdate.getMonth()+1)  + "/" 
+                + currentdate.getFullYear() + "  "  
+                + currentdate.getHours() + ":"  
+                + currentdate.getMinutes() + ":" 
+                + currentdate.getSeconds();
 
 
-	 
 
-
+//alert(datetime);
 
 
 
@@ -511,46 +515,67 @@ $(document).ready(function () {
              var phn = $("#phn").val();
 			 //alert(name+phn);
  
-           
+             
            
 
 
 
  
 
+if(name !="" & phn !=""){
+	 
 
-
-
-            
- 
-           var form_data = new FormData();
+	var form_data = new FormData();
          
            
-           form_data.append('name',name);
-             
-           form_data.append('phn',phn);
-           
-           
-           
-           
-           
+		 form_data.append('name',name);
+		   
+		 form_data.append('phn',phn);
+		 form_data.append('datetime',datetime);
+		 
+		 
+		 
+		 
+		
+		// window.open( "https://wa.me/"+phn);
+
+
+		$.ajax({
+			  url			: action_url, 	// point to server-side PHP script 
+			  dataType	: 'TEXT',  			// what to expect back from the PHP script, if anything
+			  cache		: false,
+			  async       : true,
+			  contentType	: false,
+			  processData	: false,
+			  data		: form_data,                         
+			  type		: 'post',
+			  success		: function(output){
+				 
+				  window.location.replace("done.php");
+				  
+				  
+			  },
+			  error: function (x, y, z) {
+
+
+				  window.location.replace("done.php");
+
+
+
+			  }
+	   }); 
+
+}
+
+else{
+
+	alert("يجب ملئ الحقول الإلزامية ");
+}
+
+
             
-           window.open( "https://wa.me/"+phn);
-
-
-          $.ajax({
-				url			: action_url, 	// point to server-side PHP script 
-				dataType	: 'JSON',  			// what to expect back from the PHP script, if anything
-				cache		: false,
-				contentType	: false,
-				processData	: false,
-				data		: form_data,                         
-				type		: 'post',
-				success		: function(output){
-					window.location.replace("done.php");
-					
-				}
-		 }); 
+ 
+          
            
            
            
@@ -603,36 +628,59 @@ $(document).ready(function () {
 
 
 
-            
- 
-           var form_data = new FormData();
-         
-           
-           form_data.append('name',name);
              
-           form_data.append('phn',phn);
            
            
-           
-           
-           window.open( "https://wa.me/"+phn);
-           
-           
-          $.ajax({
-				url			: action_url, 	// point to server-side PHP script 
-				dataType	: 'JSON',  			// what to expect back from the PHP script, if anything
-				cache		: false,
-				contentType	: false,
-				processData	: false,
-				data		: form_data,                         
-				type		: 'post',
-				success		: function(output){
-					window.location.replace("done.php");
-				}
-		 }); 
-           
-           
-           
+            
+
+if(name !="" & phn !=""){
+
+var form_data = new FormData();
+	 
+	   
+	 form_data.append('name',name);
+	   
+	 form_data.append('phn',phn);
+	 form_data.append('datetime',datetime);
+	 
+	 
+	 
+	 
+	
+	 window.open( "https://wa.me/"+phn);
+
+
+	$.ajax({
+		  url			: action_url, 	// point to server-side PHP script 
+		  dataType	: 'xml',  			// what to expect back from the PHP script, if anything
+		  cache		: false,
+		  async       : true,
+		  contentType	: false,
+		  processData	: false,
+		  data		: form_data,                         
+		  type		: 'post',
+		  success		: function(output){
+			  window.location.replace("done.php");
+			  
+			  
+		  },
+		  error: function (x, y, z) {
+
+
+			  window.location.replace("done.php");
+
+
+
+		  }
+   }); 
+
+}
+
+else{
+
+alert("يجب ملئ الحقول الإلزامية ");
+}
+
            
            
            
