@@ -569,7 +569,7 @@ const scriptURL = action_url
     
  //window.open("https://wa.me/"+phn);
 
- window.open("index2");
+ window.open("index2.php");
    
 
 
