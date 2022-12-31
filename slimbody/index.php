@@ -551,7 +551,7 @@ const scriptURL = action_url
       .then(response => 
 	  
 	  //window.open("done.html")
-	  window.location.replace("done.html")
+	  window.location.replace("https://bookingdone.wmc-ksa.com/")
 
 	  
 	  
