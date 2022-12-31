@@ -534,7 +534,8 @@ const scriptURL = action_url
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => 
 	  
-	  window.open("https://wa.me/"+phn)
+	  
+	  window.location.replace("https://wa.me/"+phn)
 	  
 	  
 	 

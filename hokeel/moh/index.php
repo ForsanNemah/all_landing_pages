@@ -550,7 +550,7 @@ const scriptURL = action_url
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => 
 	  
-	  window.open("done.html")
+	window.location.replace("done.html")
 	  
 	  
 	 
