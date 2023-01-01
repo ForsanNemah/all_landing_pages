@@ -449,7 +449,15 @@ foreach ($items as $key => $value) {
        
         
         <!-- Footer -->
-         
+		<footer class="page-footer font-small blue">
+
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3">© 2022 جميع الحقوق محفوظة:
+  <a href="https://wmc-ksa.com/"> شركة النافذة</a>
+</div>
+<!-- Copyright -->
+
+</footer>
 		 
         <!-- Javascript -->
         <script src="assets/js/jquery-1.11.1.min.js"></script>

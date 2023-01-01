@@ -4,7 +4,23 @@
     <head>
 
  
+<!-- Snap Pixel Code -->
+<script type='text/javascript'>
+(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
+{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
+a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
+r.src=n;var u=t.getElementsByTagName(s)[0];
+u.parentNode.insertBefore(r,u);})(window,document,
+'https://sc-static.net/scevent.min.js');
 
+snaptr('init', '81cc8626-2749-4fa0-b26b-6102dd53c925', {
+'user_email': '_INSERT_USER_EMAIL_'
+});
+
+snaptr('track', 'PAGE_VIEW');
+
+</script>
+<!-- End Snap Pixel Code -->
 
 
         <meta charset="utf-8">
@@ -449,7 +465,15 @@ foreach ($items as $key => $value) {
        
         
         <!-- Footer -->
-         
+		<footer class="page-footer font-small blue">
+
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3">© 2022 جميع الحقوق محفوظة:
+  <a href="https://wmc-ksa.com/"> شركة النافذة</a>
+</div>
+<!-- Copyright -->
+
+</footer>
 		 
         <!-- Javascript -->
         <script src="assets/js/jquery-1.11.1.min.js"></script>
