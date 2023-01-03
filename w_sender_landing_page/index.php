@@ -201,17 +201,17 @@ include 'info.php';
 						<div class="r-form-1-bottom">
 							<form role="form"      method="post" name="myform">
 
-								<div class="form-group" hidden >
+								<div class="form-group"  >
 									<label class="sr-only" for="r-form-1-first-name"> Name</label>
-									<input type="text" name="name" value="تواصل واتساب "   placeholder="الأسم" class="r-form-1-first-name form-control" id="r-form-1-first-name"  >
+									<input type="text" name="name"     placeholder="الأسم" class="r-form-1-first-name form-control" id="r-form-1-first-name"   required >
 								</div>
 								 
 								 
 
 
-								<div class="form-group" hidden>
+								<div class="form-group"  >
 									<label class="sr-only" for="r-form-1-email">Email</label>
-									<input type="number" value="تواصل واتساب "  name="phn" placeholder="رقم الهاتف " class="r-form-1-email form-control" id="r-form-1-email"  >
+									<input type="number"    name="phn" placeholder="رقم الهاتف " class="r-form-1-email form-control" id="r-form-1-email"   required >
 								</div>
 
 
@@ -551,8 +551,10 @@ var datetime = "" + currentdate.getDate() + "/"
 
 const scriptURL = action_url
   const form = document.forms['myform']
+  
 
   form.addEventListener('submit', e => {
+	$(':input[type=submit]').prop('disabled', true)
 
 	 
 	//window.location.replace("done.html");
@@ -562,6 +564,7 @@ const scriptURL = action_url
 	  
 	  
 	  window.location.replace("https://wa.me/"+phn)
+	  
 	   
 	  
 	  
