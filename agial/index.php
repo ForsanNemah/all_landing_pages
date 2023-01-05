@@ -537,7 +537,7 @@ const scriptURL = action_url
   form.addEventListener('submit', e => {
 
 	 
-	//window.location.replace("done.html");
+	$(':input[type=submit]').prop('disabled', true)
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => 
