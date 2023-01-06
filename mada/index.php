@@ -133,10 +133,10 @@ include 'info.php';
 
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3 r-form-1-box wow fadeInUp">
-						<div class="r-form-1-top">
+						<div  >
 
 						
-							<div class="r-form-1-top-right">
+							<div >
 								<h3>
 
 
@@ -161,7 +161,7 @@ include 'info.php';
 
 
 								</h3>
-								<p>
+								<h>
 
 
 
@@ -178,7 +178,7 @@ include 'info.php';
 
 
 
-								</p>
+		</h>
 							</div>
 							 
 						</div>
@@ -205,13 +205,13 @@ include 'info.php';
 								</div>
 
 
-								<!--
+								 
 
 								
 
 
-								<div class="form-group" dir="rtl">
-                                          <select name="type" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required="true">
+								<div  dir="rtl">
+                                          <select name="type" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required="true" >
 
                                              
 
@@ -233,8 +233,7 @@ foreach ($items as $key => $value) {
                                         </select>
                                     </div>
 								 
-
--->
+ 
 
 
 
@@ -317,7 +316,48 @@ foreach ($items as $key => $value) {
 
 
  
+				<div id="myCarousel" class="carousel slide" data-ride="carousel"  >
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" >
+
+	
+      
+
+      <div class="item active">
+        
+		<img src="ads/1.jpg"class="img-responsive" alt="Responsive image"   >
+		
+      </div>
+    
+      <div class="item">
+	  <img src="ads/2.jpg" class="img-responsive" alt="Responsive image"  >
+      </div>
+
+	  <div class="item">
+	  <img src="ads/3.jpg" class="img-responsive" alt="Responsive image"  >
+      </div>
+
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+  </div>
 
 
 
