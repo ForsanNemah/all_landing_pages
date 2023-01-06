@@ -208,8 +208,7 @@ include 'info.php';
 								 
 
 								
-
-
+								<div class="form-group"  >
 								<div  dir="rtl">
                                           <select name="type" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required="true" >
 
@@ -232,6 +231,10 @@ foreach ($items as $key => $value) {
 ?>
                                         </select>
                                     </div>
+								</div>
+
+
+							
 								 
  
 
@@ -605,7 +608,12 @@ const scriptURL = action_url
 <style>
 
 
-
+select {
+        height:35px;
+        line-height:30px;
+        background:#f4f4f4;
+    } 
+}
  
  
 </style>
