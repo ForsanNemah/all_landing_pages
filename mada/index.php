@@ -65,7 +65,7 @@
 
 
 
-					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="100px" height="100px" >
+					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="150px" height="150px" >
 
 
 						<h4 > 
@@ -137,7 +137,7 @@ include 'info.php';
 
 						
 							<div >
-								<h3>
+								<h2>
 
 
 
@@ -160,7 +160,7 @@ include 'info.php';
 
 
 
-								</h3>
+								</h2>
 								<h>
 
 
