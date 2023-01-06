@@ -61,14 +61,14 @@
 
 
 		<div class="row">
-					<div class="col-sm-8 col-sm-offset-2 text">
+					<div  >
 
 
 
-					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="150px" height="150px" >
+					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="100px" height="100px" >
 
 
-						<h1 class="wow fadeInLeftBig"> 
+						<h4 > 
 
 
 							<?php
@@ -84,8 +84,8 @@
 
 
 
-						</h1>
-						<div class="description wow fadeInLeftBig">
+						</h4>
+						<div >
 							<p>
 								 
 							<?php
@@ -253,7 +253,7 @@ foreach ($items as $key => $value) {
 
 
 
-<br>
+ 
 <br>
 <button type="submit"  class="btn submit-btn" style="background-color: #25D366"> <i >
 
