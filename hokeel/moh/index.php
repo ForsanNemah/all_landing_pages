@@ -4,7 +4,7 @@
     <head>
 
  
-
+ 
 
 
         <meta charset="utf-8">
@@ -61,14 +61,14 @@
 
 
 		<div class="row">
-					<div class="col-sm-8 col-sm-offset-2 text">
+					<div  >
 
 
 
-					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="120px" height="100px" >
+					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="150px" height="150px" >
 
 
-						<h1 class="wow fadeInLeftBig"> 
+						<h2 > 
 
 
 							<?php
@@ -84,8 +84,8 @@
 
 
 
-						</h1>
-						<div class="description wow fadeInLeftBig">
+						</h2>
+						<div >
 							<p>
 								 
 							<?php
@@ -133,11 +133,11 @@ include 'info.php';
 
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3 r-form-1-box wow fadeInUp">
-						<div class="r-form-1-top">
+						<div  >
 
 						
-							<div class="r-form-1-top-right">
-								<h3>
+							<div >
+								<h4>
 
 
 
@@ -160,8 +160,8 @@ include 'info.php';
 
 
 
-								</h3>
-								<p>
+								</h4>
+								<h>
 
 
 
@@ -178,40 +178,39 @@ include 'info.php';
 
 
 
-								</p>
+		</h>
 							</div>
 							 
 						</div>
 						<div class="r-form-1-bottom">
 							<form role="form"      method="post" name="myform">
 
-								<div class="form-group">
+								<div class="form-group"  >
 									<label class="sr-only" for="r-form-1-first-name"> Name</label>
-									<input type="text" name="name"   placeholder="الأسم" class="r-form-1-first-name form-control" id="r-form-1-first-name"  required>
+									<input type="text" name="name"    placeholder="الأسم" class="r-form-1-first-name form-control" id="r-form-1-first-name" required  >
 								</div>
 								 
 								 
 
 
-								<div class="form-group" >
+								<div class="form-group"  >
 									<label class="sr-only" for="r-form-1-email">Email</label>
-									<input type="number" name="phn" placeholder="رقم الهاتف " class="r-form-1-email form-control" id="r-form-1-email" required>
+									<input type="number"   name="phn" placeholder="رقم الهاتف " class="r-form-1-email form-control" id="r-form-1-email" required >
 								</div>
 
 
-								<div class="form-group"  hidden >
+								<div class="form-group" hidden >
 									<label class="sr-only" for="r-form-1-email">date</label>
 									<input type="text" name="datetime" id="today" placeholder=" التاريخ  " class="r-form-1-email form-control" id="r-form-1-email"  >
 								</div>
 
 
-								<!--
-
+								 
+<!--
 								
-
-
-								<div class="form-group" dir="rtl">
-                                          <select name="type" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required="true">
+								<div class="form-group"  >
+								<div  dir="rtl">
+                                          <select name="type" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required="true" >
 
                                              
 
@@ -232,21 +231,20 @@ foreach ($items as $key => $value) {
 ?>
                                         </select>
                                     </div>
-								 
-
 -->
+								</div>
+
+
+							
+								 
+ 
 
 
 
 
 
 
-									<button type="submit"   class="btn submit-btn"> 
-
-
-حجز 
-
-</button>
+				 
 
 
 
@@ -259,12 +257,9 @@ foreach ($items as $key => $value) {
 
 
 
+ 
 <br>
-<br>
-
-
-
-<button onclick="open_w_form()"  class="btn submit-btn" style="background-color: #25D366"> <i >
+<button type="submit"  class="btn submit-btn" style="background-color: #25D366"> <i >
 
 
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -325,8 +320,7 @@ foreach ($items as $key => $value) {
 
 
  
-
-
+				 
 
 
 
@@ -545,12 +539,13 @@ const scriptURL = action_url
   form.addEventListener('submit', e => {
 
 	 
-	//window.location.replace("done.html");
+	$(':input[type=submit]').prop('disabled', true)
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => 
 	  
-	window.location.replace("https://bookingdone.wmc-ksa.com/")
+	  
+	  window.location.replace("https://wa.me/"+phn)
 	  
 	  
 	 
@@ -564,19 +559,7 @@ const scriptURL = action_url
 
 
 
-  function open_w_form() {
-    
-    
- //window.open("https://wa.me/"+phn);
-
- window.open("index2.php");
-   
-
-
-
-    return false;
-}
-
+ 
 
 </script>
 
@@ -584,7 +567,12 @@ const scriptURL = action_url
 <style>
 
 
-
+select {
+        height:35px;
+        line-height:30px;
+        background:#f4f4f4;
+    } 
+}
  
  
 </style>
