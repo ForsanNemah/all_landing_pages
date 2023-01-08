@@ -356,7 +356,7 @@ foreach ($items as $key => $value) {
 
   </div>
 
-				 
+  </div>	 
 
 
 
@@ -417,7 +417,7 @@ foreach ($items as $key => $value) {
 
   </div>
   
-
+  </div>
 
 
 
