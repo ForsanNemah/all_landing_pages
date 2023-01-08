@@ -319,12 +319,14 @@ foreach ($items as $key => $value) {
 
 
 
-                <div id="myCarouse2" class="carousel slide" data-ride="carousel"  >
+   
+
+<div id="myCarouse1" class="carousel slide" data-ride="carousel"  >
     <!-- Indicators -->
     <ol class="carousel-indicators">
-      <li data-target="#myCarouse2" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarouse2" data-slide-to="1"></li>
-     
+      <li data-target="#myCarouse1" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarouse1" data-slide-to="1"></li>
+      
     </ol>
 
     <!-- Wrapper for slides -->
@@ -338,23 +340,29 @@ foreach ($items as $key => $value) {
 		<img src="ads/1.jpg"class="img-responsive" alt="Responsive image"   >
 		
       </div>
-    
-      <div class="item">
-	  <img src="ads/1.jpg" class="img-responsive" alt="Responsive image"  >
-      </div>
-    </div>
+
+      <div class="item  ">
+        
+        <img src="ads/2.jpg"class="img-responsive" alt="Responsive image"   >
+        
+          </div>
+
+         
+           
+       
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <a class="left carousel-control" href="#myCarouse2" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <a class="right carousel-control" href="#myCarouse2" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
 
-  </div>
+  </div>   
+  </div>    
 
 				 
 
@@ -404,6 +412,8 @@ foreach ($items as $key => $value) {
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
+
+  </div>
 
   </div>
   
@@ -523,7 +533,7 @@ foreach ($items as $key => $value) {
   </div>
 
  
- 
+  </div>
 
 
 
