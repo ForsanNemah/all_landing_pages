@@ -324,7 +324,7 @@ foreach ($items as $key => $value) {
     <ol class="carousel-indicators">
       <li data-target="#myCarouse2" data-slide-to="0" class="active"></li>
       <li data-target="#myCarouse2" data-slide-to="1"></li>
-      <li data-target="#myCarouse2" data-slide-to="2"></li>
+     
     </ol>
 
     <!-- Wrapper for slides -->
@@ -365,12 +365,12 @@ foreach ($items as $key => $value) {
 
 
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel"  >
+<div id="myCarouse2" class="carousel slide" data-ride="carousel"  >
     <!-- Indicators -->
     <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarouse2" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarouse2" data-slide-to="1"></li>
+      <li data-target="#myCarouse2" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -396,11 +396,11 @@ foreach ($items as $key => $value) {
        
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <a class="left carousel-control" href="#myCarouse2" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <a class="right carousel-control" href="#myCarouse2" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
@@ -511,11 +511,11 @@ foreach ($items as $key => $value) {
        
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <a class="left carousel-control" href="#myCarouse3" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <a class="right carousel-control" href="#myCarouse3" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
