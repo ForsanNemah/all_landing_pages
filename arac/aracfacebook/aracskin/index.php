@@ -194,6 +194,14 @@ include 'info.php';
 <div class="loader"></div> 
 </div>
 
+<div class="col-xs-4 col-xs-offset-4"  id="done_icon" hidden>
+<img src="ads/done.gif" class="img-fluid" alt="Responsive image"   >
+
+</div>
+
+<br>
+<br>
+<br>
 <br>
             <form id="includedContent" role="form"      method="post" name="myform">
 
@@ -435,7 +443,7 @@ var datetime = "" + currentdate.getDate() + "/"
                 $("#includedContent").load("form_name_phn_type.php"); 
                 $("#slider1").load("slider1.php"); 
                 $("#slider2").load("slider2.php"); 
-                //$("#slider3").load("slider3.php"); 
+                $("#slider3").load("slider3.php"); 
                 
                // $("#includedContent").load("form_name_phn.php"); 
                 // $("#includedContent").load("form_only_whatsapp.php"); 
@@ -447,7 +455,7 @@ var datetime = "" + currentdate.getDate() + "/"
   const form = document.forms['myform']
 
   form.addEventListener('submit', e => {
-
+    
 	 
 	$(':input[type=submit]').prop('disabled', true)
   $('#today').attr('value', datetime )
@@ -455,9 +463,18 @@ var datetime = "" + currentdate.getDate() + "/"
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => 
-	  
+ 
+      
+      google_response()
+      
+      
+     
+      
+      
     
-	  window.location.replace("https://wa.me/"+phn) 
+   
+    
+	
     
 	  )
       .catch(error => console.error('Error!', error.message))
@@ -465,7 +482,13 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
     
-
+  function google_response() {
+    $("#myloader").hide();
+    $("#done_icon").show();
+     
+    window.location.replace("https://wa.me/"+phn) ;
+    
+}
 				 
 	
 });
@@ -531,5 +554,8 @@ select {
   100% { transform: rotate(360deg); }
 }
  
+ 
+
+
  
 </style>
