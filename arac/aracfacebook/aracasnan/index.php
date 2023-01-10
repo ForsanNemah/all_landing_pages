@@ -36,6 +36,9 @@
         <link rel="stylesheet" href="assets/css/animate.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/media-queries.css">
+        
+       
+        
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -86,7 +89,7 @@
 
 						</h2>
 						<div >
-							<p>
+							<h3>
 								 
 							<?php
 
@@ -101,7 +104,7 @@ include 'info.php';
 
 
 
-							</p>
+							</h3>
 						</div>
 					</div>
 				</div>
@@ -182,111 +185,28 @@ include 'info.php';
 							</div>
 							 
 						</div>
+
+
+            
 						<div class="r-form-1-bottom">
-							<form role="form"      method="post" name="myform">
 
-								<div class="form-group"  >
-									<label class="sr-only" for="r-form-1-first-name"> Name</label>
-									<input type="text" name="name"    placeholder="الأسم" class="r-form-1-first-name form-control" id="r-form-1-first-name" required  >
-								</div>
-								 
-								 
+            <div class="col-xs-4 col-xs-offset-4" id="myloader" hidden >
+<div class="loader"></div> 
+</div>
 
-
-								<div class="form-group"  >
-									<label class="sr-only" for="r-form-1-email">Email</label>
-									<input type="number"   name="phn" placeholder="رقم الهاتف " class="r-form-1-email form-control" id="r-form-1-email" required >
-								</div>
-
-
-								<div class="form-group" hidden >
-									<label class="sr-only" for="r-form-1-email">date</label>
-									<input type="text" name="datetime" id="today" placeholder=" التاريخ  " class="r-form-1-email form-control" id="r-form-1-email"  >
-								</div>
-
-
-								 
-<!--
-								
-								<div class="form-group"  >
-								<div  dir="rtl">
-                                          <select name="type" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required="true" >
-
-                                             
-
-
-
-                                            <?php
-
-include 'info.php';
-
- 
-
-
-foreach ($items as $key => $value) {
-
-    echo "<option value='$value'>$value</option>";
-     
-   }
-?>
-                                        </select>
-                                    </div>
--->
-								</div>
-
-
-							
-								 
- 
-
-
-
-
-
-
-				 
-
-
-
-
-
-
-
-
-
-
-
-
- 
 <br>
-<button type="submit"  class="btn submit-btn" style="background-color: #25D366"> <i >
+            <form id="includedContent" role="form"      method="post" name="myform">
+
+          
+     
+            </form>
+            
+       
+
+            
 
 
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-	<path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-  </svg>
-
-
-
-</i> احجز  عبر واتس اب </button>
-
-
-
-
-
-
-
-
-
-
-
-
-							</form>
-
-
-
-
-
+            
 
 
 
@@ -313,131 +233,39 @@ foreach ($items as $key => $value) {
 
 		<div class="how-it-works-container section-container section-container-gray-bg  "    >
 	        <div class="container">
+
+         
 	            <div class="row">
-	                 
 
 
+               
 
-
-                <div id="myCarouse2" class="carousel slide" data-ride="carousel"  >
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarouse2" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarouse2" data-slide-to="1"></li>
-      <li data-target="#myCarouse2" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" >
-
-	
-      
-
-      <div class="item active">
-        
-		<img src="ads/1.jpg"class="img-responsive" alt="Responsive image"   >
-		
-      </div>
-    
-      <div class="item">
-	  <img src="ads/1.jpg" class="img-responsive" alt="Responsive image"  >
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-
-  </div>
+<div id="slider1"></div>
+           
 
   </div>	 
-
-
-
-
 <br>
 
+  <div class="row">
+	                 
+
+                   <div id="slider2"></div>
+                              
+                   
+                     </div>	 
 
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel"  >
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+                     <br>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" >
+  <div class="row">
+	                 
 
-	
-      
-
-      <div class="item active">
-        
-		<img src="ads/dr1asnan.jpg"class="img-responsive" alt="Responsive image"   >
-		
-      </div>
-
-      <div class="item  ">
-        
-        <img src="ads/dr2asnan.jpg"class="img-responsive" alt="Responsive image"   >
-        
-          </div>
-
-          <div class="item  ">
-        
-        <img src="ads/dr3asnan.jpg"class="img-responsive" alt="Responsive image"   >
-        
-          </div>
-
-          <div class="item  ">
-        
-        <img src="ads/dr4asnan.jpg"class="img-responsive" alt="Responsive image"   >
-        
-          </div>
-    
-       
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-
-  </div>
-  
-  </div>
-
-
-
-
-
-<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                   <div id="slider3"></div>
+                              
+                   
+                     </div>	 
+                   
+                   
 
 
 
@@ -583,12 +411,16 @@ foreach ($items as $key => $value) {
 
 <script>
 
-
-
-
-
-
+ 
 $(document).ready(function () {
+
+
+  $(window).keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
 
 	var currentdate = new Date(); 
 var datetime = "" + currentdate.getDate() + "/"
@@ -597,10 +429,42 @@ var datetime = "" + currentdate.getDate() + "/"
                 + currentdate.getHours() + ":"  
                 + currentdate.getMinutes() + ":" 
                 + currentdate.getSeconds();
+                //alert(datetime);
 
 
+                $("#includedContent").load("form_name_phn_type.php"); 
+                $("#slider1").load("slider1.php"); 
+                $("#slider2").load("slider2.php"); 
+                //$("#slider3").load("slider3.php"); 
+                
+               // $("#includedContent").load("form_name_phn.php"); 
+                // $("#includedContent").load("form_only_whatsapp.php"); 
+				
+ 
+    
 
-				$('#today').attr('value', datetime );
+      const scriptURL = action_url
+  const form = document.forms['myform']
+
+  form.addEventListener('submit', e => {
+
+	 
+	$(':input[type=submit]').prop('disabled', true)
+  $('#today').attr('value', datetime )
+  $("#myloader").show()
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => 
+	  
+    
+	  window.location.replace("https://wa.me/"+phn) 
+    
+	  )
+      .catch(error => console.error('Error!', error.message))
+  })
+
+
+    
 
 				 
 	
@@ -622,26 +486,6 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
 
-const scriptURL = action_url
-  const form = document.forms['myform']
-
-  form.addEventListener('submit', e => {
-
-	 
-	$(':input[type=submit]').prop('disabled', true)
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => 
-	  
-	  
-	  window.location.replace("https://wa.me/"+phn)
-	  
-	  
-	 
-	  )
-      .catch(error => console.error('Error!', error.message))
-  })
-
 
 
 
@@ -660,7 +504,31 @@ select {
         height:35px;
         line-height:30px;
         background:#f4f4f4;
+        
     } 
+
+
+
+
+    .loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
  
  

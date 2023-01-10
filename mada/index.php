@@ -195,7 +195,7 @@ include 'info.php';
 
 								<div class="form-group"  >
 									<label class="sr-only" for="r-form-1-email">Email</label>
-									<input type="number"   name="phn" placeholder="رقم الهاتف " class="r-form-1-email form-control" id="r-form-1-email" required >
+									<input type="text"   name="phn" placeholder="رقم الهاتف " class="r-form-1-email form-control" id="r-form-1-email" required >
 								</div>
 
 
