@@ -227,6 +227,11 @@ include 'info.php';
 <br>
 <br>
 
+<a href="https://forms.gle/pJ8EmsrQ28WPnxr77">
+<button type="button" class="btn btn-primary">   فورم مقابلة العملاء الجدد  </button>  
+
+<br>
+<br>
 
 
 
@@ -268,6 +273,38 @@ include 'info.php';
 
 
 </a>
+
+
+
+
+
+<br>
+<br>
+</a>
+
+<a href="https://docs.google.com/spreadsheets/d/1HXE_vh436z_misecFPsei1yriUYoiA6BBN_JPIpglAs/edit?resourcekey#gid=1326674383">
+<button type="button" class="btn btn-primary">   شيت مقابلة العملاء الجدد </button>
+
+
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
