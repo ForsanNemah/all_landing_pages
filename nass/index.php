@@ -84,7 +84,7 @@
 
 
 
-					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="80px" height="80px" >
+					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="100px" height="100px" >
 
 
          
@@ -528,7 +528,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
                 $("#includedContent").load("form_name_phn_type.php"); 
                 $("#slider1").load("slider1.php"); 
-              ///  $("#slider2").load("slider2.php"); 
+                $("#slider2").load("slider2.php"); 
                 $("#count_down_counter").load("count_down.php"); 
                 //$("#slider3").load("slider3.php"); 
                 

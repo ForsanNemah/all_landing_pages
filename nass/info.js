@@ -1,7 +1,7 @@
  
 
 
-var phn="96890742244";
+var phn="966554072052";
 var msg="تم التسجيل بنجاح ";
 var user_id="2";
 var end_date_by_me="1 15, 2023 12:00:00";
