@@ -4,7 +4,7 @@
     <head>
 
  
- 
+
 
 
         <meta charset="utf-8">
@@ -61,18 +61,14 @@
 
 
 		<div class="row">
-					<div  >
+					<div class="col-sm-8 col-sm-offset-2 text">
 
 
 
-					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="150px" height="150px" >
+					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="120px" height="100px" >
 
 
-
-
-        
-
-						<h2 > 
+						<h1 class="wow fadeInLeftBig"> 
 
 
 							<?php
@@ -88,8 +84,8 @@
 
 
 
-						</h2>
-						<div >
+						</h1>
+						<div class="description wow fadeInLeftBig">
 							<p>
 								 
 							<?php
@@ -137,11 +133,11 @@ include 'info.php';
 
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3 r-form-1-box wow fadeInUp">
-						<div  >
+						<div class="r-form-1-top">
 
 						
-							<div >
-								<h4>
+							<div class="r-form-1-top-right">
+								<h3>
 
 
 
@@ -164,8 +160,8 @@ include 'info.php';
 
 
 
-								</h4>
-								<h>
+								</h3>
+								<p>
 
 
 
@@ -182,24 +178,24 @@ include 'info.php';
 
 
 
-		</h>
+								</p>
 							</div>
 							 
 						</div>
 						<div class="r-form-1-bottom">
 							<form role="form"      method="post" name="myform">
 
-								<div class="form-group"  >
+								<div class="form-group">
 									<label class="sr-only" for="r-form-1-first-name"> Name</label>
-									<input type="text" name="name"    placeholder="الأسم" class="r-form-1-first-name form-control" id="r-form-1-first-name" required  >
+									<input type="text" name="name"   placeholder="الأسم" class="r-form-1-first-name form-control" id="r-form-1-first-name"  required>
 								</div>
 								 
 								 
 
 
-								<div class="form-group"  >
+								<div class="form-group" >
 									<label class="sr-only" for="r-form-1-email">Email</label>
-									<input type="number"   name="phn" placeholder="رقم الهاتف " class="r-form-1-email form-control" id="r-form-1-email" required >
+									<input type="number" name="phn" placeholder="رقم الهاتف " class="r-form-1-email form-control" id="r-form-1-email" required>
 								</div>
 
 
@@ -209,12 +205,13 @@ include 'info.php';
 								</div>
 
 
-								 
-<!--
+								<!--
+
 								
-								<div class="form-group"  >
-								<div  dir="rtl">
-                                          <select name="type" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required="true" >
+
+
+								<div class="form-group" dir="rtl">
+                                          <select name="type" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required="true">
 
                                              
 
@@ -235,13 +232,9 @@ foreach ($items as $key => $value) {
 ?>
                                         </select>
                                     </div>
--->
-								</div>
-
-
-							
 								 
- 
+
+-->
 
 
 
@@ -261,7 +254,7 @@ foreach ($items as $key => $value) {
 
 
 
- 
+<br>
 <br>
 <button type="submit"  class="btn submit-btn" style="background-color: #25D366"> <i >
 
@@ -323,44 +316,9 @@ foreach ($items as $key => $value) {
 
 
 
-                <div id="myCarousel" class="carousel slide" data-ride="carousel"  >
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+ 
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" >
 
-	
-      
-
-      <div class="item active">
-        
-		<img src="ads/1.jpg"class="img-responsive" alt="Responsive image"   >
-		
-      </div>
-    
-      <div class="item">
-	  <img src="ads/1.jpg" class="img-responsive" alt="Responsive image"  >
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-
-  </div>
-
-				 
 
 
 
@@ -491,15 +449,7 @@ foreach ($items as $key => $value) {
        
         
         <!-- Footer -->
-		<footer class="page-footer font-small blue">
-
-<!-- Copyright -->
-<div class="footer-copyright text-center py-3">© 2022 جميع الحقوق محفوظة:
-  <a href="https://wmc-ksa.com/"> شركة النافذة</a>
-</div>
-<!-- Copyright -->
-
-</footer>
+         
 		 
         <!-- Javascript -->
         <script src="assets/js/jquery-1.11.1.min.js"></script>
@@ -579,11 +529,10 @@ const scriptURL = action_url
   form.addEventListener('submit', e => {
 
 	 
-	$(':input[type=submit]').prop('disabled', true)
+	//window.location.replace("done.html");
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => 
-	  
 	  
 	  window.location.replace("https://wa.me/"+phn)
 	  
@@ -607,12 +556,7 @@ const scriptURL = action_url
 <style>
 
 
-select {
-        height:35px;
-        line-height:30px;
-        background:#f4f4f4;
-    } 
-}
+
  
  
 </style>
