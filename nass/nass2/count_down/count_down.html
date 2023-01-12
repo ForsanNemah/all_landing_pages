@@ -1,0 +1,106 @@
+ 
+ 
+<head>
+	<title>TITLE</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	
+	<!-- Font -->
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500" rel="stylesheet">
+	
+	<!-- Stylesheets -->
+	
+	<link href="common-css/bootstrap.css" rel="stylesheet">
+	
+	
+	<link href="common-css/ionicons.css" rel="stylesheet">
+	
+	
+	<link rel="stylesheet" href="common-css/jquery.classycountdown.css" />
+		
+	<link href="01-comming-soon/css/styles.css" rel="stylesheet">
+	
+	<link href="01-comming-soon/css/responsive.css" rel="stylesheet">
+	
+</head>
+
+
+ 
+ 
+<body >
+
+	<div id="rounded-countdown" style="background-image: url(images/countdown-1-1000x1000.jpg)">
+		<div id="cd" class="countdown" data-remaining-sec="500"></div>
+	</div>
+</body>
+<script type="text/javascript" src="../info.js"></script>
+
+<script src="common-js/jquery-3.1.1.min.js"></script>
+	
+	<script src="common-js/tether.min.js"></script>
+	
+	<script src="common-js/bootstrap.js"></script>
+	
+	<script src="common-js/jquery.classycountdown.js"></script>
+	
+	<script src="common-js/jquery.knob.js"></script>
+	
+	<script src="common-js/jquery.throttle.js"></script>
+	
+	<script src="common-js/scripts.js"></script>
+ 
+
+<style>
+
+ 
+</style>
+
+<script>
+
+
+$(document).ready(function () {
+	//alert(user_id);
+	
+
+/*
+	$('.countdown').ClassyCountdown({
+    theme: "flat-colors",
+    now: $.now() / 1000,
+    end: Date.UTC(2030, 11, 25, 9, 0, 0) / 1000
+});
+*/
+	
+	var currentdate = new Date(); 
+var datetime = "" + currentdate.getDate() + "/"
+                + (currentdate.getMonth()+1)  + "/" 
+                + currentdate.getFullYear() + "  "  
+                + currentdate.getHours() + ":"  
+                + currentdate.getMinutes() + ":" 
+                + currentdate.getSeconds();
+
+				var date1=(currentdate.getMonth()+1)+" "+currentdate.getDate();
+				var date2=currentdate.getFullYear()+" "+currentdate.getHours()+":"+currentdate.getMinutes()+":"+currentdate.getSeconds();
+
+
+				
+//alert(date1);
+//alert( date2);
+ 
+
+var x = new Date(date1+","+date2);
+var y = new Date("1 13, 2023 4:55:00");
+let seconds = Math.abs(x.getTime() - y.getTime())/1000;
+//alert(seconds);
+//$('#cd').remaining-sec("300");
+//$('.countdown').data('remaining-sec').value('122');
+//$('.countdown').data('remaining-sec', '30');
+//alert($('.countdown').data('remaining-sec'));
+	
+});
+
+
+
+</script>
