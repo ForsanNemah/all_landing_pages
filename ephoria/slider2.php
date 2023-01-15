@@ -1,4 +1,4 @@
-<h2> كادر طبي خبير</h2>
+<h2> كادر طبي متخصص</h2>
 <br>
 
 <div id="myCarousel2" class="carousel slide" data-ride="carousel"  >
@@ -17,27 +17,19 @@
 
       <div class="item active">
         
-		<img src="ads/dr1asnan.jpg"class="img-responsive" alt="Responsive image"   >
+		<img src="ads/dr1.jpg"class="img-responsive" alt="Responsive image"   >
 		
       </div>
 
       <div class="item  ">
         
-        <img src="ads/dr2asnan.jpg"class="img-responsive" alt="Responsive image"   >
+        <img src="ads/dr1.jpg"class="img-responsive" alt="Responsive image"   >
         
           </div>
 
-          <div class="item  ">
-        
-        <img src="ads/dr3asnan.jpg"class="img-responsive" alt="Responsive image"   >
-        
-          </div>
+         
 
-          <div class="item  ">
-        
-        <img src="ads/dr4asnan.jpg"class="img-responsive" alt="Responsive image"   >
-        
-          </div>
+         
     
        
 
