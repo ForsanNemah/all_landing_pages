@@ -1,6 +1,0 @@
-
-window[window["TiktokAnalyticsObject"]].instance("CDQU6FJC77U1DP3CADCG").setAdvancedMatchingAvailableProperties({"email":true,"phone_number":true,"auto_email":false,"auto_phone_number":false});
-window[window["TiktokAnalyticsObject"]].instance("CDQU6FJC77U1DP3CADCG").setPixelInfo && window[window["TiktokAnalyticsObject"]].instance("CDQU6FJC77U1DP3CADCG").setPixelInfo({status: 0, name: "Miswak", advertiserID: "7166605326978990082", setupMode: 0, partner: "", is_onsite: false });
-window[window["TiktokAnalyticsObject"]].setPCMDomain && window[window["TiktokAnalyticsObject"]].setPCMDomain("everestsoftjo.com");
-window[window["TiktokAnalyticsObject"]].setPCMConfig && window[window["TiktokAnalyticsObject"]].setPCMConfig(null);
-window[window["TiktokAnalyticsObject"]].enableFirstPartyCookie && window[window["TiktokAnalyticsObject"]].enableFirstPartyCookie(true);

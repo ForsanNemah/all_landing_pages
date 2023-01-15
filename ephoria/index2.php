@@ -51,29 +51,13 @@
        
 		<script type="text/javascript" src="info.js"></script>
  
-   
-    
-
-
-
-
-
-
-
-
-    
- 
-
-   
 
     </head>
 
     <body  dir="rtl">
 		
 		<!-- Top menu -->
- 
-     
-    
+		 
 
 
 
@@ -84,16 +68,7 @@
 
 
 
-					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="100px" height="100px" >
-
-
-         
-        
-
-
-
-
-
+					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="150px" height="150px" >
 
 
 						<h2 > 
@@ -130,16 +105,6 @@ include 'info.php';
 
 
 							</h3>
-
-           <div id="count_down_counter">
-
-
-
-           </div>
- 
-<br>
-
-
 						</div>
 					</div>
 				</div>
@@ -156,9 +121,7 @@ include 'info.php';
 
 
 
-  
 
-       
 
 
 
@@ -222,14 +185,6 @@ include 'info.php';
 							</div>
 							 
 						</div>
-
-
-            
-
-
-
-
-
 
 
             
@@ -468,47 +423,6 @@ include 'info.php';
 $(document).ready(function () {
 
 
-
-
-
-  
-
-//alert($('#if_cd').contentWindow.document.body.offsetHeight + 'px');
-
-//$('#if_cd').height("200" );
-
-/*
-$('#if_cd').load(function() {
-    this.style.height =
-    this.contentWindow.document.body.offsetHeight + 'px';
-    alert( this.contentWindow.document.body.offsetHeight + 'px');
-    $('#if_cd').height("146" );
-});
-*/
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   $(window).keydown(function(event){
     if(event.keyCode == 13) {
       event.preventDefault();
@@ -526,10 +440,9 @@ var datetime = "" + currentdate.getDate() + "/"
                 //alert(datetime);
 
 
-                $("#includedContent").load("form_name_phn_type.php"); 
+                $("#includedContent").load("form_name_phn_fixed_type.php"); 
                 $("#slider1").load("slider1.php"); 
-                //$("#slider2").load("slider2.php"); 
-                //$("#count_down_counter").load("count_down.php"); 
+                $("#slider2").load("slider2.php"); 
                 //$("#slider3").load("slider3.php"); 
                 
                // $("#includedContent").load("form_name_phn.php"); 
