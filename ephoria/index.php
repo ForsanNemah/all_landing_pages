@@ -524,8 +524,8 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
 select {
-        height:35px;
-        line-height:30px;
+        height:50px;
+        line-height:50px;
         background:#f4f4f4;
         
     } 

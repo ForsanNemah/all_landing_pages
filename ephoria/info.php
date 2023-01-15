@@ -1,4 +1,32 @@
 <?php
+
+
+$items = array();
+
+
+
+$handle = fopen("types.txt", "r");
+if ($handle) {
+$i=0;
+    while (($line = fgets($handle)) !== false) {
+        //echo $line."<br>".$i; 
+$i++;
+$items['Peter'.$i]=$line;
+
+
+    }
+
+    fclose($handle);
+}
+
+
+
+
+
+
+
+
+
 $info = array(
 
 
@@ -21,29 +49,6 @@ $info = array(
 
 //echo "Peter is " . $age['Peter'] . " years old.";
 
-$items = array(
-
-    "item0"=>"نوع الخدمة ",
-
-    "item1"=>"عرض زراعة الأسنان لأول مرة",
-
- "item2"=>"عرض إبتسامة هوليود",
-
-
- "item3"=>"عرض تركيبات الأسنان ",
-
- "item4"=>"عرض تنظيف الاسنان ",
-
- "item5"=>"عرض التقويم بانواعه ",
- "item6"=>"عرض تبييض الاسنان ",
- "item7"=>"عروض المعالجات ",
- "item8"=>"خدمات اخرى ",
-
-
-
-
-
-);
 
 
 
