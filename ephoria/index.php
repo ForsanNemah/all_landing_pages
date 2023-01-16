@@ -105,6 +105,18 @@ include 'info.php';
 
 
 							</h3>
+
+
+              <div id="count_down_counter">
+
+
+
+</div>
+
+
+
+
+
 						</div>
 					</div>
 				</div>
@@ -448,7 +460,7 @@ var datetime = "" + currentdate.getDate() + "/"
                // $("#includedContent").load("form_name_phn.php"); 
                 // $("#includedContent").load("form_only_whatsapp.php"); 
 				
- 
+                $("#count_down_counter").load("count_down.php");
     
 
       const scriptURL = action_url
