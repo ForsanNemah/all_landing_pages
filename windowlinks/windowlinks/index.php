@@ -235,6 +235,51 @@ include 'info.php';
 
 
 
+
+<br>
+<br>
+</a>
+
+<a href="https://forms.gle/7HM8p5u88d6qQFbz7">
+<button type="button" class="btn btn-primary">    فورم طلب حملة </button>
+
+
+</a>
+
+
+
+
+
+
+
+
+<br>
+<br>
+
+<a href="https://docs.google.com/spreadsheets/d/1r76hHFEPeZkFtSVyvabFjBJhesbpCuItkWQIuy1pW3E/edit?resourcekey#gid=621839237">
+<button type="button" class="btn btn-primary">   شيت الحملات المطلوبة </button>
+
+
+</a>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
 <br>
 </a>
