@@ -5,7 +5,7 @@ $items = array();
 
 
 
-$handle = fopen("asnan_services.txt", "r");
+$handle = fopen("services/lazer_services_prozoon.txt", "r");
 if ($handle) {
 $i=0;
     while (($line = fgets($handle)) !== false) {
@@ -34,7 +34,7 @@ $info = array(
      "sub1"=>"     مجمع بروزون الطبي    ",
     "sub2"=>"   جراحة- أسنان - جلدية - ليزر - تجميل - تغذية  ",
 
-
+  "counter_message"=>"     احجز قبل انتهاء العداد للحصول على العروض          ",
 
     "form_sub1"=>"               ",
     "form_sub2"=>"      ",
