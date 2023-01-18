@@ -47,15 +47,9 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <!-- Favicon and touch icons 
-        <script type="text/javascript" src="snap_pixel.js"></script>
-      
-      
-      
-      -->
+        <!-- Favicon and touch icons -->
        
 		<script type="text/javascript" src="info.js"></script>
-  
  
 
     </head>
@@ -74,7 +68,7 @@
 
 
 
-					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="100px" height="100px" >
+					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="200px" height="50px" >
 
 
 						<h2 > 
@@ -113,7 +107,7 @@ include 'info.php';
 							</h3>
 
 
-              <div id="count_down_counter">
+              <div    id="count_down_counter">
 
 
 
@@ -460,7 +454,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
                 $("#includedContent").load("form_name_phn_type.php"); 
                 $("#slider1").load("slider1.php"); 
-                //$("#slider2").load("slider2.php"); 
+                $("#slider2").load("slider2.php"); 
                 //$("#slider3").load("slider3.php"); 
                 
                // $("#includedContent").load("form_name_phn.php"); 

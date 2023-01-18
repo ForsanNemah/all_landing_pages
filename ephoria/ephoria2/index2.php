@@ -47,15 +47,9 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <!-- Favicon and touch icons 
-        <script type="text/javascript" src="snap_pixel.js"></script>
-      
-      
-      
-      -->
+        <!-- Favicon and touch icons -->
        
 		<script type="text/javascript" src="info.js"></script>
-  
  
 
     </head>
@@ -74,7 +68,7 @@
 
 
 
-					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="100px" height="100px" >
+					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="150px" height="150px" >
 
 
 						<h2 > 
@@ -111,18 +105,6 @@ include 'info.php';
 
 
 							</h3>
-
-
-              <div id="count_down_counter">
-
-
-
-</div>
-
-
-
-
-
 						</div>
 					</div>
 				</div>
@@ -458,15 +440,15 @@ var datetime = "" + currentdate.getDate() + "/"
                 //alert(datetime);
 
 
-                $("#includedContent").load("form_name_phn_type.php"); 
+                $("#includedContent").load("form_name_phn_fixed_type.php"); 
                 $("#slider1").load("slider1.php"); 
-                //$("#slider2").load("slider2.php"); 
+                $("#slider2").load("slider2.php"); 
                 //$("#slider3").load("slider3.php"); 
                 
                // $("#includedContent").load("form_name_phn.php"); 
                 // $("#includedContent").load("form_only_whatsapp.php"); 
 				
-                $("#count_down_counter").load("count_down.php");
+ 
     
 
       const scriptURL = action_url
@@ -542,8 +524,8 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
 select {
-        height:50px;
-        line-height:50px;
+        height:35px;
+        line-height:30px;
         background:#f4f4f4;
         
     } 
