@@ -4,5 +4,21 @@
     frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0">
   </iframe>
 </div>
+<h3>
+  
 
-<h3> احجز قبل انتهاء العداد للحصول على العروض</h3>
+<?php
+
+			include 'info.php';
+			
+			 echo $info['counter_message'];
+			
+			
+			
+			
+			?>
+
+
+
+
+</h3>

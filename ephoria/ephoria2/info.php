@@ -5,7 +5,7 @@ $items = array();
 
 
 
-$handle = fopen("types.txt", "r");
+$handle = fopen("services/ephoria_lazer_services.txt", "r");
 if ($handle) {
 $i=0;
     while (($line = fgets($handle)) !== false) {
@@ -34,7 +34,7 @@ $info = array(
      "sub1"=>"       عيادات ايفوريا    ",
     "sub2"=>"عروض بداية العام     ",
 
-
+    "counter_message"=>"     احجز قبل انتهاء العداد للحصول على العروض          ",
 
     "form_sub1"=>"               ",
     "form_sub2"=>"      ",

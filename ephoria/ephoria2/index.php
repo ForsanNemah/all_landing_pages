@@ -59,7 +59,19 @@
 		<!-- Top menu -->
 		 
 
+<div id="cta_whatsapp">
+ 
 
+
+</div>
+
+
+
+<div id="cta_call">
+ 
+
+
+</div>
 
 
 
@@ -107,7 +119,7 @@ include 'info.php';
 							</h3>
 
 
-              <div    id="count_down_counter">
+              <div id="count_down_counter">
 
 
 
@@ -392,7 +404,7 @@ include 'info.php';
 
 <!-- Copyright -->
 <div class="footer-copyright text-center py-3">© 2022 جميع الحقوق محفوظة:
-  <a href="https://wmc-ksa.com/"> شركة النافذة</a>
+  <a href="https://wmc-ksa.com/">  شركة النافذة للتسويق الالكتروني </a>
 </div>
 <!-- Copyright -->
 
@@ -455,6 +467,8 @@ var datetime = "" + currentdate.getDate() + "/"
                 $("#includedContent").load("form_name_phn_type.php"); 
                 $("#slider1").load("slider1.php"); 
                 $("#slider2").load("slider2.php"); 
+                $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
+                $("#cta_call").load("cta/cta_call.php"); 
                 //$("#slider3").load("slider3.php"); 
                 
                // $("#includedContent").load("form_name_phn.php"); 
