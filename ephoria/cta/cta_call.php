@@ -219,7 +219,7 @@ var datetime = "" + currentdate.getDate() + "/"
     $("#myloader").hide();
     $("#done_icon").show();
      
-    window.location.replace("tel:"+phn) ;
+    window.location.replace("tel:+"+phn) ;
     
 }
 				 
