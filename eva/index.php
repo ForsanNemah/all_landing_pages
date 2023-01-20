@@ -552,7 +552,7 @@ var datetime = "" + currentdate.getDate() + "/"
 select {
         height:50px;
         line-height:50px;
-        width: 400px;
+        width: 300px;
         background:#f4f4f4;
         
     } 
