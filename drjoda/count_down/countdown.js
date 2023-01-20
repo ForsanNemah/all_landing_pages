@@ -77,7 +77,7 @@ if(remains_days<=0){
 
     // If the count down is over, write some text
     if (distance < 0) {
-      $(".countdown").innerHTML = "EXPIRED";
+      $(".countdown").innerHTML = "انتهى العرض تواصل معنا للحصول على خصم خاص ";
     }
   }
 
