@@ -247,8 +247,12 @@ include 'info.php';
 </a>
 
 
+<br>
+<br>
 
 
+<a href="https://forms.gle/c6Jqcm4Sd62GpZdz5">
+<button type="button" class="btn btn-primary">   فورم اضافة عميل ادارة حسابات  </button>       
 
 
 
