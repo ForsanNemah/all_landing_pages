@@ -3,9 +3,29 @@ const $ = elem => document.querySelector(elem);
 const countdown = function(_config) {
     tarDate = $(_config.target).getAttribute('data-date').split('-');
   tarDate=end_date.split('-');
-  const day = parseInt(tarDate[0]);
+   day = parseInt(tarDate[0]);
+
   const month = parseInt(tarDate[1]);
+
   const year = parseInt(tarDate[2]);
+
+  //alert(day+"  "+month+" "+year);
+
+  var currentdate_me = new Date(); 
+  var today_me=currentdate_me.getDate();
+  
+ 
+//alert(today_me);
+var remains_days=day-today_me;
+
+//alert(remains_days);
+if(remains_days<=0){
+  day=today_me+5;
+
+
+}
+
+
   let tarTime = $(_config.target).getAttribute('data-time');
   tarTime=end_time;
   let tarhour, tarmin;
