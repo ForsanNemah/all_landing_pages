@@ -32,7 +32,7 @@
 
           <div class="item  ">
         
-        <img src="ads/2.jpg"class="img-responsive" alt="Responsive image"   >
+        <img src="ads/1.jpg"class="img-responsive" alt="Responsive image"   >
         
           </div>
 
