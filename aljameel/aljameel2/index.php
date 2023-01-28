@@ -51,7 +51,7 @@
        
 		<script type="text/javascript" src="info.js"></script>
  
-
+    <script type="text/javascript" src="pixel/snap.js"></script>
     </head>
 
     <body  dir="rtl">
