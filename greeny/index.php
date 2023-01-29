@@ -102,7 +102,7 @@ if ($handle = opendir('logo')) {
   
   
   
-  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='200px' height='150px' >
+  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='400px' height='100px' >
   
   
   
@@ -544,10 +544,10 @@ var datetime = "" + currentdate.getDate() + "/"
 
                 $("#includedContent").load("form_name_phn_type.php"); 
                 $("#slider1").load("slider1.php"); 
-                $("#slider2").load("slider2.php"); 
-                //$("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
-              // $("#cta_call").load("cta/cta_call.php"); 
-                $("#slider3").load("slider3.php"); 
+                //$("#slider2").load("slider2.php"); 
+                $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
+              $("#cta_call").load("cta/cta_call.php"); 
+                //$("#slider3").load("slider3.php"); 
                 
                // $("#includedContent").load("form_name_phn.php"); 
                 // $("#includedContent").load("form_only_whatsapp.php"); 
