@@ -63,10 +63,10 @@ if ($handle = opendir('sidebar1')) {
 
 if( $counter==0){
 
-  echo "$entry\n";
+ 
   echo "<div class='item  active '>
   
-  <img src='sidebar1/$entry\n' class='img-responsive' alt='Responsive image'   >
+  <img src='sidebar1/$entry' class='img-responsive' alt='Responsive image'   >
 
   </div>
   ";
@@ -78,10 +78,10 @@ if( $counter==0){
 else{
 
   
-  echo "$entry\n";
+   
   echo "<div class='item '>
   
-  <img src='sidebar1/$entry\n' class='img-responsive' alt='Responsive image'   >
+  <img src='sidebar1/$entry' class='img-responsive' alt='Responsive image'   >
 
   </div>
   ";
