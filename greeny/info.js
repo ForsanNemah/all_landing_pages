@@ -1,7 +1,7 @@
  
 
 
-var phn="966563615558";
+var phn="966564416049";
 var end_date="29-1-2023";
 var end_time="12:00";
 var ad_source="من الاعلان ";
