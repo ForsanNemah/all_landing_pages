@@ -18,12 +18,23 @@
 
       <div class="item active">
         
-		<img src="ads/1.jpg"class="img-responsive" alt="Responsive image"   >
+		<img src="ads/1.jpeg"class="img-responsive" alt="Responsive image"   >
 		
       </div>
 
     
+      <div class="item  ">
+        
+        <img src="ads/2.jpeg"class="img-responsive" alt="Responsive image"   >
+        
+          </div>
 
+
+          <div class="item  ">
+        
+        <img src="ads/3.jpeg"class="img-responsive" alt="Responsive image"   >
+        
+          </div>
           
 
          
