@@ -1,29 +1,49 @@
 const $ = elem => document.querySelector(elem);
 
 const countdown = function(_config) {
-    tarDate = $(_config.target).getAttribute('data-date').split('-');
+     
   tarDate=end_date.split('-');
    day = parseInt(tarDate[0]);
 
-  const month = parseInt(tarDate[1]);
+   month = parseInt(tarDate[1]);
 
-  const year = parseInt(tarDate[2]);
+  year = parseInt(tarDate[2]);
 
   //alert(day+"  "+month+" "+year);
 
   var currentdate_me = new Date(); 
   var today_me=currentdate_me.getDate();
+  var month_me=currentdate_me.getMonth()+1;
+  var year_me=currentdate_me.getFullYear();
   
  
 //alert(today_me);
+//alert(month_me);
+//alert(year_me);
 var remains_days=day-today_me;
 
 //alert(remains_days);
 if(remains_days<=0){
   day=today_me+5;
 
+    
+
 
 }
+
+
+
+
+if(month !=month_me){
+month=month_me
+
+}
+
+
+if(year !=year_me){
+  year=year_me
+  
+  }
 
 
   let tarTime = $(_config.target).getAttribute('data-time');
