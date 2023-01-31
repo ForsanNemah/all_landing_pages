@@ -18,7 +18,7 @@ const countdown = function(_config) {
 //alert(today_me);
 var remains_days=day-today_me;
 
-alert(remains_days);
+//alert(remains_days);
 if(remains_days<=0){
   day=today_me+5;
 
