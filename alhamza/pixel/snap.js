@@ -6,8 +6,10 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', '861c54c8-c1ad-4cb2-b45d-dce25fd8c0a4', {
+snaptr('init', 'c530b9a9-f8d4-48df-ba97-3958aae4f9a6', {
 'user_email': '_INSERT_USER_EMAIL_'
 });
 
 snaptr('track', 'PAGE_VIEW');
+ 
+<!-- End Snap Pixel Code -->
