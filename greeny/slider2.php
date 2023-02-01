@@ -35,7 +35,7 @@ include 'info.php';
     <?php
 
 
-if ($handle = opendir('sidebar1')) {
+if ($handle = opendir('sidebar2')) {
   $counter=0;
 
     while (false !== ($entry = readdir($handle))) {
@@ -44,10 +44,10 @@ if ($handle = opendir('sidebar1')) {
 
 if( $counter==0){
 
-  echo "$entry\n";
+   
   echo "<div class='item  active '>
   
-  <img src='sidebar1/$entry\n' class='img-responsive' alt='Responsive image'   >
+  <img src='sidebar2/$entry' class='img-responsive' alt='Responsive image'   >
 
   </div>
   ";
@@ -59,10 +59,10 @@ if( $counter==0){
 else{
 
   
-  echo "$entry\n";
+ 
   echo "<div class='item '>
   
-  <img src='sidebar2/$entry\n' class='img-responsive' alt='Responsive image'   >
+  <img src='sidebar2/$entry' class='img-responsive' alt='Responsive image'   >
 
   </div>
   ";
