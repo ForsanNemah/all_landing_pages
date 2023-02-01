@@ -24,6 +24,24 @@
  
 
 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="bg">
+
+
+
 <form id="includedContent" role="form"      method="post" name="myform">
 
            
@@ -108,6 +126,9 @@
 
      
             </form>
+</div>
+
+
 
 </body>
 
@@ -183,7 +204,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
   form.addEventListener('submit', e => {
     
-	 
+  
 	//$(':input[type=submit]').prop('disabled', true)
   $('#today_cta1').attr('value', datetime )
   $("#myloader").show()
@@ -245,3 +266,11 @@ var datetime = "" + currentdate.getDate() + "/"
  
 
 </script>
+<style>
+
+
+
+ 
+
+
+</style>

@@ -32,6 +32,7 @@
         <!-- CSS -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+       
         <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/animate.css">
         <link rel="stylesheet" href="assets/css/style.css">
@@ -54,10 +55,37 @@
   
     </head>
 
-    <body  dir="rtl">
+    <body  dir="rtl" id="all_body">
 		
 		<!-- Top menu -->
 		 
+
+
+  
+    
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div id="cta_whatsapp">
  
@@ -313,7 +341,7 @@ include 'info.php';
 
 
             
-
+        
 
 
 
@@ -525,6 +553,11 @@ $(document).ready(function () {
 
   //alert($("#source_id_form").val());
 
+ 
+ 
+ 
+
+
   $(window).keydown(function(event){
     if(event.keyCode == 13) {
       event.preventDefault();
@@ -546,7 +579,7 @@ var datetime = "" + currentdate.getDate() + "/"
                 $("#slider1").load("slider1.php"); 
                 //$("#slider2").load("slider2.php"); 
                 $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
-              $("#cta_call").load("cta/cta_call.php"); 
+             // $("#cta_call").load("cta/cta_call.php"); 
                 //$("#slider3").load("slider3.php"); 
                 
                // $("#includedContent").load("form_name_phn.php"); 
@@ -564,7 +597,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
     //waitingDialog.show();
     
-	 
+  
 	$(':input[type=submit]').prop('disabled', true)
   $('#today').attr('value', datetime )
   $("#myloader").show()
@@ -666,5 +699,8 @@ select {
  
 
 
+
+
+ 
  
 </style>
