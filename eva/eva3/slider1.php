@@ -36,6 +36,12 @@
         
           </div>
           
+          <div class="item  ">
+        
+        <img src="ads/4.jpeg"class="img-responsive" alt="Responsive image"   >
+        
+          </div>
+          
 
          
 
