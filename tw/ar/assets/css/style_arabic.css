@@ -1,0 +1,56 @@
+body {
+    font-family: Tajawal;
+    direction: rtl;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Jost", sans-serif;
+}
+  .me-auto {
+    /* margin-right: auto!important; */
+    margin-right: 0 !important;
+    margin-left: auto!important;
+}
+.navbar .dropdown ul {
+   
+    /* left: 14px; */
+    right:14px;
+    left:auto;
+}
+.navbar a, .navbar a:focus {
+    
+    padding: 10px 30px 10px 0px;
+}
+.navbar a i, .navbar a:focus i {
+   
+    margin-right: 5px;
+}
+#hero .btn-watch-video {
+    margin: 10px 25px 0 0px;
+}
+#hero .btn-watch-video i {
+    
+    margin-left: 8px;
+}
+/* .bi-play-circle::before {
+    content: "\f4f3";
+} */
+/* about us */
+.about .content ul li {
+    padding-right: 28px;
+    padding-left: 0;
+}
+.about .content ul i {
+   left:auto;
+    right: 0;
+  
+}
+/* CORE VALUE */
+.why-us .accordion-list a {
+    font-family: ;
+    padding-left: 30px;
+}
+.why-us .accordion-list span {
+    
+    font-size: 18px;
+    padding-left: 10px;
+}
