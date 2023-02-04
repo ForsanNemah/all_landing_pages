@@ -5,7 +5,7 @@ $items = array();
 
 
 
-$handle = fopen("services/asnan_services.txt", "r");
+$handle = fopen("services/greeny_services.txt", "r");
 if ($handle) {
 $i=0;
     while (($line = fgets($handle)) !== false) {
