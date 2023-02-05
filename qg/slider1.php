@@ -34,17 +34,8 @@ include 'info.php';
 	
       
 
-    <div class="item active">
+   
         
-        <img src="sidebar1/1.jpg"class="img-responsive" alt="Responsive image"   >
-        
-          </div>
-    
-          <div class="item  ">
-            
-            <img src="sidebar1/2.jpg"class="img-responsive" alt="Responsive image"   >
-            
-              </div>
        
 
    
@@ -58,7 +49,7 @@ include 'info.php';
  
 
        
-<!--
+ 
         
 
       <?php
@@ -76,7 +67,7 @@ if( $counter==0){
   //echo "$entry\n";
   echo "<div class='item  active '>
   
-  <img src='sidebar1/$entry\n' class='img-responsive' alt='Responsive image'   >
+  <img src='sidebar1/$entry' class='img-responsive' alt='Responsive image'   >
 
   </div>
   ";
@@ -91,7 +82,7 @@ else{
   echo "$entry\n";
   echo "<div class='item '>
   
-  <img src='sidebar1/$entry\n' class='img-responsive' alt='Responsive image'   >
+  <img src='sidebar1/$entry' class='img-responsive' alt='Responsive image'   >
 
   </div>
   ";
@@ -117,8 +108,7 @@ $counter++;
  
  
            
--->
-          
+   
 
 
 
