@@ -3,6 +3,7 @@
 <head>
 <title>Techworx</title>
 <?php include 'include/head-link.html';  ?>
+
 </head>
 <body>
 <!-- header -->
@@ -11,7 +12,9 @@
 <!-- hero -->
 <?php include 'include/hero.html';  ?>
 <!-- end hero -->
-
+ <!-- news -->
+ <?php include 'news.html';  ?>
+<!-- end news -->
 <main id="main">
 <!-- Clients -->
 <?php include 'clients.html';  ?>
@@ -38,5 +41,6 @@
     <?php include 'include/footer.html';  ?>
     <?php include 'include/end-footer.html';  ?>
     <!-- end footer -->
+ 
 </body>
 </html>

@@ -8,11 +8,15 @@
 <!-- header -->
 <?php include 'include/header.html';  ?>
 <!-- end header -->
-<!-- hero -->
-<?php include 'include/hero.html';  ?>
+ <!-- hero -->
+ <?php include 'include/hero.html';  ?>
 <!-- end hero -->
+ <!-- news -->
+ <?php include 'news.html';  ?>
+<!-- end news -->
 <main id="main">
-<!-- Clients -->
+   
+ <!-- Clients -->
 <?php include 'clients.html';  ?>
 <!-- end Clients -->
 

@@ -1,6 +1,14 @@
+@font-face {
+    font-family: "Tajawal";
+    src: url("../fonts/Tajawal\ Regular.ttf");
+    /* src: url("../fonts/Cairo\ Regular\ 400.ttf"); */
+}
 body {
-    font-family: Tajawal;
     direction: rtl;
+  }
+ * {
+    /* font-family: "cairo"; */
+    font-family: Tajawal;
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: "Jost", sans-serif;
@@ -46,11 +54,15 @@ body {
 }
 /* CORE VALUE */
 .why-us .accordion-list a {
-    font-family: ;
     padding-left: 30px;
 }
 .why-us .accordion-list span {
     
     font-size: 18px;
+    padding-left: 10px;
+}
+/* news */
+.news-scroll a{
+   
     padding-left: 10px;
 }

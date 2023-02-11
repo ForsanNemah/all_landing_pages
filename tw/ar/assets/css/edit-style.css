@@ -1,3 +1,4 @@
+
 .text-align-justify 
    {
     text-align: justify !important;
@@ -12,7 +13,7 @@
   border:2px solid #ccc;
   /* filter: grayscale(100); */
 }
-#hero {
+#hero ,header,.bg-table{
     background: #333e51;
 }
 .why-us .accordion-list {
@@ -26,3 +27,36 @@
     margin-bottom: 10px;
     font-size: 16px;
 }
+/* news */
+
+.news{
+    width: 160px;
+    /* background-color: #333e51; */
+    
+}
+.news span
+{
+    color:rgb(78, 2, 2);
+}
+.news-scroll a{
+    text-decoration: none;
+    padding-right: 10px;
+    color: #333e51;
+}
+.dot{height: 7px;
+    width: 7px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 2px !important;
+    background-color: rgb(33, 71, 111);
+    border-radius: 50%;
+    display: inline-block;
+}
+   
+/* end news */
+/* projects table */
+#printables .table thead th
+{
+border:1px solid #666;
+}
+/* end projects table */
