@@ -80,7 +80,7 @@
 
 
 
-					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="180px" height="150px" >
+					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="300px" height="300px" >
 
 
 						<h2 > 
