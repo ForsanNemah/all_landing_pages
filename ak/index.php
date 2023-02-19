@@ -193,7 +193,7 @@ if ($handle = opendir('logo')) {
 
 						</h2>
 						<div >
-							<h3>
+							<h4>
 								 
 							<?php
 
@@ -208,7 +208,7 @@ include 'info.php';
 
 
 
-							</h3>
+							</h4>
 
 
               <div id="count_down_counter">
