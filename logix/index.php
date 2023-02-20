@@ -541,6 +541,8 @@ include 'info.php';
 <!-- Copyright -->
 <div class="footer-copyright text-center py-3">© 2022 جميع الحقوق محفوظة:
   <a href="https://wmc-ksa.com/">  شركة النافذة للتسويق الالكتروني </a>
+  <br>
+  <h4>0500202248</h4>
 </div>
 <!-- Copyright -->
 
