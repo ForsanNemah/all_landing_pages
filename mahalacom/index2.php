@@ -32,7 +32,6 @@
         <!-- CSS -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-       
         <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/animate.css">
         <link rel="stylesheet" href="assets/css/style.css">
@@ -47,59 +46,20 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-        <script type="text/javascript" src="pixel/snap.js"></script>
+
         <!-- Favicon and touch icons -->
        
 		<script type="text/javascript" src="info.js"></script>
  
-  
+
     </head>
 
-    <body  dir="rtl" id="all_body">
+    <body  dir="rtl">
 		
 		<!-- Top menu -->
 		 
 
 
-  
-    
- 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="cta_whatsapp">
- 
-
-
-</div>
-
-
-
-<div id="cta_call">
- 
-
-
-</div>
 
 
 
@@ -108,74 +68,10 @@
 
 
 
-				
+					<img   src="ads/logo.png" class="img-fluid" alt="Responsive image" width="150px" height="150px" >
 
 
-
-          <?php
-
-
-if ($handle = opendir('logo')) {
-
-
-    while (false !== ($entry = readdir($handle))) {
-
-        if ($entry != "." && $entry != "..") {
-
- 
-
-  
-  //echo "$entry\n";
-  echo "
-  
-  
-  
-  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='300px' height='150px' >
-  
-  
-  
-  ";
-  
-  
-  break;
- 
-
- 
-           
-        }
-    }
-
-    closedir($handle);
-}
-
-
-
-
-?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-						<h3 > 
+						<h2 > 
 
 
 							<?php
@@ -191,7 +87,7 @@ if ($handle = opendir('logo')) {
 
 
 
-						</h3>
+						</h2>
 						<div >
 							<h3>
 								 
@@ -209,18 +105,6 @@ include 'info.php';
 
 
 							</h3>
-
-
-              <div id="count_down_counter">
-
-
-
-</div>
-
-
-
-
-
 						</div>
 					</div>
 				</div>
@@ -321,17 +205,7 @@ include 'info.php';
 <br>
             <form id="includedContent" role="form"      method="post" name="myform">
 
-           
- 
-
-
- 
-
-
-
-
-
-
+          
      
             </form>
             
@@ -341,7 +215,7 @@ include 'info.php';
 
 
             
-        
+
 
 
 
@@ -420,11 +294,7 @@ include 'info.php';
 			
 
 
-<div id="tabel_1">
 
-
-
-</div>
 
 
 
@@ -510,7 +380,7 @@ include 'info.php';
 
 <!-- Copyright -->
 <div class="footer-copyright text-center py-3">© 2022 جميع الحقوق محفوظة:
-  <a href="https://wmc-ksa.com/">  شركة النافذة للتسويق الالكتروني </a>
+  <a href="https://wmc-ksa.com/"> شركة النافذة</a>
 </div>
 <!-- Copyright -->
 
@@ -551,15 +421,6 @@ include 'info.php';
 
  
 $(document).ready(function () {
-  //alert(ad_source);
-
-  //$("#source_id").val('dddd');
-
-  //alert($("#source_id_form").val());
-
- 
- 
- 
 
 
   $(window).keydown(function(event){
@@ -579,18 +440,14 @@ var datetime = "" + currentdate.getDate() + "/"
                 //alert(datetime);
 
 
-                $("#includedContent").load("form_name_phn_type.php"); 
+                $("#includedContent").load("form_name_phn_fixed_type.php"); 
                 $("#slider1").load("slider1.php"); 
-                //$("#slider2").load("slider2.php"); 
-               // $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
-             // $("#cta_call").load("cta/cta_call.php"); 
+                $("#slider2").load("slider2.php"); 
                 //$("#slider3").load("slider3.php"); 
                 
                // $("#includedContent").load("form_name_phn.php"); 
                 // $("#includedContent").load("form_only_whatsapp.php"); 
 				
-                $("#count_down_counter").load("count_down.php");
-               // $("#tabel_1").load("tabel_1.php"); 
  
     
 
@@ -598,10 +455,8 @@ var datetime = "" + currentdate.getDate() + "/"
   const form = document.forms['myform']
 
   form.addEventListener('submit', e => {
-
-    //waitingDialog.show();
     
-  
+	 
 	$(':input[type=submit]').prop('disabled', true)
   $('#today').attr('value', datetime )
   $("#myloader").show()
@@ -669,9 +524,8 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
 select {
-        height:50px;
-        line-height:50px;
-        width: 300px;
+        height:35px;
+        line-height:30px;
         background:#f4f4f4;
         
     } 
@@ -703,8 +557,5 @@ select {
  
 
 
-
-
- 
  
 </style>

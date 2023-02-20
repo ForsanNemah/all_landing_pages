@@ -175,7 +175,7 @@ if ($handle = opendir('logo')) {
 
 
 
-						<h3 > 
+						<h2 > 
 
 
 							<?php
@@ -191,7 +191,7 @@ if ($handle = opendir('logo')) {
 
 
 
-						</h3>
+						</h2>
 						<div >
 							<h3>
 								 
