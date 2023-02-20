@@ -5,7 +5,7 @@
     u.parentNode.insertBefore(r,u);})(window,document,
     'https://sc-static.net/scevent.min.js');
     
-    snaptr('init', '145d3493-3b6f-486e-9ab2-fb5a69e4c0de', {
+    snaptr('init', '10e589c1-a12b-47ab-a6a0-32977b8eb3b2', {
     'user_email': '_INSERT_USER_EMAIL_'
     });
     
