@@ -40,7 +40,7 @@ $info = array(
 
 
 
- "sidebar1_msg"=>"   عروض خاصة بالمنطقة الشرقية       ",
+ "sidebar1_msg"=>"        ",
  "sidebar2_msg"=>"  تجهيزات باحدث التقنيات     ",
  "sidebar3_msg"=>"     2  كادر طبي متميز       ",
 

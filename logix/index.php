@@ -211,6 +211,36 @@ include 'info.php';
 							</h3>
 
 
+
+
+
+
+
+              <h3>
+								 
+               <a href="http://portal.ss4it.com.sa/request/IndexRequestDemo">
+
+               انقر هنا لتجريب النظام  
+               </a>
+   
+   
+   
+                 </h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               <div id="count_down_counter">
 
 
@@ -579,7 +609,7 @@ var datetime = "" + currentdate.getDate() + "/"
                 //alert(datetime);
 
 
-                $("#includedContent").load("form_name_phn_type.php"); 
+                $("#includedContent").load("form_name_phn_type_check_box.php"); 
                 $("#slider1").load("slider1.php"); 
                 //$("#slider2").load("slider2.php"); 
                // $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
