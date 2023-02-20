@@ -311,7 +311,7 @@ table {
 
 th, td {
   text-align: left;
-  padding: 20px;
+  padding: 8px;
 }
 
 tr:nth-child(even){background-color: #f2f2f2}
