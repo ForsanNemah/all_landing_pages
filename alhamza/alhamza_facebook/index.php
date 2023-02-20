@@ -47,31 +47,12 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-     
-        <!-- Favicon and touch icons 
-         <script type="text/javascript" src="pixel/snap.js"></script>
-      -->
+        <script type="text/javascript" src="pixel/snap.js"></script>
+        <!-- Favicon and touch icons -->
        
 		<script type="text/javascript" src="info.js"></script>
  
   
-<!-- Meta Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '2181008052090271');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=2181008052090271&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
     </head>
 
     <body  dir="rtl" id="all_body">
@@ -598,7 +579,7 @@ var datetime = "" + currentdate.getDate() + "/"
                 //alert(datetime);
 
 
-                $("#includedContent").load("form_name_phn_type.php"); 
+               $("#includedContent").load("tabel_1.php"); 
                 $("#slider1").load("slider1.php"); 
                 //$("#slider2").load("slider2.php"); 
                // $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
@@ -609,7 +590,7 @@ var datetime = "" + currentdate.getDate() + "/"
                 // $("#includedContent").load("form_only_whatsapp.php"); 
 				
                 $("#count_down_counter").load("count_down.php");
-                $("#tabel_1").load("tabel_1.php"); 
+                //$("#tabel_1").load("tabel_1.php"); 
  
     
 
