@@ -579,7 +579,7 @@ var datetime = "" + currentdate.getDate() + "/"
                 //alert(datetime);
 
 
-                $("#includedContent").load("form_name_phn_type.php"); 
+               $("#includedContent").load("tabel_1.php"); 
                 $("#slider1").load("slider1.php"); 
                 //$("#slider2").load("slider2.php"); 
                // $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
@@ -590,7 +590,7 @@ var datetime = "" + currentdate.getDate() + "/"
                 // $("#includedContent").load("form_only_whatsapp.php"); 
 				
                 $("#count_down_counter").load("count_down.php");
-                $("#tabel_1").load("tabel_1.php"); 
+                //$("#tabel_1").load("tabel_1.php"); 
  
     
 
