@@ -5,7 +5,7 @@ $items = array();
 
 
 
-$handle = fopen("services/ephoria_tagmeel_services.txt", "r");
+$handle = fopen("services/ephoria_tagmeel_services2.txt", "r");
 if ($handle) {
 $i=0;
     while (($line = fgets($handle)) !== false) {
@@ -32,7 +32,7 @@ $info = array(
 
     "website_title"=>"     عيادات   ايفوريا",
      "sub1"=>"       عيادات ايفوريا    ",
-    "sub2"=>"عروض بداية العام     ",
+    "sub2"=>"عروض يوم التأسيس   خصومات تصل الى 40%    ",
 
     "counter_message"=>"     احجز قبل انتهاء العداد للحصول على العروض          ",
 
