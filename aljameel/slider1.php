@@ -1,4 +1,22 @@
-<h2>عروض بداية العام 2023</h2>
+<h2> 
+
+
+<?php
+
+include 'info.php';
+
+ echo $info['sidebar1_msg'];
+
+
+
+
+?>
+
+
+
+
+
+</h2>
 <br>
  
 
@@ -16,20 +34,11 @@
 	
       
 
-      <div class="item active">
-        
-		<img src="ads/1.jpg"class="img-responsive" alt="Responsive image"   >
-		
-      </div>
+     
+       
 
-      
-      <div class="item  ">
-        
-		<img src="ads/1.jpg"class="img-responsive" alt="Responsive image"   >
-		
-      </div>
-
-
+   
+    
     
 
           
@@ -38,14 +47,64 @@
 
  
 
-
+       
 
         
 
+      <?php
+
+
+if ($handle = opendir('sidebar1')) {
+  $counter=0;
+
+    while (false !== ($entry = readdir($handle))) {
+
+        if ($entry != "." && $entry != "..") {
+
+if( $counter==0){
+
+ 
+  echo "<div class='item  active '>
+  
+  <img src='sidebar1/$entry' class='img-responsive' alt='Responsive image'   >
+
+  </div>
+  ";
+  echo " ";
+  echo "";
+
+
+}
+else{
+
+  
+   
+  echo "<div class='item '>
+  
+  <img src='sidebar1/$entry' class='img-responsive' alt='Responsive image'   >
+
+  </div>
+  ";
+  echo " ";
+  echo "";
+  
+
+}
+$counter++;
+           
+        }
+    }
+
+    closedir($handle);
+}
 
 
 
 
+?>
+
+
+ 
  
            
 

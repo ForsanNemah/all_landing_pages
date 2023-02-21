@@ -39,7 +39,7 @@ $info = array(
     "form_sub1"=>"               ",
     "form_sub2"=>"      ",
 
-
+    "sidebar1_msg"=>"   عروض يوم التأسيس        ",
  
 
 
