@@ -5,7 +5,7 @@ $items = array();
 
 
 
-$handle = fopen("services/skin1.txt", "r");
+$handle = fopen("services/skin11.txt", "r");
 if ($handle) {
 $i=0;
     while (($line = fgets($handle)) !== false) {

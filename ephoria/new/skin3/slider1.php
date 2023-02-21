@@ -18,7 +18,7 @@
 
       <div class="item active">
         
-		<img src="ads/1.jpg"class="img-responsive" alt="Responsive image"   >
+		<img src="ads/3.jpg"class="img-responsive" alt="Responsive image"   >
 		
       </div>
 
