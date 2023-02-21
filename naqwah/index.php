@@ -130,7 +130,7 @@ if ($handle = opendir('logo')) {
   
   
   
-  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='300px' height='100px' >
+  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='200px' height='200px' >
   
   
   
@@ -579,7 +579,7 @@ var datetime = "" + currentdate.getDate() + "/"
                 //alert(datetime);
 
 
-                $("#includedContent").load("form_name_phn_type.php"); 
+                $("#includedContent").load("form_name_phn.php"); 
                 $("#slider1").load("slider1.php"); 
                 //$("#slider2").load("slider2.php"); 
                 $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
