@@ -45,7 +45,7 @@ $info = array(
 
 
 
- "sidebar1_msg"=>"  دلع نفسك معنا       ",
+ "sidebar1_msg"=>"   عروض يوم التأسيس     ",
  "sidebar2_msg"=>"  تجهيزات باحدث التقنيات     ",
  "sidebar3_msg"=>"     2  كادر طبي متميز       ",
 
