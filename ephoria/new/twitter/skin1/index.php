@@ -51,15 +51,7 @@
        
 		<script type="text/javascript" src="info.js"></script>
  
-<!-- Twitter conversion tracking event code -->
-<script type="text/javascript">
-  // Insert Twitter Event ID
-  twq('event', 'tw-odz2x-odz31', {
-    conversion_id: null, // use this to pass a unique ID for the conversion event for deduplication (e.g. order id '1a2b3c')
-    phone_number: null // phone number in E164 standard
-  });
-</script>
-<!-- End Twitter conversion tracking event code -->
+
     </head>
 
     <body  dir="rtl">
@@ -425,11 +417,51 @@ include 'info.php';
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/retina-1.1.0.min.js"></script>
         <script src="assets/js/scripts.js"></script>
-        
+  
         <!--[if lt IE 10]>
             <script src="assets/js/placeholder.js"></script>
         <![endif]-->
 
+
+
+
+
+
+
+
+
+<!-- Twitter conversion tracking base code -->
+<script>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+twq('config','odz2x');
+</script>
+<!-- End Twitter conversion tracking base code -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Twitter conversion tracking event code -->
+<script type="text/javascript">
+  // Insert Twitter Event ID
+  twq('event', 'tw-odz2x-odz31', {
+    conversion_id: null, // use this to pass a unique ID for the conversion event for deduplication (e.g. order id '1a2b3c')
+    phone_number: null // phone number in E164 standard
+  });
+</script>
+<!-- End Twitter conversion tracking event code -->
+
+          
     </body>
 
 </html>
