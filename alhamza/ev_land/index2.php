@@ -20,9 +20,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="public/image/favicon.png" type="image/gif" sizes="16x16">
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <title>Meswak Clinics</title>
+    <title>
+      
+  
+    <?php
+
+include 'info.php';
+
+ echo $info['website_title'];
+
+
+
+
+?>
+
+  
+  
+  </title>
     <style>
         /* WhatsApp Button */
 
@@ -83,7 +99,7 @@ if ($handle = opendir('logo')) {
   
   
   
-  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='350px' height='100px' >
+  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='100px' height='100px' >
   
   
   
@@ -116,7 +132,20 @@ if ($handle = opendir('logo')) {
 
 
 
-                        <h3 class="text-light" style="font-size:1.2em!important">أفضل رعاية طبية نقدمها لكم</h3>
+                        <h3 class="text-light" style="font-size:1.2em!important">
+                        
+                        <?php
+
+include 'info.php';
+
+ echo $info['ev_logo_name'];
+
+
+
+
+?>
+                      
+                      </h3>
                     </div>
                 </div>
             </div>
@@ -166,30 +195,69 @@ if ($handle = opendir('logo')) {
                     <div class="col-12 col-lg-6">
                         <div class="form">
                             <div class="appointment-form text-center">
-                                <form id="form" target="_self" onsubmit="return postToGoogle();" action="" autocomplete="off"  name="myform">
-                                    <p class="appointment-title text-light">املأ النموذج الآن</p>
-                                    <p class="appointment-title text-light" style="font-size:1.2em;direction:rtl">واحصل على العرض</p>
+                                <form id="form" role="form"      method="post" name="myform">
 
 
 
 
 
+                                    <p class="appointment-title text-light">     
+
+                                    <?php
+
+include 'info.php';
+
+ echo $info['ev_form_sub1'];
 
 
 
 
+?>
+                                    
+                                    </p>
+                                    <p class="appointment-title text-light" style="font-size:1.2em;direction:rtl">   
+                                  
+                                  
+                                  
+                                  
+                                    <?php
+
+include 'info.php';
+
+ echo $info['ev_form_sub2'];
 
 
 
 
-                                    <div class="col-xs-4 col-xs-offset-4" id="myloader"  hidden  >
+?>
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  </p>
+
+
+
+
+                                    <div class="appointment-form text-center" id="myloader"         >
 <div class="loader"></div> 
 </div>
 
-<div class="col-xs-4 col-xs-offset-4"  id="done_icon" hidden  >
-<img src="ads/done.gif" class="img-fluid" alt="Responsive image"   >
 
-</div>
+
+
+
+
+
+
+
+
+
+ 
 
 
 
@@ -219,14 +287,24 @@ if ($handle = opendir('logo')) {
                                     </div>
                                     <div class="form-group">
                                         <select name="type" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required>
-                                            <option value="عرض زراعة الأسنان">اختر الخدمة</option>
-                                            <option value="عرض زراعة الأسنان">عرض زراعة الأسنان</option>
-                                            <option value="عرض إبتسامة هوليود">عرض إبتسامة هوليود</option>
-                                            <option value="عرض تركيبات الأسنان">عرض تركيبات الأسنان</option>
-                                            <option value="عرض المعالجات">عروض حشوات ومعالجات</option>
-                                            <option value="عرض تقويم الاسنان">عرض تقويم الأسنان</option>
-                                            <option value="عرض تبييض الاسنان">عرض تبييض الاسنان</option>
-                                            <option value="خدمات اخرى">عروض اخرى</option>
+
+                                        <?php
+
+include 'info.php';
+
+
+
+
+foreach ($items as $key => $value) {
+
+echo "<option value='$value'>$value</option>";
+
+}
+?>
+
+
+
+
                                         </select>
                                     </div>
 
@@ -248,10 +326,29 @@ if ($handle = opendir('logo')) {
                     <div class="col-12 col-lg-6 passion">
                         <div class="text-center text-lg-right">
                             <h4 class="text-light">
-                                عالج اسنانك او جمّلها فابتسامتك ستجعلك تبدو دائما مذهلا
+                            <?php
+
+include 'info.php';
+
+ echo $info['lt_sub1'];
+
+
+
+
+?>
                             </h4>
                             <br />
-                            <p class="text-light" style="font-size: 1.2em; font-size: 1.2em; font-family: inherit !important ">تتوفر خدمة التقسيط على دفعات</p>
+                            <p class="text-light" style="font-size: 1.2em; font-size: 1.2em; font-family: inherit !important ">             <?php
+
+include 'info.php';
+
+ echo $info['lt_sub2'];
+
+
+
+
+?>
+             </p>
                         
                         </div>
                     </div>
@@ -304,7 +401,8 @@ $(document).ready(function () {
 
   //alert($("#source_id_form").val());
 
- 
+  var element = document.getElementById("myloader");
+        element.style.display = "none"
  
  
 
@@ -343,15 +441,16 @@ var datetime = "" + currentdate.getDate() + "/"
 
       const scriptURL = action_url
   const form = document.forms['myform']
-
+ 
   form.addEventListener('submit', e => {
 
     //waitingDialog.show();
     
-  
+    
 	$(':input[type=submit]').prop('disabled', true)
   $('#today').attr('value', datetime )
-  $("#myloader").show()
+  element.style.display = "block"
+  //alert("progress")
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => 
@@ -387,8 +486,8 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
 function google_response() {
-    $("#myloader").hide();
-    $("#done_icon").show();
+   
+    
      
     window.location.replace("https://wa.me/"+phn) ;
     

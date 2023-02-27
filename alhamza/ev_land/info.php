@@ -5,7 +5,7 @@ $items = array();
 
 
 
-$handle = fopen("services/alhamza_cars.txt", "r");
+$handle = fopen("services/asnan_services.txt", "r");
 if ($handle) {
 $i=0;
     while (($line = fgets($handle)) !== false) {
@@ -49,6 +49,37 @@ $info = array(
 
 
  
+    "ev_logo_name"=>"    
+    
+    أفضل رعاية طبية نقدمها لكم
+    ",
+
+
+    
+    "ev_form_sub1"=>"    
+    املأ النموذج الآن
+    
+    ",
+
+
+    "ev_form_sub2"=>"    
+    
+    واحصل على العرض
+    ",
+
+
+    
+    "lt_sub1"=>"    
+    
+    عالج اسنانك او جمّلها فابتسامتك ستجعلك تبدو دائما مذهلا
+    ",
+
+
+    "lt_sub2"=>"    
+    
+    تتوفر خدمة التقسيط على دفعات
+    ",
+
 
 
 
