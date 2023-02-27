@@ -31,7 +31,7 @@ $info = array(
 
     
 
-    "website_title"=>"   sultpro  ",
+    "website_title"=>"   Slut Pro  ",
      "sub1"=>"      الحمزة للسيارات  ",
     "sub2"=>"أفضل عروض شانجان - شانجان جديدة بأفضل سعر   
       ",
@@ -51,7 +51,7 @@ $info = array(
  
     "ev_logo_name"=>"    
     
-   Sult Pro
+    Slut Pro
     ",
 
 

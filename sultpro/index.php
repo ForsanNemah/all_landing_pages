@@ -390,17 +390,15 @@ include 'info.php';
         </div>
     </section>
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <p class="">© 2022 <a href="https://wmc-ksa.com/home/" class="copy"> شركة النافذة للتسويق الالكتروني</a></p>
-                    <p>.All rights reserved</p>
-                </div>
+    <footer class="page-footer font-small blue">
 
-            </div>
-        </div>
-    </footer>
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3">© 2022 جميع الحقوق محفوظة:
+  <a href="https://wmc-ksa.com/">  شركة النافذة للتسويق الالكتروني </a>
+</div>
+<!-- Copyright -->
+
+</footer>
 
     <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
     <!-- <script src="js/main.js"></script> -->
