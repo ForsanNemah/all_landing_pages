@@ -51,7 +51,7 @@ $info = array(
  
     "ev_logo_name"=>"    
     
-    Slut Pro
+   SultanPro
     ",
 
 
