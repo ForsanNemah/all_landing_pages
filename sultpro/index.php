@@ -99,7 +99,7 @@ if ($handle = opendir('logo')) {
   
   
   
-  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='100px' height='100px' >
+  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='300px' height='300px' >
   
   
   

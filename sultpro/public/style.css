@@ -8,8 +8,8 @@ body {
 }
 
 .logo {
-    padding-bottom: 10px;
-    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
     .logo img {
@@ -719,7 +719,7 @@ footer {
 }
 
 .bg-primary {
-    background-color: #5b9b3d !important;
+    background-color: #000000 !important;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {

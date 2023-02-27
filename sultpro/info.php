@@ -5,7 +5,7 @@ $items = array();
 
 
 
-$handle = fopen("services/asnan_services.txt", "r");
+$handle = fopen("services/sult_pro.txt", "r");
 if ($handle) {
 $i=0;
     while (($line = fgets($handle)) !== false) {
@@ -51,7 +51,7 @@ $info = array(
  
     "ev_logo_name"=>"    
     
-    أفضل رعاية طبية نقدمها لكم
+   Sult Pro
     ",
 
 
@@ -71,13 +71,17 @@ $info = array(
     
     "lt_sub1"=>"    
     
-    عالج اسنانك او جمّلها فابتسامتك ستجعلك تبدو دائما مذهلا
+كام الامان يحفظ لك حقك 
     ",
 
 
     "lt_sub2"=>"    
     
-    تتوفر خدمة التقسيط على دفعات
+   كاميرا امامية وخلفية ذات جودة ودقة عالية 
+
+                  فوركي
+   تسجيل امامي وخلفي 
+   مستشعر اكتشاف الحوادث او فرملة مفاجئة
     ",
 
 
