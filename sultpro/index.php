@@ -62,10 +62,79 @@ include 'info.php';
         }
     </style>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+       
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script type="text/javascript" src="info.js"></script>
 </head>
 <body>
   
+
+
+
+
+<div id="cta_whatsapp">
+ 
+
+
+</div>
+
+
+
+<div id="cta_call">
+ 
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div>
         
     </div>
@@ -162,6 +231,11 @@ include 'info.php';
 
    
 
+    <div id="count_down_counter">
+
+
+
+</div>
 
 
 
@@ -381,6 +455,72 @@ include 'info.php';
    <br>
    <br>
     <section>
+
+
+
+	<div class="how-it-works-container section-container section-container-gray-bg  "    >
+	        <div class="container">
+
+         
+	            <div class="row">
+
+
+               
+
+<div id="slider1"></div>
+           
+
+  </div>	 
+<br>
+
+  <div class="row">
+	                 
+
+                   <div id="slider2"></div>
+                              
+                   
+                     </div>	 
+
+
+                     <br>
+
+  <div class="row">
+	                 
+
+                   <div id="slider3"></div>
+                              
+                   
+                     </div>	 
+                   
+                   
+
+
+
+
+</div>
+ </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-12 text-center">
@@ -446,7 +586,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
                 //$("#includedContent").load("form_name_phn_type.php"); 
-               // $("#slider1").load("slider1.php"); 
+                $("#slider1").load("slider1.php"); 
                 //$("#slider2").load("slider2.php"); 
                // $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
              // $("#cta_call").load("cta/cta_call.php"); 
@@ -455,7 +595,7 @@ var datetime = "" + currentdate.getDate() + "/"
                // $("#includedContent").load("form_name_phn.php"); 
                 // $("#includedContent").load("form_only_whatsapp.php"); 
 				
-               // $("#count_down_counter").load("count_down.php");
+                $("#count_down_counter").load("count_down.php");
                 //$("#tabel_1").load("tabel_1.php"); 
  
     
