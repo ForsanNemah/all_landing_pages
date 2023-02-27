@@ -487,7 +487,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
 function google_response() {
    
-    
+    element.style.display = "none";
      
     window.location.replace("https://wa.me/"+phn) ;
     
