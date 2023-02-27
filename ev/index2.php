@@ -195,6 +195,19 @@ include 'info.php';
                     <div class="col-12 col-lg-6">
                         <div class="form">
                             <div class="appointment-form text-center">
+
+
+
+          
+
+<div class="container h-100 d-flex justify-content-center">
+<div class="appointment-title text-light" id="myloader"         >
+<div class="loader"></div> 
+</div>
+</div>
+
+
+
                                 <form id="form" role="form"      method="post" name="myform">
 
 
@@ -240,12 +253,6 @@ include 'info.php';
                                   
                                   </p>
 
-
-
-
-                                    <div class="appointment-form text-center" id="myloader"         >
-<div class="loader"></div> 
-</div>
 
 
 
