@@ -4,7 +4,7 @@
     frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0">
   </iframe>
 </div>
-
+<!--
 <div class="text-center">
 
 <h4>
@@ -28,4 +28,4 @@
 
 </div>
 
-
+-->
