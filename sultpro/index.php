@@ -394,7 +394,8 @@ include 'info.php';
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p class="">© 2022 <a href="https://wmc-ksa.com/home/" class="copy"> شركة النافذة للتسويق الالكتروني</a>.All rights reserved</p>
+                    <p class="">© 2022 <a href="https://wmc-ksa.com/home/" class="copy"> شركة النافذة للتسويق الالكتروني</a></p>
+                    <p>.All rights reserved</p>
                 </div>
 
             </div>
