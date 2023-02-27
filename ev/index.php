@@ -1,118 +1,87 @@
+
 <!DOCTYPE html>
-<html lang="ar">
-
-    <head>
-
- 
- 
-
-
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>
-
-
-		
-			<?php
-
-			include 'info.php';
-			
-			 echo $info['website_title'];
-			
-			
-			
-			
-			?>
-
-
-
-		</title>
-
-        <!-- CSS -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-       
-        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/media-queries.css">
-        
-       
-        
-
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-        <script type="text/javascript" src="pixel/snap.js"></script>
-        <!-- Favicon and touch icons -->
-       
-		<script type="text/javascript" src="info.js"></script>
- 
-  
-    </head>
-
-    <body  dir="rtl" id="all_body">
-		
-		<!-- Top menu -->
-		 
-
-
-  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="title" content="">
+    <meta property="description" content=" ">
+    <meta property="url" content=" ">
+    <meta property="site_name" content=" ">
+    <meta property="og:type" content="">
+    <meta property="og:title" content=" ">
+    <meta property="og:description" content=" ">
+    <meta property="og:url" content=" ">
+    <meta property="og:site_name" content=" ">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
- 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>
+      
+  
+    <?php
 
- 
+include 'info.php';
 
-
-
-
-
-
-
-
+ echo $info['website_title'];
 
 
 
 
+?>
+
+  
+  
+  </title>
+    <style>
+        /* WhatsApp Button */
+
+        .whatsApp {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 10px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .my-whatsApp {
+            margin-top: 9px;
+        }
+    </style>
+
+<script type="text/javascript" src="info.js"></script>
+</head>
+<body>
+  
+    <div>
+        
+    </div>
+    <!-- Header -->
+    <section class="container-fluid bg-primary head-nav">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6">
+                <div class="text-center header-logo">
+                    <div class="logo">
+                         
 
 
 
 
 
-
-
-
-
-<div id="cta_whatsapp">
- 
-
-
-</div>
-
-
-
-<div id="cta_call">
- 
-
-
-</div>
-
-
-
-		<div class="row">
-					<div  >
-
-
-
-				
-
-
-
-          <?php
+                        <?php
 
 
 if ($handle = opendir('logo')) {
@@ -130,7 +99,7 @@ if ($handle = opendir('logo')) {
   
   
   
-  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='350px' height='100px' >
+  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='100px' height='100px' >
   
   
   
@@ -163,69 +132,35 @@ if ($handle = opendir('logo')) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-						<h2 > 
-
-
-							<?php
-
-							include 'info.php';
-							
-							 echo $info['sub1'];
-							
-							
-							
-							
-							?>
-
-
-
-						</h2>
-						<div >
-							<h3>
-								 
-							<?php
+                        <h3 class="text-light" style="font-size:1.2em!important">
+                        
+                        <?php
 
 include 'info.php';
 
- echo $info['sub2'];
+ echo $info['ev_logo_name'];
 
 
 
 
 ?>
+                      
+                      </h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
 
 
 
-							</h3>
-
-
-              <div id="count_down_counter">
 
 
 
-</div>
-
-
-
-
-
-						</div>
-					</div>
-				</div>
-
-
+   
 
 
 
@@ -234,322 +169,252 @@ include 'info.php';
 
 
 
-
-
-
-
-
-
-
-
-
-				
-        <!-- Top content -->
-        <div class="top-content" >
-        	<div class="container"  dir="rtl">
-        	
-				
-
-				<div class="row">
-					<div class="col-sm-6 col-sm-offset-3 r-form-1-box wow fadeInUp">
-						<div  >
-
-						
-							<div >
-								<h4>
-
-
-
-
-			 
-								<?php
-
-include 'info.php';
-
- echo $info['form_sub1'];
-
-
-
-
-?>
-
-
-
-
-
-
-
-								</h4>
-								<h>
-
-
-
-								<?php
-
-include 'info.php';
-
- echo $info['form_sub2'];
-
-
-
-
-?>
-
-
-
-		</h>
-							</div>
-							 
-						</div>
+    <section class=" appointment">
+        <div class="appointment-section">
+            <div class="container">
 
 
             
-						<div class="r-form-1-bottom">
 
-            <div class="col-xs-4 col-xs-offset-4" id="myloader" hidden >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="form">
+                            <div class="appointment-form text-center">
+
+
+
+          
+
+<div class="container h-100 d-flex justify-content-center">
+<div class="appointment-title text-light" id="myloader"         >
 <div class="loader"></div> 
 </div>
+</div>
 
-<div class="col-xs-4 col-xs-offset-4"  id="done_icon" hidden>
-<img src="ads/done.gif" class="img-fluid" alt="Responsive image"   >
+
+<div class="container h-100 d-flex justify-content-center">
+
+<div class="appointment-title text-light"  id="done_icon"  >
+<img src="ads/done.gif" class="img-fluid" width='100px' height='100px' alt="Responsive image"   >
 
 </div>
 
-<br>
-<br>
-<br>
-<br>
-            <form id="includedContent" role="form"      method="post" name="myform">
+</div>
 
-           
+
+
+
+
+
+
+                                <form id="form" role="form"      method="post" name="myform">
+
+
+
+
+
+                                    <p class="appointment-title text-light">     
+
+                                    <?php
+
+include 'info.php';
+
+ echo $info['ev_form_sub1'];
+
+
+
+
+?>
+                                    
+                                    </p>
+                                    <p class="appointment-title text-light" style="font-size:1.2em;direction:rtl">   
+                                  
+                                  
+                                  
+                                  
+                                    <?php
+
+include 'info.php';
+
+ echo $info['ev_form_sub2'];
+
+
+
+
+?>
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  </p>
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 
- 
 
 
 
 
 
 
-     
-            </form>
-            
-       
-
-            
-
-
-            
-        
 
 
 
 
 
-							
-						</div>
-					</div>
-				</div>
-                
+
+
+
+
+
+
+
+                                    <div class="form-group">
+                                        <input name="name" type="text" class="form-control" placeholder="الاسم" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input name="phn" type="number" class="form-control" placeholder="رقم الهاتف" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <select name="type" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required>
+
+                                        <?php
+
+include 'info.php';
+
+
+
+
+foreach ($items as $key => $value) {
+
+echo "<option value='$value'>$value</option>";
+
+}
+?>
+
+
+
+
+                                        </select>
+                                    </div>
+
+
+
+
+
+                                    <div class="form-group"  hidden >
+    <label class="sr-only" for="r-form-1-email">date</label>
+    <input type="text" name="datetime" id="today" placeholder=" التاريخ  " class="r-form-1-email form-control" id="r-form-1-email"  >
+</div>
+
+
+                                    <button id="send" type="submit" class="btn submit-btn">اضغط للتسجيل</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 passion">
+                        <div class="text-center text-lg-right">
+                            <h4 class="text-light">
+                            <?php
+
+include 'info.php';
+
+ echo $info['lt_sub1'];
+
+
+
+
+?>
+                            </h4>
+                            <br />
+                            <p class="text-light" style="font-size: 1.2em; font-size: 1.2em; font-family: inherit !important ">             <?php
+
+include 'info.php';
+
+ echo $info['lt_sub2'];
+
+
+
+
+?>
+             </p>
+                        
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-		<div class="how-it-works-container section-container section-container-gray-bg  "    >
-	        <div class="container">
-
-         
-	            <div class="row">
-
-
-               
-
-<div id="slider1"></div>
-           
-
-  </div>	 
-<br>
-
-  <div class="row">
-	                 
-
-                   <div id="slider2"></div>
-                              
-                   
-                     </div>	 
-
-
-                     <br>
-
-  <div class="row">
-	                 
-
-                   <div id="slider3"></div>
-                              
-                   
-                     </div>	 
-                   
-                   
-
-
-
-
-</div>
- </div>
-</div>
-         
-
-
-
-
-
-
-
-
-
-			
-
-
-<div id="tabel_1">
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-	 
-
-
-
-				 
-	          
-
-
-
-
-
-
-
-
-
-        <!-- Features -->
-        
-
-		<!-- How it works -->
-        
-        
-        <!-- Testimonials -->
-       
-
-        <!-- FAQ -->
-       
-        
-        <!-- Footer -->
-		<footer class="page-footer font-small blue">
-
-<!-- Copyright -->
-<div class="footer-copyright text-center py-3">© 2022 جميع الحقوق محفوظة:
-  <a href="https://wmc-ksa.com/">  شركة النافذة للتسويق الالكتروني </a>
-</div>
-<!-- Copyright -->
-
-</footer>
-		 
-        <!-- Javascript -->
-        <script src="assets/js/jquery-1.11.1.min.js"></script>
+    </section>
+
+   <br>
+   <br>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-12 text-center">
+                    <a class="btn btn-primary" style="background-color: #1c3c49 " href="#form">  سجل الان </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="">© 2022 <a href="https://wmc-ksa.com/home/" class="copy"> شركة النافذة للتسويق الالكتروني</a>.All rights reserved</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
+    <!-- <script src="js/main.js"></script> -->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.backstretch.min.js"></script>
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/retina-1.1.0.min.js"></script>
         <script src="assets/js/scripts.js"></script>
         
-        <!--[if lt IE 10]>
-            <script src="assets/js/placeholder.js"></script>
-        <![endif]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
-    </body>
+    
+    <script>
 
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script>
-
- 
 $(document).ready(function () {
   //alert(ad_source);
 
@@ -557,8 +422,10 @@ $(document).ready(function () {
 
   //alert($("#source_id_form").val());
 
- 
- 
+  var element = document.getElementById("myloader");
+        element.style.display = "none"
+        var done_icon = document.getElementById("done_icon");
+        done_icon.style.display = "none"
  
 
 
@@ -579,8 +446,8 @@ var datetime = "" + currentdate.getDate() + "/"
                 //alert(datetime);
 
 
-                $("#includedContent").load("form_name_phn_type.php"); 
-                $("#slider1").load("slider1.php"); 
+                //$("#includedContent").load("form_name_phn_type.php"); 
+               // $("#slider1").load("slider1.php"); 
                 //$("#slider2").load("slider2.php"); 
                // $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
              // $("#cta_call").load("cta/cta_call.php"); 
@@ -589,22 +456,23 @@ var datetime = "" + currentdate.getDate() + "/"
                // $("#includedContent").load("form_name_phn.php"); 
                 // $("#includedContent").load("form_only_whatsapp.php"); 
 				
-                $("#count_down_counter").load("count_down.php");
-                $("#tabel_1").load("tabel_1.php"); 
+               // $("#count_down_counter").load("count_down.php");
+                //$("#tabel_1").load("tabel_1.php"); 
  
     
 
       const scriptURL = action_url
   const form = document.forms['myform']
-
+ 
   form.addEventListener('submit', e => {
 
     //waitingDialog.show();
     
-  
+    
 	$(':input[type=submit]').prop('disabled', true)
   $('#today').attr('value', datetime )
-  $("#myloader").show()
+  element.style.display = "block"
+  //alert("progress")
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => 
@@ -628,13 +496,13 @@ var datetime = "" + currentdate.getDate() + "/"
 
     
   function google_response() {
-    $("#myloader").hide();
-    $("#done_icon").show();
-     
-    window.location.replace("https://wa.me/"+phn) ;
+   
+   element.style.display = "none";
+   done_icon.style.display = "block"
     
-}
-				 
+   window.location.replace("https://wa.me/"+phn) ;
+   
+} 
 	
 });
 
@@ -647,6 +515,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
 
+			
 
 
 
@@ -659,27 +528,15 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
 
-
- 
-
-</script>
+    </script>
+</body>
+</html>
 
 
 <style>
 
 
-select {
-        height:50px;
-        line-height:50px;
-        width: 300px;
-        background:#f4f4f4;
-        
-    } 
-
-
-
-
-    .loader {
+.loader {
   border: 16px solid #f3f3f3;
   border-radius: 50%;
   border-top: 16px solid #3498db;
@@ -688,6 +545,7 @@ select {
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
 }
+
 
 /* Safari */
 @-webkit-keyframes spin {
@@ -699,12 +557,5 @@ select {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
- 
- 
-
-
-
-
- 
  
 </style>
