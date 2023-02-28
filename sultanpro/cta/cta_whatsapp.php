@@ -13,7 +13,7 @@
 
 
 
-<body>
+<body class="bg-light text-dark" >
 
 <!--
 <a href="https://api.whatsapp.com/send?phone="+phn+"" class="float" target="_blank">
@@ -38,11 +38,11 @@
 
 
 
-<div class="bg">
+<div     class="bg-dark">
 
 
 
-<form id="includedContent" role="form"      method="post" name="myform">
+<form id="includedContent" role="form"      method="post" name="myform"   >
 
            
  
