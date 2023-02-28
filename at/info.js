@@ -1,7 +1,7 @@
  
 
 
-var phn="966508377709";
+var phn="966532225808";
 var end_date="1-5-2022";
 var end_time="12:00";
 var ad_source="snap   ";
