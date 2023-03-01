@@ -6,9 +6,9 @@
 <hr>
 <?php
 
-
 ini_set('max_execution_time', 0);
 ini_set('memory_limit', '256M');
+$send_id=1;
 require('insert_c.php');
 require('phpmailer/index.php');
 require_once 'vendor/autoload.php';
@@ -116,9 +116,12 @@ foreach ( $cells as $value) {
  
 $value= trim($value);
 echo $value."<br>";
-echo $sender_email."<br>";
-echo $sender_pass."<br>";
-send_mail($value,$sender_email,$sender_pass);
+//echo $sender_email."<br>";
+//echo $sender_pass."<br>";
+//echo $value."<br>";
+echo send_mail($value,$sender_email,$sender_pass).$send_id."<br>";
+$send_id=$send_id+1;
+ sleep(2);
    
   }
 
