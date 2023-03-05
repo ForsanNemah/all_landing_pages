@@ -185,7 +185,7 @@ foreach ($reader->getSheetIterator() as $sheet) {
 
 
   
- if($send_id >=500){
+ if($send_id >=50){
   break;
 
 
@@ -202,7 +202,7 @@ foreach ($reader->getSheetIterator() as $sheet) {
 
 
 
-if($send_id >=500){
+if($send_id >=50){
   break;
 
 
@@ -268,7 +268,7 @@ $send_id=$send_id+1;
 
 
 
- if($send_id >=500){
+ if($send_id >=50){
   break;
 
 
