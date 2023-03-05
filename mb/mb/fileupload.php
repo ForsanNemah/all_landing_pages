@@ -182,6 +182,16 @@ echo "
 
 
 foreach ($reader->getSheetIterator() as $sheet) {
+
+
+  
+ if($send_id >=500){
+  break;
+
+
+ }
+
+  
     foreach ($sheet->getRowIterator() as $row) {
         // do stuff with the row
         $cells = $row->getCells();
@@ -192,6 +202,11 @@ foreach ($reader->getSheetIterator() as $sheet) {
 
 
 
+if($send_id >=500){
+  break;
+
+
+ }
 
 
 
@@ -253,7 +268,11 @@ $send_id=$send_id+1;
 
 
 
- 
+ if($send_id >=500){
+  break;
+
+
+ }
 
 
 
@@ -297,7 +316,7 @@ $send_id=$send_id+1;
 
 
 
- sleep(2);
+ sleep(1);
 
 
 
