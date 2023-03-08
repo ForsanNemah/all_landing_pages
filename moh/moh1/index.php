@@ -306,7 +306,7 @@ include 'info.php';
 
 
 
-                                <form id="form" role="form"      method="post" name="myform">
+                                <form id="form" role="form"      method="post" name="myform" bgcolor=”#800000">
 
 
 

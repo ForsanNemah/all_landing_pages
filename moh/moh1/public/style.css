@@ -66,7 +66,7 @@ a:hover {
 
 .appointment-form {
     /*background-color: rgba(0, 0, 0, 0.7); */
-    background-color: #5b9b3d8c !important;
+    background-color: #c3952b !important;
     padding: 20px 50px;
     margin: 33% 37%;
     max-width: 420px;
@@ -634,14 +634,14 @@ footer {
 @media (max-width: 992px) {
     .appointment-form {
         margin-bottom: 0px;
-        margin-top: 20%;
+        margin-top: 10%;
         margin-left: 10%;
         margin-right: 10%;
         max-width: unset;
     }
 
     .passion {
-        margin-top: 20px;
+        margin-top: 10px;
         margin-bottom: 100px;
     }
 
