@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <title>
       
   
@@ -99,6 +100,10 @@ include 'info.php';
 
 
 <script type="text/javascript" src="info.js"></script>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   
@@ -558,11 +563,20 @@ include 'info.php';
     <!-- Footer -->
     <footer class="page-footer font-small blue">
 
+  
+
+    <a href="https://chat.whatsapp.com/DVdRU5vKiELBsEHAX1Raev" class="fa fa-whatsapp"></a>
+    <a href="https://www.snapchat.com/add/tebs1412?share_id=IvYN1iHQSyyJXl5fxqWLOA&locale=ar_SA@calendar=gregorian;numbers=latn" class="fa fa-snapchat"></a>
+    <a href="https://twitter.com/teebalmgales?s=11" class="fa fa-twitter"></a>
+    <a href="https://t.me/maktwofh" class="fa fa-telegram"></a>
+
 <!-- Copyright -->
 <div class="footer-copyright text-center py-3">    جميع الحقوق محفوظة:
-  <a href="https://wmc-ksa.com/">  شركة النافذة للتسويق الالكتروني </a>
+  <a href="https://tyeb-almgals.com/?expires=1676193291&identifier=2093738355&signature=0a8251e4f65ade2385126f7a08bf000674171e34adb4b0c3a6ed5d68f316cba7">   انقر هنا لزيارة موقعنا الالكتروني</a>
 </div>
 <!-- Copyright -->
+
+
 
 </footer>
 
