@@ -100,6 +100,7 @@ include 'info.php';
 
 <script type="text/javascript" src="info.js"></script>
 <!-- Snap Pixel Code -->
+ <!-- Snap Pixel Code -->
 <script type='text/javascript'>
 (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
 {a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
@@ -108,13 +109,14 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', 'faa8ed25-5594-44b8-a7e4-9b3ad3c4e9e3', {
+snaptr('init', 'a78b4f80-9008-4cc4-a787-c37eaf029d15', {
 'user_email': '_INSERT_USER_EMAIL_'
 });
 
 snaptr('track', 'PAGE_VIEW');
 
 </script>
+<!-- End Snap Pixel Code -->
 <!-- End Snap Pixel Code -->
 </head>
 <body>
