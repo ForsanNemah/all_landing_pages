@@ -407,6 +407,17 @@ include 'info.php';
                                     <div class="form-group">
                                         <input name="phn" type="number" class="form-control" placeholder="رقم الهاتف" required>
                                     </div>
+
+
+
+                                    <div class="form-group"  hidden >
+    <label class="sr-only" for="r-form-1-email">source</label>
+    <input type="text" name="source" id="source_id"  value="1" class="r-form-1-email form-control" id="r-form-1-email"  >
+</div>
+
+
+
+
                                     <div class="form-group">
                                         <select name="type" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required>
 
