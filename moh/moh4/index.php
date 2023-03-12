@@ -97,7 +97,7 @@ include 'info.php';
 
 
 
-
+        <script type="text/javascript" src="info.js"></script>
         <script type='text/javascript'>
 (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
 {a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};

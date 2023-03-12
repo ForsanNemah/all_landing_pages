@@ -95,7 +95,7 @@ include 'info.php';
 
 
 
-
+        <script type="text/javascript" src="info.js"></script>
 
 
         <script type='text/javascript'>
