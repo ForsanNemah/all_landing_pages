@@ -63,12 +63,12 @@ a:hover {
     background: rgba(0, 0, 0, 0.6);
     height: 550px;
 }
-
+/*for settings*/
 .appointment-form {
     /*background-color: rgba(0, 0, 0, 0.7); */
     background-color: #a12289 !important;
-    padding: 20px 50px;
-    margin: 33% 37%;
+    padding: 10px 10px;
+    margin: 5% 37%;
     max-width: 420px;
     margin-right: 0px;
     margin-left: 0px;
@@ -634,7 +634,7 @@ footer {
 @media (max-width: 992px) {
     .appointment-form {
         margin-bottom: 0px;
-        margin-top: 10%;
+        margin-top: 5%;
         margin-left: 10%;
         margin-right: 10%;
         max-width: unset;

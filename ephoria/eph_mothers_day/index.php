@@ -428,8 +428,8 @@ echo  $ad_source;
 
 
 
-                                    <div class="form-group">
-                                        <select name="type" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required>
+                                    <div class="form-group ">
+                                        <select name="type" id="servicerb" class="form-control" aria-label="عرض زراعة الأسنان" required>
 
                                         <?php
 

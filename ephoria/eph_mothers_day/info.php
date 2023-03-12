@@ -22,7 +22,7 @@ try {
 
 
 
-$handle = fopen("services/asnan_services.txt", "r");
+$handle = fopen("services/ephoria_tagmeel_services.txt", "r");
 if ($handle) {
 $i=0;
     while (($line = fgets($handle)) !== false) {
