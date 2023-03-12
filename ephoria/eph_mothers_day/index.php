@@ -123,7 +123,7 @@ snaptr('track', 'PAGE_VIEW');
 
 
 <div 
-class="bg-dark  "
+class="bg-light  "
 >
 <div id="cta_whatsapp" >
  
@@ -228,7 +228,7 @@ if ($handle = opendir('logo')) {
 
 
 
-                        <h3 class="text-light" style="font-size:1.2em!important">
+                        <h3 class="text-dark" style="font-size:1.2em!important">
                         
                         <?php
 
@@ -411,7 +411,7 @@ include 'info.php';
 
 
 
-                                    <div class="form-group">
+                                    <div class="form-group" hidden>
                                         <input name="source" type="text" class="form-control"    value="<?php
            require('info.php');
 //echo "wwe";

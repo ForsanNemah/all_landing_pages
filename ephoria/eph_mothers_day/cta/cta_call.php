@@ -13,7 +13,7 @@
 
 
 
-<body class="bg-dark  ">
+<body class="  ">
 
 <!--
 <a href="https://api.whatsapp.com/send?phone="+phn+"" class="float" target="_blank">

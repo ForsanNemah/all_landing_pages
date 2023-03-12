@@ -38,7 +38,7 @@
 
 
 
-<div     class="bg-dark">
+<div     class="">
 
 
 
