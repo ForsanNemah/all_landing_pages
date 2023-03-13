@@ -1,4 +1,4 @@
-<h2>عروض بداية العام 2023</h2>
+<h2>عروض    يوم العلم  2023</h2>
 <br>
  
 
@@ -22,78 +22,36 @@
 		
       </div>
 
-      <div class="item  ">
-        
-        <img src="ads/2.jpeg"class="img-responsive" alt="Responsive image"   >
-        
-          </div>
+      
 
           
 
-          <div class="item  ">
         
-        <img src="ads/3.jpeg"class="img-responsive" alt="Responsive image"   >
+
+
         
-          </div>
 
 
 
-          <div class="item  ">
+
+       
+
+
+
+
+
+
         
-        <img src="ads/4.jpeg"class="img-responsive" alt="Responsive image"   >
-        
-          </div>
-
-
-
-
-          <div class="item  ">
-        
-        <img src="ads/5.jpeg"class="img-responsive" alt="Responsive image"   >
-        
-          </div>
-
-
-
-
-
-
-          <div class="item  ">
-        
-        <img src="ads/6.jpeg"class="img-responsive" alt="Responsive image"   >
-        
-          </div>
            
+ 
 
-          <div class="item  ">
+
         
-        <img src="ads/7.jpeg"class="img-responsive" alt="Responsive image"   >
+
+
+ 
+
         
-          </div>
-
-
-
-          <div class="item  ">
-        
-        <img src="ads/8.jpeg"class="img-responsive" alt="Responsive image"   >
-        
-          </div>
-
-
-
-
-          <div class="item  ">
-        
-        <img src="ads/9.jpeg"class="img-responsive" alt="Responsive image"   >
-        
-          </div>
-
-
-          <div class="item  ">
-        
-        <img src="ads/10.jpeg"class="img-responsive" alt="Responsive image"   >
-        
-          </div>
     
        
 
