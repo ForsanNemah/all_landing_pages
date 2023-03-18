@@ -51,7 +51,49 @@
        
 		<script type="text/javascript" src="info.js"></script>
  
-    <script type="text/javascript" src="pixel/snap.js"></script>
+
+
+
+
+
+<!-- Snap Pixel Code -->
+<script type='text/javascript'>
+(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
+{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
+a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
+r.src=n;var u=t.getElementsByTagName(s)[0];
+u.parentNode.insertBefore(r,u);})(window,document,
+'https://sc-static.net/scevent.min.js');
+
+snaptr('init', 'd9fdd2d7-7075-4d8c-a359-ed7129b79379', {
+'user_email': '_INSERT_USER_EMAIL_'
+});
+
+snaptr('track', 'PAGE_VIEW');
+
+</script>
+<!-- End Snap Pixel Code -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </head>
 
     <body  dir="rtl">
