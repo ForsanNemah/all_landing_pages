@@ -8,6 +8,7 @@
 <div class="container">
   <h2> Our Clients</h2>
    <section class="customer-logos slider">
+    <!--
       <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
       <div class="slide"><img src="http://www.webcoderskull.com/img/logo.png"></div>
       <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
@@ -17,6 +18,56 @@
       <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
       <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
       <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
+
+-->
+
+
+
+      <?php
+
+
+if ($handle = opendir('assets/customers/')) {
+ 
+
+    while (false !== ($entry = readdir($handle))) {
+
+        if ($entry != "." && $entry != "..") {
+
+
+
+        echo "<div class='slide'><img src='assets/customers/$entry'></div> ";
+
+
+ 
+ 
+ 
+           
+        }
+    }
+
+    closedir($handle);
+}
+
+
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    </section>
    
  

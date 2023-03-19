@@ -21,11 +21,7 @@
 		
       </div>
 
-      <div class="item  ">
-        
-        <img src="ads/dr2.jpg"class="img-responsive" alt="Responsive image"   >
-        
-          </div>
+    
 
          
 
