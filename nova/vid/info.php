@@ -2,7 +2,7 @@
 error_reporting(E_ERROR | E_PARSE);
 
  
-$ad_source="snap";
+$ad_source="snap vid 1";
 
 $logo_h='100px';
 $logo_w='20px';
