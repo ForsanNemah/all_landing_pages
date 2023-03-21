@@ -4,6 +4,7 @@
 
 <?php
 include('header.php');
+include('w_app.php');
 ?>
 <body>
 
@@ -11,182 +12,21 @@ include('header.php');
 <!-- End Property Search Section -->>
 
   <!-- ======= Header/Navbar ======= -->
-  <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
-    <div class="container">
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <a class="navbar-brand text-brand" href="index.html">Khalid <span class="color-b">Art</span></a>
+ <!-- End Header/Navbar -->
+ <?php
 
-      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
-        <ul class="navbar-nav">
-
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link " href="about.html">About</a>
-          </li>
-
-         
-
-          
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Departments</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item " href="property-single.html">Khalid Art for ...</a>
-              <a class="dropdown-item " href="blog-single.html">Khalid Art for ...</a>
-              <a class="dropdown-item " href="agents-grid.html">Khalid Art for ...</a>
-            
-            </div>
-          </li>
+include('nav.php');
 
 
-
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our work </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item " href="property-single.html">Khalid Art for ...</a>
-              <a class="dropdown-item " href="blog-single.html">Khalid Art for ...</a>
-              <a class="dropdown-item " href="agents-grid.html">Khalid Art for ...</a>
-            
-            </div>
-          </li>
-
-
-
-
-
-
-
-
-          <li class="nav-item">
-            <a class="nav-link " href="contact.html">Our Customers</a>
-          </li>
-
-
-          <li class="nav-item">
-            <a class="nav-link " href="contact.html">Contact</a>
-          </li>
-
-
-
-
-
-        </ul>
-      </div>
-
-  
-    </div>
-  </nav><!-- End Header/Navbar -->
+?>
 
   <!-- ======= Intro Section ======= -->
-  <div class="intro intro-carousel swiper position-relative">
+ <?php
 
-    <div class="swiper-wrapper">
-
-      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(assets/img/slide-1.jpg)">
-        <div class="overlay overlay-a"></div>
-        <div class="intro-content display-table">
-          <div class="table-cell">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8">
-                  <div class="intro-body">
-                    <p class="intro-title-top">Damam, KSA
-                      <br> 78345
-                    </p>
-                    <h1 class="intro-title mb-4 ">
-                      <span class="color-b">  </span> Kkalid Art for 
-                      <br> ........
-                    </h1>
-                    <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">Contact us</span></a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
- 
-     
+include('images_slider.php');
 
 
-
-
-      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(assets/img/slide-2.jpg)">
-        <div class="overlay overlay-a"></div>
-        <div class="intro-content display-table">
-          <div class="table-cell">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8">
-                  <div class="intro-body">
-                    <p class="intro-title-top">Damam, KSA
-                      <br> 78345
-                    </p>
-                    <h1 class="intro-title mb-4 ">
-                      <span class="color-b">  </span> Kkalid Art for 
-                      <br> ........
-                    </h1>
-                    <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">Contact us</span></a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
- 
-
-
-
-
-      <div class="swiper-slide carousel-item-a intro-item bg-image" style="background-image: url(assets/img/slide-3.jpg)">
-        <div class="overlay overlay-a"></div>
-        <div class="intro-content display-table">
-          <div class="table-cell">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8">
-                  <div class="intro-body">
-                    <p class="intro-title-top">Damam, KSA
-                      <br> 78345
-                    </p>
-                    <h1 class="intro-title mb-4 ">
-                      <span class="color-b">  </span> Kkalid Art for 
-                      <br> ........
-                    </h1>
-                    <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">Contact us</span></a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
- 
-
-      
-
-
-
-
-
-    </div>
-    <div class="swiper-pagination"></div>
-  </div><!-- End Intro Section -->
+?>
 
   <main id="main">
 
@@ -197,180 +37,14 @@ include('header.php');
 
 
 <!-- About 1 - Bootstrap Brain Component -->
-<section class="bg-light py-5 py-xl-8">
-  <div class="container">
-    <div class="row gy-5 gy-lg-0 gx-lg-6 gx-xxl-8 align-items-lg-center">
-      <div class="col-12 col-lg-5">
-        <img class="img-fluid rounded" loading="lazy" src="./assets/img/about.jpeg" alt="">
-      </div>
-      <div class="col-12 col-lg-7">
-        <h2 class="h1 mb-3">Who Are We?</h2>
-        <p class="lead fs-4 text-secondary mb-3">
-          
-        
-        Khaled Art Company has a different perspective on the world of interior design in living the reality of design with VR
-'technology where the customer can see what was designed as a live reality in one of the halls, specially designed in (haled Art decorations and designs showroom, as a company that extends its roots for more than 10 years for different activities that met and solidified under one roof (Khaled Art)	I
-It is a registered trademark and a continuous business circle to meet your needs and simulate your world and keep up with development in the live image in front of you with trained technical staff, production lines and the latest devices where we believe that you deserve the best, plus we love the impossible and satisfied only being at the top
 
+<?php
 
 
+include('about.php');
 
 
-
-      </p>
-
-
-
-
-        <p class="mb-5">
-          
- 
-      
-      
-      
-      
-      
-      
-      </p>
-        <div class="row gy-5 gy-md-0 gx-xxl-5">
-          <div class="col-12 col-md-6">
-            <div class="d-flex">
-               
-              <div>
-                <h4 class="mb-3">	Khaled Art showroom</h4>
-                <p class="text-secondary mb-0">
-
-                includes our factories products plus decorative global products of all kinds, in addition to fabrics and curtains
-                
-                
-                </p>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-12 col-md-6">
-            <div class="d-flex">
-             
-              <div>
-                <h4 class="mb-3">Khaled Art Modern Design Office </h4>
-                <p class="text-secondary mb-0">
-
-                Office (Design-Execution-Supervision) is located in the company's first floor showroom and contains special rooms equipped with the latest VR technology to experience the reality of design with our designers engineers.
-                
-                
-                </p>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-
-          <div class="col-12 col-md-6">
-            <div class="d-flex">
-             
-              <div>
-                <h4 class="mb-3">	Khaled Art Wooden Products Factory</h4>
-                <p class="text-secondary mb-0">
-                  
-                We believe in innovation by integrating primary with elaborate ideas.
-              
-              
-              </p>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-          <div class="col-12 col-md-6">
-            <div class="d-flex">
-             
-              <div>
-                <h4 class="mb-3">Khaled Art Factory for Glass, Aluminum and Iron Works </h4>
-                <p class="text-secondary mb-0">
-                  
-                Cladding, Skylight, Glass Facades, Structure works & Shades
-              
-              
-              </p>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-
-
-
-
-          <div class="col-12 col-md-6">
-            <div class="d-flex">
-             
-              <div>
-                <h4 class="mb-3">Khaled Art Cement Factory</h4>
-                <p class="text-secondary mb-0">
-                  
-                Gypsum, tiles, bricks, garden chairs, agricultural ponds, various concrete products for 
-              
-              
-              </p>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+?>
 
 
 
@@ -402,83 +76,44 @@ include('customers.php');
      <!-- End Latest News Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section class="section-testimonials section-t8 nav-arrow-a">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="title-wrap d-flex justify-content-between">
-              <div class="title-box">
-                <h2 class="title-a">Testimonials</h2>
-              </div>
-            </div>
-          </div>
-        </div>
+ <!-- End Testimonials Section -->
 
-        <div id="testimonial-carousel" class="swiper">
-          <div class="swiper-wrapper">
 
-            <div class="carousel-item-a swiper-slide">
-              <div class="testimonials-box">
-                <div class="row">
-                  <div class="col-sm-12 col-md-6">
-                    <div class="testimonial-img">
-                      <img src="assets/img/testimonial-1.jpg" alt="" class="img-fluid">
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-6">
-                    <div class="testimonial-ico">
-                      <i class="bi bi-chat-quote-fill"></i>
-                    </div>
-                    <div class="testimonials-content">
-                      <p class="testimonial-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium
-                        debitis hic ber quibusdam
-                        voluptatibus officia expedita corpori.
-                      </p>
-                    </div>
-                    <div class="testimonial-author-box">
-                      <img src="assets/img/mini-testimonial-1.jpg" alt="" class="testimonial-avatar">
-                      <h5 class="testimonial-author">Albert & Erika</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End carousel item -->
 
-            <div class="carousel-item-a swiper-slide">
-              <div class="testimonials-box">
-                <div class="row">
-                  <div class="col-sm-12 col-md-6">
-                    <div class="testimonial-img">
-                      <img src="assets/img/testimonial-2.jpg" alt="" class="img-fluid">
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-6">
-                    <div class="testimonial-ico">
-                      <i class="bi bi-chat-quote-fill"></i>
-                    </div>
-                    <div class="testimonials-content">
-                      <p class="testimonial-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium
-                        debitis hic ber quibusdam
-                        voluptatibus officia expedita corpori.
-                      </p>
-                    </div>
-                    <div class="testimonial-author-box">
-                      <img src="assets/img/mini-testimonial-2.jpg" alt="" class="testimonial-avatar">
-                      <h5 class="testimonial-author">Pablo & Emma</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End carousel item -->
 
-          </div>
-        </div>
-        <div class="testimonial-carousel-pagination carousel-pagination"></div>
 
-      </div>
-    </section><!-- End Testimonials Section -->
+ <?php
+
+
+include('testi.php');
+
+
+?>
+
+
+
+
+
+    <?php
+
+
+include('contact_us_section.php');
+
+
+?>
+
+
+
+
+ 
+
+
+
+
+
+
+
+
 
   </main><!-- End #main -->
 

@@ -5,7 +5,12 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
-<div class="container">
+<div class="container" id="customers">
+    <br>
+    <br>
+    <br>
+    <br>
+    
   <h2> Our Clients</h2>
    <section class="customer-logos slider">
     <!--

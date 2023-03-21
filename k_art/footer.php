@@ -34,14 +34,16 @@
             <div class="w-body-a">
               <div class="w-body-a">
                 <ul class="list-unstyled">
+
+
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Limited Khalid Art Company </a>
+                    <i class="bi bi-chevron-right"></i> <a href="#"> General contracting and interior design </a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Legal</a>
+                    <i class="bi bi-chevron-right"></i> <a href="#"> the manufacture of wood</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Agent Admin</a>
+                    <i class="bi bi-chevron-right"></i> <a href="#"> real estate sales</a>
                   </li>
 
 
@@ -60,15 +62,17 @@
             </div>
             <div class="w-body-a">
               <ul class="list-unstyled">
-                <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">Venezuela</a>
-                </li>
-                <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">China</a>
-                </li>
-                <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">Hong Kong</a>
-                </li>
+
+
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i> <a href="#"> General contracting and interior design </a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i> <a href="#"> the manufacture of wood</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i> <a href="#"> real estate sales</a>
+                  </li>
 
 
                
@@ -91,10 +95,10 @@
           <nav class="nav-footer">
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="#">Home</a>
+                <a href="index.php">Home</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               
                
@@ -103,34 +107,74 @@
               </li>
             </ul>
           </nav>
+
+
+
+          
           <div class="socials-a">
+
+
+
             <ul class="list-inline">
+
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="bi bi-facebook" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
+                <a href="https://twitter.com/kART_realestate">
                   <i class="bi bi-twitter" aria-hidden="true"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.instagram.com/khalidart_realestate/">
                   <i class="bi bi-instagram" aria-hidden="true"></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="bi bi-linkedin" aria-hidden="true"></i>
-                </a>
-              </li>
             </ul>
+
+
+            <ul class="list-inline">
+
+<li class="list-inline-item">
+  <a href="https://twitter.com/khalidArtsa">
+    <i class="bi bi-twitter" aria-hidden="true"></i>
+  </a>
+</li>
+<li class="list-inline-item">
+  <a href="https://www.instagram.com/khalidart.sa/">
+    <i class="bi bi-instagram" aria-hidden="true"></i>
+  </a>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+<ul class="list-inline">
+
+<li class="list-inline-item">
+  <a href="https://twitter.com/kART_realestate">
+    <i class="bi bi-twitter" aria-hidden="true"></i>
+  </a>
+</li>
+<li class="list-inline-item">
+  <a href="https://www.instagram.com/khalidart_realestate/">
+    <i class="bi bi-instagram" aria-hidden="true"></i>
+  </a>
+</li>
+</ul>
+
+
           </div>
+
+
+
           <div class="copyright-footer">
             <p class="copyright color-text-a">
               &copy; Copyright
-              <span class="color-a">EstateAgency</span> All Rights Reserved.
+              <span class="color-a">Khalid Art</span> All Rights Reserved.
             </p>
           </div>
           <div class="credits">
@@ -140,7 +184,7 @@
             Licensing information: https://bootstrapmade.com/license/
             Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=EstateAgency
           -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a href="https://wmc-ksa.com/">Window for Marketing </a>
           </div>
         </div>
       </div>
