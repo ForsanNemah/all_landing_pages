@@ -1,13 +1,49 @@
 <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
     <div class="container">
+
+ 
+   
+
+
+
+
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
         <span></span>
       </button>
-      <a class="navbar-brand text-brand" href="index.html">Khalid <span class="color-b">Art</span></a>
+    
+
+
+
+      
+      <a class="navbar-brand" href="#">
+      <img src="assets/logo.png" width="330" height="60" alt="MDB Logo"
+        loading="lazy" />
+    </a>
+
+
+    <!-- 
+
+
+      <a class="navbar-brand text-brand" href="index.php">
+        
+  
+      
+      
+      
+      Khalid <span class="color-b">Art</span></a>
+     -->
+ 
+    
+
+
+
+
 
       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+
+
         <ul class="navbar-nav">
 
           <li class="nav-item">
@@ -23,7 +59,7 @@
 
          
           <li class="nav-item">
-            <a class="nav-link " href="#customers">Our Customers</a>
+            <a class="nav-link " href="#customers">Customers</a>
           </li>
 
           
