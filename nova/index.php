@@ -117,7 +117,7 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', '58c747a3-b470-4eea-86e8-635560082414', {
+snaptr('init', '424b1364-2fb9-4007-9b24-4da2fe656d90', {
 'user_email': '_INSERT_USER_EMAIL_'
 });
 
