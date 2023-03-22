@@ -1,4 +1,10 @@
-<nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
 
  
@@ -41,12 +47,12 @@
 
 
 
-      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+      <div class="collapse navbar-collapse" id="navbarDefault">
 
 
-        <ul class="navbar-nav">
+        <ul class="navbar-nav me-auto ">
 
-          <li class="nav-item">
+          <li class="nav-item" >
             <a class="nav-link active" href="index.php">Home</a>
           </li>
 
@@ -58,8 +64,8 @@
           </li>
 
          
-          <li class="nav-item">
-            <a class="nav-link " href="#customers">Customers</a>
+          <li class="nav-item"    >
+            <a class="nav-link " href="#customers"   >Customers</a>
           </li>
 
           
@@ -130,3 +136,5 @@
   
     </div>
   </nav>
+
+

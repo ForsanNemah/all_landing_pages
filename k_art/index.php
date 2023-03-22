@@ -9,7 +9,7 @@ include('w_app.php');
 <body>
 
   <!-- ======= Property Search Section ======= -->
-<!-- End Property Search Section -->>
+<!-- End Property Search Section -->
 
   <!-- ======= Header/Navbar ======= -->
  <!-- End Header/Navbar -->
@@ -133,6 +133,9 @@ include('footer.php');
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+
 
 </body>
 

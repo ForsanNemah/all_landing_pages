@@ -1,10 +1,10 @@
-<section class="bg-light py-5 py-xl-8" id="about">
+<section class="bg-light py-5 py-xl-8" >
   <div class="container">
     <div class="row gy-5 gy-lg-0 gx-lg-6 gx-xxl-8 align-items-lg-center">
       <div class="col-12 col-lg-5">
         <img class="img-fluid rounded" loading="lazy" src="./assets/img/about.jpeg" alt="">
       </div>
-      <div class="col-12 col-lg-7">
+      <div class="col-12 col-lg-7" id="about">
         <br>
         <br>
         <br>
