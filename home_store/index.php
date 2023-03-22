@@ -36,8 +36,6 @@ include 'info.php';
 
 ?>
 
-
-
   
   
   </title>
@@ -131,16 +129,7 @@ include 'info.php';
 <body>
   
 
-<?php
 
-//include 'w_app.php';
-
- 
-
-
-
-
-?>
 
 <div 
 class="bg-light  "
@@ -215,7 +204,7 @@ if ($handle = opendir('logo')) {
   
   
   
-  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='200px' height='150px' >
+  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='150px' height='150px' >
   
   
   
@@ -276,61 +265,6 @@ include 'info.php';
 
 
 
-
-	<div class="how-it-works-container section-container section-container-gray-bg  "    >
-	        <div class="container">
-
-         
-	            <div class="row">
-
-
-               
-
-<div id="slider1"></div>
-           
-
-  </div>	 
-<br>
-
-  <div class="row">
-	                 
-
-                   <div id="slider2"></div>
-                              
-                   
-                     </div>	 
-
-
-                     <br>
-
-  <div class="row">
-	                 
-
-                   <div id="slider3"></div>
-                              
-                   
-                     </div>	 
-                   
-                   
-
-
-
-
-</div>
- </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
    
 
     <div id="count_down_counter">
@@ -345,7 +279,7 @@ include 'info.php';
 
 
 
-    <section class=" appointment" hidden>
+    <section class=" appointment">
         <div class="appointment-section">
             <div class="container">
 
@@ -383,7 +317,7 @@ include 'info.php';
 </div>
 
 
-<div class="container h-100 d-flex justify-content-center" >
+<div class="container h-100 d-flex justify-content-center">
 
 <div class="appointment-title text-light"  id="done_icon"  >
 <img src="ads/done.gif" class="img-fluid" width='100px' height='100px' alt="Responsive image"   >
@@ -398,7 +332,7 @@ include 'info.php';
 
 
 
-                                <form id="form" role="form"      method="post" name="myform" bgcolor=”#800000" >
+                                <form id="form" role="form"      method="post" name="myform" bgcolor=”#800000">
 
 
 
@@ -475,26 +409,17 @@ include 'info.php';
 
 
 
-                                    <div class="form-group">
-                                        <input name="name" type="text" class="form-control" placeholder="الاسم" required>
+                                    <div class="form-group" hidden >
+                                        <input name="name" type="text" class="form-control" value="وتساب 1" placeholder="الاسم" required>
                                     </div>
 
-                                    <div class="form-group">
-                                        <input name="phn" type="number" class="form-control" placeholder="رقم الهاتف" required>
-                                    </div>
+                                   
+
+                                   
+                                   
 
 
-
-
-                                    <div class="form-group" hidden>
-                                        <input name="source" type="text" class="form-control"    value="<?php
-           require('info.php');
-//echo "wwe";
- 
-echo  $ad_source;
-
-?>">
-                                    </div>
+                          
 
 
 
@@ -502,29 +427,7 @@ echo  $ad_source;
 
 
 
-
-                                    <div class="form-group ">
-                                        <select name="type" id="servicerb" class="form-control" aria-label="عرض زراعة الأسنان" required>
-
-                                        <?php
-
-include 'info.php';
-
-
-
-
-foreach ($items as $key => $value) {
-
-echo "<option value='$value'>$value</option>";
-
-}
-?>
-
-
-
-
-                                        </select>
-                                    </div>
+                                  
 
 
 
@@ -536,7 +439,22 @@ echo "<option value='$value'>$value</option>";
 </div>
 
 
-                                    <button id="send" type="submit" class="btn submit-btn">اضغط للتسجيل</button>
+                                    <button id="send" type="submit" class="btn submit-btn ">
+                                        
+                                    اطلب من هنا 1
+
+
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+  <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+</svg>
+
+
+
+
+
+                                    
+                                    </button>
                                 </form>
                             </div>
                         </div>
@@ -580,7 +498,49 @@ include 'info.php';
     <section>
 
 
- 
+
+	<div class="how-it-works-container section-container section-container-gray-bg  "    >
+	        <div class="container">
+
+         
+	            <div class="row">
+
+
+               
+
+<div id="slider1"></div>
+           
+
+  </div>	 
+<br>
+
+  <div class="row">
+	                 
+
+                   <div id="slider2"></div>
+                              
+                   
+                     </div>	 
+
+
+                     <br>
+
+  <div class="row">
+	                 
+
+                   <div id="slider3"></div>
+                              
+                   
+                     </div>	 
+                   
+                   
+
+
+
+
+</div>
+ </div>
+</div>
 
 
 
@@ -612,7 +572,9 @@ include 'info.php';
     </section>
     <!-- Footer -->
     <footer class="page-footer font-small blue">
-
+    <div class="footer-copyright text-center py-3">     
+<h>0594741068</h>
+</div>
 <!-- Copyright -->
 <div class="footer-copyright text-center py-3">    جميع الحقوق محفوظة:
   <a href="https://wmc-ksa.com/">  شركة النافذة للتسويق الالكتروني </a>
@@ -669,14 +631,14 @@ var datetime = "" + currentdate.getDate() + "/"
                 //$("#includedContent").load("form_name_phn_type.php"); 
                 $("#slider1").load("slider1.php"); 
                 //$("#slider2").load("slider2.php"); 
-                //$("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
+               // $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
            // $("#cta_call").load("cta/cta_call.php"); 
                // $("#slider3").load("slider3.php"); 
                 
                // $("#includedContent").load("form_name_phn.php"); 
                 // $("#includedContent").load("form_only_whatsapp.php"); 
 				
-                //$("#count_down_counter").load("count_down.php");
+            //    $("#count_down_counter").load("count_down.php");
                 //$("#tabel_1").load("tabel_1.php"); 
  
     
