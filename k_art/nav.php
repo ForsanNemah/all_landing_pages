@@ -20,7 +20,7 @@
       </button>
     
 
-      <button type="button" class="btn" onclick="myFunction()">Basic</button>
+      <button type="button" class="btn" onclick="close_nav()">Basic</button>
 
       
       <a class="navbar-brand" href="#">
@@ -60,7 +60,7 @@
 
 
           <li class="nav-item">
-            <a class="nav-link " href="#about">About</a>
+            <a class="nav-link " href="#about" onclick="close_nav()">About</a>
           </li>
 
          

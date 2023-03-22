@@ -36,6 +36,8 @@ include 'info.php';
 
 ?>
 
+
+
   
   
   </title>
@@ -129,7 +131,16 @@ include 'info.php';
 <body>
   
 
+<?php
 
+include 'w_app.php';
+
+ 
+
+
+
+
+?>
 
 <div 
 class="bg-light  "
@@ -334,7 +345,7 @@ include 'info.php';
 
 
 
-    <section class=" appointment">
+    <section class=" appointment" hidden>
         <div class="appointment-section">
             <div class="container">
 
@@ -372,7 +383,7 @@ include 'info.php';
 </div>
 
 
-<div class="container h-100 d-flex justify-content-center">
+<div class="container h-100 d-flex justify-content-center" >
 
 <div class="appointment-title text-light"  id="done_icon"  >
 <img src="ads/done.gif" class="img-fluid" width='100px' height='100px' alt="Responsive image"   >
@@ -387,7 +398,7 @@ include 'info.php';
 
 
 
-                                <form id="form" role="form"      method="post" name="myform" bgcolor=”#800000">
+                                <form id="form" role="form"      method="post" name="myform" bgcolor=”#800000" >
 
 
 
@@ -658,7 +669,7 @@ var datetime = "" + currentdate.getDate() + "/"
                 //$("#includedContent").load("form_name_phn_type.php"); 
                 $("#slider1").load("slider1.php"); 
                 //$("#slider2").load("slider2.php"); 
-               // $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
+                //$("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
            // $("#cta_call").load("cta/cta_call.php"); 
                // $("#slider3").load("slider3.php"); 
                 
