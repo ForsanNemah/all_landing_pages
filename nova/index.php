@@ -124,6 +124,10 @@ snaptr('init', '424b1364-2fb9-4007-9b24-4da2fe656d90', {
 snaptr('track', 'PAGE_VIEW');
 
 </script>
+
+
+
+
 <!-- End Snap Pixel Code -->
 
 
@@ -133,7 +137,16 @@ snaptr('track', 'PAGE_VIEW');
 
 
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LQMYYJMC7R">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-LQMYYJMC7R');
+</script>
 
 
 
@@ -605,6 +618,11 @@ include 'info.php';
     <!-- Footer -->
     <footer class="page-footer font-small blue">
 
+
+
+<div class="footer-copyright text-center py-3">     
+<h>0592064095</h>
+</div>
 <!-- Copyright -->
 <div class="footer-copyright text-center py-3">    جميع الحقوق محفوظة:
   <a href="https://wmc-ksa.com/">  شركة النافذة للتسويق الالكتروني </a>
