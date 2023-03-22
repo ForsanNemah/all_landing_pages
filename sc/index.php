@@ -99,23 +99,32 @@ include 'info.php';
 
 
 <script type="text/javascript" src="info.js"></script>
-<!-- Snap Pixel Code -->
-<script type='text/javascript'>
-(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
-{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
-a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
-r.src=n;var u=t.getElementsByTagName(s)[0];
-u.parentNode.insertBefore(r,u);})(window,document,
-'https://sc-static.net/scevent.min.js');
 
-snaptr('init', 'd5491495-876a-4cb6-b0e3-14aa8bd4b711', {
-'user_email': '_INSERT_USER_EMAIL_'
-});
 
-snaptr('track', 'PAGE_VIEW');
 
-</script>
-<!-- End Snap Pixel Code -->
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 </head>
 <body>
   
@@ -123,7 +132,7 @@ snaptr('track', 'PAGE_VIEW');
 
 
 <div 
-class="bg-dark  "
+class="bg-light  "
 >
 <div id="cta_whatsapp" >
  
@@ -228,7 +237,7 @@ if ($handle = opendir('logo')) {
 
 
 
-                        <h3 class="text-light" style="font-size:1.2em!important">
+                        <h3 class="text-dark" style="font-size:1.2em!important">
                         
                         <?php
 
@@ -411,27 +420,14 @@ include 'info.php';
 
 
 
+                                    <div class="form-group" hidden>
+                                        <input name="source" type="text" class="form-control"    value="<?php
+           require('info.php');
+//echo "wwe";
+ 
+echo  $ad_source;
 
-
-
-
-
-
-                                    <div class="form-group">
-                                        <select name="area" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required>
-
-
-                                        <option value='أختر المنطقة'>أختر المنطقة</option>
-                                        <option value='الخبر'>الخبر</option>
-                                        <option value='الدمام'>الدمام</option>
-                                        <option value='الاحساء'>الاحساء</option>
-                                        <option value='القطيف'>القطيف</option>
-                                        <option value='الحفر'>الحفر</option>
-                                        <option value='الجبيل'>الجبيل</option>
-                                        <option value='اخرى'>اخرى</option>
-
-
-                                        </select>
+?>">
                                     </div>
 
 
@@ -441,20 +437,8 @@ include 'info.php';
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-                                    <div class="form-group">
-                                        <select name="type" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required>
+                                    <div class="form-group ">
+                                        <select name="type" id="servicerb" class="form-control" aria-label="عرض زراعة الأسنان" required>
 
                                         <?php
 
@@ -662,7 +646,7 @@ var datetime = "" + currentdate.getDate() + "/"
                 $("#slider1").load("slider1.php"); 
                 //$("#slider2").load("slider2.php"); 
                // $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
-           //  $("#cta_call").load("cta/cta_call.php"); 
+           // $("#cta_call").load("cta/cta_call.php"); 
                // $("#slider3").load("slider3.php"); 
                 
                // $("#includedContent").load("form_name_phn.php"); 
@@ -712,7 +696,7 @@ var datetime = "" + currentdate.getDate() + "/"
    element.style.display = "none";
    done_icon.style.display = "block"
     
-  // window.location.replace("https://wa.me/"+phn) ;
+   window.location.replace("https://wa.me/"+phn) ;
    
 } 
 	
