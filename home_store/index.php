@@ -410,7 +410,7 @@ include 'info.php';
 
 
                                     <div class="form-group" hidden >
-                                        <input name="name" type="text" class="form-control" value="وتساب 1" placeholder="الاسم" required>
+                                        <input name="name" type="text" class="form-control" value="وتساب  " placeholder="الاسم" required>
                                     </div>
 
                                    
@@ -439,7 +439,7 @@ include 'info.php';
 </div>
 
 
-                                    <button id="send" type="submit" class="btn submit-btn ">
+                                    <button id="send1" type="submit" class="btn submit-btn ">
                                         
                                     اطلب من هنا 1
 
@@ -456,6 +456,312 @@ include 'info.php';
                                     
                                     </button>
                                 </form>
+
+
+
+
+
+
+
+
+
+                                <form id="form2" role="form"      method="post" name="myform2" bgcolor=”#800000">
+
+
+
+
+
+                                    <p class="appointment-title text-light">     
+
+                                    <?php
+
+include 'info.php';
+
+ echo $info['ev_form_sub1'];
+
+
+
+
+?>
+                                    
+                                    </p>
+                                    <p class="appointment-title text-light" style="font-size:1.2em;direction:rtl">   
+                                  
+                                  
+                                  
+                                  
+                                    <?php
+
+include 'info.php';
+
+ echo $info['ev_form_sub2'];
+
+
+
+
+?>
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  </p>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <div class="form-group" hidden >
+                                        <input name="name" type="text" class="form-control" value="وتساب 2" placeholder="الاسم" required>
+                                    </div>
+
+                                   
+
+                                   
+                                   
+
+
+                          
+
+
+
+
+
+
+
+                                  
+
+
+
+
+
+                                    <div class="form-group"  hidden >
+    <label class="sr-only" for="r-form-1-email">date</label>
+    <input type="text" name="datetime" id="today" placeholder=" التاريخ  " class="r-form-1-email form-control" id="r-form-1-email"  >
+</div>
+
+
+                                    <button id="send2" type="submit" class="btn submit-btn ">
+                                        
+                                    اطلب من هنا 2
+
+
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+  <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+</svg>
+
+
+
+
+
+                                    
+                                    </button>
+                                </form>
+
+
+
+
+
+
+                                <form id="form3" role="form"      method="post" name="myform3" bgcolor=”#800000">
+
+
+
+
+
+                                    <p class="appointment-title text-light">     
+
+                                    <?php
+
+include 'info.php';
+
+ echo $info['ev_form_sub1'];
+
+
+
+
+?>
+                                    
+                                    </p>
+                                    <p class="appointment-title text-light" style="font-size:1.2em;direction:rtl">   
+                                  
+                                  
+                                  
+                                  
+                                    <?php
+
+include 'info.php';
+
+ echo $info['ev_form_sub2'];
+
+
+
+
+?>
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  </p>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <div class="form-group" hidden >
+                                        <input name="name" type="text" class="form-control" value=" زيارة الفرع " placeholder="الاسم" required>
+                                    </div>
+
+                                   
+
+                                   
+                                   
+
+
+                          
+
+
+
+
+
+
+
+                                  
+
+
+
+
+
+                                    <div class="form-group"  hidden >
+    <label class="sr-only" for="r-form-1-email">date</label>
+    <input type="text" name="datetime" id="today" placeholder=" التاريخ  " class="r-form-1-email form-control" id="r-form-1-email"  >
+</div>
+
+
+                                    <button id="send3" type="submit" class="btn submit-btn btn-info">
+                                        
+                                 تشرفنا في فرعنا 
+
+
+
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98 4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z"/>
+</svg>
+
+
+
+
+
+                                    
+                                    </button>
+                                </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                             </div>
                         </div>
                     </div>
@@ -565,7 +871,7 @@ include 'info.php';
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-12 text-center">
-                    <a class="btn btn-primary" style="background-color: #1c3c49 " href="#form">  سجل الان </a>
+                    <a class="btn btn-primary" style="background-color: #1c3c49 " href="#form">  اطلب الان </a>
                 </div>
             </div>
         </div>
@@ -629,7 +935,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
                 //$("#includedContent").load("form_name_phn_type.php"); 
-                $("#slider1").load("slider1.php"); 
+               // $("#slider1").load("slider1.php"); 
                 //$("#slider2").load("slider2.php"); 
                // $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
            // $("#cta_call").load("cta/cta_call.php"); 
@@ -644,7 +950,8 @@ var datetime = "" + currentdate.getDate() + "/"
     
 
       const scriptURL = action_url
-  const form = document.forms['myform']
+
+  form = document.forms['myform']
  
   form.addEventListener('submit', e => {
 
@@ -676,15 +983,141 @@ var datetime = "" + currentdate.getDate() + "/"
   })
 
 
+
+
+
+
     
-  function google_response() {
+  function google_response( ) {
    
    element.style.display = "none";
    done_icon.style.display = "block"
-    
-   window.location.replace("https://wa.me/"+phn) ;
+   
+
+   window.location.replace("https://wa.me/966544436389") ;
+ 
+
    
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+var form2 = document.forms['myform2']
+ 
+ form2.addEventListener('submit', e => {
+
+   //waitingDialog.show();
+   
+   
+   $(':input[type=submit]').prop('disabled', true)
+ $('#today').attr('value', datetime )
+ element.style.display = "block"
+ //alert("progress")
+   e.preventDefault()
+   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+     .then(response => 
+
+     
+     google_response2()
+     
+     
+    
+     
+     
+   
+  
+   
+   
+   
+     )
+     .catch(error => console.error('Error!', error.message))
+ })
+
+
+
+
+
+
+
+
+
+
+
+
+function google_response2( ) {
+   
+   element.style.display = "none";
+   done_icon.style.display = "block"
+   
+
+   window.location.replace("https://wa.me/966507270572") ;
+ 
+
+   
+} 
+
+
+
+
+
+var form3 = document.forms['myform3']
+ 
+ form3.addEventListener('submit', e => {
+
+   //waitingDialog.show();
+   
+   
+   $(':input[type=submit]').prop('disabled', true)
+ $('#today').attr('value', datetime )
+ element.style.display = "block"
+ //alert("progress")
+   e.preventDefault()
+   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+     .then(response => 
+
+     
+     google_response3()
+     
+     
+    
+     
+     
+   
+  
+   
+   
+   
+     )
+     .catch(error => console.error('Error!', error.message))
+ })
+
+
+
+function google_response3( ) {
+   
+   element.style.display = "none";
+   done_icon.style.display = "block"
+   
+
+   window.location.replace("https://maps.app.goo.gl/rRnDu4aXYWLr4CeKA?g_st=iw") ;
+ 
+
+   
+} 
+
+
+
+
 	
 });
 
