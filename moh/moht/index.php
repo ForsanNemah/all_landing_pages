@@ -712,7 +712,7 @@ var datetime = "" + currentdate.getDate() + "/"
    element.style.display = "none";
    done_icon.style.display = "block"
     
-   window.location.replace("https://wa.me/"+phn) ;
+  // window.location.replace("https://wa.me/"+phn) ;
    
 } 
 	
