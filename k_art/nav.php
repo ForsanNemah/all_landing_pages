@@ -4,7 +4,7 @@
 
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
     <div class="container">
 
  
@@ -20,7 +20,7 @@
       </button>
     
 
-
+      <button type="button" class="btn" onclick="myFunction()">Basic</button>
 
       
       <a class="navbar-brand" href="#">
@@ -50,10 +50,10 @@
       <div class="collapse navbar-collapse" id="navbarDefault">
 
 
-        <ul class="navbar-nav me-auto ">
+        <ul class="navbar-nav mr-auto ">
 
           <li class="nav-item" >
-            <a class="nav-link active" href="index.php">Home</a>
+            <a class="nav-link " href="index.php">Home</a>
           </li>
 
 
@@ -65,7 +65,7 @@
 
          
           <li class="nav-item"    >
-            <a class="nav-link " href="#customers"   >Customers</a>
+            <a class="nav-link " href="#customers"  >Customers</a>
           </li>
 
           
@@ -136,5 +136,22 @@
   
     </div>
   </nav>
+ 
 
+
+<script>
+function close_nav() {
+ 
+
+
+const navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarDefault')
+const bsCollapse = new bootstrap.Collapse(menuToggle)
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => { bsCollapse.toggle() })
+     
+})
+}
+</script>
+ 
 

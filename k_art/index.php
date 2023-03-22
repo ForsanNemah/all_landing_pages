@@ -135,6 +135,26 @@ include('footer.php');
   <script src="assets/js/main.js"></script>
 
 
+  <script>
+
+/*
+$(document).ready(function () {
+
+  const navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarDefault')
+const bsCollapse = new bootstrap.Collapse(menuToggle)
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => { bsCollapse.toggle() })
+     
+})
+  
+});
+//alert("wwe");
+
+*/
+
+</script>
+
 
 
 </body>

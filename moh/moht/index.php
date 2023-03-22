@@ -407,6 +407,52 @@ include 'info.php';
                                     <div class="form-group">
                                         <input name="phn" type="number" class="form-control" placeholder="رقم الهاتف" required>
                                     </div>
+
+
+
+
+
+
+
+
+
+
+                                    <div class="form-group">
+                                        <select name="area" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required>
+
+
+                                        <option value='أختر المنطقة'>أختر المنطقة</option>
+                                        <option value='الخبر'>الخبر</option>
+                                        <option value='الدمام'>الدمام</option>
+                                        <option value='الاحساء'>الاحساء</option>
+                                        <option value='القطيف'>القطيف</option>
+                                        <option value='الحفر'>الحفر</option>
+                                        <option value='الجبيل'>الجبيل</option>
+                                        <option value='اخرى'>اخرى</option>
+
+
+                                        </select>
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                     <div class="form-group">
                                         <select name="type" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required>
 
