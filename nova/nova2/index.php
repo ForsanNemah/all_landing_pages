@@ -588,7 +588,9 @@ include 'info.php';
     </section>
     <!-- Footer -->
     <footer class="page-footer font-small blue">
-
+    <div class="footer-copyright text-center py-3">     
+<h>0594741068</h>
+</div>
 <!-- Copyright -->
 <div class="footer-copyright text-center py-3">    جميع الحقوق محفوظة:
   <a href="https://wmc-ksa.com/">  شركة النافذة للتسويق الالكتروني </a>
