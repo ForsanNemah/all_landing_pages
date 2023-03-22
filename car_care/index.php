@@ -604,9 +604,7 @@ include 'info.php';
 
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-12 text-center">
-                    <a class="btn btn-primary" style="background-color: #1c3c49 " href="#form">  سجل الان </a>
-                </div>
+              
             </div>
         </div>
     </section>
