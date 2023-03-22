@@ -422,12 +422,14 @@ include 'info.php';
 
 
                                         <option value='أختر المنطقة'>أختر المنطقة</option>
-                                        <option value='الخبر'>الخبر</option>
+                                       
                                         <option value='الدمام'>الدمام</option>
+                                        <option value='الخبر'>الخبر</option>
                                         <option value='الاحساء'>الاحساء</option>
                                         <option value='القطيف'>القطيف</option>
-                                        <option value='الحفر'>الحفر</option>
                                         <option value='الجبيل'>الجبيل</option>
+                                        <option value='الحفر'>الحفر</option>
+            
                                         <option value='اخرى'>اخرى</option>
 
 
@@ -668,7 +670,7 @@ var datetime = "" + currentdate.getDate() + "/"
                // $("#includedContent").load("form_name_phn.php"); 
                 // $("#includedContent").load("form_only_whatsapp.php"); 
 				
-                $("#count_down_counter").load("count_down.php");
+                //$("#count_down_counter").load("count_down.php");
                 //$("#tabel_1").load("tabel_1.php"); 
  
     
