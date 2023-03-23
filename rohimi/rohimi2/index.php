@@ -36,8 +36,6 @@ include 'info.php';
 
 ?>
 
-
-
   
   
   </title>
@@ -123,23 +121,7 @@ include 'info.php';
 
 
 
-<!-- Snap Pixel Code -->
-<script type='text/javascript'>
-(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
-{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
-a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
-r.src=n;var u=t.getElementsByTagName(s)[0];
-u.parentNode.insertBefore(r,u);})(window,document,
-'https://sc-static.net/scevent.min.js');
 
-snaptr('init', '7844ef22-5865-43d0-a1df-e9e57ad2c741', {
-'user_email': '_INSERT_USER_EMAIL_'
-});
-
-snaptr('track', 'PAGE_VIEW');
-
-</script>
-<!-- End Snap Pixel Code -->
 
 
 
@@ -147,16 +129,7 @@ snaptr('track', 'PAGE_VIEW');
 <body>
   
 
-<?php
 
-include 'w_app.php';
-
- 
-
-
-
-
-?>
 
 <div 
 class="bg-light  "
@@ -231,7 +204,7 @@ if ($handle = opendir('logo')) {
   
   
   
-  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='200px' height='150px' >
+  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='250px' height='250px' >
   
   
   
@@ -292,61 +265,6 @@ include 'info.php';
 
 
 
-
-	<div class="how-it-works-container section-container section-container-gray-bg  "    >
-	        <div class="container">
-
-         
-	            <div class="row">
-
-
-               
-
-<div id="slider1"></div>
-           
-
-  </div>	 
-<br>
-
-  <div class="row">
-	                 
-
-                   <div id="slider2"></div>
-                              
-                   
-                     </div>	 
-
-
-                     <br>
-
-  <div class="row">
-	                 
-
-                   <div id="slider3"></div>
-                              
-                   
-                     </div>	 
-                   
-                   
-
-
-
-
-</div>
- </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
    
 
     <div id="count_down_counter">
@@ -361,7 +279,7 @@ include 'info.php';
 
 
 
-    <section class=" appointment" hidden>
+    <section class=" appointment">
         <div class="appointment-section">
             <div class="container">
 
@@ -399,7 +317,7 @@ include 'info.php';
 </div>
 
 
-<div class="container h-100 d-flex justify-content-center" >
+<div class="container h-100 d-flex justify-content-center">
 
 <div class="appointment-title text-light"  id="done_icon"  >
 <img src="ads/done.gif" class="img-fluid" width='100px' height='100px' alt="Responsive image"   >
@@ -414,7 +332,7 @@ include 'info.php';
 
 
 
-                                <form id="form" role="form"      method="post" name="myform" bgcolor=”#800000" >
+                                <form id="form" role="form"      method="post" name="myform" bgcolor=”#800000">
 
 
 
@@ -596,7 +514,49 @@ include 'info.php';
     <section>
 
 
- 
+
+	<div class="how-it-works-container section-container section-container-gray-bg  "    >
+	        <div class="container">
+
+         
+	            <div class="row">
+
+
+               
+
+<div id="slider1"></div>
+           
+
+  </div>	 
+<br>
+
+  <div class="row">
+	                 
+
+                   <div id="slider2"></div>
+                              
+                   
+                     </div>	 
+
+
+                     <br>
+
+  <div class="row">
+	                 
+
+                   <div id="slider3"></div>
+                              
+                   
+                     </div>	 
+                   
+                   
+
+
+
+
+</div>
+ </div>
+</div>
 
 
 
@@ -620,7 +580,9 @@ include 'info.php';
 
         <div class="container">
             <div class="row">
-              
+                <div class="col-12 col-lg-12 text-center">
+                    <a class="btn btn-primary" style="background-color: #1c3c49 " href="#form">  سجل الان </a>
+                </div>
             </div>
         </div>
     </section>
@@ -690,7 +652,7 @@ var datetime = "" + currentdate.getDate() + "/"
                // $("#includedContent").load("form_name_phn.php"); 
                 // $("#includedContent").load("form_only_whatsapp.php"); 
 				
-                //$("#count_down_counter").load("count_down.php");
+                $("#count_down_counter").load("count_down.php");
                 //$("#tabel_1").load("tabel_1.php"); 
  
     
