@@ -13,14 +13,14 @@
 
 
 
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler collapsed" id="clos" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
         <span></span>
       </button>
     
 
-      <button type="button" class="btn" onclick="close_nav()">Basic</button>
+    
 
       
       <a class="navbar-brand" href="#">
@@ -65,7 +65,7 @@
 
          
           <li class="nav-item"    >
-            <a class="nav-link " href="#customers"  >Customers</a>
+            <a class="nav-link " onclick="close_nav()" href="#customers"    >Customers</a>
           </li>
 
           
@@ -141,9 +141,12 @@
 
 <script>
 function close_nav() {
+
+  document.getElementById("clos").click();
+
+
+/*
  
-
-
 const navLinks = document.querySelectorAll('.nav-item')
 const menuToggle = document.getElementById('navbarDefault')
 const bsCollapse = new bootstrap.Collapse(menuToggle)
@@ -151,6 +154,7 @@ navLinks.forEach((l) => {
     l.addEventListener('click', () => { bsCollapse.toggle() })
      
 })
+*/
 }
 </script>
  
