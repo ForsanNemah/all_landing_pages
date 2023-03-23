@@ -10,6 +10,12 @@
     <br>
     <br>
     <br>
+    <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     
   <h2> Our Clients</h2>
    <section class="customer-logos slider">
