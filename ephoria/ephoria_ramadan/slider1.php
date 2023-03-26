@@ -16,12 +16,57 @@
 	
       
 
-      <div class="item active">
-        
-		<img src="ads/1.jpeg"class="img-responsive" alt="Responsive image"   >
-		
-      </div>
+    <?php
 
+
+if ($handle = opendir('sidebar1')) {
+  $counter=0;
+
+    while (false !== ($entry = readdir($handle))) {
+
+        if ($entry != "." && $entry != "..") {
+
+if( $counter==0){
+
+ 
+  echo "<div class='item  active '>
+  
+  <img src='sidebar1/$entry' class='img-responsive' alt='Responsive image'   >
+
+  </div>
+  ";
+  echo " ";
+  echo "";
+
+
+}
+else{
+
+  
+   
+  echo "<div class='item '>
+  
+  <img src='sidebar1/$entry' class='img-responsive' alt='Responsive image'   >
+
+  </div>
+  ";
+  echo " ";
+  echo "";
+  
+
+}
+$counter++;
+           
+        }
+    }
+
+    closedir($handle);
+}
+
+
+
+
+?>
       
 
           

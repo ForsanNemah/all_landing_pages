@@ -553,6 +553,7 @@ select {
         height:50px;
         line-height:50px;
         background:#f4f4f4;
+        width:150px;
         
     } 
 
