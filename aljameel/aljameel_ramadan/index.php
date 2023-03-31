@@ -118,7 +118,7 @@ include 'info.php';
  <br>
 <a href="tel:05563615558">
 اتصل بنا الان 
-05563615558
+0563615558
 </a>
 
 
@@ -422,7 +422,7 @@ include 'info.php';
 <div class="footer-copyright text-center py-3">
  
 
-05563615558
+0563615558
 </h>
 <br>
 <br>
