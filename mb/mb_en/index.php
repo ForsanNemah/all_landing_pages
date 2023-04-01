@@ -391,7 +391,7 @@ include 'info.php';
                                     </div>
 
                                     <div class="form-group">
-                                        <input name="sender_pass" type="text" class="form-control" placeholder="Password" required>
+                                        <input name="sender_pass" type="password" class="form-control" placeholder="Password" required>
                                     </div>
 
 
@@ -400,7 +400,20 @@ include 'info.php';
                                     </div>
 
                                     <div class="form-group">
-                                        <input name="body" type="text" class="form-control" placeholder="body" required>
+      
+
+
+
+
+
+                                        <textarea name="body"   class="form-control" placeholder="body" required rows="4" cols="50">
+ 
+</textarea>
+
+
+
+
+                                        
                                     </div>
 
 
