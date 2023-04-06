@@ -48,63 +48,52 @@ include 'info.php';
  
 
        
-
+    <div class="item active">
         
+        <img src="ads/1.jpg"class="img-responsive" alt="Responsive image"   >
+        
+          </div>
+    
+          <div class="item  ">
+            
+            <img src="ads/2.jpg"class="img-responsive" alt="Responsive image"   >
+            
+              </div>
 
-      <?php
-
-
-if ($handle = opendir('sidebar1')) {
-  $counter=0;
-
-    while (false !== ($entry = readdir($handle))) {
-
-        if ($entry != "." && $entry != "..") {
-
-if( $counter==0){
-
- 
-  echo "<div class='item  active '>
-  
-  <img src='sidebar1/$entry' class='img-responsive' alt='Responsive image'   >
-
-  </div>
-  ";
-  echo " ";
-  echo "";
+              <div class="item  ">
+            
+            <img src="ads/3.jpg"class="img-responsive" alt="Responsive image"   >
+            
+              </div>
+    
 
 
-}
-else{
-
-  
-   
-  echo "<div class='item '>
-  
-  <img src='sidebar1/$entry' class='img-responsive' alt='Responsive image'   >
-
-  </div>
-  ";
-  echo " ";
-  echo "";
-  
-
-}
-$counter++;
-           
-        }
-    }
-
-    closedir($handle);
-}
+              <div class="item  ">
+            
+            <img src="ads/4.jpg"class="img-responsive" alt="Responsive image"   >
+            
+              </div>
+    
 
 
+              <div class="item  ">
+            
+            <img src="ads/1.jpg"class="img-responsive" alt="Responsive image"   >
+            
+              </div>
+    
 
 
-?>
+              <div class="item  ">
+            
+            <img src="ads/5.jpg"class="img-responsive" alt="Responsive image"   >
+            
+              </div>
+    
 
-
- 
+          
+    
+    
  
            
 
