@@ -47,9 +47,22 @@ include 'info.php';
  
     <div class="item active">
         
-        <img src="sidebar1/1.jpg"class="img-responsive" alt="Responsive image"   >
+        <img src="sidebar1/0.jpg"class="img-responsive" alt="Responsive image"   >
         
           </div>
+
+
+
+
+
+
+
+
+          <div class="item  ">
+            
+            <img src="sidebar1/1.jpg"class="img-responsive" alt="Responsive image"   >
+            
+              </div>
     
           <div class="item  ">
             
