@@ -56,17 +56,9 @@ include 'info.php';
     
           <div class="item  ">
             
-            <img src="ads/1.jpg"class="img-responsive" alt="Responsive image"   >
-            
-              </div>
-
-              <div class="item  ">
-            
             <img src="ads/2.jpg"class="img-responsive" alt="Responsive image"   >
             
               </div>
-    
-
 
               <div class="item  ">
             
@@ -76,15 +68,16 @@ include 'info.php';
     
 
 
-           
-    
-
-
               <div class="item  ">
             
             <img src="ads/4.jpg"class="img-responsive" alt="Responsive image"   >
             
               </div>
+    
+
+
+             
+
 
               <div class="item  ">
             
