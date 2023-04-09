@@ -425,11 +425,11 @@ include 'info.php';
 
 
 
-                                    <div class="form-group">
+                                    <div class="form-group" dir="rtl">
                                         <input name="name" type="text" class="form-control" placeholder="الاسم" required>
                                     </div>
 
-                                    <div class="form-group">
+                                    <div class="form-group" dir="rtl">
                                         <input name="phn" type="number" class="form-control" placeholder="رقم الهاتف" required>
                                     </div>
 
@@ -454,7 +454,7 @@ echo  $ad_source;
 
 
                                     <div class="form-group ">
-                                        <select name="type" id="servicerb" class="form-control" aria-label="عرض زراعة الأسنان" required>
+                                        <select name="type" id="servicerb" class="form-control" aria-label="عرض زراعة الأسنان" dir="rtl" required>
 
                                         <?php
 
