@@ -423,12 +423,12 @@ include 'info.php';
 
                                         <option value='أختر المنطقة'>أختر المنطقة</option>
                                        
-                                        <option value='الدمام'>الدمام</option>
-                                        <option value='الخبر'>الخبر</option>
-                                        <option value='الاحساء'>الاحساء</option>
-                                        <option value='القطيف'>القطيف</option>
-                                        <option value='الجبيل'>الجبيل</option>
-                                        <option value='الحفر'>الحفر</option>
+                                        <option value='جدة'>جدة</option>
+                                        <option value='مكة'>مكة</option>
+                                        <option value='المدينة'>المدينة</option>
+                                        <option value='ينبع'>ينبع</option>
+                                        <option value='القنفذة'>القنفذة</option>
+                                        <option value='الباحة'>الباحة</option>
             
                                         <option value='اخرى'>اخرى</option>
 
