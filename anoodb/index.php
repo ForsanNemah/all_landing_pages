@@ -29,6 +29,7 @@
 
 include 'info.php';
 
+
  echo $info['website_title'];
 
 
@@ -36,12 +37,16 @@ include 'info.php';
 
 ?>
 
+
+
+
   
   
   </title>
     <style>
-        /* WhatsApp Button */
-
+        /* WhatsApp Button 
+        
+        
         .whatsApp {
             position: fixed;
             width: 60px;
@@ -60,6 +65,13 @@ include 'info.php';
         .my-whatsApp {
             margin-top: 9px;
         }
+        
+        
+        
+        
+        */
+
+        
     </style>
 
 
@@ -145,6 +157,12 @@ snaptr('track', 'PAGE_VIEW');
 <body>
   
 
+
+<?php
+
+include 'cta/insta.php';
+
+?>
 
 
 <div 
