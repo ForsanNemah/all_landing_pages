@@ -76,16 +76,20 @@ echo "
 <br>
 <br>
 
+<div class='text-center'>
 <h2> $department_name </h2>
+</div>
+
+
 <br>
  
-
-<div id='$department_id' class='carousel slide' data-bs-ride='carousel' >
+<div class='container'>
+<div id='a$department_id' class='carousel slide' data-bs-ride='carousel' >
     
  
 
  
-    <div class='carousel-inner' >
+    <div class='carousel-inner'   >
 
 	
       
@@ -139,7 +143,7 @@ echo "
  
             echo "<div class='carousel-item  active '>
             
-            <img src='$entry' class='img-responsive' alt='Responsive image'   >
+            <img src='img/$entry' class='d-block w-100 ' alt='Responsive image'   >
           
             </div>
             ";
@@ -154,7 +158,7 @@ echo "
              
             echo "<div class='carousel-item '>
             
-            <img src='$entry' class='img-responsive' alt='Responsive image'   >
+            <img src='img/$entry' class='d-block w-100 ' alt='Responsive image'   >
           
             </div>
             ";
@@ -181,23 +185,24 @@ echo "
         
         
         
-        
- 
-    <a class='left carousel-control' href='#$department_id' data-slide='prev'>
-      <span class='glyphicon glyphicon-chevron-left'></span>
-      <span class='sr-only'>Previous</span>
-    </a>
-    <a class='right carousel-control' href='#$department_id' data-slide='next'>
-      <span class='glyphicon glyphicon-chevron-right'></span>
-      <span class='sr-only'>Next</span>
-    </a>
+        <button class='carousel-control-prev'type='button' data-bs-target='#a$department_id' data-bs-slide='prev'>
+    <span class='carousel-control-prev-icon' aria-hidden='true'></span>
+    <span class='visually-hidden'>Previous</span>
+  </button>
+  <button class='carousel-control-next' type='button' data-bs-target='#a$department_id' data-bs-slide='next'>
+    <span class='carousel-control-next-icon' aria-hidden='true'></span>
+    <span class='visually-hidden'>Next</span>
+  </button> 
 
+
+
+  
   </div>
   
   </div>
  
         
-        
+  </div>
         
         <br>
         <br>
@@ -255,30 +260,7 @@ echo "
 
 
 
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-
-    <div class="carousel-item active">
-      <img src="https://picsum.photos/200/300" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://picsum.photos/200" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://picsum.photos/seed/picsum/200/300" class="d-block w-100" alt="...">
-    </div>
-
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
+ 
 
 
 
@@ -313,3 +295,15 @@ include('footer.php');
 </body>
 
 </html>
+
+<style>
+
+.carousel {
+  width:450px;
+  height:450px;
+  margin:0 auto;
+}
+
+ 
+ 
+</style>

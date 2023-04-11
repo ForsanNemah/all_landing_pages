@@ -51,7 +51,7 @@ require "../config/head.php";
 
                                 </form>
 
-                            </td>
+                            </td>DELETE FROM `contacts` WHERE deleted=1
                             <?php
                             }
                             }
