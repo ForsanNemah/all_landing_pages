@@ -492,7 +492,7 @@ echo "<option value='$value'>$value</option>";
 
 
 
-                                    <button id="send" type="submit" class="btn submit-btn">اظغطي  للتسجيل</button>
+                                    <button id="send" type="submit" class="btn submit-btn">اضغطي  للحجز</button>
                                 </form>
                             </div>
                         </div>
@@ -603,7 +603,7 @@ include 'info.php';
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-12 text-center">
-                    <a class="btn btn-primary" style="background-color: #1c3c49 " href="#form">  سجلي الان </a>
+                    <a class="btn btn-primary" style="background-color: #1c3c49 " href="#form">  احجزي الان </a>
                 </div>
             </div>
         </div>
