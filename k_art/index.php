@@ -245,8 +245,8 @@ navLinks.forEach((l) => {
   
 
   .carousel {
-  width:450px;
-  height:500px;
+  width:400px;
+  height:400px;
   margin:0 auto;
 }
 
