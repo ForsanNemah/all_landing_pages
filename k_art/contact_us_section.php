@@ -66,7 +66,8 @@ a successful story together!
           <div class="col-sm-12 section-t8">
             <div class="row">
               <div class="col-md-7">
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+
+                <form   method="post" action="phpmailer/my.php" role="form" >
                   <div class="row">
                     <div class="col-md-6 mb-3">
                       <div class="form-group">
@@ -88,16 +89,10 @@ a successful story together!
                         <textarea name="message" class="form-control" name="message" cols="45" rows="8" placeholder="Message" required></textarea>
                       </div>
                     </div>
-                    <div class="col-md-12 my-3">
-                      <div class="mb-3">
-                        <div class="loading">Loading</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message">Your message has been sent. Thank you!</div>
-                      </div>
-                    </div>
+                     
 
                     <div class="col-md-12 text-center">
-                      <button type="submit" class="btn btn-a">Send Message</button>
+                      <button type="submit" name="save" class="btn btn-a">Send Message</button>
                     </div>
                   </div>
                 </form>
@@ -153,3 +148,5 @@ a successful story together!
         </div>
       </div>
     </section>
+
+ 

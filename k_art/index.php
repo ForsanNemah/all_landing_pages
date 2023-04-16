@@ -55,9 +55,11 @@ include('about.php');
 include('customers.php');
 
 
+
 ?>
 
 
+ 
 
 
 
@@ -89,6 +91,63 @@ include('testi.php');
 
 
 ?>
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<?php
+
+
+include('certi.php');
+
+
+
+
+?>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ 
+
+
+
+<?php
+
+
+include('general_works.php');
+
+
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -168,3 +227,39 @@ navLinks.forEach((l) => {
 
 
 </script>
+
+
+
+<style>
+
+.carousel {
+  width:700px;
+  height:700px;
+  margin:0 auto;
+}
+
+ 
+
+@media only all and (max-width: 500px) {
+  
+
+  .carousel {
+  width:450px;
+  height:500px;
+  margin:0 auto;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+</style>

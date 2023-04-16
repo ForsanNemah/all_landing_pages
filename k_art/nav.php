@@ -92,7 +92,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Departments</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item " href="department_1.php">Khalid Art for General contracting and interior design</a>
+              <a class="dropdown-item " href="#">Khalid Art for General contracting and interior design</a>
               <a class="dropdown-item " href="#">Khalid Art for the manufacture of wood</a>
               <a class="dropdown-item " href="#">Khalid Art for real estate sales</a>
             
@@ -106,9 +106,9 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our work </a>
             <div class="dropdown-menu">
 
-             <a class="dropdown-item " href="#">Khalid Art for General contracting and interior design</a>
-              <a class="dropdown-item " href="#">Khalid Art for the manufacture of wood</a>
-              <a class="dropdown-item " href="#">Khalid Art for real estate sales</a>
+             <a class="dropdown-item " href="department_1.php">Khalid Art for General contracting and interior design</a>
+              <a class="dropdown-item " href="department_2.php">Khalid Art for the manufacture of wood</a>
+              <a class="dropdown-item " href="department_3.php">Khalid Art for real estate sales</a>
             
             </div>
           </li>

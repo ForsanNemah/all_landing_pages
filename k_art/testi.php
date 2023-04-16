@@ -1,77 +1,132 @@
-<section class="section-testimonials section-t8 nav-arrow-a">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="title-wrap d-flex justify-content-between">
-              <div class="title-box">
-                <h2 class="title-a">Testimonials</h2>
-              </div>
-            </div>
-          </div>
-        </div>
+ 
 
-        <div id="testimonial-carousel" class="swiper">
-          <div class="swiper-wrapper">
 
-            <div class="carousel-item-a swiper-slide">
-              <div class="testimonials-box">
-                <div class="row">
-                  <div class="col-sm-12 col-md-6">
-                    <div class="testimonial-img">
-                      <img src="assets/img/testimonial-1.jpg" alt="" class="img-fluid">
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-6">
-                    <div class="testimonial-ico">
-                      <i class="bi bi-chat-quote-fill"></i>
-                    </div>
-                    <div class="testimonials-content">
-                      <p class="testimonial-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium
-                        debitis hic ber quibusdam
-                        voluptatibus officia expedita corpori.
-                      </p>
-                    </div>
-                    <div class="testimonial-author-box">
-                      <img src="assets/img/mini-testimonial-1.jpg" alt="" class="testimonial-avatar">
-                      <h5 class="testimonial-author">Albert & Erika</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End carousel item -->
+<h2> 
 
-            <div class="carousel-item-a swiper-slide">
-              <div class="testimonials-box">
-                <div class="row">
-                  <div class="col-sm-12 col-md-6">
-                    <div class="testimonial-img">
-                      <img src="assets/img/testimonial-2.jpg" alt="" class="img-fluid">
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-6">
-                    <div class="testimonial-ico">
-                      <i class="bi bi-chat-quote-fill"></i>
-                    </div>
-                    <div class="testimonials-content">
-                      <p class="testimonial-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium
-                        debitis hic ber quibusdam
-                        voluptatibus officia expedita corpori.
-                      </p>
-                    </div>
-                    <div class="testimonial-author-box">
-                      <img src="assets/img/mini-testimonial-2.jpg" alt="" class="testimonial-avatar">
-                      <h5 class="testimonial-author">Pablo & Emma</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End carousel item -->
+testimonial
 
-          </div>
-        </div>
-        <div class="testimonial-carousel-pagination carousel-pagination"></div>
 
-      </div>
-    </section>
+
+</h2>
+<br>
+ 
+
+<div id="testi_id" class="carousel slide" data-bs-ride="carousel"  >
+    <!-- Indicators -->
+   
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" >
+
+	
+      
+
+     
+       
+
+   
+    
+    
+
+          
+
+         
+
+ 
+
+       
+
+        
+
+      <?php
+
+
+if ($handle = opendir('assets/testi')) {
+  $counter=0;
+
+    while (false !== ($entry = readdir($handle))) {
+
+        if ($entry != "." && $entry != "..") {
+
+if( $counter==0){
+
+ 
+  echo "<div class='carousel-item  active ' >
+  
+  <img src='assets/testi/$entry' class='d-block w-100' alt='Responsive image'   >
+
+  </div>
+  ";
+  echo " ";
+  echo "";
+
+
+}
+else{
+
+  
+   
+  echo "<div  class='carousel-item'>
+  
+  <img src='assets/testi/$entry' class='d-block w-100' alt='Responsive image'   >
+
+  </div>
+  ";
+  echo " ";
+  echo "";
+  
+
+}
+$counter++;
+           
+        }
+    }
+
+    closedir($handle);
+}
+
+
+
+
+?>
+
+
+ 
+ 
+           
+
+          
+
+
+
+           
+
+
+
+
+         
+
+
+           
+    
+       
+
+    <!-- Left and right controls -->
+    <button class='carousel-control-prev'type='button' data-bs-target='#testi_id' data-bs-slide='prev'>
+    <span class='carousel-control-prev-icon' aria-hidden='true'></span>
+    <span class='visually-hidden'>Previous</span>
+  </button>
+  <button class='carousel-control-next' type='button' data-bs-target='#testi_id' data-bs-slide='next'>
+    <span class='carousel-control-next-icon' aria-hidden='true'></span>
+    <span class='visually-hidden'>Next</span>
+  </button> 
+
+  </div>
+  
+  </div>
+
+ 
+
+
+
+
+
