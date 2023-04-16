@@ -4,6 +4,7 @@
 
 <?php
 include('header.php');
+include('info.php');
 include('w_app.php');
 ?>
 <body>
@@ -250,16 +251,6 @@ navLinks.forEach((l) => {
 }
 
 }
-
-
-
-
-
-
-
-
-
-
 
  
 </style>

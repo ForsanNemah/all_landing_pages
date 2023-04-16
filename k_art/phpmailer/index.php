@@ -16,7 +16,7 @@ require 'vendor/autoload.php';
 
 
 
-echo send_mail("myproeng@gmail.com","ksa.kho.kart@gmail.com","vejwsncjqaexzhfs","sub","body","smtp.gmail.com","465");
+//echo send_mail("myproeng@gmail.com","ksa.kho.kart@gmail.com","vejwsncjqaexzhfs","sub","body","smtp.gmail.com","465");
 
 
 function send_mail($re,$sender_email,$sender_pass,$subject,$body,$host,$port) {
@@ -63,6 +63,20 @@ function send_mail($re,$sender_email,$sender_pass,$subject,$body,$host,$port) {
         ';
     
         $mail->send();
+
+
+        echo "
+
+        <div class='alert alert-success' role='alert'>
+        success redirecting you now.............
+        </div>
+        
+        ";
+         
+         
+        
+        header('Location:../index.php');
+        
        return 'Done';
     } catch (Exception $e) {
        return "Fail: {$mail->ErrorInfo}";

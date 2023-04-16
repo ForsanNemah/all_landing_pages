@@ -17,10 +17,10 @@
             <div class="w-footer-a">
               <ul class="list-unstyled">
                 <li class="color-a">
-                  <span class="color-text-a">Phone .</span> +966 59 754 0793
+                  <span class="color-text-a">Phone:</span> <?php echo $web_site_phn ?>
                 </li>
                 <li class="color-a">
-                  <span class="color-text-a">Email .</span> info@K-art.com
+                  <span class="color-text-a">Email: </span> </span><?php  echo $web_site_email ?>
                 </li>
               </ul>
             </div>

@@ -74,11 +74,20 @@ a successful story together!
                         <input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="Your Name" required>
                       </div>
                     </div>
+
+
                     <div class="col-md-6 mb-3">
                       <div class="form-group">
-                        <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="Your Email" required>
+                        <input name="phn" type="number" class="form-control form-control-lg form-control-a" placeholder="Your Phone Number" required>
                       </div>
                     </div>
+
+                    <div class="col-md-6 mb-3">
+                      <div class="form-group">
+                        <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="Your Email" >
+                      </div>
+                    </div>
+
                     <div class="col-md-12 mb-3">
                       <div class="form-group">
                         <input type="text" name="subject" class="form-control form-control-lg form-control-a" placeholder="Subject" required>
@@ -92,6 +101,7 @@ a successful story together!
                      
 
                     <div class="col-md-12 text-center">
+                      <br>
                       <button type="submit" name="save" class="btn btn-a">Send Message</button>
                     </div>
                   </div>
@@ -108,10 +118,10 @@ a successful story together!
                     </div>
                     <div class="icon-box-content">
                       <p class="mb-1">Email.
-                        <span class="color-a">info@K-art.com</span>
+                        <span class="color-a"><?php echo $web_site_email ?></span>
                       </p>
                       <p class="mb-1">Phone.
-                        <span class="color-a">+966 59 754 0793</span>
+                        <span class="color-a"><?php echo $web_site_phn ?></span>
                       </p>
                     </div>
                   </div>
