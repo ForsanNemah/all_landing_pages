@@ -97,12 +97,7 @@ include('testi.php');
 
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+ 
 
 
 <?php
@@ -118,12 +113,7 @@ include('certi.php');
 
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+ 
  
 
 
