@@ -55,7 +55,7 @@
 
 
 
- <!-- Snap Pixel Code -->
+<!-- Snap Pixel Code -->
 <script type='text/javascript'>
 (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
 {a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
@@ -64,11 +64,12 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', '366a9171-f6e5-4f6c-917e-0e2f92b9da4d', {
-'user_email': '_INSERT_USER_EMAIL_'
-});
+snaptr('init', '366a9171-f6e5-4f6c-917e-0e2f92b9da4d', { user_hashed_phone_number:user.sha256_phone_number,
+             'user_email':user.email });
 
-snaptr('track', 'PAGE_VIEW');
+snaptr('track','PAGE_VIEW', {sign_up_method:'Snapchat'}
+
+snaptr('track','SIGN_UP', {success:1}
 
 </script>
 <!-- End Snap Pixel Code -->
