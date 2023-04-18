@@ -619,30 +619,20 @@ include 'info.php';
 
 
 
+ <?php
+
+//include 'footer.php';
 
 
-
-
-    <div class="footer-copyright text-center py-3">     
- 
-</div>
-<!-- Copyright
-
-<div class="footer-copyright text-center py-3">    جميع الحقوق محفوظة
-     <br>
-     <br>
-     <br>
-     <br>
-   <a href="https://wmc-ksa.com/">  شركة النافذة للتسويق الالكتروني </a>
- </div>
-
--->
  
 
 
-<!-- Copyright -->
 
-</footer>
+
+?>
+
+
+ 
 
     <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
     <!-- <script src="js/main.js"></script> -->
@@ -816,7 +806,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
 .carousel {
   width:500px;
-  height:400px;
+  height:200px;
   margin:0 auto;
 }
 
@@ -826,8 +816,8 @@ var datetime = "" + currentdate.getDate() + "/"
   
 
   .carousel {
-  width:430px;
-  height:430px;
+  width:470px;
+  height:200px;
   margin:0 auto;
 }
 

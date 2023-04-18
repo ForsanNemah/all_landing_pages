@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-12 text-center">
@@ -66,3 +73,36 @@
  
   
  </div>
+
+
+
+
+
+
+
+
+
+
+
+ <footer>
+ 
+ <div class="footer-copyright text-center py-3">     
+ 
+ </div>
+ 
+ 
+ <div class="footer-copyright text-center py-3">    جميع الحقوق محفوظة
+      <br>
+      <br>
+      <br>
+      <br>
+    <a href="https://wmc-ksa.com/">  شركة النافذة للتسويق الالكتروني </a>
+  </div>
+ 
+ 
+  
+ 
+ 
+ <!-- Copyright -->
+ 
+ </footer>

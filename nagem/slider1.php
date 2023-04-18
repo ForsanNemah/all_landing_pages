@@ -1,4 +1,4 @@
-<h2> 
+<h3> 
 
 
 <?php
@@ -16,7 +16,7 @@ include 'info.php';
 
 
 
-</h2>
+</h3>
 <br>
  
 
