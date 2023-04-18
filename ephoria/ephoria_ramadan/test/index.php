@@ -55,6 +55,7 @@
 
 <!-- Snap Pixel Code -->
 <script type='text/javascript'>
+   var my_email="forsan20172017@gmail.com";
 (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
 {a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
 a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
@@ -63,7 +64,7 @@ u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
 snaptr('init', 'de8a00ea-9f85-491b-a392-ecf9582ff494', {
-'user_email': '_INSERT_USER_EMAIL_'
+'user_email': $my_email
 });
 
 snaptr('track', 'SIGN_UP');
@@ -534,7 +535,8 @@ var datetime = "" + currentdate.getDate() + "/"
   function google_response() {
     $("#myloader").hide();
     $("#done_icon").show();
-    //snaptr('track', 'SIGN_UP',{'success','1'});
+   
+   snaptr('track', 'SIGN_UP',{'user_email':'forsan20172017@gmail.com'});
     window.location.replace("https://wa.me/"+phn) ;
     
 }
