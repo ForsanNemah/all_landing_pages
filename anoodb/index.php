@@ -137,10 +137,10 @@ u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
 snaptr('init', '1c637e9f-660c-4a75-bf6e-962606385616', {
-'user_email': '_INSERT_USER_EMAIL_'
+ 
 });
 
-snaptr('track', 'PAGE_VIEW');
+snaptr('track', 'PAGE_VIEW',{'user_email':'forsan20172017@gmail.com'});
 
 </script>
 <!-- End Snap Pixel Code -->

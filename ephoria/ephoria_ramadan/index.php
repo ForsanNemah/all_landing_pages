@@ -534,7 +534,7 @@ var datetime = "" + currentdate.getDate() + "/"
   function google_response() {
     $("#myloader").hide();
     $("#done_icon").show();
-     
+    snaptr('track', 'SIGN_UP',{'success','1'});
     window.location.replace("https://wa.me/"+phn) ;
     
 }
