@@ -370,6 +370,8 @@ include 'info.php';
 
 
 ?>
+
+
                                     
                                     </p>
                                     <p class="appointment-title text-light" style="font-size:1.2em;direction:rtl">   
@@ -383,13 +385,14 @@ include 'info.php';
 
  echo $info['ev_form_sub2'];
 
-
+ 
 
 
 ?>
-                                  
-                                  
-                                  
+  <h>سعر التذكرة فقط </h>                                
+  <h class="text-warning"> 130 ريال </h>
+  <br>                               
+  <h>مع شيشة ومشروب مجانا</h>                     
                                   
                                   
                                   
