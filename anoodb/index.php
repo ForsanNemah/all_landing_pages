@@ -127,7 +127,8 @@ include 'info.php';
 
 
 
-<!-- Snap Pixel Code -->
+ 
+ <!-- Snap Pixel Code -->
 <script type='text/javascript'>
 (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
 {a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
@@ -136,16 +137,14 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', '1c637e9f-660c-4a75-bf6e-962606385616', {
-'user_email': 'forsan20172017@gmail.com'
+snaptr('init', '351f9738-9852-4df8-bd6c-789fd1763e0d', {
+'user_email': '__INSERT_USER_EMAIL__'
 });
 
 snaptr('track', 'PAGE_VIEW');
- 
 
 </script>
 <!-- End Snap Pixel Code -->
-
  
 
 
