@@ -21,7 +21,7 @@ $subject=$_POST['subject'];
 $body=$_POST['body'];
 
 
-
+/*
 echo " s email=".$sender_email;
 echo " r email= ".$reciver_email;
 echo " s pass=".$sender_pass;
@@ -29,7 +29,7 @@ echo " host=".$host;
 echo " ports=".$port;
 echo " subject=".$subject;
 echo " body=".$body;
-
+*/
 $sender_email=trim($sender_email);
 $reciver_email=trim($reciver_email);
 $sender_pass=trim($sender_pass);
