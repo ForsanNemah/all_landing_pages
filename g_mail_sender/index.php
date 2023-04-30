@@ -21,12 +21,12 @@ $subject=$_POST['subject'];
 $body=$_POST['body'];
 
 
-echo " ".$sender_email;
-echo "    ".$reciver_email;
-echo " ".$sender_pass;
-echo "    ".$host;
-echo "    ".$subject;
-echo "    ".$body;
+echo "".$sender_email;
+echo "".$reciver_email;
+echo "".$sender_pass;
+echo "".$host;
+echo "".$subject;
+echo "".$body;
 
 
 echo send_mail($reciver_email,$sender_email,$sender_pass,$subject,$body,$host,$port);
@@ -45,7 +45,8 @@ $port=$_POST['port'];
 
  
 
- echo send_mail("forsan20172017@gmail.com","forsan@wmc-ksa.com","Wmc@2023","sub","body","smtp.hostinger.com","465");
+
+echo send_mail($reciver_email,$sender_email,$sender_pass,$subject,$body,$host,$port);
 
 
 function send_mail($re,$sender_email,$sender_pass,$subject,$body,$host,$port) {
