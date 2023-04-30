@@ -29,18 +29,7 @@ echo "".$subject;
 echo "".$body;
 
 
-echo send_mail($reciver_email,$sender_email,$sender_pass,$subject,$body,$host,$port);
-
  
-
- 
-$sender_email=$_POST['sender_email'];
-$sender_pass=$_POST['sender_pass'];
-$host=$_POST['host'];
-$port=$_POST['port'];
-$subject=$_POST['subject'];
-$body=$_POST['body'];
-$port=$_POST['port'];
  
 
  
