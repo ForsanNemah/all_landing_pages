@@ -14,6 +14,7 @@ $sender_email=$_POST['sender_email'];
 $sender_pass=$_POST['sender_pass'];
 
 echo "wwe raw ".$sender_email;
+echo "wwe raw ".$sender_pass;
 //require 'vendor/autoload.php';
 
 //Create an instance; passing `true` enables exceptions
