@@ -1,3 +1,14 @@
+
+<?php
+ 
+include('info.php');
+ 
+?>
+
+
+
+
+
 <section class="intro-single">
       <div class="container">
         <div class="row">

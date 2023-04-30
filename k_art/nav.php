@@ -72,9 +72,9 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Consultation</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item " href="https://sprw.io/stt-a96709">Pre-design process survey</a>
-              <a class="dropdown-item " href="https://sprw.io/stt-4abc3d">Customer satisfaction survey</a>
-              <a class="dropdown-item " href="https://sprw.io/stt-295103">Consultation visit request questionnaire</a>
+              <a class="dropdown-item " href="https://sprw.io/stt-a96709" target="_blank">Pre-design process survey</a>
+              <a class="dropdown-item " href="https://sprw.io/stt-4abc3d" target="_blank">Customer satisfaction survey</a>
+              <a class="dropdown-item " href="https://sprw.io/stt-295103" target="_blank">Consultation visit request questionnaire</a>
             
             </div>
           </li>
@@ -106,9 +106,9 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our work </a>
             <div class="dropdown-menu">
 
-             <a class="dropdown-item " href="department_1.php">Khalid Art for General contracting and interior design</a>
-              <a class="dropdown-item " href="department_2.php">Khalid Art for the manufacture of wood</a>
-              <a class="dropdown-item " href="department_3.php">Khalid Art for real estate sales</a>
+             <a class="dropdown-item " href="department_1.php" target="_blank">Khalid Art for General contracting and interior design</a>
+              <a class="dropdown-item " href="department_2.php" target="_blank">Khalid Art for the manufacture of wood</a>
+              <a class="dropdown-item " href="department_3.php" target="_blank">Khalid Art for real estate sales</a>
             
             </div>
           </li>

@@ -118,12 +118,12 @@
             <ul class="list-inline">
 
               <li class="list-inline-item">
-                <a href="https://twitter.com/kART_realestate">
+                <a href="https://twitter.com/kART_realestate" target="_blank">
                   <i class="bi bi-twitter" aria-hidden="true"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.instagram.com/khalidart_realestate/">
+                <a href="https://www.instagram.com/khalidart_realestate/" target="_blank">
                   <i class="bi bi-instagram" aria-hidden="true"></i>
                 </a>
               </li>
@@ -133,12 +133,12 @@
             <ul class="list-inline">
 
 <li class="list-inline-item">
-  <a href="https://twitter.com/khalidArtsa">
+  <a href="https://twitter.com/khalidArtsa" target="_blank">
     <i class="bi bi-twitter" aria-hidden="true"></i>
   </a>
 </li>
 <li class="list-inline-item">
-  <a href="https://www.instagram.com/khalidart.sa/">
+  <a href="https://www.instagram.com/khalidart.sa/" target="_blank">
     <i class="bi bi-instagram" aria-hidden="true"></i>
   </a>
 </li>
@@ -155,12 +155,12 @@
 <ul class="list-inline">
 
 <li class="list-inline-item">
-  <a href="https://twitter.com/kART_realestate">
+  <a href="https://twitter.com/kART_realestate" target="_blank">
     <i class="bi bi-twitter" aria-hidden="true"></i>
   </a>
 </li>
 <li class="list-inline-item">
-  <a href="https://www.instagram.com/khalidart_realestate/">
+  <a href="https://www.instagram.com/khalidart_realestate/" target="_blank">
     <i class="bi bi-instagram" aria-hidden="true"></i>
   </a>
 </li>

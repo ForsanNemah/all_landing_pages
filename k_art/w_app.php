@@ -1,3 +1,9 @@
+
+<?php
+include('info.php');
+
+?>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <a href="https://api.whatsapp.com/send?phone=<?php echo $web_site_phn ?>&text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85-%D8%B7%D9%84%D8%A8%20%D8%A5%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%AE%D8%AF%D9%85%D8%A9" class="float" target="_blank">
 <i class="fa fa-whatsapp my-float"></i>

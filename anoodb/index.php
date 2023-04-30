@@ -138,7 +138,7 @@ u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
 snaptr('init', '351f9738-9852-4df8-bd6c-789fd1763e0d', {
-'user_email': '__INSERT_USER_EMAIL__'
+' user_phone_number': '966568430828'
 });
 
 snaptr('track', 'PAGE_VIEW');

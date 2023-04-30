@@ -3,6 +3,8 @@
 <?php
 include('header.php');
 include('w_app.php');
+include('info.php');
+
 ?>
 <body>
 
@@ -82,6 +84,11 @@ echo "
 
 <div class='text-center'>
 <h2> $department_name </h2>
+<br>
+<a href='$video_url' target='_blank'>
+<img src='icons/yt.png' class='img-fluid' width='100' height='100'  >
+<a/>
+</div>
 </div>
 
 
