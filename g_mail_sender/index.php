@@ -21,6 +21,7 @@ $subject=$_POST['subject'];
 $body=$_POST['body'];
 
 
+
 echo " s email=".$sender_email;
 echo " r email= ".$reciver_email;
 echo " s pass=".$sender_pass;
@@ -29,14 +30,20 @@ echo " ports=".$port;
 echo " subject=".$subject;
 echo " body=".$body;
 
-
+$sender_email=trim($sender_email);
+$reciver_email=trim($reciver_email);
+$sender_pass=trim($sender_pass);
+$host=trim($host);
+$port=trim($port);
+$subject=trim($subject);
+$body=trim($body);
  
  
 
  
-send_mail("ksa.kho.kart@gmail.com","ksa.kho.kart@gmail.com","tilnfgwfrfsoovqv",'subject','body',"smtp.gmail.com","465");
+//send_mail("ksa.kho.kart@gmail.com","ksa.kho.kart@gmail.com","tilnfgwfrfsoovqv",'subject','body',"smtp.gmail.com","465");
 
-//echo send_mail($reciver_email,$sender_email,$sender_pass,$subject,$body,$host,$port);
+echo send_mail($reciver_email,$sender_email,$sender_pass,$subject,$body,$host,$port);
 
 
 function send_mail($re,$sender_email,$sender_pass,$subject,$body,$host,$port) {
@@ -85,18 +92,16 @@ function send_mail($re,$sender_email,$sender_pass,$subject,$body,$host,$port) {
         $mail->send();
 
 
-        echo "
-
-     done
-        ";
+    
          
          
         
         
         
-       return 'Done';
+       return 'Sent';
     } catch (Exception $e) {
-       return "Fail: {$mail->ErrorInfo}";
+      echo  $mail->ErrorInfo;
+       return "Fail";
     }
     
 }
