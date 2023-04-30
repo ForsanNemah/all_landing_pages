@@ -34,9 +34,9 @@ echo " body=".$body;
  
 
  
+send_mail("ksa.kho.kart@gmail.com","ksa.kho.kart@gmail.com","tilnfgwfrfsoovqv",'subject','body',"smtp.gmail.com","465");
 
-
-echo send_mail($reciver_email,$sender_email,$sender_pass,$subject,$body,$host,$port);
+//echo send_mail($reciver_email,$sender_email,$sender_pass,$subject,$body,$host,$port);
 
 
 function send_mail($re,$sender_email,$sender_pass,$subject,$body,$host,$port) {
