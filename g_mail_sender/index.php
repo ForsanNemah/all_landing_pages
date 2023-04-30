@@ -10,11 +10,24 @@ use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
 require 'vendor/autoload.php';
+
 $sender_email=$_POST['sender_email'];
+$reciver_email=$_POST['reciver_email'];
 $sender_pass=$_POST['sender_pass'];
 
-echo "wwe raw ".$sender_email;
-echo "wwe raw ".$sender_pass;
+$host=$_POST['host'];
+$port=$_POST['port'];
+$subject=$_POST['subject'];
+$body=$_POST['body'];
+
+
+echo " ".$sender_email;
+echo "    ".$reciver_email;
+echo " ".$sender_pass;
+echo "    ".$host;
+echo "    ".$subject;
+echo "    ".$body;
+
 //require 'vendor/autoload.php';
 
 //Create an instance; passing `true` enables exceptions
