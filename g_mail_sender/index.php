@@ -21,12 +21,13 @@ $subject=$_POST['subject'];
 $body=$_POST['body'];
 
 
-echo "".$sender_email;
-echo "".$reciver_email;
-echo "".$sender_pass;
-echo "".$host;
-echo "".$subject;
-echo "".$body;
+echo "s email=".$sender_email;
+echo "r email= ".$reciver_email;
+echo "s pass=".$sender_pass;
+echo " host=".$host;
+echo "posrt=".$port;
+echo "subject=".$subject;
+echo "body=".$body;
 
 
  
@@ -35,7 +36,7 @@ echo "".$body;
  
 
 
-echo send_mail($reciver_email,$sender_email,$sender_pass,$subject,$body,$host,$port);
+//echo send_mail($reciver_email,$sender_email,$sender_pass,$subject,$body,$host,$port);
 
 
 function send_mail($re,$sender_email,$sender_pass,$subject,$body,$host,$port) {
