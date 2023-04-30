@@ -21,13 +21,13 @@ $subject=$_POST['subject'];
 $body=$_POST['body'];
 
 
-echo "s email=".$sender_email;
-echo "r email= ".$reciver_email;
-echo "s pass=".$sender_pass;
+echo " s email=".$sender_email;
+echo " r email= ".$reciver_email;
+echo " s pass=".$sender_pass;
 echo " host=".$host;
-echo "posrt=".$port;
-echo "subject=".$subject;
-echo "body=".$body;
+echo " posrt=".$port;
+echo " subject=".$subject;
+echo " body=".$body;
 
 
  
