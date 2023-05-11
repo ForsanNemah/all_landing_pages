@@ -426,11 +426,11 @@ include 'info.php';
 
 
                                     <div class="form-group">
-                                        <input name="name" type="text" class="form-control" placeholder="الاسم" required>
+                                        <input name="name" type="text" class="form-control" placeholder="الاسم" dir="rtl" required>
                                     </div>
 
                                     <div class="form-group">
-                                        <input name="phn" id="phn_id" type="number" class="form-control" placeholder="رقم الهاتف" required>
+                                        <input name="phn" id="phn_id" type="number" class="form-control" placeholder="رقم الهاتف" dir="rtl" required>
                                     </div>
 
 
@@ -454,7 +454,7 @@ echo  $ad_source;
 
 
                                     <div class="form-group ">
-                                        <select name="type" id="servicerb" class="form-control" aria-label="عرض زراعة الأسنان" required>
+                                        <select name="type" id="servicerb" class="form-control" aria-label="عرض زراعة الأسنان" dir="rtl" required>
 
                                         <?php
 
@@ -822,7 +822,9 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
 
-
+select>option{ 
+                   height:25px;
+                 }
 
 
 
