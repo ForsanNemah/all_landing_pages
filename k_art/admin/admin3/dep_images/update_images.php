@@ -10,7 +10,7 @@ include "../config/head.php";
                 <div class="card-header">
                     <h4>
                     تعديل صورة القسم
-                    <a href="../department/department.php" class="btn btn-danger float-lg-start">رجوع</a>
+                    <a href="view.php" class="btn btn-danger float-lg-start">رجوع</a>
                 </h4>
                 </div>
                 <div class="card-body">

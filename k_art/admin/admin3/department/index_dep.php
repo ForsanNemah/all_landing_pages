@@ -98,3 +98,13 @@ $video_url = mysqli_real_escape_string($con,$_POST['video_url']);
     }
 }
 
+
+
+
+if(isset($_GET['id'])){
+    $department_id=mysqli_real_escape_string($con,$_GET['id']);
+$_SESSION['id']= $department_id;
+header("Location:../dep_images/view.php");
+
+
+}

@@ -26,7 +26,7 @@ require "../config/head.php";
                             <th> اسم القسم باللغة الإنجليزية  </th>
                             <th>وصف القسم  </th>
                             <th> السعر </th>
-                            <th> رابط القسم  </th>
+                            <!--   <th> رابط القسم  </th> -->
                             <th> مفعل  </th>
                             <th>تعديل</th>
                             <th>حذف  </th>
@@ -47,7 +47,8 @@ require "../config/head.php";
                             <td> <?= $row["dep_name_en"]?></td>
                             <td > <?= $row["desc_dep"]?></td>
                             <td> <?= $row["price_dep"]?></td>
-                            <td> <?= $row["video_url"]?></td>
+                            <!--  <td> <?//= $row["video_url"]?></td> -->
+
 
 <?php 
                             if(($row["block"]) ==1) 
@@ -72,7 +73,7 @@ require "../config/head.php";
 
                             <td>
                          
-                                <a href="view.php?id=<?=$row['department_id']; ?>"  class="btn btn-primary ">عرض  </a>
+                                <a href="index_dep.php?id=<?=$row['department_id']; ?>"  class="btn btn-primary ">عرض  </a>
                             </td>
                             <?php
                             }

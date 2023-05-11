@@ -28,7 +28,7 @@ require "../config/head.php";
                         </div>
                         <div class="mb-5">
                          <h5>   <label> وصف المشروع </label> </h5>
-                            <textarea name="descr_dep" class="form-control" required=""  type="text" id="" cols="2" rows="5"></textarea>
+                            <textarea name="descr_dep" class="form-control" required=""  type="text" ></textarea>
                         </div>
 
                         <div class="mb-5">

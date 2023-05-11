@@ -44,9 +44,12 @@ include "../config/head.php";
                     //$_SESSION['id']=$dep_id;
                         $id=$_SESSION['id'];
 
-                        $query="SELECT dep_image.id , dep_image.department_id,department.dep_name, dep_image.dep_image, dep_image.block FROM department , dep_image
-                                            where department.department_id= dep_image.department_id AND dep_image.department_id='$id'";
+                      $query="SELECT dep_image.id , dep_image.department_id,department.dep_name, dep_image.dep_image, dep_image.block FROM department , dep_image
+                                        where department.department_id= dep_image.department_id AND dep_image.department_id='$id'";
+                    
+                        
                         $query_run=mysqli_query($con,$query);
+
                         if(mysqli_num_rows($query_run)> 0){
                         $department=mysqli_fetch_array($query_run);
                         while($row = mysqli_fetch_assoc($query_run)) {

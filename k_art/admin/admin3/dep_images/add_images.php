@@ -15,9 +15,7 @@ include "../config/head.php";
                 </div>
                 <div class="card-body">
                     <?php
-                    
-                      //  $department_id=mysqli_real_escape_string($con,$_GET['id']);
-                        $department_id =$_SESSION['id'];
+                    $department_id =$_SESSION['id'];
                       $query="SELECT * FROM department WHERE department_id='$department_id' ";
                         $query_run=mysqli_query($con,$query);
                         if(mysqli_num_rows($query_run)> 0){
@@ -25,7 +23,7 @@ include "../config/head.php";
                             ?>
 
                             <form action="index_images.php" method="post" enctype="multipart/form-data">
-                                <input type="text" name="id" value="<?=$department_id?>"/>
+                                <input type="hidden" name="id" value="<?=$department_id?>"/>
 
                                 <h5><label> اسم القسم </label> </h5> 
                                 <span class="form-control"> <?php echo $dep['dep_name'];?> </span>

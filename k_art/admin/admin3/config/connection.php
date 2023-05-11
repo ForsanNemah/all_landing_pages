@@ -3,7 +3,7 @@
 $LocalName="localhost";
 $UserName="root";
 $Password="";
-$DataBase="my_db";
+$DataBase="k_art_project_3";
 $con=mysqli_connect($LocalName,$UserName,$Password,$DataBase);
 
 

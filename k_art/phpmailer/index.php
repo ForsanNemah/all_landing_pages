@@ -75,7 +75,25 @@ function send_mail($re,$sender_email,$sender_pass,$subject,$body,$host,$port) {
          
          
         
-        header('Location:../index.php');
+      
+
+
+        echo '<script type="text/javascript">
+        
+        alert("sent successfully");
+        window.open("../includes/index.php", "_self");
+        
+        </script>
+        
+        ';
+
+
+
+      //  echo 'alert("doooooond")';;
+        //echo 'window.open("wwe.com", "_blank");';
+        //echo '</script>';
+
+        
         
        return 'Done';
     } catch (Exception $e) {
