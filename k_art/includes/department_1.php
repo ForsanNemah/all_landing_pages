@@ -10,7 +10,7 @@ include('w_app.php');
 
 
 ?>
-<body>
+ 
 
 
 
@@ -25,6 +25,7 @@ include('nav.php');
 
  
 
+
   <!-- ======= Header/Navbar ======= -->
  <!-- End Header/Navbar -->
 
@@ -38,6 +39,9 @@ include('nav.php');
 
 
 
+
+
+ 
 
 
 

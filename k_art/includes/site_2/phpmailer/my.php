@@ -54,19 +54,13 @@ echo "wwe";
 			while($row = mysqli_fetch_assoc($query)){
 				//echo $row['rowid']."<br>";
 			
-
-
-
-
-
-
-
+ 
 
 $email= $row['email'];
 echo $email;
  
+//send_mail($email,"ksa.kho.kart@gmail.com","tilnfgwfrfsoovqv",$full_subject,$message,"smtp.gmail.com","465");
 send_mail("ksa.kho.kart@gmail.com","ksa.kho.kart@gmail.com","tilnfgwfrfsoovqv",$full_subject,$message,"smtp.gmail.com","465");
-
 
 
             }
@@ -80,7 +74,14 @@ send_mail("ksa.kho.kart@gmail.com","ksa.kho.kart@gmail.com","tilnfgwfrfsoovqv",$
 
 
 
-
+			echo '<script type="text/javascript">
+        
+			alert("sent successfully");
+			window.open("../../index_1.php", "_self");
+			
+			</script>
+			
+			';
 
 
 

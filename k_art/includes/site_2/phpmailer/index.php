@@ -75,14 +75,7 @@ function send_mail($re,$sender_email,$sender_pass,$subject,$body,$host,$port) {
          
          
 
-        echo '<script type="text/javascript">
-        
-        alert("sent successfully");
-        window.open("../../index_1.php", "_self");
-        
-        </script>
-        
-        ';
+      
 
 
 

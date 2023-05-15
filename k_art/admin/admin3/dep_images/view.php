@@ -51,7 +51,7 @@ include "../config/head.php";
                         $query_run=mysqli_query($con,$query);
 
                         if(mysqli_num_rows($query_run)> 0){
-                        $department=mysqli_fetch_array($query_run);
+                        //$department=mysqli_fetch_array($query_run);
                         while($row = mysqli_fetch_assoc($query_run)) {
                         ?> <tr>
                             <td> <?= $row["id"]?></td>

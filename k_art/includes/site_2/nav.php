@@ -92,9 +92,9 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Departments</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item " href="index_1.php">General Contracting and Interior Design</a>
-              <a class="dropdown-item " href="#">The Manufacture of Wood </a>
-              <a class="dropdown-item " href="#"> Real Estate Sales</a>
+            <a class="dropdown-item " href="index_1.php">General Contracting and Interior Design</a>
+              <a class="dropdown-item " href="index_2.php">The Manufacture of Wood </a>
+              <a class="dropdown-item " href="index_3.php""> Real Estate Sales</a>
             
             </div>
           </li>

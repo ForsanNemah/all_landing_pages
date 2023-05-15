@@ -57,11 +57,11 @@ include('nav.php');
 
 <?php
 			//include our connection
-            include "../config/connection3.php";
+      include "../admin/admin3/config/connection.php";
      
  
 			//query from the table that we create
-			$sql = "SELECT * from department";
+			$sql = "SELECT * from department where block='1'";
 			$query = mysqli_query($con,$sql);
  
 			while($row = mysqli_fetch_assoc($query)){
@@ -260,7 +260,7 @@ echo "
         <div class='text-center'>
 
   
-        <table class='table table-bordered'>
+        <table class='table table-bordered' >
         <thead >
           <tr>
             <th scope='col'>Description</th>
@@ -283,7 +283,12 @@ echo "
 
 
             <td>
-            <a href='https://api.whatsapp.com/send/?phone=966568430828&text&type=phone_number&app_absent=0'>
+
+
+       
+
+            
+            <a href='https://api.whatsapp.com/send?phone=966595786499&text=I%20need%20more%20detail%20about%20the%20item%20of%20number%20'".$department_id.">
 
             <i class='bi bi-whatsapp'></i>
 
@@ -346,7 +351,7 @@ echo "
   <!-- ======= Footer ======= -->
   <?php
 
-include('footer.php');
+//include('footer.php');
 
 
 ?>
@@ -375,16 +380,33 @@ include('footer.php');
   margin:0 auto;
 }
 
+.table {
+  width:700px;
+  
+  margin:0 auto;
+}
+
+
  
 
-@media only all and (max-width: 500px) {
+@media only all and (max-width: 800px) {
   
 
   .carousel {
-  width:450px;
+  width:400px;
   height:500px;
   margin:0 auto;
 }
+
+
+.table {
+  width:400px;
+  
+  margin:0 auto;
+}
+
+
+
 
 }
 

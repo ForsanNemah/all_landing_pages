@@ -52,7 +52,7 @@ if(isset($_POST['log'])){
 include "connection.php";
     $user_name= $_POST['id'];
     $pass=$_POST['pass'];
-    $query= "SELECT * FROM admins WHERE id='$user_name' AND password ='$pass'";
+    $query= "SELECT * FROM admins WHERE id='$user_name' AND password ='$pass'   and block='1'   ";
     $result = mysqli_query($con,$query);
     if(mysqli_num_rows($result)!= 0)
     {

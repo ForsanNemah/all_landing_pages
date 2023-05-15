@@ -147,7 +147,7 @@ include('site_1/general_works.php');
     <?php
 
 
-include('site_1/contact_us_section.php');
+include('site_1/contact.php');
 
 
 ?>
