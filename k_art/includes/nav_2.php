@@ -50,6 +50,14 @@
       <div class="collapse navbar-collapse" id="navbarDefault">
 
 
+
+
+
+
+
+
+
+
         <ul class="navbar-nav mr-auto ">
 
           <li class="nav-item" >
@@ -126,12 +134,14 @@
             <a class="nav-link " href="contact.php">Contact</a>
           </li>
 
- 
-          
+  
+
 
 
 
         </ul>
+
+ 
       </div>
 
   
@@ -147,21 +157,6 @@
 
 
 
-  <nav class="navbar navbar-expand-md bg-light navbar-light">
-    <div class="navbar-collapse collapse pt-2 pt-md-0" id="navbar2">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Link 2</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link 2</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link 2</a>
-            </li>
-        </ul>
-    </div>
-</nav>
 
 
 
@@ -176,11 +171,53 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 <script>
 function close_nav() {
 
-
-  //alert("done");
   document.getElementById("clos").click();
 
 
