@@ -5,9 +5,9 @@
 
 
 $LocalName="localhost";
-$UserName="u717104632_k_art_2";
+$UserName="u717104632_k_art_2_root";
 $Password="Forsan@2023";
-$DataBase="u717104632_k_art_2_root";
+$DataBase="u717104632_k_art_2";
 
 
 
