@@ -1,7 +1,11 @@
 
 
 
-
+<?php
+include('header.php');
+include('info.php');
+include('w_app.php');
+?>
 
 
 <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
