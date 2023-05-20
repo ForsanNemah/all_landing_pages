@@ -3,21 +3,22 @@
 
 
 
-/*
+
 $LocalName="localhost";
 $UserName="u717104632_k_art_2";
 $Password="Forsan@2023";
 $DataBase="u717104632_k_art_2_root";
 
-*/
 
 
 
+/*
 
 $LocalName="localhost";
 $UserName="root";
 $Password="";
 $DataBase="k_art_project_2";
+*/
 
 
 

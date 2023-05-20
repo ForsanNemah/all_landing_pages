@@ -4,23 +4,23 @@
 
 
 
-/*
+
 $LocalName="localhost";
 $UserName="u717104632_k_art_1";
 $Password="Forsan@2023";
 $DataBase="u717104632_k_art_1";
 
-*/
 
 
 
 
 
+/*
 $LocalName="localhost";
 $UserName="root";
 $Password="";
 $DataBase="k_art_project_1";
-
+*/
 
 
 $con=mysqli_connect($LocalName,$UserName,$Password,$DataBase);
