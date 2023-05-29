@@ -385,6 +385,15 @@ include 'info.php';
                                     <div class="form-group">
                                         <input name="phn" type="number" class="form-control" placeholder="رقم الهاتف" required>
                                     </div>
+
+
+
+
+                                    <div class="form-group" hidden>
+                                        <input name="phn" type="source" class="form-control" placeholder="رقم الهاتف"  value="snap 2">
+                                    </div>
+
+
                                     <div class="form-group">
                                         <select name="type" id="servicerb" class="custom-select" aria-label="عرض زراعة الأسنان" required>
 
