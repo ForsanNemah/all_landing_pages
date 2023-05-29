@@ -390,7 +390,7 @@ include 'info.php';
 
 
                                     <div class="form-group" hidden>
-                                        <input name="phn" type="source" class="form-control" placeholder="رقم الهاتف"  value="snap 2">
+                                        <input name="source" type="text" class="form-control" placeholder="رقم الهاتف"  value="snap 2">
                                     </div>
 
 
