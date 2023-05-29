@@ -1,0 +1,5 @@
+SELECT * 
+FROM ( SELECT max(follow_ups.id from ) AS A
+JOIN ( SELECT * 
+       FROM persons) AS B
+ON A.lead_id=B.id
