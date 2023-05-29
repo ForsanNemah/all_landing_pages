@@ -325,10 +325,9 @@ include 'info.php';
 
 
 
-                     <iframe src="https://forms.gle/vn2L6FdVhmyq9vWa7" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>sss
+     
 
-
-
+ 
 
 
 
@@ -388,7 +387,9 @@ include 'info.php';
 
 function open_gm_url ()
 {
- alert("wwe");
+ 
+ window.open("https://forms.gle/GHpdJcm4tjAHpvuZ8","_self");
+
 }
 
 
