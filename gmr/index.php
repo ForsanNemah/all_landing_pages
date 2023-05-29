@@ -388,7 +388,7 @@ include 'info.php';
 function open_gm_url ()
 {
  
- window.open("https://forms.gle/GHpdJcm4tjAHpvuZ8","_self");
+ window.open("https://forms.gle/EArbAzqEHcEy1YGp8","_self");
 
 }
 
