@@ -646,6 +646,12 @@ include 'info.php';
 
 
 
+<?php
+
+include('privicy.php');
+
+
+?>
 
 
 
