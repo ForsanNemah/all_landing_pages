@@ -104,6 +104,88 @@ include 'info.php';
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Snap Pixel Code -->
+<script type='text/javascript'>
+
+
+var user_phone_number="770263836";
+//alert(user_phone_number);
+(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
+{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
+a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
+r.src=n;var u=t.getElementsByTagName(s)[0];
+u.parentNode.insertBefore(r,u);})(window,document,
+'https://sc-static.net/scevent.min.js');
+
+snaptr('init', 'c794161c-30c3-4b9a-8c1f-e227f56195aa', {
+
+'ip_address':myIP()
+});
+
+snaptr('track', 'PAGE_VIEW');
+
+
+
+
+
+
+
+
+
+
+
+
+//alert(myIP());
+
+function myIP() {
+    if (window.XMLHttpRequest) xmlhttp = new XMLHttpRequest();
+    else xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+
+    xmlhttp.open("GET","http://api.hostip.info/get_html.php",false);
+    xmlhttp.send();
+
+    hostipInfo = xmlhttp.responseText.split("\n");
+
+    for (i=0; hostipInfo.length >= i; i++) {
+        ipAddress = hostipInfo[i].split(":");
+        if ( ipAddress[0] == "IP" ) return ipAddress[1];
+    }
+
+    return false;
+}
+
+
+
+
+
+</script>
+<!-- End Snap Pixel Code -->
+
+
+
+
+
+
+
 </head>
 <body>
   
@@ -646,7 +728,7 @@ var datetime = "" + currentdate.getDate() + "/"
   form.addEventListener('submit', e => {
 
     //waitingDialog.show();
-    
+   
     
 	$(':input[type=submit]').prop('disabled', true)
   $('#today').attr('value', datetime )
