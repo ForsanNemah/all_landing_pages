@@ -123,7 +123,7 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', 'c97e2e59-5ea1-4d69-b59e-a590d317e4ca', {
+snaptr('init', 'cba576bf-0174-4639-b80f-d349a4728c1d', {
 'user_email': '_INSERT_USER_EMAIL_'
 });
 

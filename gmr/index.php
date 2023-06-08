@@ -114,26 +114,10 @@ include 'info.php';
  
 
 
+ 
 
 
-
-<!-- Snap Pixel Code -->
-<script type='text/javascript'>
-(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
-{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
-a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
-r.src=n;var u=t.getElementsByTagName(s)[0];
-u.parentNode.insertBefore(r,u);})(window,document,
-'https://sc-static.net/scevent.min.js');
-
-snaptr('init', 'b0f7b849-422d-4004-8ccf-3367123a43f1', {
-'user_email': '_INSERT_USER_EMAIL_'
-});
-
-snaptr('track', 'PAGE_VIEW');
-
-</script>
-<!-- End Snap Pixel Code -->
+ 
 
 
 
@@ -291,8 +275,276 @@ include 'info.php';
 
 
 
+
+
+
+
+    <section class=" appointment">
+        <div class="appointment-section">
+            <div class="container">
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="form">
+                            <div class="appointment-form text-center">
+
+
+
+          
+
+<div class="container h-100 d-flex justify-content-center">
+<div class="appointment-title text-light" id="myloader"         >
+<div class="loader"></div> 
+</div>
+</div>
+
+
+<div class="container h-100 d-flex justify-content-center">
+
+<div class="appointment-title text-light"  id="done_icon"  >
+<img src="ads/done.gif" class="img-fluid" width='100px' height='100px' alt="Responsive image"   >
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+                                <form id="form" role="form"  action="post.php"     method="post" name="myform" bgcolor=”#800000">
+
+
+
+
+
+                                    <p class="appointment-title text-light">     
+
+                                    <?php
+
+include 'info.php';
+
+ echo $info['ev_form_sub1'];
+
+
+
+
+?>
+                                    
+                                    </p>
+                                    <p class="appointment-title text-light" style="font-size:1.2em;direction:rtl">   
+                                  
+                                  
+                                  
+                                  
+                                    <?php
+
+include 'info.php';
+
+ echo $info['ev_form_sub2'];
+
+
+
+
+?>
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  </p>
+
+
+
+
+
+
+
+
+
+
+
+
  
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <div class="form-group" dir="rtl">
+                                        <input name="username" type="text" class="form-control" placeholder="اسم المستخدم " required>
+                                    </div>
+ 
+
+                                    <div class="form-group" dir="rtl">
+                                        <input name="phone" type="number" class="form-control" placeholder=" رقم الجوال    " required>
+                                    </div>
+ 
+
+
+
+  
+
+
+                                    <div class="form-group" dir="rtl">
+                                        <input name="url" type="text" class="form-control" placeholder=" رابط التقييم  " required>
+                                    </div>
+ 
+
+
+                                    <div class="form-group" dir="rtl">
+                                        <input name="customer" type="text" class="form-control" placeholder=" " value ="safa2" required>
+                                    </div>
+ 
+
+
+
+
+                                    <div class="form-group" hidden>
+                                        <input name="source" type="text" class="form-control"    value="<?php
+           require('info.php');
+//echo "wwe";
+ 
+echo  $ad_source;
+
+?>">
+                                    </div>
+
+
+
+
+
+
+
+<!--
+                                    <div class="form-group ">
+                                        <select name="type" id="servicerb" class="form-control" aria-label="عرض زراعة الأسنان" required>
+
+                                        <?php
+
+include 'info.php';
+
+
+
+
+foreach ($items as $key => $value) {
+
+echo "<option value='$value'>$value</option>";
+
+}
+?>
+
+
+
+
+                                        </select>
+                                    </div>
+
+-->
+
+
+
+                                    <div class="form-group"  hidden >
+    <label class="sr-only" for="r-form-1-email">date</label>
+    <input type="text" name="datetime" id="today" placeholder=" التاريخ  " class="r-form-1-email form-control" id="r-form-1-email"  >
+</div>
+
+
+<div class="form-group" hidden>
+                                        <input name="w_link" id="w_link_id" type="text" class="form-control"   >
+                                    </div>
+
+
+
+                                    <button id="send" type="submit" class="btn submit-btn">اضغط للتسجيل</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 passion">
+                        <div class="text-center text-lg-right">
+                            <h4 class="text-light">
+                            <?php
+
+include 'info.php';
+
+ echo $info['lt_sub1'];
+
+
+
+
+?>
+                            </h4>
+                            <br />
+                            <p class="text-light" style="font-size: 1.2em; font-size: 1.2em; font-family: inherit !important ">             <?php
+
+include 'info.php';
+
+ echo $info['lt_sub2'];
+
+
+
+
+?>
+             </p>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <br>
+   <br>
+    <section>
+
+
+
+	<div class="how-it-works-container section-container section-container-gray-bg  "    >
+	        <div class="container">
+
+         
+	            <div class="row">
+
 
                
 
@@ -325,9 +577,15 @@ include 'info.php';
 
 
 
-     
 
- 
+</div>
+ </div>
+</div>
+
+
+
+
+
 
 
 
@@ -347,10 +605,7 @@ include 'info.php';
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-12 text-center">
-                    <a class="btn btn-primary" onclick="open_gm_url()" style="background-color: #1c3c49 " >    فتح رابط التقييم  </a>
-                    <br>
-                    <br>
-                    <br>
+                    <a class="btn btn-primary" style="background-color: #1c3c49 " href="#form">  سجل الان </a>
                 </div>
             </div>
         </div>
@@ -362,7 +617,7 @@ include 'info.php';
 </div>
 <!-- Copyright -->
 <div class="footer-copyright text-center py-3">    جميع الحقوق محفوظة:
-  <a href="#">                    </a>
+  <a href="https://wmc-ksa.com/">  شركة النافذة للتسويق الالكتروني </a>
 </div>
 <!-- Copyright -->
 
@@ -379,28 +634,130 @@ include 'info.php';
         
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
+    
+    <script>
+
+
+
+
+
+
+$(document).ready(function () {
+  //alert(ad_source);
+
+  //$("#source_id").val('dddd');
+
+  //alert($("#source_id_form").val());
+
+  var element = document.getElementById("myloader");
+        element.style.display = "none"
+        var done_icon = document.getElementById("done_icon");
+        done_icon.style.display = "none"
+ 
+
+
+  $(window).keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+
+ 
+                //alert(datetime);
+
+
+                //$("#includedContent").load("form_name_phn_type.php"); 
+               // $("#slider1").load("slider1.php"); 
+                //$("#slider2").load("slider2.php"); 
+               // $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
+          // $("#cta_call").load("cta/cta_call.php"); 
+               // $("#slider3").load("slider3.php"); 
+                
+               // $("#includedContent").load("form_name_phn.php"); 
+                // $("#includedContent").load("form_only_whatsapp.php"); 
+				
+                $("#count_down_counter").load("count_down.php");
+                //$("#tabel_1").load("tabel_1.php"); 
+ 
+    
+
+                
+
+      const scriptURL = action_url
+  const form = document.forms['myform']
+ 
+
+
+
+  /*
+  form.addEventListener('submit', e => {
+
+    //waitingDialog.show();
+    
+    
+	$(':input[type=submit]').prop('disabled', true)
+  $('#today').attr('value', datetime )
+  $('#w_link_id').attr('value', 'wa.me/'+$("#phn_id").val() )
+  element.style.display = "block"
+  //alert("progress")
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => 
+ 
+      
+      google_response()
+      
+      
+     
+      
+      
+    
    
+    
+	
+    
+	  )
+      .catch(error => console.error('Error!', error.message))
+  })
+
+*/
+    
+  function google_response() {
+   
+   element.style.display = "none";
+   done_icon.style.display = "block"
+    
+   window.location.replace("https://drive.google.com/drive/folders/12PbAW9ouDAQ1FsFAB6GRgtTuHLr5bLvH?usp=sharing") ;
+   
+} 
+	
+});
+
+
+
+
+
+
+
+ 
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
 </body>
 </html>
-
-<script>
-
-function open_gm_url ()
-{
- 
- window.open("https://forms.gle/EArbAzqEHcEy1YGp8","_self");
-
-}
-
-
-
-</script>
-
-
-
-
-
-
 
 
 <style>
@@ -428,53 +785,4 @@ function open_gm_url ()
   100% { transform: rotate(360deg); }
 }
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-.carousel {
-  width:700px;
-  height:700px;
-  margin:0 auto;
-}
-
- 
-
-@media only all and (max-width: 500px) {
-  
-
-  .carousel {
-  width:450px;
-  height:500px;
-  margin:0 auto;
-}
-
-}
-
- 
- 
-
-
-
-
-
-
-select>option{ 
-                   height:25px;
-                 }
-
-
-
 </style>
