@@ -126,11 +126,11 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', 'b0f7b849-422d-4004-8ccf-3367123a43f1', {
-'user_email': '_INSERT_USER_EMAIL_'
+snaptr('init', '9462aaec-daa4-410f-a81f-988aff3fddf6', {
+'user_email': '9665630828'
 });
 
-snaptr('track', 'PAGE_VIEW');
+
 
 </script>
 <!-- End Snap Pixel Code -->
@@ -641,7 +641,7 @@ $(document).ready(function () {
   //$("#source_id").val('dddd');
 
   //alert($("#source_id_form").val());
-
+  snaptr('track', 'PAGE_VIEW');
   var element = document.getElementById("myloader");
         element.style.display = "none"
         var done_icon = document.getElementById("done_icon");
