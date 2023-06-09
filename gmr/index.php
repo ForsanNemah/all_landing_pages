@@ -204,7 +204,7 @@ if ($handle = opendir('logo')) {
   
   
   
-  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='150px' height='150px' >
+  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='250px' height='250px' >
   
   
   
@@ -430,7 +430,7 @@ include 'info.php';
  
 
 
-                                    <div class="form-group" dir="rtl">
+                                    <div class="form-group" dir="rtl" hidden>
                                         <input name="customer" type="text" class="form-control" placeholder=" " value ="safa2" required>
                                     </div>
  
@@ -494,7 +494,7 @@ echo "<option value='$value'>$value</option>";
 
 
 
-                                    <button id="send" type="submit" class="btn submit-btn">اضغط للتسجيل</button>
+                                    <button id="send" type="submit" class="btn submit-btn">رفع التقييم   </button>
                                 </form>
                             </div>
                         </div>
@@ -605,7 +605,7 @@ include 'info.php';
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-12 text-center">
-                    <a class="btn btn-primary" style="background-color: #1c3c49 " href="#form">  سجل الان </a>
+                    <a class="btn btn-primary" style="background-color: #1c3c49 " href="#form">    قيم واربح معنا الان </a>
                 </div>
             </div>
         </div>
@@ -617,7 +617,7 @@ include 'info.php';
 </div>
 <!-- Copyright -->
 <div class="footer-copyright text-center py-3">    جميع الحقوق محفوظة:
-  <a href="https://wmc-ksa.com/">  شركة النافذة للتسويق الالكتروني </a>
+ 
 </div>
 <!-- Copyright -->
 
@@ -677,7 +677,7 @@ $(document).ready(function () {
                // $("#includedContent").load("form_name_phn.php"); 
                 // $("#includedContent").load("form_only_whatsapp.php"); 
 				
-                $("#count_down_counter").load("count_down.php");
+               // $("#count_down_counter").load("count_down.php");
                 //$("#tabel_1").load("tabel_1.php"); 
  
     
