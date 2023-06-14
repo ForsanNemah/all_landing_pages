@@ -50,7 +50,7 @@ else{
 echo "invalid link format <br>";
 echo "example : <br>";
 echo "api_link..?to=966568430828&&body=this is message body <br>";
-//http://localhost:8081/all_landing_pages/w_api.php?to=967776795943&&body=this%20is%20message%20body
+//clp.wmc-ksa.com/w_api.php?to=967776795943&&body=this%20is%20message%20body
 
 
 

@@ -721,7 +721,7 @@ var datetime = "" + currentdate.getDate() + "/"
    element.style.display = "none";
    done_icon.style.display = "block"
     
-   window.location.replace("https://drive.google.com/drive/folders/12PbAW9ouDAQ1FsFAB6GRgtTuHLr5bLvH?usp=sharing") ;
+   window.location.replace("https://drive.google.com/drive/folders/1xWRC6BP0nB1VrlGLvGOlcrcfzFbSSO-_?usp=sharing") ;
    
 } 
 	
