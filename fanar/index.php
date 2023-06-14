@@ -691,7 +691,7 @@ var datetime = "" + currentdate.getDate() + "/"
     
 	$(':input[type=submit]').prop('disabled', true)
   $('#today').attr('value', datetime )
-  $('#w_link_id').attr('value', 'wa.me/'+$("#phn_id").val() )
+  $('#w_link_id').attr('value', 'wa.me/966'+$("#phn_id").val() )
   element.style.display = "block"
   //alert("progress")
     e.preventDefault()
