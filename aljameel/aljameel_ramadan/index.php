@@ -78,7 +78,7 @@ snaptr('init', '5c277ddd-a81a-4f0f-a2b5-0f59e32928b6', {
 'user_phone_number': phone_number_value
 });
 
-snaptr('track', 'PAGE_VIEW');
+
 
 </script>
 <!-- End Snap Pixel Code -->
@@ -517,6 +517,9 @@ $(document).ready(function () {
   //$("#source_id").val('dddd');
 
   //alert($("#source_id_form").val());
+
+  //alert("page loaded");
+  snaptr('track', 'PAGE_VIEW');
 
   $(window).keydown(function(event){
     if(event.keyCode == 13) {
