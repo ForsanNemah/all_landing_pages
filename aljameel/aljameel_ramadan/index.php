@@ -51,7 +51,48 @@
        
 		<script type="text/javascript" src="info.js"></script>
  
-    <script type="text/javascript" src="pixel/snap.js"></script>
+
+
+
+
+
+
+
+
+
+
+<!-- Snap Pixel Code -->
+<script type='text/javascript'>
+
+  var phone_number_value="966568430828";
+ // alert(phone_number_value);
+
+(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
+{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
+a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
+r.src=n;var u=t.getElementsByTagName(s)[0];
+u.parentNode.insertBefore(r,u);})(window,document,
+'https://sc-static.net/scevent.min.js');
+
+snaptr('init', '5c277ddd-a81a-4f0f-a2b5-0f59e32928b6', {
+'user_phone_number': phone_number_value
+});
+
+snaptr('track', 'PAGE_VIEW');
+
+</script>
+<!-- End Snap Pixel Code -->
+
+
+
+
+
+
+
+
+
+
+    
     </head>
 
     <body  dir="rtl">
@@ -495,7 +536,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
                 $("#includedContent").load("form_name_phn_type.php"); 
-                $("#slider1").load("slider1.php"); 
+                //$("#slider1").load("slider1.php"); 
                 //$("#slider2").load("slider2.php"); 
                 //$("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
               // $("#cta_call").load("cta/cta_call.php"); 
@@ -517,6 +558,10 @@ var datetime = "" + currentdate.getDate() + "/"
 	 
 	$(':input[type=submit]').prop('disabled', true)
   $('#today').attr('value', datetime )
+
+  phone_number_value=$('#phn_id').val();
+  //alert(phone_number_value);
+  snaptr('track', 'PAGE_VIEW');
   $("#myloader").show()
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
