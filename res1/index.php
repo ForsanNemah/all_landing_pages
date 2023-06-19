@@ -295,7 +295,7 @@ include 'info.php';
 <br>
 <br>
 <u>
-<a href="https://goo.gl/maps/dMBEASD5WYGrkQht6">لوكيشن فرع الرمال </a> 
+<a href="https://goo.gl/maps/dMBEASD5WYGrkQht6" style=" color: blue;background-color: transparent;text-decoration: none;">لوكيشن فرع الرمال </a> 
 </u>
 
  
@@ -304,7 +304,7 @@ include 'info.php';
 
 &nbsp;&nbsp;
 <u>
-<a href="https://goo.gl/maps/JD4xunFqhJjYnqRo8">لوكيشن فرع الاسكان </a> 
+<a href="https://goo.gl/maps/JD4xunFqhJjYnqRo8" style=" color: blue;background-color: transparent;text-decoration: none;">لوكيشن فرع الاسكان </a> 
 </u>
 
 
@@ -315,7 +315,7 @@ include 'info.php';
 <br>
 <br>
 <u>
-<a href="https://goo.gl/maps/YhKQWmGSUxwjwkG88">لوكيشن فرع الخرج </a> 
+<a href="https://goo.gl/maps/YhKQWmGSUxwjwkG88" style=" color: blue;background-color: transparent;text-decoration: none;">لوكيشن فرع الخرج </a> 
 </u>
 
 
@@ -967,11 +967,6 @@ select>option{
 
 
                
-a:link {
-  color: blue;
-  background-color: transparent;
-  text-decoration: none;
-}             
-
+ 
 
 </style>
