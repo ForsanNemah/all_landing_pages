@@ -294,13 +294,13 @@ include 'info.php';
 <br>
 <br>
 <br>
-<a href="https://goo.gl/maps/dMBEASD5WYGrkQht6">لوكيشن فرع  الرمال </a> 
+<a href="https://goo.gl/maps/dMBEASD5WYGrkQht6">لوكيشن فرع الرمال </a> 
  
 
 
 
 &nbsp;&nbsp;
-<a href="https://goo.gl/maps/JD4xunFqhJjYnqRo8">لوكيشن فرع  الاسكان </a> 
+<a href="https://goo.gl/maps/JD4xunFqhJjYnqRo8">لوكيشن فرع الاسكان </a> 
 
 &nbsp;&nbsp;
 <a href="https://goo.gl/maps/YhKQWmGSUxwjwkG88">لوكيشن فرع الخرج </a> 
