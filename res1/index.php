@@ -957,4 +957,21 @@ select>option{
 
 
 
+
+
+
+
+
+
+
+
+
+               
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}             
+
+
 </style>
