@@ -303,6 +303,11 @@ include 'info.php';
 <a href="https://goo.gl/maps/JD4xunFqhJjYnqRo8">لوكيشن فرع الاسكان </a> 
 
 &nbsp;&nbsp;
+<br>
+<br>
+<br>
+<br>
+<br>
 <a href="https://goo.gl/maps/YhKQWmGSUxwjwkG88">لوكيشن فرع الخرج </a> 
 
 <br>
