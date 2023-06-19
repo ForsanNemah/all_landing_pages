@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Example</title>
   <script type="text/javascript"
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXQmYEQ82h9L8QoggkpabFlypyS3QPASo"></script>
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXQmYEQ82h9L8QoggkpabFlypyS3QPASo&callback=Function.prototype"></script>
   <script src="https://unpkg.com/location-picker/dist/location-picker.min.js"></script>
   <style type="text/css">
     #map {
