@@ -291,6 +291,29 @@ include 'info.php';
 
 </div>
 
+<br>
+<br>
+<br>
+<a href="https://goo.gl/maps/dMBEASD5WYGrkQht6">لوكيشن فرع  الرمال </a> 
+ 
+
+
+
+&nbsp;&nbsp;
+<a href="https://goo.gl/maps/JD4xunFqhJjYnqRo8">لوكيشن فرع  الاسكان </a> 
+
+&nbsp;&nbsp;
+<a href="https://goo.gl/maps/YhKQWmGSUxwjwkG88">لوكيشن فرع الخرج </a> 
+
+<br>
+<br>
+<br>
+
+
+
+
+
+
 
 
 
@@ -428,6 +451,7 @@ include 'info.php';
                                 
                                     </div>
 
+                             
                              
 
 

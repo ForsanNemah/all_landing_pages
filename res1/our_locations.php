@@ -30,3 +30,41 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+    
+    <h2> 
+
+فرع الخرج
+
+</h2>
+<br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.472088131589!2d47.2878331!3d24.120053700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2545fe77674dc1%3A0xd18992ee80f50ef0!2z2YXYt9i52YUg2LPYsSDYp9mE2YHYrtin2LHYp9mE2LTYsdmC2Yo!5e0!3m2!1sar!2ssa!4v1687182734393!5m2!1sar!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <br>
+    <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
