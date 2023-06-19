@@ -432,7 +432,7 @@ include 'info.php';
 
 
 
- 
+ <!--
 
                                   <div class="form-group">
 
@@ -444,7 +444,7 @@ include 'info.php';
                                 
                                     </div>
 
-
+-->
 
 
 
@@ -461,16 +461,20 @@ include 'info.php';
 
 
 
+
+                                    <!--
                                     <div class="form-group" hidden>
                                         <input name="x" id="x_id" type="text" class="form-control" placeholder="   " dir="rtl" required>
                                     </div>
 
 
+                                    
+
                                     <div class="form-group" hidden>
                                         <input name="y" id="y_id" type="text" class="form-control" placeholder="   " dir="rtl" required>
                                     </div>
 
-
+-->
 
 
                                     <div class="form-group">
@@ -651,7 +655,15 @@ include 'info.php';
 
 
 
+<?php
 
+include 'our_locations.php';
+
+ 
+
+
+
+?>
 
 
 
@@ -669,6 +681,9 @@ include 'info.php';
             <div class="row">
                 <div class="col-12 col-lg-12 text-center">
                     <a class="btn btn-primary" style="background-color: #1c3c49 " href="#form">  اطلب الحين </a>
+                    <br>
+                    <br>
+                    <br>
                 </div>
             </div>
         </div>
@@ -679,7 +694,7 @@ include 'info.php';
  
 </div>
 <!-- Copyright -->
-<div class="footer-copyright text-center py-3">    جميع الحقوق محفوظة:
+<div class="footer-copyright text-center py-3">    جميع الحقوق محفوظة
     <br>
     <br>
     <br>
