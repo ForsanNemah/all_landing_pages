@@ -682,6 +682,9 @@ include 'info.php';
 <div class="footer-copyright text-center py-3">    جميع الحقوق محفوظة:
     <br>
     <br>
+    <br>
+    <br>
+    <br>
   <a href="https://wmc-ksa.com/">  شركة النافذة للتسويق الالكتروني </a>
 </div>
 <!-- Copyright -->
