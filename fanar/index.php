@@ -114,18 +114,19 @@ include 'info.php';
 <!-- Snap Pixel Code -->
 <script type='text/javascript'>
 
+    
+(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
+{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
+a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
+r.src=n;var u=t.getElementsByTagName(s)[0];
+u.parentNode.insertBefore(r,u);})(window,document,
+'https://sc-static.net/scevent.min.js');
 
- phone_number_value="966568430828";
+snaptr('init', '5c277ddd-a81a-4f0f-a2b5-0f59e32928b6', {
+'user_phone_number': 'forsan20172017@gmail.com'
+});
 
-alert("wwe");
-
-
-
-
-
-
-
-  
+snaptr('track', 'PAGE_VIEW');
 
 </script>
 <!-- End Snap Pixel Code -->
@@ -431,6 +432,11 @@ include 'info.php';
                                         <input name="phn" id="phn_id" type="number" class="form-control" placeholder="رقم الهاتف" required>
                                     </div>
 
+                                    <div class="form-group" hidden >
+                                        <input name="emp_name" id="emp_name_id" type="text" class="form-control" placeholder=" " >
+                                    </div>
+
+
 
 
 
@@ -640,6 +646,17 @@ $(document).ready(function () {
 
   //alert($("#source_id_form").val());
 
+  const emps = ["","samir", "alwaleed", "haya","shourook","osama"];
+  //alert(emps[0]);
+  const emps_phns = ["","966569227297", "966553681193", "966559903727","966503244118","966562241030"];
+  //alert(emps_phns[0]);
+
+
+  const rndInt = Math.floor(Math.random() * 5) + 1;
+  //alert(rndInt);
+
+
+
   var element = document.getElementById("myloader");
         element.style.display = "none"
         var done_icon = document.getElementById("done_icon");
@@ -686,10 +703,12 @@ var datetime = "" + currentdate.getDate() + "/"
 
     //waitingDialog.show();
     
-    
+    alert(emps[rndInt]);
+    alert(emps_phns[rndInt]);
 	$(':input[type=submit]').prop('disabled', true)
   $('#today').attr('value', datetime )
   $('#w_link_id').attr('value', 'wa.me/966'+$("#phn_id").val() )
+  $('#emp_name_id').attr('value',emps[rndInt] )
   element.style.display = "block"
   //alert("progress")
     e.preventDefault()
@@ -719,7 +738,7 @@ var datetime = "" + currentdate.getDate() + "/"
    element.style.display = "none";
    done_icon.style.display = "block"
     
-   window.location.replace("https://drive.google.com/drive/folders/1xWRC6BP0nB1VrlGLvGOlcrcfzFbSSO-_?usp=sharing") ;
+   window.location.replace("https://wa.me/"+emps_phns[rndInt]) ;
    
 } 
 	
