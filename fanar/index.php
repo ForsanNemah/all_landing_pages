@@ -703,8 +703,8 @@ var datetime = "" + currentdate.getDate() + "/"
 
     //waitingDialog.show();
     
-    alert(emps[rndInt]);
-    alert(emps_phns[rndInt]);
+    //alert(emps[rndInt]);
+    //alert(emps_phns[rndInt]);
 	$(':input[type=submit]').prop('disabled', true)
   $('#today').attr('value', datetime )
   $('#w_link_id').attr('value', 'wa.me/966'+$("#phn_id").val() )
