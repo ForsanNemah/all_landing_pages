@@ -6,7 +6,7 @@ $token=$_GET['token'];
 
 $true_token="ippuwus5dvr0ia4n";
 
-if(isset($to)   and  isset($body) and $token    ){
+if(isset($to)   and  isset($body) and  isset($token)    ){
 
 $params=array(
 'token' => $token,
