@@ -50,9 +50,7 @@ else{
 
 echo "invalid link format <br>";
 echo "example : <br>";
-echo "api_link..?to=966568430828&&body=this is message body&&20message%20body&&token=sdsds
-
-
+echo "api_link..?to=966568430828&&body=this is message body&&20message%20body&&token=xxxx";
 
 
 }

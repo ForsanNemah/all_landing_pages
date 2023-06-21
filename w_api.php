@@ -2,14 +2,13 @@
 error_reporting(E_ERROR | E_PARSE);
 $to=$_GET['to'];
 $body=$_GET['body'];
-$token=$_GET['token'];
 
-$true_token="ippuwus5dvr0ia4n";
 
-if(isset($to)   and  isset($body) and  isset($token)    ){
+
+if(isset($to)   and  isset($body)    ){
 
 $params=array(
-'token' => $token,
+'token' => 'ippuwus5dvr0ia4n',
 'to' => $to,
 'body' => $body
 );
@@ -50,7 +49,8 @@ else{
 
 echo "invalid link format <br>";
 echo "example : <br>";
-echo "api_link..?to=966568430828&&body=this is message body&&20message%20body&&token=sdsds
+echo "api_link..?to=966568430828&&body=this is message body <br>";
+//clp.wmc-ksa.com/w_api.php?to=967776795943&&body=this%20is%20message%20body
 
 
 
