@@ -2,13 +2,14 @@
 error_reporting(E_ERROR | E_PARSE);
 $to=$_GET['to'];
 $body=$_GET['body'];
+$token=$_GET['token'];
+$true_token="ecj7qt42s6e8cxq4";
 
 
-
-if(isset($to)   and  isset($body)    ){
+if(isset($to)   and  isset($body)  and isset($token)   ){
 
 $params=array(
-'token' => 'ippuwus5dvr0ia4n',
+'token' => $token,
 'to' => $to,
 'body' => $body
 );
