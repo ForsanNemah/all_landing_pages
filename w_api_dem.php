@@ -4,7 +4,7 @@ $to=$_GET['to'];
 $body=$_GET['body'];
 $token=$_GET['token'];
 
-$true_token="ippuwus5dvr0ia4n";
+$true_token="ecj7qt42s6e8cxq4";
 
 if(isset($to)   and  isset($body) and  isset($token)    ){
 
