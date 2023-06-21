@@ -15,7 +15,9 @@ $params=array(
 );
 $curl = curl_init();
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://api.ultramsg.com/instance50106/messages/chat",
+
+  CURLOPT_URL => "https://api.ultramsg.com/instance51456/messages/chat",
+  
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
