@@ -295,7 +295,9 @@ include 'info.php';
 <br>
 <br>
 <u>
-<a href="https://goo.gl/maps/dMBEASD5WYGrkQht6" style=" color: blue;background-color: transparent;text-decoration: none;">لوكيشن فرع الرمال </a> 
+<a href="https://goo.gl/maps/dMBEASD5WYGrkQht6" style=" color: blue;background-color: transparent;text-decoration: none;"
+
+> <img src="public/0222.png" class="rounded mx-auto d-block" width=200px" height="50px">   </a> 
 </u>
 
  
@@ -304,18 +306,23 @@ include 'info.php';
 
 &nbsp;&nbsp;
 <u>
-<a href="https://goo.gl/maps/JD4xunFqhJjYnqRo8" style=" color: blue;background-color: transparent;text-decoration: none;">لوكيشن فرع الاسكان </a> 
+<a href="https://goo.gl/maps/JD4xunFqhJjYnqRo8" style=" color: blue;background-color: transparent;text-decoration: none;"> 
+
+
+<img src="public/0333.png" class="rounded mx-auto d-block" width=200px" height="50px">
+
+</a> 
 </u>
 
 
 &nbsp;&nbsp;
-<br>
-<br>
-<br>
-<br>
-<br>
+ 
 <u>
-<a href="https://goo.gl/maps/YhKQWmGSUxwjwkG88" style=" color: blue;background-color: transparent;text-decoration: none;">لوكيشن فرع الخرج </a> 
+<a href="https://goo.gl/maps/YhKQWmGSUxwjwkG88" style=" color: blue;background-color: transparent;text-decoration: none;"> 
+
+<img src="public/0111.png" class="rounded mx-auto d-block" width=200px" height="50px">
+
+</a> 
 </u>
 
 
