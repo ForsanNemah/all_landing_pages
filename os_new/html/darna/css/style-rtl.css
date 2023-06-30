@@ -360,7 +360,7 @@ body.toggled .navbar.easy-sidebar {
     padding: 15px 35px 15px 0px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
     .navbar-nav {
         float: right!important;
     }

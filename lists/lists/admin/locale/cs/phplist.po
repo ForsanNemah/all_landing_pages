@@ -4920,7 +4920,7 @@ msgstr "%d všechny emaily již existují v databázi."
 msgid "URL Click Statistics"
 msgstr "Statistika kliknutí uživatelů"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "hodina"
@@ -8887,7 +8887,7 @@ msgstr "%d vstupy k konvertování"
 msgid "Sign up to receive news and updates about phpList "
 msgstr "Přihlašte se a získávejte novinky a informace o aktualizacích phpListu "
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "Žádný uživatel nepožádal o atribut"
 

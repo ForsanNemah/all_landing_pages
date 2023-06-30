@@ -2548,7 +2548,7 @@ msgstr "Looking for subscribers"
 msgid "users apply for attributes, now checking lists"
 msgstr "subscribers apply for attributes, now checking lists"
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "No subscribers apply for attributes"
 
@@ -4949,7 +4949,7 @@ msgid "September"
 msgstr "September"
 
 #: public_html/lists/admin/systemstats.php:22
-#: public_html/lists/admin/date.php:36 public_html/lists/admin/connect.php:1768
+#: public_html/lists/admin/date.php:36 public_html/lists/admin/connect.php:11000
 msgid "October"
 msgstr "October"
 

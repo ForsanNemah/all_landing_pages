@@ -3953,7 +3953,7 @@ msgstr "Administratoren"
 msgid "are you sure you want to delete all bounces"
 msgstr "Sind sie sicher, dass Sie alle Retouren löschen wollen?"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "jede Stunde"
@@ -5560,7 +5560,7 @@ msgstr "Abonnenten anzeigen"
 msgid "related bounces"
 msgstr "Zugeh&ouml;rige unzustellbare Mail"
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "Kein Abonnent passt zum Attribut"
 

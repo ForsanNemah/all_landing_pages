@@ -6652,7 +6652,7 @@ msgstr "Nga fusha"
 msgid "pagetitle:viewrss"
 msgstr "pagetitle:shikorss"
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "Asnjë përdorues nuk aplikon për tiparet"
 
@@ -8417,7 +8417,7 @@ msgstr "Emri i Hyrjes"
 msgid "subscribers deleted"
 msgstr "Abonentët u fshinë"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "ora"

@@ -1133,7 +1133,7 @@ msgstr ""
 msgid "date"
 msgstr ""
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr ""
 
@@ -8227,7 +8227,7 @@ msgstr ""
 msgid "Choose how to set password"
 msgstr ""
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr ""

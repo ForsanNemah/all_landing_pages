@@ -195,7 +195,7 @@ msgstr ""
 msgid "delete this campaign"
 msgstr ""
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "Noben uporabnik ne ustreza atributom"
 
@@ -740,7 +740,7 @@ msgstr "Uporabniki"
 msgid "upgrade"
 msgstr "Nadgradnja"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "Uro"

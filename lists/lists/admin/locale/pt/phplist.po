@@ -7269,7 +7269,7 @@ msgstr ""
 "Endere&ccedil;o de email que ir&aacute; receber o alerta do fim do envio "
 "desta mensagem"
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "Nenhum assinante selecionado pelos atributos definidos"
 
@@ -10597,7 +10597,7 @@ msgstr "Servidor"
 msgid "Create password"
 msgstr "Criar senha"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "hora"

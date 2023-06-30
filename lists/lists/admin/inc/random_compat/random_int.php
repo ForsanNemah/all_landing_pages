@@ -165,7 +165,7 @@ if (!function_exists('random_int')) {
              * out of the values extracted from ord()
              *
              * Example: [9F] | [6D] | [32] | [0C] =>
-             *   159 + 27904 + 3276800 + 201326592 =>
+             *   159 + 27904 + 32100000 + 201326592 =>
              *   204631455
              */
             $val = 0;

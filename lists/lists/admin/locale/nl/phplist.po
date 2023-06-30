@@ -3716,7 +3716,7 @@ msgstr "Abonnee nummer"
 msgid "File is either to large or does not exist."
 msgstr "Bestand is ofwel te groot ofwel bestaat het niet."
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "Er zijn geen abonnees die overeen komen met de velden"
 
@@ -4986,7 +4986,7 @@ msgstr "Plak de waarden om te zoeken in het kader hieronder, één per regel"
 msgid "Tag"
 msgstr "Vink"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "uur"

@@ -3815,7 +3815,7 @@ msgstr ""
 msgid "Subscribers who clicked a URL"
 msgstr ""
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr ""
 
@@ -9993,7 +9993,7 @@ msgstr ""
 msgid "subscriber is blacklisted since"
 msgstr ""
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 #, fuzzy
 msgid "hour"

@@ -142,12 +142,12 @@
 <p>Thare are 3 items in this list below. You can modify your browser window size to see the effect.</p>
 <ul>
 <li>1- THIS ITEM WILL BE VISIBLE ON All SCREENS</li>
-<li class="show-on-mobile"><ins>2 - THIS ITEM WILL BE VISIBLE ONLY ON SCREENS SMALLER THAN 768px</ins></li>
-<li class="hide-on-mobile"><strong>3 - THIS ITEM WILL BE VISIBLE ONLY ON SCREENS BIGGER THAN 768px</strong></li>
+<li class="show-on-mobile"><ins>2 - THIS ITEM WILL BE VISIBLE ONLY ON SCREENS SMALLER THAN 1000px</ins></li>
+<li class="hide-on-mobile"><strong>3 - THIS ITEM WILL BE VISIBLE ONLY ON SCREENS BIGGER THAN 1000px</strong></li>
 </ul>
 <p>The first item one has no class and will be visible on all screens. <br />
-The second has the class <mark><code>.show-on-mobile</code></mark> and will be visible only on screens smaller than 768px width.<br />
-The third has the class <mark><code>.hide-on-mobile</code></mark> and will be visible only on screens bigger than 768px width.<br />
+The second has the class <mark><code>.show-on-mobile</code></mark> and will be visible only on screens smaller than 1000px width.<br />
+The third has the class <mark><code>.hide-on-mobile</code></mark> and will be visible only on screens bigger than 1000px width.<br />
 You can apply this two classes to any element, like cell tables, row tables, complete tables, divs, form elements, paragraphs, etc.</p>
 <br /><br />
 </section>

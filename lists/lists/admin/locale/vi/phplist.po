@@ -1795,7 +1795,7 @@ msgstr ""
 msgid "URL to forward to"
 msgstr ""
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr ""
@@ -9246,7 +9246,7 @@ msgstr ""
 msgid "Name of table with values"
 msgstr ""
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "No users apply for attributes"
 

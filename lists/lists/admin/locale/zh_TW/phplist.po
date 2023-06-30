@@ -4445,7 +4445,7 @@ msgstr "測試列表"
 msgid "(so you can resend the request for confirmation)"
 msgstr ""
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 #, fuzzy
 msgid "hour"
@@ -6674,7 +6674,7 @@ msgstr ""
 msgid "minimum of 8 characters."
 msgstr ""
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "沒有訂閱者符合條件"
 

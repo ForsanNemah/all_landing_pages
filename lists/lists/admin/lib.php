@@ -1287,7 +1287,7 @@ function fetchUrl($url, $userdata = array(), $ttl = REMOTE_URL_REFETCH_TIMEOUT)
     $remote_charset = 'UTF-8';
     //# relying on the last modified header doesn't work for many pages
     //# use current time instead
-    //# see http://mantis.phplist.com/view.php?id=7684
+    //# see http://mantis.phplist.com/view.php?id=10004
 //    $lastmodified = strtotime($header["last-modified"]);
     $lastmodified = time();
     $content = getPageCache($url, $lastmodified);

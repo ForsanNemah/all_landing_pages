@@ -698,7 +698,7 @@ include('about.php');
     <div class="col-sm-12">
             <div class="contact-map box">
               <div id="map" class="contact-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.934390383412!2d49.59113258498694!3d25.373515283814523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e3796c758a9539b%3A0x79fdba4a2517c084!2z2YXYrNmF2Lkg2YbYp9izINmE2LfYqCDYp9mE2KfYs9mG2KfZhg!5e0!3m2!1sar!2ssa!4v1679884223589!5m2!1sar!2ssa" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.934390383412!2d49.59113258498694!3d25.373515283814523!2m3!1f0!2f0!3f0!3m2!1i1024!2i1000!4f13.1!3m3!1m2!1s0x3e3796c758a9539b%3A0x79fdba4a2517c084!2z2YXYrNmF2Lkg2YbYp9izINmE2LfYqCDYp9mE2KfYs9mG2KfZhg!5e0!3m2!1sar!2ssa!4v1679884223589!5m2!1sar!2ssa" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
                     <br>
 <br>

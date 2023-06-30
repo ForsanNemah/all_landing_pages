@@ -100,7 +100,7 @@ body.toggled {
 	width: 100%;
 }
 
-@media (max-width:  768px) {
+@media (max-width:  1000px) {
 	body.toggled {
 		position: fixed;
 	}

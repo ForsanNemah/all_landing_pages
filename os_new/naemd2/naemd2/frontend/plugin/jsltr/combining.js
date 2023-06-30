@@ -6441,7 +6441,7 @@ var Autocare = (function() {
                             $(".countdown").text("we are live");
                         });
                 })(u),
-                e > 768 && $(".content-scroll").length > 0 && $(".content-scroll").mCustomScrollbar({ setWidth: !1, setHeight: !1, axis: "y" }),
+                e > 1000 && $(".content-scroll").length > 0 && $(".content-scroll").mCustomScrollbar({ setWidth: !1, setHeight: !1, axis: "y" }),
                 s(),
                 $(".item-close").on("click", function() {
                     $(this).closest(".cart-item").hide("500");
@@ -11349,7 +11349,7 @@ var Autocare = (function() {
                             $(".countdown").text("we are live");
                         });
                 })(u),
-                e > 768 && $(".content-scroll").length > 0 && $(".content-scroll").mCustomScrollbar({ setWidth: !1, setHeight: !1, axis: "y" }),
+                e > 1000 && $(".content-scroll").length > 0 && $(".content-scroll").mCustomScrollbar({ setWidth: !1, setHeight: !1, axis: "y" }),
                 s(),
                 $(".item-close").on("click", function() {
                     $(this).closest(".cart-item").hide("500");

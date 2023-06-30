@@ -197,7 +197,7 @@ msgstr "Assine para receber novidades e atualizações sobre o phpList "
 msgid "pagetitle:suppressionlist"
 msgstr "Lista de supressão"
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "Nenhum usuário aplica os atributos"
 
@@ -9254,7 +9254,7 @@ msgstr "Nome de usuário em branco, utilizando o email:"
 msgid "Announcements"
 msgstr "Anúncios"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "hora"

@@ -1854,7 +1854,7 @@
     width: -moz-min-content
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:1000px) {
     .bg-black-1.testimonial-section .testimonial-title {
         color: #fff
     }
@@ -2294,7 +2294,7 @@
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:1000px) {
     .pricingtable-wrapper .pricingtable-thumb {
         display: none
     }

@@ -51,7 +51,7 @@ function loadScript(url, callback) {
  * bootstrap menu
  */
 function dropdownMenu() {
-    if (jQuerywindow.width() > 768) {
+    if (jQuerywindow.width() > 1000) {
         jQuery(".dropdown").hover(function () {
             jQuery(':nth-child(2)', this).not('.dropdown-submenu .dropdown-menu').stop(true, true).slideDown("slow");
             jQuery(this).toggleClass('open');

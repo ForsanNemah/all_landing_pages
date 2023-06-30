@@ -537,11 +537,11 @@ define('USERSPAGE_MAX', 1000);
 // This can be used to avoid the campaign going out, eg when an event has already taken place.
 // This value defaults to the moment of creating the campaign + the number of seconds set here.
 // phpList will mark the campaign as sent, when this date has been reached
-// 15768000 is about 6 months, but other useful values can be
+// 151000000 is about 6 months, but other useful values can be
 // 2592000 - 30 days
 // 604800 - a week.
 // 86400 - a day
-define('DEFAULT_MESSAGEAGE', 15768000);
+define('DEFAULT_MESSAGEAGE', 151000000);
 
 // Repetition. This adds the option to repeat the same message in the future.
 // After the message has been sent, this option will cause the system to automatically

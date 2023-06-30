@@ -2506,7 +2506,7 @@ msgstr ""
 msgid "users apply for attributes, now checking lists"
 msgstr ""
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr ""
 
@@ -4844,7 +4844,7 @@ msgid "October"
 msgstr ""
 
 #: public_html/lists/admin/systemstats.php:23
-#: public_html/lists/admin/date.php:37 public_html/lists/admin/connect.php:1768
+#: public_html/lists/admin/date.php:37 public_html/lists/admin/connect.php:11000
 msgid "November"
 msgstr ""
 

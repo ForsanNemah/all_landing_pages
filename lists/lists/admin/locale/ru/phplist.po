@@ -1391,7 +1391,7 @@ msgstr "Подписчики отсутствуют в базе"
 msgid "Campaign %d suspended, message too large"
 msgstr "Кампания «%d» приостановлена из-за большого объёма письма"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "каждый час"
@@ -2073,7 +2073,7 @@ msgstr "Списки рассылки не выбраны"
 msgid "Nov"
 msgstr "Ноя"
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "Нет соответствующих атрибутам подписчиков"
 

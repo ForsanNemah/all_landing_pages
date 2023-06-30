@@ -2508,7 +2508,7 @@ msgstr "%d email adresa je već blokirano i nisu dodate u liste"
 msgid "HTML Email choice"
 msgstr "Izbor HTML poruke"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "čas"
@@ -8382,7 +8382,7 @@ msgstr ""
 msgid "That rule exists already"
 msgstr "To pravilo već postoji"
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "Nijedan korisnik ne odgovara atributima"
 

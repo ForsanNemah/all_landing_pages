@@ -3434,7 +3434,7 @@ msgstr ""
 msgid "predefined defaults"
 msgstr ""
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "Egy felhasználó sem érvényes a tulajdonságokra"
 
@@ -5843,7 +5843,7 @@ msgstr "emailek voltak"
 msgid "about"
 msgstr "névjegy"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "óra"

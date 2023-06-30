@@ -235,7 +235,7 @@ border-radius:30px 0px 0px 30px;
 @media only screen and (max-width: 960px) {
 
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
 
 }
 
@@ -976,7 +976,7 @@ website:    http://www.themepunch.com
 @media only screen and (max-width: 960px) {
 
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
 
 }
 
@@ -1730,7 +1730,7 @@ website:    http://www.themepunch.com
   .hermes .tp-tab-date { font-size:11px; line-height:13px;margin-bottom:10px;}
   .hermes .tp-tab-content { padding:15px 15px 15px 25px;}
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   .hermes .tp-tab .tp-tab-title {font-size:12px;line-height:14px;}
   .hermes .tp-tab-date {font-size:10px; line-height:12px;margin-bottom:5px;}
   .hermes .tp-tab-content {padding:10px 10px 10px 20px;}
@@ -1919,7 +1919,7 @@ website:    http://www.themepunch.com
 @media only screen and (max-width: 960px) {
 
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
 
 }
 

@@ -151,7 +151,7 @@ msgstr "Medlem af"
 msgid "Great idea!"
 msgstr ""
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "Ingen brugere passer til attributter"
 
@@ -4808,7 +4808,7 @@ msgstr ""
 msgid "imap_getmailboxes failed"
 msgstr "imap_getmailboxes fejlede"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr ""

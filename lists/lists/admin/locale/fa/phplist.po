@@ -2614,7 +2614,7 @@ msgstr "در حال ارتباط با پایگاه داده دور"
 msgid "pagetitlehover:sendprepared"
 msgstr ""
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "کاربری برای ویژگیها اعمال نکرده است"
 
@@ -4173,7 +4173,7 @@ msgstr ""
 msgid "view subscribers who clicked"
 msgstr ""
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "ساعت"

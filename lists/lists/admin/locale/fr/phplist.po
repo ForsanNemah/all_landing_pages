@@ -1304,7 +1304,7 @@ msgstr ""
 "Si cette page ne s'affiche pas rapidement, veuillez faire état de cette "
 "anomalie dans le forum des utilisateurs."
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "Aucun abonné ne correspond aux attributs choisis"
 
@@ -7367,7 +7367,7 @@ msgstr "Envoi %d interrompu. Message trop volumineux"
 msgid "You have requested a new password for phpList."
 msgstr "Vous avez demandé un nouveau mot de passe pour phpList."
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "heure"

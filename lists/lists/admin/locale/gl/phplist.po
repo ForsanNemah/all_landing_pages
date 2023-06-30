@@ -2351,7 +2351,7 @@ msgstr "Activo"
 msgid "Go"
 msgstr "Ir"
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "Ningún subscritor corresponde aos atributos"
 
@@ -5025,7 +5025,7 @@ msgstr "Na lista negra por"
 msgid "Sign up to our newsletter"
 msgstr "Subscríbete ao noso boletín"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "hora"

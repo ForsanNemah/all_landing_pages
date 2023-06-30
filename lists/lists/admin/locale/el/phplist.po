@@ -2100,7 +2100,7 @@ msgstr ""
 msgid "Remote version is"
 msgstr "Η απομακρυσμένη έκδοση είναι"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "ώρα"
@@ -2328,7 +2328,7 @@ msgstr "περίληψη"
 msgid "Show only unconfirmed users"
 msgstr "Εμφάνιση μόνο ανεπιβεβαίωτων χρηστών"
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "Κανένας χρήστης δεν υποβάλλει αίτηση για χαρακτηριστικά"
 

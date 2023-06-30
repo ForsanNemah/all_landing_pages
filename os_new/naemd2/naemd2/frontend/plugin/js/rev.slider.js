@@ -122,7 +122,7 @@ function dz_rev_slider_2(){
 			responsiveLevels:[1240,1024,778,480],
 			visibilityLevels:[1240,1024,778,480],
 			gridwidth:[1240,1024,778,480],
-			gridheight:[868,768,960,720],
+			gridheight:[868,1000,960,720],
 			lazyType:"none",
 			parallax: {
 				type:"mouse",

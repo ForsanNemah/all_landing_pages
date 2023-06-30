@@ -3859,7 +3859,7 @@ msgstr "新增其他列表"
 msgid "clickrate"
 msgstr "点阅率"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "小时"
@@ -5271,7 +5271,7 @@ msgstr "订阅的电子报："
 msgid "to"
 msgstr "到"
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "没有使用者符合条件"
 

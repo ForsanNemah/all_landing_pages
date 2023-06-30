@@ -63,7 +63,7 @@ msgstr "Testo del pulsante"
 msgid "Summary"
 msgstr "Riepilogo"
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "A nessun utente si applicano gli attributi"
 
@@ -594,7 +594,7 @@ msgstr "Scegli come impostare la password"
 msgid "There is a maximum of %d test emails allowed"
 msgstr "C'è un massimo di %d email di prova ammesse"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "ora"

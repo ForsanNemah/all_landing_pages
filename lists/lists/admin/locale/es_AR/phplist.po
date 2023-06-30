@@ -3165,7 +3165,7 @@ msgstr ""
 msgid "from this list"
 msgstr "de esta lista"
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "Ning&uacute;n usuario corresponde a los atributos"
 
@@ -4602,7 +4602,7 @@ msgstr "Campaña no encontrada"
 msgid "View Opens by Message"
 msgstr "Ver lecturas por mensaje"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "hora"

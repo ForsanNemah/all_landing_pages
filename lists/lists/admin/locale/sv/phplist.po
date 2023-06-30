@@ -167,7 +167,7 @@ msgstr ""
 msgid "copy and paste list of emails"
 msgstr ""
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "Inga medlemmar uppfyller attributen"
 
@@ -4335,7 +4335,7 @@ msgstr ""
 msgid "Number of clicks from text emails"
 msgstr ""
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr ""

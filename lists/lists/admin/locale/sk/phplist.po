@@ -576,7 +576,7 @@ msgstr "text"
 msgid "Please enter a subject"
 msgstr "Please enter a subject"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "hodina"
@@ -3952,7 +3952,7 @@ msgstr "Process Next Batch"
 msgid "no related bounces found"
 msgstr "no related bounces found"
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "No subscribers apply for attributes"
 

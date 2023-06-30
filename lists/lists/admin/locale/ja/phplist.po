@@ -897,7 +897,7 @@ msgstr "キャンペーンを編集"
 msgid "Cannot create POP3 connection to"
 msgstr "POP3接続を確立できません。"
 
-#: public_html/lists/admin/send_core.php:768,
+#: public_html/lists/admin/send_core.php:1000,
 #: public_html/lists/admin/send_core.php:809
 msgid "hour"
 msgstr "1時間"
@@ -3201,7 +3201,7 @@ msgstr "タグ"
 msgid "View Bounces"
 msgstr "配送エラーの閲覧"
 
-#: public_html/lists/admin/actions/processqueue.php:768
+#: public_html/lists/admin/actions/processqueue.php:1000
 msgid "No users apply for attributes"
 msgstr "属性の申請をしている購読者はいません。"
 

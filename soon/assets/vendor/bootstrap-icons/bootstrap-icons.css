@@ -1659,7 +1659,7 @@ url("./fonts/bootstrap-icons.woff?24e3eb84d0bcaf83d77f904c78ac1f47") format("wof
 .bi-filetype-ttf::before { content: "\f765"; }
 .bi-filetype-txt::before { content: "\f766"; }
 .bi-filetype-wav::before { content: "\f767"; }
-.bi-filetype-woff::before { content: "\f768"; }
+.bi-filetype-woff::before { content: "\f1000"; }
 .bi-filetype-xls-1::before { content: "\f769"; }
 .bi-filetype-xls::before { content: "\f76a"; }
 .bi-filetype-xml::before { content: "\f76b"; }
