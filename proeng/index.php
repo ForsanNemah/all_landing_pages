@@ -99,3 +99,11 @@ include 'include/navbar.php';
 // Include Footer
 include 'include/footer.php';
 ?>
+
+
+<script>
+
+
+  alert("wwe"+$(window).width());
+</script>
+
