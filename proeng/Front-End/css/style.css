@@ -21,7 +21,7 @@ nav .navbar-toggler:focus {
   outline: none;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 980px) {
   nav .navbar-collapse {
     margin-top: 20px;
     padding-top: 10px;

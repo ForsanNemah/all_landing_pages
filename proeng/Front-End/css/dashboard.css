@@ -18,7 +18,7 @@ body {
   background-color: #1b1e21;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 980px) {
   .content .menu-links {
     min-height: 100vh;
     max-width: 310px !important;
