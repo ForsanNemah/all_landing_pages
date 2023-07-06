@@ -52,7 +52,7 @@
 
 
 
-                <a href="https://twitter.com/mahindra_saudi" target="blank" class="social-margin">
+                <a href="https://www.snapchat.com/add/mahindra_saudi?share_id=h4v_D1ABaSQ&locale=en-SA" target="blank" class="social-margin">
                   <div class="social-icon snapchat">
                     <i class="fa fa-snapchat" aria-hidden="true"></i>
                   </div> 
