@@ -57,6 +57,18 @@
 
 
 
+                <a href="https://www.instagram.com/mahindra_saudi/" target="blank" class="social-margin">
+                  <div class="social-icon insta ">
+                    <i class="bi bi-instagram" aria-hidden="true"></i>
+               
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </div> 
+                </a>
+
+
+
+
+
         </div>
         </div>
 </body>
@@ -251,12 +263,28 @@ a:active {
     padding-left: 0px;
     background-color: #FFFC00;
     color: #ffffff;
-    border-color: #bb0000;
+    border-color: #FFFC00;
     
   }
   .snapchat  :hover {
-    background-color: #ffffff;
-    color: #bb0000;
+    background-color: #FFFC00;
+    color: #FFFC00;
+  }
+
+
+
+  .insta {
+    font-size: 22px;
+    padding-top: 9px;
+    padding-left: 0px;
+    background-color: #e95950;
+    color: #ffffff;
+    border-color: #e95950;
+    
+  }
+  .insta  :hover {
+    background-color: #e95950;
+    color: #e95950;
   }
 
 
