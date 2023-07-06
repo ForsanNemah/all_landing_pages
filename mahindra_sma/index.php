@@ -14,11 +14,7 @@
         </div>
         <div class="social-buttons">        
         <!-- facebook  Button -->
-                <a href="https://www.facebook.com/Mahindra_saudi" target="blank" class="social-margin"> 
-                  <div class="social-icon facebook">
-                    <i class="fa fa-facebook" aria-hidden="true"></i> 
-                  </div>
-                </a>
+               
                 <!-- pinterest Button -->
                 
                 <!-- LinkedIn Button -->
