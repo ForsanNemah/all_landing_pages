@@ -3,19 +3,107 @@ error_reporting(E_ERROR | E_PARSE);
 $to=$_GET['to'];
 $body=$_GET['body'];
 $token=$_GET['token'];
+$image=$_GET['image'];
+$video=$_GET['video'];
+$doc=$_GET['doc'];
+$filename=$_GET['filename'];
 $true_token="ecj7qt42s6e8cxq4";
+$message_type="https://api.ultramsg.com/instance50106/messages/";
 
-
+$params;
 if(isset($to)   and  isset($body)  and isset($token)   ){
 
-$params=array(
-'token' => $token,
-'to' => $to,
-'body' => $body
-);
+    if(isset($image)){
+
+        //echo "image";
+        $params=array(
+            'token' => $token,
+            'to' => $to,
+            'image' => $image,
+            'caption' =>  $body,
+           
+
+
+            );
+
+            $message_type=$message_type."image";
+
+    }
+    else{
+
+if(isset($video))
+{
+
+
+
+    $params=array(
+        'token' => $token,
+        'to' => $to,
+        'video' => $video,
+        'caption' =>  $body,
+       
+
+
+        );
+
+        $message_type=$message_type."video";
+
+
+
+
+
+
+
+}
+else{
+
+
+    if(isset($doc)&&isset($filename)){
+
+
+        $params=array(
+            'token' => $token,
+            'to' => $to,
+            'filename' => $filename,
+            'document' => $doc,
+'caption' => $body
+            );
+    
+            $message_type=$message_type."document";
+
+
+
+
+
+        
+
+    }
+    else{
+
+
+        //echo "no image";
+
+        $params=array(
+            'token' => $token,
+            'to' => $to,
+            'body' => $body
+            );
+    
+            $message_type=$message_type."chat";
+
+
+    }
+ 
+
+}
+
+      
+    }
+
+
 $curl = curl_init();
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://api.ultramsg.com/instance50106/messages/chat",
+  CURLOPT_URL => $message_type,
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
@@ -50,8 +138,6 @@ else{
 
 echo "invalid link format <br>";
 echo "example : <br>";
-echo "api_link..?to=966568430828&&body=this is message body <br>";
-//clp.wmc-ksa.com/w_api.php?to=967776795943&&body=this%20is%20message%20body
 
 
 

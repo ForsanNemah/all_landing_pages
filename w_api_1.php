@@ -3,36 +3,107 @@ error_reporting(E_ERROR | E_PARSE);
 $to=$_GET['to'];
 $body=$_GET['body'];
 $token=$_GET['token'];
+$image=$_GET['image'];
+$video=$_GET['video'];
+$doc=$_GET['doc'];
+$filename=$_GET['filename'];
 $true_token="ecj7qt42s6e8cxq4";
+$message_type="https://api.ultramsg.com/instance50106/messages/";
 
-
+$params;
 if(isset($to)   and  isset($body)  and isset($token)   ){
 
     if(isset($image)){
+
+        //echo "image";
         $params=array(
             'token' => $token,
             'to' => $to,
             'image' => 'https://file-example.s3-accelerate.amazonaws.com/images/test.jpg',
-            'caption' =>  $body
+            'caption' =>  $body,
+           
 
 
             );
 
+            $message_type=$message_type."image";
+
     }
     else{
+
+if(isset($video))
+{
+
+
+
+    $params=array(
+        'token' => $token,
+        'to' => $to,
+        'video' => 'https://file-example.s3-accelerate.amazonaws.com/video/test.mp4',
+        'caption' =>  $body,
+       
+
+
+        );
+
+        $message_type=$message_type."video";
+
+
+
+
+
+
+
+}
+else{
+
+
+    if(isset($doc)&&isset($filename)){
+
+
+        $params=array(
+            'token' => $token,
+            'to' => $to,
+            'filename' => $filename,
+            'document' => 'https://file-example.s3-accelerate.amazonaws.com/documents/cv.pdf',
+'caption' => $body
+            );
+    
+            $message_type=$message_type."document";
+
+
+
+
+
+        
+
+    }
+    else{
+
+
+        //echo "no image";
 
         $params=array(
             'token' => $token,
             'to' => $to,
             'body' => $body
             );
+    
+            $message_type=$message_type."chat";
 
+
+    }
+ 
+
+}
+
+      
     }
 
 
 $curl = curl_init();
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://api.ultramsg.com/instance50106/messages/chat",
+  CURLOPT_URL => $message_type,
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
