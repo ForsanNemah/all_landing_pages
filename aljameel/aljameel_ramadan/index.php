@@ -470,8 +470,14 @@ include 'info.php';
 <br>
 <br>
 <br>
-© 2022 جميع الحقوق محفوظة:
+© 2023 جميع الحقوق محفوظة:
   <a href="https://wmc-ksa.com/">  شركة النافذة للتسويق الالكتروني </a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <a href="privicy.php">  سياسة الخصوصية  </a>
 </div>
 <!-- Copyright -->
 
