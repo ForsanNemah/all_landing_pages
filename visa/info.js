@@ -1,7 +1,7 @@
  
 
 
-var phn="966569414666";
+var phn="966568430828";
 var end_date="20-3-2023";
 var end_time="12:00";
 var ad_source="snap chat ";

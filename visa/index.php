@@ -433,6 +433,19 @@ include 'info.php';
                                         <input name="phn" id="phn_id" type="number" class="form-control" placeholder="رقم الهاتف" dir="rtl" required>
                                     </div>
 
+                                    <div class="form-group">
+                                        <input name="mony" id="mony_id" type="number" class="form-control" placeholder="المبلغ" dir="rtl"    required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input name="total_mony" id="total_mony_id" type="number" class="form-control" placeholder="اجمالي المبلغ " dir="rtl"  required>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <input name="url" id="url_id" type="url" class="form-control" placeholder="رابط صفحة الشراء    " dir="rtl"  required>
+                                    </div>
+
 
 
 
@@ -452,29 +465,7 @@ echo  $ad_source;
 
 
 
-
-                                    <div class="form-group ">
-                                        <select name="type" id="servicerb" class="form-control" aria-label="عرض زراعة الأسنان" dir="rtl" required>
-
-                                        <?php
-
-include 'info.php';
-
-
-
-
-foreach ($items as $key => $value) {
-
-echo "<option value='$value'>$value</option>";
-
-}
-?>
-
-
-
-
-                                        </select>
-                                    </div>
+ 
 
 
 
@@ -615,7 +606,7 @@ include 'info.php';
 </div>
 <!-- Copyright -->
 <div class="footer-copyright text-center py-3">    جميع الحقوق محفوظة:
-  <a href="https://wmc-ksa.com/">  شركة النافذة للتسويق الالكتروني </a>
+   
 </div>
 <!-- Copyright -->
 
@@ -641,6 +632,23 @@ $(document).ready(function () {
   //$("#source_id").val('dddd');
 
   //alert($("#source_id_form").val());
+
+
+
+  $("#mony_id").on(' input', function(){
+     //alert("wwe");
+     $('#total_mony_id').attr('value',parseFloat( $("#mony_id").val()*.15)  +parseFloat( $("#mony_id").val() )    );
+});
+
+
+
+
+
+
+
+
+
+
   snaptr('track', 'PAGE_VIEW');
   var element = document.getElementById("myloader");
         element.style.display = "none"
@@ -669,14 +677,14 @@ var datetime = "" + currentdate.getDate() + "/"
                 //$("#includedContent").load("form_name_phn_type.php"); 
                 //$("#slider1").load("slider1.php"); 
                 //$("#slider2").load("slider2.php"); 
-               // $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
+                $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
            // $("#cta_call").load("cta/cta_call.php"); 
                // $("#slider3").load("slider3.php"); 
                 
                // $("#includedContent").load("form_name_phn.php"); 
                 // $("#includedContent").load("form_only_whatsapp.php"); 
 				
-                $("#count_down_counter").load("count_down.php");
+                //$("#count_down_counter").load("count_down.php");
                 //$("#tabel_1").load("tabel_1.php"); 
  
     
