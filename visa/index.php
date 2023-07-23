@@ -39,29 +39,7 @@ include 'info.php';
   
   
   </title>
-    <style>
-        /* WhatsApp Button */
-
-        .whatsApp {
-            position: fixed;
-            width: 60px;
-            height: 60px;
-            bottom: 40px;
-            right: 10px;
-            background-color: #25d366;
-            color: #FFF;
-            border-radius: 50px;
-            text-align: center;
-            font-size: 30px;
-            box-shadow: 2px 2px 3px #999;
-            z-index: 100;
-        }
-
-        .my-whatsApp {
-            margin-top: 9px;
-        }
-    </style>
-
+    
 
 
 
@@ -142,6 +120,47 @@ snaptr('init', '9462aaec-daa4-410f-a81f-988aff3fddf6', {
 
 
 </head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+
+include 'cta/cta_whatsapp.php';
+
+ 
+?>
+
+
+
+
+
+
+
+
+
 <body>
   
 
@@ -677,7 +696,7 @@ var datetime = "" + currentdate.getDate() + "/"
                 //$("#includedContent").load("form_name_phn_type.php"); 
                 //$("#slider1").load("slider1.php"); 
                 //$("#slider2").load("slider2.php"); 
-                $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
+                //$("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
            // $("#cta_call").load("cta/cta_call.php"); 
                // $("#slider3").load("slider3.php"); 
                 
