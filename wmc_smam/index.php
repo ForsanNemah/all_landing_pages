@@ -251,6 +251,9 @@ include 'info.php';
 
 <a href="https://wmc-ksa.com/" style="color: blue;">موقعنا الإلكتروني </a>
 <br>
+<br>
+ 
+
 <a href="https://wsender.wmc-ksa.com/" style="color: blue;">موقع تطبيق وتساب سندر  </a>
 
                       
