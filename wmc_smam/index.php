@@ -102,23 +102,15 @@ include 'cta/cta_whatsapp_pure.php';
  
 
 
-<!-- Snap Pixel Code -->
-<script type='text/javascript'>
-(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
-{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
-a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
-r.src=n;var u=t.getElementsByTagName(s)[0];
-u.parentNode.insertBefore(r,u);})(window,document,
-'https://sc-static.net/scevent.min.js');
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DP7FRY6QBE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-snaptr('init', 'c97e2e59-5ea1-4d69-b59e-a590d317e4ca', {
-'user_email': '_INSERT_USER_EMAIL_'
-});
-
-snaptr('track', 'PAGE_VIEW');
-
+  gtag('config', 'G-DP7FRY6QBE');
 </script>
-<!-- End Snap Pixel Code -->
 
 
  
