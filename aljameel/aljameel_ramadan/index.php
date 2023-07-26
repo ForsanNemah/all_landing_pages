@@ -155,12 +155,7 @@ include 'info.php';
 
 ?>
 
-<br>
- <br>
-<a href="tel:05563615558">
-اتصل بنا الان 
-0563615558
-</a>
+ 
 
 
 							</h3>
@@ -463,7 +458,7 @@ include 'info.php';
 <div class="footer-copyright text-center py-3">
  
 
-0563615558
+ 
 </h>
 <br>
 <br>
