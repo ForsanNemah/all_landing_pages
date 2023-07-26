@@ -5,7 +5,7 @@
 
 <script src="https://secure.paytabs.sa/payment/js/paylib.js"></script>
 
-<form action="https://yourserver.com/payment" id="payform" method="post">
+<form action="do.php" id="payform" method="post">
   <span id="paymentErrors"></span>
   <div class="row">
     <label>Card Number</label>
