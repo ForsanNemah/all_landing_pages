@@ -26,7 +26,7 @@
 <script type="text/javascript">
 var myform = document.getElementById('payform');
 paylib.inlineForm({
-  'key': '-- Your client key --',
+  'key': 'CHKMVP-GPTN6G-RM2QNV-RBK7MD',
   'form': myform,
   'autoSubmit': true,
   'callback': function(response) {
