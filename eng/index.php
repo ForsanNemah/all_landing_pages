@@ -213,7 +213,11 @@ $services = $api->services(); # Return all services
 
 echo "
  
-<h2> عدد الخدمات المتوفرة=".sizeof($services)."</h2>
+
+<div class='text-center'>
+<h2>No of Services= ".sizeof($services)."</h2>
+<br>
+</div>
 
 ";
 
