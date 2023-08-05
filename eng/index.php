@@ -239,7 +239,7 @@ echo "
     <th scope='col'>#</th>
       <th scope='col'>service</th>
       <th scope='col'>(price/1000)</th>
-      <th scope='col'>min</th>
+ 
       <th scope='col'>max</th>
       <th scope='col'>order</th>
     </tr>
@@ -261,7 +261,7 @@ echo "
 <td>".$values['service']."</td>
 <td>".$values['name']."</td>
 <td>".$values['rate']."</td>
-<td>".$values['min']."</td>
+ 
 <td>".$values['max']."</td>
 
  
