@@ -211,6 +211,14 @@ $services = $api->services(); # Return all services
 
 //print_r( $services);
 
+echo "
+ 
+<h2> عدد الخدمات المتوفرة=".sizeof($services)."</h2>
+
+";
+
+
+
 $services_1 =json_encode($services);
 //echo $services_1;
 
@@ -251,6 +259,15 @@ echo "
     
 
 foreach($array as $values) {
+
+
+
+    if (str_contains($values['name'], "secsers")) {
+        continue;
+    }
+
+
+
 
     //echo $values['name'];
     //echo "<br>";

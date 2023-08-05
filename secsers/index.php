@@ -218,6 +218,15 @@ $services_1 =json_encode($services);
 
 
 
+echo "
+
+
+<h2 id='no_of_services'>عدد الخدمات المتوفرة</h2>
+";
+
+
+
+
 
 $array = json_decode($services_1, true);
 
