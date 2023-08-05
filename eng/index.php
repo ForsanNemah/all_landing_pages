@@ -255,12 +255,13 @@ foreach($array as $values) {
     //echo $values['name'];
     //echo "<br>";
     $name_without_space = preg_replace('/\s+/', '%20', $values['name']);
+    $final_price=$values['rate']*2;
 
 echo "
 <tr>
 <td>".$values['service']."</td>
 <td>".$values['name']."</td>
-<td>".$values['rate']."</td>
+<td>".$final_price."$</td>
  
 <td>".$values['max']."</td>
 
