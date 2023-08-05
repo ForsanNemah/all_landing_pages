@@ -399,7 +399,7 @@ for (i = 1; i < tr.length; i++) {
 
  
 .table td, .table th {
-        font-size: 12px;
+        font-size: 10px;
     }
 
 }
