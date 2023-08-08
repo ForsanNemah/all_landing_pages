@@ -821,11 +821,11 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
 
-@media only all and (max-width: 2000px) {
+@media only all and (max-width: 1000px) {
   
 
   .carousel {
-  width:450px;
+  width:400px;
   height:600px;
   margin:0 auto;
 }
