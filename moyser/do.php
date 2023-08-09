@@ -67,15 +67,44 @@ $post = [
       "gateway_id"=> "moyasar_cc_ce1iUidxhrh74257S891wvW",
       "reference_number"=> "125478454231"
     )
-]
+    ];
  
 
  
 
  
-//$final_post= json_encode($post);
+$final_post= json_encode($post);
 
 //echo  $final_post;
+
+
+
+
+$ch = curl_init('https://api.moyasar.com/v1/payments');
+//curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $final_post);
+
+curl_setopt($ch, CURLOPT_HTTPHEADER, [
+    'authorization: sk_test_69pQaAPvqS1mmr3DbaS2paRmdjX6aFgkL9ud2UGn',
+    'content-type: application/json'
+]);
+
+
+
+
+
+
+// execute!
+$response = curl_exec($ch);
+
+// close the connection, release resources used
+curl_close($ch);
+echo $response; 
+
+
+
+
+
 
 
 
