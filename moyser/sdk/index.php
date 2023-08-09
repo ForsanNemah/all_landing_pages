@@ -19,6 +19,7 @@ $paymentService = new \Moyasar\Providers\PaymentService();
 $paginationResult = $paymentService->all();
 
 $payments = $paginationResult->result;
+print_r($payments);
 
 
 
