@@ -19,7 +19,23 @@ $paymentService = new \Moyasar\Providers\PaymentService();
 $paginationResult = $paymentService->all();
 
 $payments = $paginationResult->result;
-print_r($payments);
+//print_r($payments);
+
+
+
+
+$invoiceService = new \Moyasar\Providers\InvoiceService();
+
+$invoiceService->create([
+    'amount' => 1000000, // 10000.00 SAR
+    'currency' => 'SAR',
+    'description' => 'iPhone XII Purchase',
+    'callback_url' => 'http://www.example.com/invoice-status-changed', // Optional
+    'expired_at' => '2020-01-20' // Optional
+]);
+
+
+
 
 
 
