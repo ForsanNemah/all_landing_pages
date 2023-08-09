@@ -8,8 +8,17 @@ include_once 'vendor/autoload.php';
 
 $paymentService = new \Moyasar\Providers\PaymentService();
 
-$payment = $paymentService->fetch('ae5e8c6a-1622-45a5-b7ca-9ead69be722e');
+//$payment = $paymentService->fetch('ae5e8c6a-1622-45a5-b7ca-9ead69be722e');
 
+
+
+
+
+$paymentService = new \Moyasar\Providers\PaymentService();
+
+$paginationResult = $paymentService->all();
+
+$payments = $paginationResult->result;
 
 
 
