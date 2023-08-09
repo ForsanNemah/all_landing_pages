@@ -31,7 +31,7 @@ $invoiceService->create([
     'currency' => 'SAR',
     'description' => 'iPhone XII Purchase',
     'callback_url' => 'http://www.example.com/invoice-status-changed', // Optional
-    'expired_at' => '2020-01-20' // Optional
+    'expired_at' => '2025-01-20' // Optional
 ]);
 
 
