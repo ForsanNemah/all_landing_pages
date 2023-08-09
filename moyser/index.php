@@ -1,9 +1,9 @@
  
 
-<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script src="https=>//code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 
 
-<script src="https://secure.paytabs.sa/payment/js/paylib.js"></script>
+<script src="https=>//secure.paytabs.sa/payment/js/paylib.js"></script>
 
 <form action="do.php" id="payform" method="post">
   <span id="paymentErrors"></span>
@@ -26,10 +26,10 @@
 <script type="text/javascript">
 var myform = document.getElementById('payform');
 paylib.inlineForm({
-  'key': 'CHKMVP-GPTN6G-RM2QNV-RBK7MD',
-  'form': myform,
-  'autoSubmit': true,
-  'callback': function(response) {
+  'key'=> 'CHKMVP-GPTN6G-RM2QNV-RBK7MD',
+  'form'=> myform,
+  'autoSubmit'=> true,
+  'callback'=> function(response) {
     document.getElementById('paymentErrors').innerHTML = '';
     if (response.error) {             
       paylib.handleError(document.getElementById('paymentErrors'), response); 
