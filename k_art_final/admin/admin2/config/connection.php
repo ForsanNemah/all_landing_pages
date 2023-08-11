@@ -2,15 +2,15 @@
 <?php
 
 
-
+/*
 $LocalName="localhost";
 $UserName="root";
 $Password="";
 $DataBase="k_art_project_2";
+*/
 
 
-
-/*
+ 
 $LocalName="localhost";
 $UserName="u717104632_k_art_2_root";
 $Password="Forsan@2023";
@@ -18,7 +18,7 @@ $DataBase="u717104632_k_art_2";
 
 
 
-/*
+ 
 
 
 $LocalName="localhost";
