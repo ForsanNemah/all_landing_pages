@@ -37,13 +37,13 @@
 
 
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#"> General contracting and interior design </a>
+                    <i class="bi bi-chevron-right"></i> <a href="index_1.php"> General contracting and interior design </a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#"> the manufacture of wood</a>
+                    <i class="bi bi-chevron-right"></i> <a href="index_2.php"> the manufacture of wood</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#"> real estate sales</a>
+                    <i class="bi bi-chevron-right"></i> <a href="index_3.php"> real estate sales</a>
                   </li>
 
 

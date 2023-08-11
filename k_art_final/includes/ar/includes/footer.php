@@ -36,13 +36,13 @@
 
 
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#"> المقاولات العامة والتصميم الداخلي </a>
+                    <i class="bi bi-chevron-right"></i> <a href="index_1.php"> المقاولات العامة والتصميم الداخلي </a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#"> صناعة الخشب</a>
+                    <i class="bi bi-chevron-right"></i> <a href="index_2.php"> صناعة الخشب</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#"> مبيعات العقارات </a>
+                    <i class="bi bi-chevron-right"></i> <a href="index_3.php"> مبيعات العقارات </a>
                   </li>
 
 
