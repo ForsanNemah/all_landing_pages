@@ -800,8 +800,7 @@ var datetime = "" + currentdate.getDate() + "/"
  
 
 @media only all and (max-width: 950px) {
-  
-
+    
   .carousel {
   width:100%;
   height:550px;
