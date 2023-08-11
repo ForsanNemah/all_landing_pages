@@ -152,19 +152,31 @@
 
 -->
 
- 
 <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">المزيد    </a>
 
             <div class="dropdown-menu">
-            <a class="nav-link " href="contact.php">للتواصل </a>
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">اللغة    </a>
-            <div class="dropdown-menu">
-            <a class="dropdown-item " href="index.php" target="_blank"> العربية  </a>
-              <a class="dropdown-item " href="../../index.php" target="_blank">الإنجليزية   </a>
-            </div>
+            <a class="nav-link " href="#contact_slide">للتواصل </a>
+         
+            
           </div>
         </li>
+
+
+
+
+
+
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">اللغة  </a>
+            <div class="dropdown-menu">
+
+     <a class="dropdown-item " href="index.php" target="_blank"> العربية  </a>
+              <a class="dropdown-item " href="../../index.php" target="_blank">الإنجليزية    </a>
+            
+            </div>
+          </li>
 
 
         </ul>
