@@ -90,7 +90,29 @@
  
             </ul>
             <div class="d-grid">
-              <a href="#" class="btn btn-primary text-uppercase">شراء</a>
+              
+
+            <form method="post" action="form.php" class="d-grid">
+
+
+<input name="user_id" type="number" class="form-group" style="text-align: center; " placeholder="معرف المستخدم" required></input>
+<input name="package_price" type="number" class="form-group" value="37500" hidden></input>
+<input name="des" type="text" class="form-group" value="375 package " hidden></input>
+             <br>
+
+      
+
+             <a href="https://wa.link/vp4tjr" >
+ <button   type="button"  class="btn-success  ">انشاء معرف مستخدم</button>
+ </a>
+    
+
+            
+             <br>
+              <button   type="submit"  class="btn btn-primary text-uppercase">شراء</button>
+</form>
+
+
             </div>
           </div>
         </div>
