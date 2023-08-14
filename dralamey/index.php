@@ -276,6 +276,7 @@ include 'info.php';
                       <a href="#slider_1" style=" color: blue;"> الاطلاع على خدماتنا وعروضنا </a>
                       <br>
                       <br>
+                      <br>
 
 
 
