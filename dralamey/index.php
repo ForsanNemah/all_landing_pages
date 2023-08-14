@@ -268,8 +268,18 @@ include 'info.php';
 
 
 ?>
-                      
+                  
+                  
                       </h3>
+                     
+                      <br>
+                      <a href="#slider_1" style=" color: blue;"> الاطلاع على خدماتنا وعروضنا </a>
+                      <br>
+                      <br>
+
+
+
+                      <
                     </div>
                 </div>
             </div>
@@ -676,7 +686,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
                 //$("#includedContent").load("form_name_phn_type.php"); 
-                //$("#slider1").load("slider1.php"); 
+                $("#slider1").load("slider1.php"); 
                 //$("#slider2").load("slider2.php"); 
                 //$("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
            // $("#cta_call").load("cta/cta_call.php"); 
