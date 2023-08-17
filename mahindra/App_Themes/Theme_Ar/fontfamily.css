@@ -1,0 +1,312 @@
+﻿
+body {
+    font-family: 'Almarai', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Almarai', sans-serif;
+}
+
+.thm-btn {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.section-title__tagline {
+    font-family: 'Almarai', sans-serif;
+}
+
+.main-menu-wrapper__call-number p {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.main-menu .main-menu__list > li > a,
+.stricky-header .main-menu__list > li > a {
+    font-family: 'Almarai', sans-serif;
+}
+
+.main-menu .main-menu__list li ul li a,
+.stricky-header .main-menu__list li ul li a {
+    font-family: 'Almarai', sans-serif;
+}
+
+.mobile-nav__content .main-menu__list li a {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.main-slider p {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.main-slider__nav .swiper-button-next,
+.main-slider__nav .swiper-button-prev {
+    font-family: 'Almarai', sans-serif;
+}
+
+.main-slider-two__content p {
+    font-family: 'Almarai', sans-serif;
+}
+
+.main-slider--three p {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.main-slider--three__btn2 .title-box h5 {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+
+.services-one__count:before {
+    font-family: 'Almarai', sans-serif;
+}
+
+.services-one__find-solutions-text {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.get-to-know-big-text {
+    font-family: 'Almarai', sans-serif;
+}
+
+.get-to-know__progress .count-text {
+    font-family: 'Almarai', sans-serif;
+}
+
+.get-to-know__person-name {
+    font-family: 'Almarai', sans-serif;
+}
+
+.get-to-know__person-founder {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.project-filter.style1 li .filter-text {
+    font-family: 'Almarai', sans-serif;
+}
+
+.project-one__tagline {
+    font-family: 'Almarai', sans-serif;
+}
+
+.counter-one__single h3 {
+    font-family: 'Almarai', sans-serif;
+    !important;
+}
+
+.counter-one__text {
+    font-family: 'Almarai', sans-serif;
+}
+
+.team-one__title {
+    font-family: 'Almarai', sans-serif;
+}
+
+.team-one__hover-title {
+    font-family: 'Almarai', sans-serif;
+}
+
+.testimonial-one__client-title {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.financial-advice__tab-box .tab-buttons .tab-btn span {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.tabs-content__experience-btn {
+    font-family: 'Almarai', sans-serif;
+}
+
+.financial-advice__bottom-text {
+    font-family: 'Almarai', sans-serif;
+}
+
+.blog-one__date p {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.why-choose-two__counter-content h3 {
+    font-family: 'Almarai', sans-serif;
+    !important;
+}
+
+.project-two__tagline {
+    font-family: 'Almarai', sans-serif;
+}
+
+.counter-two__single h3 {
+    font-family: 'Almarai', sans-serif;
+    !important;
+}
+
+.counter-two__text {
+    font-family: 'Almarai', sans-serif;
+}
+
+.thm-breadcrumb li {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+    .thm-breadcrumb li a {
+        font-family: 'Almarai', sans-serif;
+    }
+
+
+.blog-sidebar__date-box p {
+    font-family: 'Almarai', sans-serif;
+}
+
+.sidebar__post-content-meta {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.sidebar__tags-list a {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+
+.sidebar__comments-text-box h5 {
+    font-family: 'Almarai', sans-serif;
+}
+
+.blog-details__date-box p {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.blog-details__tags span {
+    font-family: 'Almarai', sans-serif;
+}
+
+.blog-details__tags a {
+    font-family: 'Almarai', sans-serif;
+}
+
+.blog-details__pagenation li {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+
+.project-details__pagination-sub-title {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.project-details__pagination-title {
+    font-family: 'Almarai', sans-serif;
+}
+
+.service-details__need-help-contact p {
+    font-family: 'Almarai', sans-serif;
+}
+
+.service-details__need-help-contact a {
+    font-family: 'Almarai', sans-serif;
+}
+
+.service-details__download-btn {
+    font-family: 'Almarai', sans-serif;
+}
+
+.faq-one-accrodion .accrodion-title h4::before {
+    font-family: 'Almarai', sans-serif;
+}
+
+.faq-page__bottom-text {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.contact-info__single h4 {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.get-in-touch-one__progress .count-text {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.how-we-works-one__icon .count-box {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+    .how-we-works-one__icon .count-box::before {
+        font-family: 'Almarai', sans-serif;
+    }
+
+.team-details__top-title {
+    font-family: 'Almarai', sans-serif;
+}
+
+.team-details-bottom__progress .count-text {
+    font-family: 'Almarai', sans-serif;
+}
+
+.shop-search form input[type=search],
+.shop-search form input[type=text] {
+    font-family: 'Almarai', sans-serif;
+}
+
+.shop-category ul li a:after {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.product-sorting .nice-select {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.product-card__price {
+    font-family: 'Almarai', sans-serif;
+}
+
+.product-details__quantity .quantity-box input {
+    font-family: 'Almarai', sans-serif;
+}
+
+.cart-table thead th {
+    font-family: 'Almarai', sans-serif;
+}
+
+
+.cart-table .quantity-box input {
+    font-family: 'Almarai', sans-serif;
+}
+
+.cart-cupon__input {
+    font-family: 'Almarai', sans-serif;
+}
+
+.cart-total li span:first-child {
+    font-family: 'Almarai', sans-serif;
+}
+
+.billing_details .checked-box label {
+    font-family: 'Almarai', sans-serif;
+}
+
+.order_table_head th {
+    font-family: 'Almarai', sans-serif;
+}
