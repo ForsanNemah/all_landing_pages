@@ -283,7 +283,6 @@ echo "
 <td>".$values['service']."</td>
 <td>".$values['name']."</td>
 <td>".$final_price."$</td>
- 
 <td>".$values['max']."</td>
 
  
