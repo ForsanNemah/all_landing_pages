@@ -721,7 +721,8 @@ var datetime = "" + currentdate.getDate() + "/"
    element.style.display = "none";
    done_icon.style.display = "block"
     
-   window.location.replace("https://drive.google.com/drive/folders/1jjc1S1sNv2u4dtcOjviiYuPwWUB7ihEP?usp=sharing") ;
+   //window.location.replace("https://drive.google.com/drive/folders/1jjc1S1sNv2u4dtcOjviiYuPwWUB7ihEP?usp=sharing") ;
+   alert("تمت عملية التسجيل بنجاح ");
    
 } 
 	
