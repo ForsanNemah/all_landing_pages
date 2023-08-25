@@ -87,6 +87,7 @@ include 'info.php';
 ttq.track('ViewContent', {
 });
 
+ 
 </script>
 
 
@@ -749,13 +750,15 @@ var datetime = "" + currentdate.getDate() + "/"
 
    
     var event_phn=$("#phn_id").val();
-   snaptr('track','SIGN_UP');
+    
     
    ttq.identify({
  
   "phone_number": sha256(event_phn), // string. The phone number of the customer if available. It must be hashed with SHA-256 on the client side.
  
 });
+
+//alert(sha256(event_phn));
 
 
    alert("شكرا لتسجيلك في عيادات رويال ");
