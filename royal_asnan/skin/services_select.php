@@ -1,5 +1,5 @@
 <div class="form-group " dir="rtl">
-                                        <select name="type" id="servicerb" class="form-control" aria-label="عرض زراعة الأسنان" required>
+                                        <select name="service" id="servicerb" class="form-control" aria-label="عرض زراعة الأسنان" required>
 
                                         <?php
 

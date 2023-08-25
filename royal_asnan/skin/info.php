@@ -23,7 +23,7 @@ try {
 
 
 
-$handle = fopen("services/skin_services.txt", "r");
+$handle = fopen("services/asnan_services.txt", "r");
 if ($handle) {
 $i=0;
     while (($line = fgets($handle)) !== false) {
@@ -49,7 +49,7 @@ $info = array(
 
     
 
-    "website_title"=>"         مجمع المسواك -الرياض-حي النرجس     ",
+    "website_title"=>"        مجمع عيادات رويال الطبية     ",
      "sub1"=>"      الحمزة للسيارات  ",
     "sub2"=>"أفضل عروض شانجان - شانجان جديدة بأفضل سعر   
       ",
@@ -68,7 +68,7 @@ $info = array(
 
  
     "ev_logo_name"=>"    
-    مجمع المسواك -الرياض-حي النرجس
+    مجمع عيادات رويال الطبية 
     ",
 
 

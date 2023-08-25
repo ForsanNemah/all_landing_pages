@@ -78,7 +78,9 @@ include 'info.php';
 
 <script type="text/javascript" src="info.js"></script>
 
-
+<!--
+<script type="text/javascript" src="pixel/pixel.js"></script>
+-->
 
 
 
@@ -223,9 +225,9 @@ if ($handle = opendir('logo')) {
   
   
   
-  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='200spx' height='200px' >
+  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='250px' height='250px' >
   
-  
+
   
   ";
   
@@ -262,9 +264,9 @@ if ($handle = opendir('logo')) {
 
 include 'info.php';
 
- echo $info['ev_logo_name'];
+  
 
-
+echo "  <h3 class='pulsate'>".$info['ev_logo_name']."</h3>";
 
 
 ?>
@@ -463,7 +465,7 @@ include 'info.php';
 
 
                                     <div class="form-group">
-                                        <input name="phn" id="phn_id" type="number" class="form-control" placeholder="رقم الهاتف" dir="rtl" required>
+                                        <input name="phone" id="phn_id" type="number" class="form-control" placeholder="رقم الهاتف" dir="rtl" required>
                                     </div>
 
                                    
@@ -493,7 +495,7 @@ echo  $ad_source;
 
 
 
-include "services_select.php";
+//include "services_select.php";
 
 ?>
 
@@ -506,12 +508,12 @@ include "services_select.php";
 
                                     <div class="form-group"  hidden >
     <label class="sr-only" for="r-form-1-email">date</label>
-    <input type="text" name="datetime" id="today" placeholder=" التاريخ  " class="r-form-1-email form-control" id="r-form-1-email"  >
+    <input type="text" name="date_and_time" id="today" placeholder=" التاريخ  " class="r-form-1-email form-control" id="r-form-1-email"  >
 </div>
 
 
 <div class="form-group" hidden>
-                                        <input name="w_link" id="w_link_id" type="text" class="form-control"   >
+                                        <input name="whatsapp_link" id="w_link_id" type="text" class="form-control"   >
                                     </div>
 
 
@@ -791,7 +793,14 @@ var datetime = "" + currentdate.getDate() + "/"
    done_icon.style.display = "block"
     
    alert("تمت عملية التسجيل بنجاح وسيتم التواصل معك في اقرب وقت ");
-   window.location.replace("https://api.whatsapp.com/send?phone="+phn+"&text=%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%83%D8%AB%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%A7%D8%B9%D9%84%D8%A7%D9%86%20") ;
+   //window.location.replace("https://api.whatsapp.com/send?phone="+phn+"&text=%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%83%D8%AB%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%A7%D8%B9%D9%84%D8%A7%D9%86%20") ;
+
+
+
+
+   //event_phn=$("#phn_id").val();
+   //snaptr('track','SIGN_UP')
+   //alert(event_phn);
 
    
    
@@ -897,6 +906,35 @@ var datetime = "" + currentdate.getDate() + "/"
 select>option{ 
                    height:25px;
                  }
+
+
+
+
+
+
+
+
+
+                 .pulsate {
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.5;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.5;
+    }
+}
+
+
+
+
 
 
 
