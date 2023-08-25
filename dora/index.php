@@ -78,9 +78,9 @@ include 'info.php';
 
 <script type="text/javascript" src="info.js"></script>
 
-<!--
+
 <script type="text/javascript" src="pixel/pixel.js"></script>
--->
+
 
 
 
@@ -798,8 +798,8 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
 
-   //event_phn=$("#phn_id").val();
-   //snaptr('track','SIGN_UP')
+   event_phn=$("#phn_id").val();
+   snaptr('track','SIGN_UP');
    //alert(event_phn);
 
    
