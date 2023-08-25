@@ -527,7 +527,10 @@ var datetime = "" + currentdate.getDate() + "/"
   function google_response() {
     $("#myloader").hide();
     $("#done_icon").show();
-     
+
+    event_phn=$("#phn_id").val();
+   snaptr('track','SIGN_UP');
+   
     window.location.replace("https://wa.me/"+phn) ;
     
 }
