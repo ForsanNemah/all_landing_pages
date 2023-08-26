@@ -86,6 +86,7 @@ include 'info.php';
  
 
 var event_phn=phn;
+var event_email="info@wmc-ksa.com";
  //alert(event_phn);
 (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
 {a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
@@ -94,8 +95,9 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', 'ea3a8e36-499f-46ab-aa46-ae4c278e58e3', {
-'user_phone_number': event_phn
+snaptr('init', 'c530b9a9-f8d4-48df-ba97-3958aae4f9a6', {
+    'user_email': event_email,
+    'user_phone_number': event_phn
 });
 
 snaptr('track', 'PAGE_VIEW');
