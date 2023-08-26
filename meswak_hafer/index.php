@@ -1,152 +1,32 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="title" content="">
-    <meta property="description" content=" ">
-    <meta property="url" content=" ">
-    <meta property="site_name" content=" ">
-    <meta property="og:type" content="">
-    <meta property="og:title" content=" ">
-    <meta property="og:description" content=" ">
-    <meta property="og:url" content=" ">
-    <meta property="og:site_name" content=" ">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="public/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <title>
-      
-  
-    <?php
-
-include 'info.php';
-
- echo $info['website_title'];
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+
+include 'head.php';
+
+ 
 ?>
-
-  
-  
-  </title>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-       
-        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/media-queries.css">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script type="text/javascript" src="info.js"></script>
-
-
-
-
-
-
-
-
-<script>
-var event_phn=phn;
-var event_email="info@wmc-ksa.com";
-
-(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
-{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
-a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
-r.src=n;var u=t.getElementsByTagName(s)[0];
-u.parentNode.insertBefore(r,u);})(window,document,
-'https://sc-static.net/scevent.min.js');
-
-snaptr('init', '0d73d7cf-d7c3-4c79-a99a-df703f03b4f9', {
-  'user_email': event_email,
-    'user_phone_number': event_phn
-});
-
-snaptr('track', 'PAGE_VIEW');
- 
- 
-
-    </script>
-
-
- 
-
-
- 
-
-
-
-
-
- 
-
-
-
-
-
-
-
-</head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -212,121 +92,12 @@ class="bg-light  "
         
     </div>
     <!-- Header -->
-    <section class="container-fluid bg-primary head-nav">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-6">
-                <div class="text-center header-logo">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <div class="logo">
-                         
+    <?php
 
-
-
-
-
-                        <?php
-
-
-if ($handle = opendir('logo')) {
-
-
-    while (false !== ($entry = readdir($handle))) {
-
-        if ($entry != "." && $entry != "..") {
+include 'logo_section.php';
 
  
-
-  
-  //echo "$entry\n";
-  echo "
-  
-  
-  
-  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='200px' height='200px' >
-  
-
-  
-  ";
-  
-  
-  break;
- 
-
- 
-           
-        }
-    }
-
-    closedir($handle);
-}
-
-
-
-
 ?>
-
-
-
-
-
-
-
-
-
-
-
-                        <h3 class="text-dark" style="font-size:1.2em!important">
-                        
-                        <?php
-
-include 'info.php';
-
-  
-
-echo "  <h3 class='pulsate'>".$info['ev_logo_name']."</h3>";
-
-
-?>
-                  
-                  
-                      </h3>
-                     
-                      <br>
-
-                      <?php
-if($sliders==1){
-echo "
-
-
-<a href='#slider_1' style=' color: blue;'> الاطلاع على خدماتنا وعروضنا </a>
-
-
-
-";
-
-}
-
- 
-                      ?>
-
-
-                      
-                      <br>
-                      <br>
-                      <br>
-
-
-
-                      <
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
 
     <!-- Appointment Section -->
 
@@ -663,37 +434,27 @@ include 'info.php';
 
 
 
-
-
-
-
-
-
-
-
-        <div class="container">
+<div class="container">
             <div class="row">
                 <div class="col-12 col-lg-12 text-center">
                     <a class="btn btn-primary" style="background-color: #1c3c49 " href="#form">  سجل الان </a>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Footer -->
-    <footer class="page-footer font-small blue">
-    <div class="footer-copyright text-center py-3">     
- 
-</div>
-<!-- Copyright -->
- 
+    
 
-<div class="footer-copyright text-center py-3">    
-    <a href="https://wmc-ksa.com/">شركة النافذة للتسويق الالكتروني </a>
-   
-</div>
-<!-- Copyright -->
 
-</footer>
+
+<?php
+
+include 'footer.php';
+
+ 
+?>
+
+
+
+      
 
     <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
     <!-- <script src="js/main.js"></script> -->
