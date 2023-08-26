@@ -245,7 +245,7 @@ if ($handle = opendir('logo')) {
   
   
   
-  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='150px' height='150px' >
+  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='200px' height='200px' >
   
 
   
