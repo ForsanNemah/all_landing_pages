@@ -56,6 +56,7 @@
 
  
 var event_phn=phn;
+var event_email="info@wmc-ksa.com";
 
 (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
 {a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
@@ -65,6 +66,7 @@ u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
 snaptr('init', 'c530b9a9-f8d4-48df-ba97-3958aae4f9a6', {
+  'user_email': event_email,
     'user_phone_number': event_phn
 });
 
