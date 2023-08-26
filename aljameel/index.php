@@ -567,7 +567,7 @@ var datetime = "" + currentdate.getDate() + "/"
    snaptr('track','SIGN_UP');
 
 
-    window.location.replace("https://wa.me/"+phn) ;
+    //window.location.replace("https://wa.me/"+phn) ;
     
 }
 				 
