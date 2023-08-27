@@ -94,7 +94,7 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', '0d73d7cf-d7c3-4c79-a99a-df703f03b4f9', {
+snaptr('init', '8bb37ab1-e538-4f52-9483-5d979ba1ed7e', {
   'user_email': event_email,
     'user_phone_number': event_phn
 });
