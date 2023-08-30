@@ -135,7 +135,7 @@ include "nav.php";
                 
                         <div class="carousel-item ">
 
-                            <img src='images/imageslider/eea9c318-78ea-49cd-8f71-4a72d609049a.png' class="img-fluid" alt="image">
+                            <img src='Images/ImageSlider/eea9c318-78ea-49cd-8f71-4a72d609049a.png' class="img-fluid" alt="image">
                             
 
                             <div class="carousel-caption">
@@ -154,7 +154,7 @@ include "nav.php";
                     
                         <div class="carousel-item active">
 
-                            <img src='images/imageslider/750051a1-c720-4e71-b644-97a15719a310.png' class="img-fluid" alt="image">
+                            <img src='Images/ImageSlider/750051a1-c720-4e71-b644-97a15719a310.png' class="img-fluid" alt="image">
                             
 
                             <div class="carousel-caption">
@@ -173,7 +173,7 @@ include "nav.php";
                     
                         <div class="carousel-item ">
 
-                            <img src='images/imageslider/df8ce1df-6b19-4dcb-9c33-5140cb340903.png' class="img-fluid" alt="image">
+                            <img src='Images/ImageSlider/df8ce1df-6b19-4dcb-9c33-5140cb340903.png' class="img-fluid" alt="image">
                             
 
                             <div class="carousel-caption">
@@ -192,7 +192,7 @@ include "nav.php";
                     
                         <div class="carousel-item ">
 
-                            <img src='images/imageslider/3fbf13f4-31be-4f38-ab55-146f04fed30e.png' class="img-fluid" alt="image">
+                            <img src='Images/ImageSlider/3fbf13f4-31be-4f38-ab55-146f04fed30e.png' class="img-fluid" alt="image">
                             
 
                             <div class="carousel-caption">
@@ -598,7 +598,7 @@ direction:rtl;unicode-bidi:embed"><font face="Arial, sans-serif"><span style="fo
                         <div class="blog-info-box">
 
                             
-                            <img src='images/NEWS/cad967b5-1fdf-4a6a-b179-d4fa83e7982f.jpg' class="img-fluid" alt="image">
+                            <img src='Images/NEWS/cad967b5-1fdf-4a6a-b179-d4fa83e7982f.jpg' class="img-fluid" alt="image">
                             
 
                             <ul>
@@ -632,7 +632,7 @@ direction:rtl;unicode-bidi:embed"><font face="Arial, sans-serif"><span style="fo
                         <div class="blog-info-box">
 
                             
-                            <img src='images/NEWS/b25b0c16-125e-4fb2-880c-f0d368aac763.jpg' class="img-fluid" alt="image">
+                            <img src='Images/NEWS/b25b0c16-125e-4fb2-880c-f0d368aac763.jpg' class="img-fluid" alt="image">
                             
 
                             <ul>
@@ -666,7 +666,7 @@ direction:rtl;unicode-bidi:embed"><font face="Arial, sans-serif"><span style="fo
                         <div class="blog-info-box">
 
                             
-                            <img src='images/NEWS/16ee4f6c-f03f-49a1-a435-df2ab91746c4.jpg' class="img-fluid" alt="image">
+                            <img src='Images/NEWS/16ee4f6c-f03f-49a1-a435-df2ab91746c4.jpg' class="img-fluid" alt="image">
                             
 
                             <ul>
@@ -700,7 +700,7 @@ direction:rtl;unicode-bidi:embed"><font face="Arial, sans-serif"><span style="fo
                         <div class="blog-info-box">
 
                             
-                            <img src='images/NEWS/435c5aee-2610-48fd-971e-f2d6c3972785.jpg' class="img-fluid" alt="image">
+                            <img src='Images/NEWS/435c5aee-2610-48fd-971e-f2d6c3972785.jpg' class="img-fluid" alt="image">
                             
 
                             <ul>
@@ -734,7 +734,7 @@ direction:rtl;unicode-bidi:embed"><font face="Arial, sans-serif"><span style="fo
                         <div class="blog-info-box">
 
                             
-                            <img src='images/NEWS/88415ba8-f23c-40ec-94ec-6df6e12a8398.jpg' class="img-fluid" alt="image">
+                            <img src='Images/NEWS/88415ba8-f23c-40ec-94ec-6df6e12a8398.jpg' class="img-fluid" alt="image">
                             
 
                             <ul>
@@ -768,7 +768,7 @@ direction:rtl;unicode-bidi:embed"><font face="Arial, sans-serif"><span style="fo
                         <div class="blog-info-box">
 
                             
-                            <img src='images/NEWS/08c6015e-5d8f-4415-b046-94a3d658bfe3.jpg' class="img-fluid" alt="image">
+                            <img src='Images/NEWS/08c6015e-5d8f-4415-b046-94a3d658bfe3.jpg' class="img-fluid" alt="image">
                             
 
                             <ul>
@@ -802,7 +802,7 @@ direction:rtl;unicode-bidi:embed"><font face="Arial, sans-serif"><span style="fo
                         <div class="blog-info-box">
 
                             
-                            <img src='images/NEWS/45fdb324-d1c2-49d4-89d0-405672f8270b.jpg' class="img-fluid" alt="image">
+                            <img src='Images/NEWS/45fdb324-d1c2-49d4-89d0-405672f8270b.jpg' class="img-fluid" alt="image">
                             
 
                             <ul>
