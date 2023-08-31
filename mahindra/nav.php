@@ -28,7 +28,7 @@
                                         <span id="lblContactMenu">اتصل بنا</span></a></li>
 
                                     <li id="liLang" style="display: none">
-                                        <a id="A1" href="javascript:__doPostBack(&#39;ctl00$A1&#39;,&#39;&#39;)">
+                                        <a id="A1" href="index.php">
                                             <span id="Label1">English</span>
                                         </a>
                                     </li>

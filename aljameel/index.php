@@ -639,5 +639,58 @@ select {
  
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel {
+  width:700px;
+  height:700px;
+  margin:0 auto;
+}
+
+ 
+
+@media only all and (max-width: 950px) {
+    
+  .carousel {
+  width:100%;
+  height:550px;
+  margin:0 auto;
+}
+
+}
+
+
+
+
+@media only all and (max-width: 2000px) {
+  
+
+  .carousel {
+  width:450px;
+  height:450px;
+  margin:0 auto;
+}
+
+}
+
+
+
+
+
+
  
 </style>

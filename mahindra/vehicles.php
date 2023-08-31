@@ -151,7 +151,7 @@ include "nav.php";
                             
                                     <div class="product-listing-m gray-bg">
                                         <div class="product-listing-img">
-                                            <a href='VehiclesDetail.aspx?ID=1'>
+                                            <a href='VehiclesDetail.php?ID=1'>
                                                 <img src='Images/OurProducts/5bb670f8-3df9-44fb-aaad-ec2a94e8c731.png'  class="img-fluid" alt="image" />
                                             </a>
                                         </div>

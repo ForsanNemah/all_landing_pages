@@ -383,9 +383,9 @@ include "nav.php";
 
                         <div class="form-group col-md-6 col-sm-6">
 
-                            <a class="btn btn-block" href="https://mahindrauae.jo-tech.net/Vehicles.aspx">
+                            <a class="btn btn-block" href="VehiclesDetail.php?ID=1">
                                 <i class="fa fa-search" aria-hidden="true"></i>
-                                <span id="ContentPlaceHolder_lblSearchCar">البحث في السيارة</span>
+                                <span id="ContentPlaceHolder_lblSearchCar">عرض  السيارة</span>
                             </a>
 
                         </div>
