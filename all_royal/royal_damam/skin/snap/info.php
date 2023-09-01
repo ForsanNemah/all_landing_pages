@@ -18,7 +18,7 @@ $insta_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
-$site_name="مجمع رويال الطبي ";
+$site_name="مجمع رويال الطبي-الدمام-الشريتون ";
 
 $sidebar1_msg="خدماتنا ";
 $sidebar2_msg="خدماتنا ";
