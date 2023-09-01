@@ -5,7 +5,7 @@ error_reporting(E_ERROR | E_PARSE);
 //$ad_source=echo "<script> alert(""); </script>";
 
  
-$action_url="https://script.google.com/macros/s/AKfycbywK76Tg0tgZcpkYimYGzLcqxLzlZMDjqCNSkDDBGueVFPYDvoskfsJf9XwiGjmjfu8/exec";
+$action_url="https://script.google.com/macros/s/AKfycbz624wKw3MDzsKDwRlx94KpHVinxwC-s8g0KQRyU_amNqUo_7YYfgckT64aw1seop40/exec";
 
 $logo_h='100px';
 $logo_w='20px';
@@ -18,7 +18,7 @@ $insta_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
-$site_name="مجمع رويال الطبي-الدمام-الشيرتون ";
+$site_name="مجمع رويال -الخبر-فرع العقربية";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
