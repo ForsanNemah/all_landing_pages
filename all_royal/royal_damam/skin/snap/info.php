@@ -74,7 +74,7 @@ $items['Peter'.$i]=$line;
 
 
 
-$site_name=$_COOKIE['site_name'];
+ 
 
 
 $info = array(
