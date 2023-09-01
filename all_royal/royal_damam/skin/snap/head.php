@@ -7,8 +7,7 @@
 <head>
 
 
-
-<script type="text/javascript" src="info.js"></script>
+ 
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
