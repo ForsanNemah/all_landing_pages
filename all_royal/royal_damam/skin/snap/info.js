@@ -1,6 +1,8 @@
  
 //alert("wwe");
-
+window.onload = function ()
+{
+ 
 var phn="966531197063";
 var end_date="20-3-2023";
 var end_time="12:00";
@@ -26,6 +28,8 @@ document.cookie="site_name="+site_name;
 document.cookie="sidebar1_msg="+sidebar1_msg;
 document.cookie="sidebar2_msg="+sidebar2_msg;
 document.cookie="sidebar3_msg="+sidebar3_msg;
+}
+
 
 
  
