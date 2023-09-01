@@ -92,7 +92,7 @@ include 'info.php';
 
 
 <script>
-var event_phn=phn;
+var event_phn="<?=$phn?>";
 var event_email="info@wmc-ksa.com";
 
 (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
