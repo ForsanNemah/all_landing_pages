@@ -28,7 +28,7 @@ document.cookie="sidebar1_msg="+sidebar1_msg;
 document.cookie="sidebar2_msg="+sidebar2_msg;
 document.cookie="sidebar3_msg="+sidebar3_msg;
 
-alert("end");
+location.reload();
  
 
 
