@@ -33,8 +33,8 @@ include 'head.php';
 
 
 <?php
-
-//include 'cta/cta_whatsapp.php';
+include 'info.php';
+include 'cta/cta_whatsapp.php';
 //include 'cta/cta_insta.php';
 //include 'cta/cta_snap.php';
 //include 'cta/cta_gmap.php';
@@ -52,6 +52,36 @@ include 'head.php';
 
 <body>
   
+
+
+
+
+
+<?php
+
+//include "info.php";
+
+?>
+
+ <script>
+
+  var php_var = "<?=$site_name?>";
+   //alert(php_var);
+
+ </script>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -282,7 +312,8 @@ var datetime = "" + currentdate.getDate() + "/"
  
     
 
-      const scriptURL = action_url
+      const scriptURL = "<?=$action_url?>";
+      //alert(scriptURL);
   const form = document.forms['myform']
  
   form.addEventListener('submit', e => {

@@ -5,12 +5,39 @@ error_reporting(E_ERROR | E_PARSE);
 //$ad_source=echo "<script> alert(""); </script>";
 
  
+$action_url="https://script.google.com/macros/s/AKfycbx3ssUNCbqSZBlMfvNGYU_WOb-5tcSoVMNnl-u-VBUUCGOqq-9IAHtGGNCNrwhpbpOx/exec";
 
 $logo_h='100px';
 $logo_w='20px';
 $sliders=0;
-$add_source= $_COOKIE['add_source'];
-$gmap_url= $_COOKIE['gmap_url'];
+$add_source="snap 1  ";
+$phn="966568430828";
+$end_date="20-3-2023";
+$end_time="12:00";
+$insta_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
+$snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
+$gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
+
+$site_name="مجمع رويال الطبي ";
+
+$sidebar1_msg="خدماتنا ";
+$sidebar2_msg="خدماتنا ";
+$sidebar3_msg="خدماتنا ";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //echo "<script> alert('".$gmap_url."'); </script>";
 
@@ -63,9 +90,9 @@ $info = array(
 
 
 
- "sidebar1_msg"=>$_COOKIE['sidebar1_msg'],
- "sidebar2_msg"=>$_COOKIE['sidebar2_msg'],
- "sidebar3_msg"=>$_COOKIE['sidebar3_msg'],
+ "sidebar1_msg"=>$sidebar1_msg,
+ "sidebar2_msg"=>$sidebar2_msg,
+ "sidebar3_msg"=>$sidebar3_msg,
 
     "form_sub1"=>"               ",
     "form_sub2"=>"      ",
