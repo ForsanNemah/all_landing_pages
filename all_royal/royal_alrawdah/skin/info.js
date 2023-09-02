@@ -13,7 +13,7 @@ var gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 var site_name="مجمع رويال الطبي ";
 
-var sidebar1_msg="خدماتنا ";
+var sidebar1_msg="  ";
 var sidebar2_msg="خدماتنا ";
 var sidebar3_msg="خدماتنا ";
 
