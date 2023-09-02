@@ -111,7 +111,23 @@ snaptr('track', 'PAGE_VIEW');
  
  
 
+
+
+
+
+
+
     </script>
+
+
+<script>
+
+$(document).click(function(evt) {
+  snaptr('track','AD_CLICK');
+    });
+
+
+</script>
 
 
  
