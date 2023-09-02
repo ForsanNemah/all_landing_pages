@@ -5,7 +5,7 @@ error_reporting(E_ERROR | E_PARSE);
 //$ad_source=echo "<script> alert(""); </script>";
 
  
-$action_url="https://script.google.com/macros/s/AKfycbyyt9SGU290sR_eWG2UKqPC5ihfoeHhJ2IzJpPT23PBH27-uAjCWVOyHamF7WBQUWs6/exec";
+$action_url="https://script.google.com/macros/s/AKfycbyyeiQAWk6jhiie5Qbns8DIrtBxA6eO7XZpa4MFOQc9ggsd3PCbZoCVfc2flo9ATGqU/exec";
 
 $logo_h='100px';
 $logo_w='20px';
@@ -18,7 +18,7 @@ $insta_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
-$site_name="مجمع المسواك الطبي -الرياض-فرع المنار";
+$site_name="  مجمع المسواك لطب الاسنان-الرياض-الحمراء ";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
