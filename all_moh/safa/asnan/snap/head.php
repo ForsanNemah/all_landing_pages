@@ -102,7 +102,7 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', 'a8c10f73-7a8e-47c8-9bae-6cd4cf01e7bb', {
+snaptr('init', 'b03a5fe0-a066-4e30-a1e9-28ab9616adf9', {
   'user_email': event_email,
     'user_phone_number': event_phn
 });
@@ -118,6 +118,14 @@ snaptr('track', 'PAGE_VIEW');
 
 
  
+<script>
+
+$(document).click(function(evt) {
+  snaptr('track','AD_CLICK');
+    });
+
+
+</script>
 
 
 
