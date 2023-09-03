@@ -7,7 +7,7 @@
 
 
 
-<a href="https://www.snapchat.com/add/anood_beauty" class="float_snap" target="_blank">
+<a href="https://www.snapchat.com/add/anood_beauty" class="float_snap" target="_blank" id="gmap_id">
 
 
 <i class="fa fa-snapchat my-float_snap"></i>
@@ -58,3 +58,13 @@
 
 
 </style>
+
+
+<script type="text/javascript">
+
+ 
+    document.getElementById("gmap_id").href= var phn="<?=$gmap_url?>";
+  
+//alert(phn);
+
+</script>

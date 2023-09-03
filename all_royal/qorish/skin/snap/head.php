@@ -1,5 +1,14 @@
 
+
+
+
+
+
 <head>
+
+
+ 
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="title" content="">
@@ -74,7 +83,6 @@ include 'info.php';
 
 
 
-<script type="text/javascript" src="info.js"></script>
 
 
 
@@ -84,7 +92,7 @@ include 'info.php';
 
 
 <script>
-var event_phn=phn;
+var event_phn="<?=$phn?>";
 var event_email="info@wmc-ksa.com";
 
 (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
@@ -94,7 +102,7 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', '8bb37ab1-e538-4f52-9483-5d979ba1ed7e', {
+snaptr('init', 'a8c10f73-7a8e-47c8-9bae-6cd4cf01e7bb', {
   'user_email': event_email,
     'user_phone_number': event_phn
 });

@@ -33,9 +33,9 @@ include 'head.php';
 
 
 <?php
-
-include 'cta/cta_whatsapp.php';
-include 'cta/cta_insta.php';
+include 'info.php';
+//include 'cta/cta_whatsapp.php';
+//include 'cta/cta_insta.php';
 //include 'cta/cta_snap.php';
 //include 'cta/cta_gmap.php';
 
@@ -52,6 +52,36 @@ include 'cta/cta_insta.php';
 
 <body>
   
+
+
+
+
+
+<?php
+
+//include "info.php";
+
+?>
+
+ <script>
+
+  var php_var = "<?=$site_name?>";
+   //alert(php_var);
+
+ </script>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -269,7 +299,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
                 //$("#includedContent").load("form_name_phn_type.php"); 
                 $("#slider1").load("slider1.php"); 
-                $("#slider2").load("slider2.php"); 
+                //$("#slider2").load("slider2.php"); 
                 //$("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
            // $("#cta_call").load("cta/cta_call.php"); 
                // $("#slider3").load("slider3.php"); 
@@ -282,7 +312,8 @@ var datetime = "" + currentdate.getDate() + "/"
  
     
 
-      const scriptURL = action_url
+      const scriptURL = "<?=$action_url?>";
+      //alert(scriptURL);
   const form = document.forms['myform']
  
   form.addEventListener('submit', e => {
@@ -326,6 +357,7 @@ var datetime = "" + currentdate.getDate() + "/"
    snaptr('track','SIGN_UP');
     
    alert("تمت عملية التسجيل بنجاح وسيتم التواصل معك في اقرب وقت ");
+
    //window.location.replace("https://api.whatsapp.com/send?phone="+phn+"&text=%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%83%D8%AB%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%A7%D8%B9%D9%84%D8%A7%D9%86%20") ;
 
 

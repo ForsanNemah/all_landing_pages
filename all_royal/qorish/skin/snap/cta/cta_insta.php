@@ -81,7 +81,7 @@
 <script type="text/javascript">
 
  
-    document.getElementById("insta_id").href=insta_url; 
+    document.getElementById("insta_id").href= var phn="<?=$insta_url?>";; 
   
 //alert(phn);
 
