@@ -47,7 +47,7 @@ $items['Peter'.$i]=$line;
 
 
 
-$site_name=$_COOKIE['site_name'];
+$site_name="مجمع رويال الطبي ";
 
 
 $info = array(
