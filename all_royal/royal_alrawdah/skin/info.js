@@ -13,8 +13,8 @@ var gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 var site_name="مجمع رويال الطبي ";
 
-var sidebar1_msg="  ";
-var sidebar2_msg="خدماتنا ";
+var sidebar1_msg="  د/ايمان الشرقاوي";
+var sidebar2_msg="  ";
 var sidebar3_msg="خدماتنا ";
 
 document.cookie="add_source="+add_source;
