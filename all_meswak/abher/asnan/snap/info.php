@@ -5,7 +5,7 @@ error_reporting(E_ERROR | E_PARSE);
 //$ad_source=echo "<script> alert(""); </script>";
 
  
-$action_url="https://script.google.com/macros/s/AKfycbzuXuf_l_50NNTvlA3Ft7eznIMKiXxEiMstqmpXWVmtZbJ6eiEZ7qVh86Ee5lirPpy3zg/exec";
+$action_url="https://script.google.com/macros/s/AKfycbyD0pf1xoBag2i5CIA6k6WT0w7b4EAotYuKnZanniQDDSVZo80gF5MNQiyeny0L15tW/exec";
 
 $logo_h='100px';
 $logo_w='20px';
@@ -18,8 +18,7 @@ $insta_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
-$site_name="نسخة من مجمع المسواك الطبي -جدة-فرع ابحر";
-
+$site_name="مجمع رويال الطبي-جدة-ابحر";
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
 $sidebar3_msg="خدماتنا ";
@@ -130,7 +129,7 @@ $info = array(
 
  
 
-    تتوفر خدمة التقسيط على دفعات
+ 
 
 
 
