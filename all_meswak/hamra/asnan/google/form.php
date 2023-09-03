@@ -1,6 +1,6 @@
 
 
-<section class=" appointment">
+<section class=" appointment" hidden>
         <div class="appointment-section">
             <div class="container">
 

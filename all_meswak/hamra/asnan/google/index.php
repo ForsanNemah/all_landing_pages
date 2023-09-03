@@ -34,6 +34,7 @@ include 'head.php';
 
 <?php
 include 'info.php';
+include 'cta/cta_call.php';
 //include 'cta/cta_whatsapp.php';
 //include 'cta/cta_insta.php';
 //include 'cta/cta_snap.php';
@@ -150,7 +151,7 @@ include 'logo_section.php';
 
 
 
-<video width="400" height="500" controls autoplay>
+<video width="400" height="500" controls autoplay   muted loop>
   <source src="add.mp4" type="video/mp4">
  
  
@@ -160,7 +161,7 @@ include 'logo_section.php';
 <?php
 
 
-//include "form.php";
+include "form.php";
 ?>
 
 
@@ -224,7 +225,7 @@ include 'logo_section.php';
 <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-12 text-center">
-                    <a class="btn btn-primary" style="background-color: #1c3c49 " href="#form">  سجل الان </a>
+                    <!-- <a class="btn btn-primary" style="background-color: #1c3c49 " href="#form">  سجل الان </a> -->
                 </div>
             </div>
         </div>
