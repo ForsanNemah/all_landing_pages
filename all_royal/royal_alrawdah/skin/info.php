@@ -63,8 +63,8 @@ $info = array(
 
 
 
- "sidebar1_msg"=>$_COOKIE['sidebar1_msg'],
- "sidebar2_msg"=>$_COOKIE['sidebar2_msg'],
+ "sidebar1_msg"=>"د/ايمان الشرقاوي ",
+ "sidebar2_msg"=>"جمالك  يهمنا ",
  "sidebar3_msg"=>$_COOKIE['sidebar3_msg'],
 
     "form_sub1"=>"               ",
