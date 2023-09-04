@@ -71,7 +71,7 @@ if ($handle = opendir('logo')) {
 
 include 'info.php';
 
-  
+ 
 
 echo "  <h4 style='color:black' class='pulsate'>".$info['ev_logo_name']."</h4>";
 echo "  <h4 style='color:black' class='pulsate'> ".$dr_name."</h4>";

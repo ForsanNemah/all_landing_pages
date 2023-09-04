@@ -22,7 +22,7 @@ $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 $site_name="مجمع المسواك لطب الاسنان-الرياض-فرع الملقاة";
 $dr_name=" د/ عبد السلام ";
-$add_title="عروض يوم التأسيس ";
+$add_title="عروض اليوم الوطني ";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
