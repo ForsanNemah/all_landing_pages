@@ -1,3 +1,12 @@
+<?php 
+header("Content-type: text/css; charset: UTF-8");
+ 
+include "../info.php";
+
+//include "../info.php"
+//<?php echo $form_bg_color; ?>
+
+?>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
@@ -66,7 +75,7 @@ a:hover {
 /*for settings*/
 .appointment-form {
     /*background-color: rgba(0, 0, 0, 0.7); */
-    background-color: #5ece6d  !important;/*form bg*/
+    background-color:<?php echo $form_bg_color;?> !important;/*form bg*/
     padding: 10px 10px;
     margin: 5% 37%;
     max-width: 420px;

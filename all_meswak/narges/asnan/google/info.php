@@ -5,10 +5,11 @@ error_reporting(E_ERROR | E_PARSE);
 //$ad_source=echo "<script> alert(""); </script>";
 
  
-$action_url="https://script.google.com/macros/s/AKfycbxAJaWJ_V6e8ndbvnxdcR1_DX4n4ZmTMCahhLj8IQ0fdezqRAhPeRLJWBh7kc66PXkNFQ/exec";
+$action_url="https://script.google.com/macros/s/AKfycbzk0Zy-CCAbdxQ2bouOHH9N741qxPZSX5wvOjFqnWY2wlWmh0qqdXlAD7vG9HGf6sQi/exec";
 
-$logo_h='100px';
-$logo_w='20px';
+$logo_h='150px';
+$logo_w='150px';
+$form_bg_color="#32cd32";
 $sliders=0;
 $add_source="snap 1  ";
 $phn="966568430828";
@@ -18,7 +19,7 @@ $insta_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
-$site_name="  مجمع المسواك لطب الاسنان-الرياض-الحمراء ";
+$site_name="مجمع المسواك لطب الاسنان-فرع النرجس";
 $dr_name=" ";
 $add_title="عروض يوم التأسيس ";
 
