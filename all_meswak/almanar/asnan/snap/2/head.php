@@ -102,7 +102,7 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', '8bb37ab1-e538-4f52-9483-5d979ba1ed7e', {
+snaptr('init', '664374b3-00f5-44df-94b9-c21b47c8728a', {
   'user_email': event_email,
     'user_phone_number': event_phn
 });
