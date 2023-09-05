@@ -7,10 +7,10 @@ error_reporting(E_ERROR | E_PARSE);
  
 $action_url="https://script.google.com/macros/s/AKfycbyCZBfBNubTETTEEjDOLBHg-MsITV-4GHoEQK1TDaWdJDAzNxKnG0H7IfkgV6ya82a-/exec";
 
-$logo_h='250px';
-$logo_w='250px';
+$logo_h='150px';
+$logo_w='150px';
 $form_bg_color="#dab669";
-$bg_image="skin.jpg";
+$bg_image="asnan.jpg";
 $sliders=0;
 $add_source="snap 1  ";
 $phn="966538266972";
@@ -20,9 +20,9 @@ $insta_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
-$site_name="بسمات الشرقية لطب الاسنان      ";
+$site_name="مجمع بسمات الشرقية الطبي";
 $dr_name="  ";
-$add_title="عروض اليوم الوطني ";
+$add_title="عروض اليوم الوطني للأسنان";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
