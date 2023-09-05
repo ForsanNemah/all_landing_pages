@@ -9,6 +9,39 @@ Route::get('/checkvalidity', 'Front\FrontendController@checkvalidity')->name('fr
 
 // ************************************ ADMIN SECTION **********************************************
 
+
+
+
+
+
+
+
+Route::get('/update', function () {
+echo "migrate";
+ 
+   Artisan::call('migrate --path=database/migrations/2023_08_31_151407_create_contact_orders_table.php --force');
+
+  
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Route::prefix('admin')->group(function() {
 
   //------------ ADMIN LOGIN SECTION ------------
