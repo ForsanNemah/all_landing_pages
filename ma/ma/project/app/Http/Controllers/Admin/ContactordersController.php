@@ -44,8 +44,8 @@ class ContactordersController extends Controller
         //echo "index";
         
         $data['type'] = 'all';
-        return  $data;
-        //return view('admin.contact_orders.index', $data);
+       
+        return view('admin.contact_orders.index', $data);
 
         
 
