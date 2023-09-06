@@ -106,7 +106,14 @@ Route::prefix('admin')->group(function() {
   //------------ ADMIN BRAND SECTION ------------
 
   Route::get('/brand/datatables', 'Admin\BrandController@datatables')->name('admin-brand-datatables'); //JSON REQUEST
+
+  Route::get('/contact_orders/datatables', 'Admin\ContactordersController@datatables')->name('admin-contact_orders-datatables');
+
+
   Route::get('/brand', 'Admin\BrandController@index')->name('admin-brand-index');
+
+  Route::get('/contact_orders', 'Admin\ContactordersController@index')->name('admin-contact_orders-index');
+
   Route::get('/brand/create', 'Admin\BrandController@create')->name('admin-brand-create');
   Route::post('/brand/create', 'Admin\BrandController@store')->name('admin-brand-store');
   Route::get('/brand/edit/{id}', 'Admin\BrandController@edit')->name('admin-brand-edit');

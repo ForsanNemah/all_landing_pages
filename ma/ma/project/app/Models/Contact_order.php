@@ -9,5 +9,6 @@ class Contact_order extends Model
     
     protected $table = 'contact_orders';
     protected $guarded = [];  
+    public $timestamps = false;
     use HasFactory;
 }

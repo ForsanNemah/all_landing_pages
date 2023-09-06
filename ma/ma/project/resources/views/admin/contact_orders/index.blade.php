@@ -21,6 +21,8 @@
 								</div>
 							</div>
 						</div>
+
+						
 						<div class="product-area">
 							<div class="row">
 								<div class="col-lg-12">
@@ -33,8 +35,10 @@
 													<thead>
 														<tr>
 			                        <th>Name</th>
-			                        <th>Status</th>
-			                        <th>Actions</th>
+			                        <th>Phone</th>
+									<th>Email</th>
+									<th>Message</th>
+			                         
 														</tr>
 													</thead>
 												</table>
@@ -117,11 +121,11 @@
 			   ordering: false,
                processing: true,
                serverSide: true,
-               ajax: '{{ route('admin-brand-datatables') }}',
+               ajax: '{{ route('admin-contact_orders-datatables') }}',
                columns: [
-                  { data: 'name', name: 'name' },
-                  { data: 'status', searchable: false, orderable: false},
-      						{ data: 'action', searchable: false, orderable: false }
+                  { data: 'name', name: 'name' }
+				 
+				  
 
               ],
               language : {
@@ -133,15 +137,21 @@
             });
 
       	$(function() {
-        $(".btn-area").append('<div class="col-sm-4 table-contents">'+
-        	'<a class="add-btn" data-href="{{route('admin-brand-create')}}" id="add-data" data-toggle="modal" data-target="#modal1">'+
-          '<i class="fas fa-plus"></i> Add New Brand'+
+
+
+			
+			$(".btn-area").append('<div class="col-sm-4 table-contents">'+
+        	''+
+          ' '+
           '</a>'+
           '</div>');
-      });
+      }
+
+	 
+	  );
 
 {{-- DATA TABLE ENDS--}}
-
+ 
 </script>
 
 @endsection

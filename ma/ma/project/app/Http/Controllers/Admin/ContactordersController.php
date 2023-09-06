@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Brand;
+use App\Models\Contact_order;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Str;
 use Validator;
@@ -21,26 +22,34 @@ class ContactordersController extends Controller
     public function datatables()
     {
          $datas = Brand::orderBy('id','desc')->get();
+
+         //echo "wwe";
+
+         
          //--- Integrating This Collection Into Datatables
+         
          return Datatables::of($datas)
-                            ->addColumn('status', function(Brand $data) {
-                                $class = $data->status == 1 ? 'drop-success' : 'drop-danger';
-                                $s = $data->status == 1 ? 'selected' : '';
-                                $ns = $data->status == 0 ? 'selected' : '';
-                                return '<div class="action-list"><select class="process select droplinks '.$class.'"><option data-val="1" value="'. route('admin-brand-status',['id1' => $data->id, 'id2' => 1]).'" '.$s.'>Active</option><<option data-val="0" value="'. route('admin-brand-status',['id1' => $data->id, 'id2' => 0]).'" '.$ns.'>Deactive</option>/select></div>';
-                            })
-                            ->addColumn('action', function(Brand $data) {
-                                return '<div class="action-list"><a data-href="' . route('admin-brand-edit',$data->id) . '" class="edit" data-toggle="modal" data-target="#modal1"> <i class="fas fa-edit"></i>Edit</a><a href="javascript:;" data-href="' . route('admin-brand-delete',$data->id) . '" data-toggle="modal" data-target="#confirm-delete" class="delete"><i class="fas fa-trash-alt"></i></a></div>';
-                            })
-                            ->rawColumns(['status','action'])
+                            
+                           
                             ->toJson(); //--- Returning Json Data To Client Side
+
+                            
+                            
     }
 
     //*** GET Request
     public function index()
     {
+
+        //echo "index";
+        
         $data['type'] = 'all';
-        return view('admin.contact_orders.index', $data);
+        return  $data;
+        //return view('admin.contact_orders.index', $data);
+
+        
+
+        
     }
 
     //*** GET Request
