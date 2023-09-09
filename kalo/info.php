@@ -16,7 +16,7 @@ $add_source="snap 1  ";
 $phn="966545969858";
 $end_date="20-3-2023";
 $end_time="12:00";
-$insta_url="https://instagram.com/kalutara_resort?igshid=OGQ5ZDc2ODk2ZA==";
+$insta_url="https://www.instagram.com/kalutara_resort";
 $snap_url="https://t.snapchat.com/Qo1ndR7W";
 $gmap_url="https://maps.app.goo.gl/ovuiUe5ZcJXJUeLd6?g_st=iw";
 
