@@ -42,7 +42,7 @@
 	width:60px;
 	height:60px;
 	bottom:40px;
-	left:40px;
+	left:20px;
 	background-color:#FFFC00;
 	color:#FFF;
 	border-radius:50px;
