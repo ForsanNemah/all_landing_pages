@@ -1,4 +1,4 @@
-<h2 id="slider_1"> 
+<h2 id="slider_1" > 
 
 
 <?php

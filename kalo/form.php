@@ -1,6 +1,6 @@
 
 
-<section class=" appointment"  >
+<section class=" appointment"  hidden >
         <div class="appointment-section">
             <div class="container">
 
@@ -219,6 +219,10 @@ include "services_select.php";
                             </div>
                         </div>
                     </div>
+
+
+
+
                     <div class="col-12 col-lg-6 passion">
                         <div class="text-center text-lg-right">
                             <h4 class="text-light">

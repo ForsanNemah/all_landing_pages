@@ -41,8 +41,8 @@
 	position:fixed;
 	width:60px;
 	height:60px;
-	bottom:180px;
-	right:40px;
+	bottom:40px;
+	left:0px;
 	background-color:#FFFC00;
 	color:#FFF;
 	border-radius:50px;
@@ -64,8 +64,8 @@
 
 <script type="text/javascript">
 
- 
-    document.getElementById("snap_id").href= var phn="<?=$snap_url?>";
+var phn="<?=$snap_url?>";
+    document.getElementById("snap_id").href= phn;
   
 //alert(phn);
 

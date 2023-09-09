@@ -7,25 +7,25 @@ error_reporting(E_ERROR | E_PARSE);
  
 $action_url="https://script.google.com/macros/s/AKfycbztxLuuOHRbrVjn9qUqfYOFzDXsEiFJNyDlkc23p8F-iMVzIENkuBdVQDALmG4RL4U7eA/exec";
 
-$logo_h='250px';
-$logo_w='250px';
+$logo_h='150px';
+$logo_w='150px';
 $form_bg_color="#CC9900";
 $bg_image="skin.jpg";
 $sliders=0;
 $add_source="snap 1  ";
-$phn="966538266972";
+$phn="966545969858";
 $end_date="20-3-2023";
 $end_time="12:00";
-$insta_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
-$snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
-$gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
+$insta_url="https://instagram.com/kalutara_resort?igshid=OGQ5ZDc2ODk2ZA==";
+$snap_url="https://t.snapchat.com/Qo1ndR7W";
+$gmap_url="https://maps.app.goo.gl/ovuiUe5ZcJXJUeLd6?g_st=iw";
 
-$site_name="مجمع رويال الطبي -الدمام -فرع الاتصالات    ";
+$site_name=" منتجع وشاليهات كالوتارا -الاحساء";
 $dr_name="  ";
 $add_title="عروض اليوم الوطني ";
 
-$sidebar1_msg="نحلم ونحقق";
-$sidebar2_msg="خدماتنا ";
+$sidebar1_msg="مفهوم جديد في عالم المنتجعات والشاليهات ";
+$sidebar2_msg="نحلم ونحقق";
 $sidebar3_msg="خدماتنا ";
 
 

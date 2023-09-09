@@ -34,10 +34,10 @@ include 'head.php';
 
 <?php
 include 'info.php';
-//include 'cta/cta_call.php';
-//include 'cta/cta_whatsapp.php';
-//include 'cta/cta_insta.php';
-//include 'cta/cta_snap.php';
+include 'cta/cta_call.php';
+include 'cta/cta_whatsapp.php';
+include 'cta/cta_insta.php';
+include 'cta/cta_snap.php';
 //include 'cta/cta_gmap.php';
 
  
@@ -157,7 +157,7 @@ include 'logo_section.php';
 <?php
 
 //include "video.php";
-//include "form.php";
+include "form.php";
 ?>
 
 
@@ -172,11 +172,31 @@ include 'logo_section.php';
 
                
 
-<div id="slider1"></div>
-           
+<div id="slider1">
+
+
+
+</div>
+     
+<?php
+include 'about.php';
+ 
+?>
+      
 
   </div>	 
-<br>
+ 
+
+
+
+
+
+
+
+
+
+
+
 
   <div class="row">
 	                 
@@ -447,7 +467,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
 .carousel {
   width:700px;
-  height:700px;
+  height:500px;
   margin:0 auto;
 }
 
@@ -458,7 +478,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
   .carousel {
   width:400px;
-  height:500px;
+  height:300px;
   margin:0 auto;
 }
 

@@ -63,7 +63,7 @@
 	width:60px;
 	height:60px;
 	bottom:110px;
-	right:40px;
+	right:0px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;

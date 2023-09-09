@@ -28,8 +28,8 @@
 	position:fixed;
 	width:60px;
 	height:60px;
-	bottom:110px;
-	right:40px;
+	bottom:180px;
+	right:0px;
 	background-color:#C13584;
 	color:#FFF;
 	border-radius:50px;
@@ -55,33 +55,16 @@
 
 
 
-.float_snap{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:110px;
-	right:40px;
-	background-color:#FFFC00;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-}
-
-.my-float_snap{
-	margin-top:-16px;
-}
+ 
 
 
 </style>
 
 
 <script type="text/javascript">
-
+var phn="<?=$insta_url?>";
  
-    document.getElementById("insta_id").href= var phn="<?=$insta_url?>";; 
+    document.getElementById("insta_id").href=phn;
   
 //alert(phn);
 
