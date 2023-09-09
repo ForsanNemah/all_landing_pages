@@ -178,15 +178,15 @@ include "form.php";
 
 </div>
      
-<?php
-include 'about.php';
- 
-?>
+
       
 
   </div>	 
  
-
+  <?php
+include 'about.php';
+ 
+?>
 
 
 
