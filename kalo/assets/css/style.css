@@ -46,7 +46,7 @@ img { max-width: 100%; }
 
 .section-container {
     margin: 0 auto;
-    padding-bottom: 80px;
+    padding-bottom: 0px;
 }
 
 .section-container-gray-bg {
@@ -296,7 +296,7 @@ ul.navbar-nav {
 /***** Footer *****/
 
 footer {
-	padding: 60px 0 35px 0;
+	padding: 0px 0 0px 0;
 	background: #f8f8f8;
 	text-align: left;
 	-moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
