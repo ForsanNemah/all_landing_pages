@@ -29,7 +29,7 @@
 	width:60px;
 	height:60px;
 	bottom:180px;
-	right:0px;
+	right:20px;
 	background-color:#C13584;
 	color:#FFF;
 	border-radius:50px;
