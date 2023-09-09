@@ -5,7 +5,8 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Brand;
-use App\Models\Contact_order;
+use App\Models\Car;
+use App\Models\Contactorder;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Str;
 use Validator;
@@ -21,17 +22,44 @@ class ContactordersController extends Controller
     //*** JSON Request
     public function datatables()
     {
-         $datas = Brand::orderBy('id','desc')->get();
+
+
+        try {
+
+            
+           
+         $datas = Contactorder::orderBy('id','desc')->get();
 
          //echo "wwe";
 
          
          //--- Integrating This Collection Into Datatables
+
          
+         /*
          return Datatables::of($datas)
                             
                            
                             ->toJson(); //--- Returning Json Data To Client Side
+                            */
+          }
+          
+          //catch exception
+          catch(Exception $e) {
+            echo 'Message: ' .$e->getMessage();
+          }
+
+
+
+
+
+
+
+
+
+
+
+                            
 
                             
                             

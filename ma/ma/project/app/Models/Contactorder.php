@@ -4,11 +4,13 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Contact_order extends Model
+class Contactorder extends Model
 {
     
     protected $table = 'contact_orders';
-    protected $guarded = [];  
+    protected $fillable = ['name', 'phone'];
     public $timestamps = false;
-    use HasFactory;
+
+    
+    
 }

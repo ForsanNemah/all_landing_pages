@@ -195,7 +195,7 @@ continue;
 
 
 
-   echo  $customer_name."                                 ". $customers_counter."
+   echo  $customer_name."---". $customers_counter."
    
    
    

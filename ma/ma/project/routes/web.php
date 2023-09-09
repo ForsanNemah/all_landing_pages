@@ -1,5 +1,23 @@
 <?php
 
+
+
+
+
+
+
+Route::get('ss', 'Admin\ContactordersController@datatables')->name('admin-contact_orders-datatables');
+
+
+
+
+
+
+
+
+
+
+
 // ************************************ CRON JOBS **********************************************
 Route::get('/checkvalidity', 'Front\FrontendController@checkvalidity')->name('front.checkvalidity');
 // ************************************ CRON JOBS **********************************************
@@ -107,7 +125,7 @@ Route::prefix('admin')->group(function() {
 
   Route::get('/brand/datatables', 'Admin\BrandController@datatables')->name('admin-brand-datatables'); //JSON REQUEST
 
-  Route::get('ss', 'Admin\ContactordersController@datatables')->name('admin-contact_orders-datatables');
+
 
 
   Route::get('/brand', 'Admin\BrandController@index')->name('admin-brand-index');

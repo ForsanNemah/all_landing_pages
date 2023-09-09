@@ -123,7 +123,7 @@
                serverSide: true,
                ajax: '{{ route('admin-contact_orders-datatables') }}',
                columns: [
-                  { data: 'name', name: 'name' }
+                  { data: 'name' }
 				 
 				  
 
@@ -140,11 +140,7 @@
 
 
 			
-			$(".btn-area").append('<div class="col-sm-4 table-contents">'+
-        	''+
-          ' '+
-          '</a>'+
-          '</div>');
+		 
       }
 
 	 
