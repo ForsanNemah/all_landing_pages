@@ -214,7 +214,7 @@ continue;
    
    "."<br>";
 
-echo "https://docs.google.com/spreadsheets/d/".$sheet_id."<br>";
+//echo "https://docs.google.com/spreadsheets/d/".$sheet_id."<br>";
 
 
 
