@@ -65,7 +65,7 @@ foreach($json_array as $item) { //foreach element in $arr
         //echo $sheet_link_1[1]."<br>";
 
         $sheet_link_2 = explode("/", $sheet_link_1[1]);
-        //echo $sheet_link_2[0]."<br>";
+        echo $sheet_link_2[0]."<br>";
 
         get_sheet_data($sheet_link_2[0],$customer_name);
     
@@ -140,7 +140,7 @@ function get_sheet_data($sheet_id,$customer_name) {
 
 
     $today_date_and_time= date('j/n/Y');
-    $today_date_and_time=$today_date_and_time." 00:00:00";
+    $today_date_and_time=$today_date_and_time." 01:00:00";
     
 
 
@@ -159,9 +159,9 @@ function get_sheet_data($sheet_id,$customer_name) {
 
 
 
-        if (($date_and_time >= $today_date_and_time) ){
+        if (($date_and_time > $today_date_and_time) ){
 
-            //echo "Current date is between two dates";
+           // echo "Current date is between two dates";
     $customers_counter++;
              
         
@@ -217,7 +217,7 @@ continue;
       //catch exception
       catch(Exception $e) {
 
-       
+        $customers_counter=0;
       }
 
 
