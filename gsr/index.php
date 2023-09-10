@@ -1,9 +1,13 @@
 <?php
  
-/*
- if (("7/9/2023 09:13:32" >= "7/9/2023 00:00:00") ){
 
-    echo "Current date is between two dates";
+
+/*
+ $a = new DateTime("10-9-2023 19:24:13");
+ $b = new DateTime("10-9-2023 00:00:00");
+ if ( $a>=$b){ 
+
+    echo "yes";
  
      
 
@@ -12,16 +16,16 @@
 else{
     echo "no";
 }
-
-
 */
+
+
 
  
  error_reporting(E_ERROR | E_WARNING | E_PARSE);
  error_reporting(E_ERROR | E_PARSE);
  
 
- $today_date_and_time=  date('d/m/Y H:i:s');
+ //$today_date_and_time=  date('d/m/Y H:i:s');
 
  //echo $today_date_and_time."<br>";
 
@@ -65,16 +69,17 @@ foreach($json_array as $item) { //foreach element in $arr
         //echo $sheet_link_1[1]."<br>";
 
         $sheet_link_2 = explode("/", $sheet_link_1[1]);
-        echo $sheet_link_2[0]."<br>";
+        //echo $sheet_link_2[0]."<br>";
 
         get_sheet_data($sheet_link_2[0],$customer_name);
+        //break;
     
       }
       
       //catch exception
       catch(Exception $e) {
 
-        echo $e;
+        //echo $e;
         continue;
       }
 
@@ -139,8 +144,8 @@ function get_sheet_data($sheet_id,$customer_name) {
     //echo $curl_response."<br>";
 
 
-    $today_date_and_time= date('j/n/Y');
-    $today_date_and_time=$today_date_and_time." 01:00:00";
+    $today_date_and_time= date('j-n-Y');
+    $today_date_and_time=$today_date_and_time." 00:00:00";
     
 
 
@@ -148,9 +153,16 @@ function get_sheet_data($sheet_id,$customer_name) {
     foreach($json_array as $item) { 
 
         $date_and_time = $item['date_and_time'];
+         
+        $date_and_time=str_replace('/', '-', $date_and_time);
+
 
         //echo $date_and_time."from sheet"."<br>";
-        //echo $today_date_and_time."today"."<br>";
+        //echo  $today_date_and_time."today"."<br>";
+
+
+        $a = new DateTime(".$date_and_time.");
+        $b = new DateTime(".$today_date_and_time.");
 
 
 
@@ -158,16 +170,15 @@ function get_sheet_data($sheet_id,$customer_name) {
 
 
 
+        if (($a >= $b) ){
 
-        if (($date_and_time > $today_date_and_time) ){
-
-           // echo "Current date is between two dates";
+           // echo "ok";
     $customers_counter++;
              
         
         } 
         else{
-
+           // echo "no";
 continue;
 
         }
@@ -203,7 +214,7 @@ continue;
    
    "."<br>";
 
-
+echo "https://docs.google.com/spreadsheets/d/".$sheet_id."<br>";
 
 
 
