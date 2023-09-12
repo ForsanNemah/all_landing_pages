@@ -153,7 +153,7 @@ function get_sheet_data($sheet_id,$customer_name) {
     foreach($json_array as $item) { 
 
         $date_and_time = $item['date_and_time'];
-         
+        $phone= $item['phone'];
         $date_and_time=str_replace('/', '-', $date_and_time);
 
 
@@ -170,7 +170,7 @@ function get_sheet_data($sheet_id,$customer_name) {
 
 
 
-        if (($a >= $b) ){
+        if (($a >= $b and strlen($phone)>=9   ) ){
 
            // echo "ok";
     $customers_counter++;
