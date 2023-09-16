@@ -63,7 +63,7 @@
 
     <div class="page-wrapper">
 
-        <form method="post" action="./Contact.aspx" id="form" role="form" autocomplete="off">
+        <form method="post" action="post.php" id="form" role="form" autocomplete="off">
 <div class="aspNetHidden">
 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
@@ -150,38 +150,59 @@ include "nav.php";
                     <h4 class="title">
                         <span id="ContentPlaceHolder_lblGetIntouch">تواصل معنا باستخدام النموذج أدناه</span></h4>
                     <div class="contact_form gray-bg">
-                        <div action="#" method="get">
-                            <div class="form-group">
+
+                        <form action="#" method="POST">
+
+
+<div class="form-group">
                                 <label class="control-label">
                                     <span id="ContentPlaceHolder_lblFullName">الاسم الكامل</span>
                                     <span>*</span></label>
-                                <input name="ctl00$ContentPlaceHolder$name" type="text" id="ContentPlaceHolder_name" class="form-control white_bg" />
+                                <input name="name" type="text" id="ContentPlaceHolder_name" class="form-control white_bg" required />
                             </div>
+
+                            <div class="form-group" hidden>
+                                <label class="control-label">
+ 
+                                    <span>*</span></label>
+                                <input name="form_type" type="text" id="ContentPlaceHolder_name" class="form-control white_bg" value="1" />
+                            </div>
+
+
+
+
+
                             <div class="form-group">
                                 <label class="control-label">
                                     <span id="ContentPlaceHolder_lblEmailAddress">عنوان البريد الالكترونى</span>
                                     <span>*</span></label>
-                                <input name="ctl00$ContentPlaceHolder$email" type="email" id="ContentPlaceHolder_email" class="form-control white_bg" />
+                                <input name="email" type="email" id="ContentPlaceHolder_email" class="form-control white_bg" required />
                             </div>
                             <div class="form-group">
                                 <label class="control-label">
                                     <span id="ContentPlaceHolder_lblPhoneNumber">رقم الهاتف</span>
                                     <span>*</span></label>
-                                <input name="ctl00$ContentPlaceHolder$phone" type="text" id="ContentPlaceHolder_phone" class="form-control white_bg" />
+                                <input name="phone" type="text" id="ContentPlaceHolder_phone" class="form-control white_bg" required/>
                             </div>
+
+                            
                             <div class="form-group">
                                 <label class="control-label">
                                     <span id="ContentPlaceHolder_lblMessage">رسالة</span>
                                     <span>*</span></label>
-                                <textarea name="ctl00$ContentPlaceHolder$message" id="ContentPlaceHolder_message" class="form-control custom-height white_bg" rows="4"></textarea>
+                                <textarea name="message" id="ContentPlaceHolder_message" class="form-control custom-height white_bg" rows="4" required></textarea>
                             </div>
                             <div class="form-group">
-                                <button onclick="__doPostBack('ctl00$ContentPlaceHolder$btnSend','')" id="ContentPlaceHolder_btnSend" class="btn" type="submit">
+                                <button   id="ContentPlaceHolder_btnSend" class="btn" type="submit">
                                     <span id="ContentPlaceHolder_lblSendMessage">أرسل رسالة</span>
                                     <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
                                 </button>
                             </div>
-                        </div>
+
+
+                           
+
+                        </form>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -279,7 +300,7 @@ include "footer2.php";
 
                                     <div class="col-md-12 col-sm-12">
 
-                                        <div action="#" method="get">
+                                        <div action="#" method="POST">
 
                                             <div class="form-group">
 
@@ -344,7 +365,7 @@ include "footer2.php";
                                 <span id="lblScheduleTestDrive">اختبار القيادة</span></h3>
                         </div>
                         <div class="modal-body">
-                            <div action="#" method="get">
+                            <div action="#" method="POST">
                                 <div class="form-group">
                                     <input name="ctl00$fullName" type="text" id="fullName" class="form-control" placeholder="السم بلكامل" />
                                 </div>
@@ -383,21 +404,21 @@ include "footer2.php";
                                 <span id="lblMakeanOffer">طلب عرض</span></h3>
                         </div>
                         <div class="modal-body">
-                            <div action="#" method="get">
+                            <div action="#" method="POST">
                                 <div class="form-group">
-                                    <input name="ctl00$FullNamemake_offer" type="text" id="FullNamemake_offer" class="form-control" placeholder="السم بلكامل" />
+                                    <input name="name" type="text" id="FullNamemake_offer" class="form-control" placeholder="السم بلكامل" />
                                 </div>
                                 <div class="form-group">
-                                    <input name="ctl00$EmailAddressmake_offer" type="email" id="EmailAddressmake_offer" class="form-control" placeholder="بريدك الالكتروني" />
+                                    <input name="email" type="email" id="EmailAddressmake_offer" class="form-control" placeholder="بريدك الالكتروني" />
                                 </div>
                                 <div class="form-group">
-                                    <input name="ctl00$PhoneNumbermake_offer" type="text" id="PhoneNumbermake_offer" class="form-control" placeholder="رقم الهاتف" />
+                                    <input name="phone" type="text" id="PhoneNumbermake_offer" class="form-control" placeholder="رقم الهاتف" />
                                 </div>
                                 <div class="form-group">
                                     <input name="ctl00$OfferPricemake_offer" type="text" id="OfferPricemake_offer" class="form-control" placeholder="سعر العرض" />
                                 </div>
                                 <div class="form-group">
-                                    <textarea name="ctl00$Messageemake_offer" id="Messageemake_offer" class="form-control" placeholder="الرسالة"></textarea>
+                                    <textarea name="message" id="Messageemake_offer" class="form-control" placeholder="الرسالة"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <input name="ctl00$Submitmake_offer" type="submit" id="Submitmake_offer" value="ارسال" class="btn btn-block" />
@@ -419,7 +440,7 @@ include "footer2.php";
                                 <span id="lblEmailtoFriend">أرسل إلى صديق</span></h3>
                         </div>
                         <div class="modal-body">
-                            <div action="#" method="get">
+                            <div action="post.php" method="POST">
                                 <div class="form-group">
                                     <input type="text" class="form-control" placeholder="Your Name">
                                 </div>
@@ -452,7 +473,7 @@ include "footer2.php";
                                 <span id="lblRequestMoreInfo">طلب مزيد من المعلومات</span></h3>
                         </div>
                         <div class="modal-body">
-                            <div action="#" method="get">
+                            <div action="#" method="POST">
                                 <div class="form-group">
                                     <input name="ctl00$FullNamemore_info" type="text" id="FullNamemore_info" class="form-control" placeholder="السم بلكامل" />
                                 </div>
@@ -462,9 +483,15 @@ include "footer2.php";
                                 <div class="form-group">
                                     <input name="ctl00$PhoneNumbermore_info" type="text" id="PhoneNumbermore_info" class="form-control" placeholder="رقم الهاتف" />
                                 </div>
-                                <div class="form-group">
-                                    <textarea name="ctl00$Messagemore_info" id="Messagemore_info" rows="4" class="form-control" placeholder="الرسالة"></textarea>
+                                
+
+                                <div class="form-group" hidden>
+                                    <textarea name="form_type" id="Messagemore_info" rows="4" class="form-control" placeholder="الرسالة">1</textarea>
                                 </div>
+
+
+
+
                                 <div class="form-group">
                                     <input name="ctl00$Submitmore_info" type="submit" id="Submitmore_info" value="ارسال" class="btn btn-block" />
                                 </div>

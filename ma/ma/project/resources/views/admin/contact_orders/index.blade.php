@@ -123,8 +123,11 @@
                serverSide: true,
                ajax: '{{ route('admin-contact_orders-datatables') }}',
                columns: [
-                  { data: 'name' }
-				 
+
+                  {data: 'name'}
+				  ,{data: 'phone'}
+				  ,{data: 'email'}
+				  ,{data: 'message'}
 				  
 
               ],

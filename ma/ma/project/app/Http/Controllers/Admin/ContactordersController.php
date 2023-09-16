@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Brand;
 use App\Models\Car;
-use App\Models\Contactorder;
+use App\col;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Str;
 use Validator;
@@ -22,32 +22,23 @@ class ContactordersController extends Controller
     //*** JSON Request
     public function datatables()
     {
+        
 
+        //echo "cc";
+       
+        
+        
 
-        try {
+ 
 
             
            
-         $datas = Contactorder::orderBy('id','desc')->get();
+         $datas =col::orderBy('id','desc')->get();
 
-         //echo "wwe";
 
-         
-         //--- Integrating This Collection Into Datatables
-
-         
-         /*
          return Datatables::of($datas)
-                            
-                           
-                            ->toJson(); //--- Returning Json Data To Client Side
-                            */
-          }
-          
-          //catch exception
-          catch(Exception $e) {
-            echo 'Message: ' .$e->getMessage();
-          }
+         
+         ->toJson(); //--- Returning Json Data To Client Side
 
 
 
@@ -55,14 +46,8 @@ class ContactordersController extends Controller
 
 
 
-
-
-
-
-                            
-
-                            
-                            
+                             
+                      
     }
 
     //*** GET Request

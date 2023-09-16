@@ -66,7 +66,7 @@
 
     <div class="page-wrapper">
 
-        <form method="post" action="./VehiclesDetail.aspx?ID=1" id="form" role="form" autocomplete="off">
+        <form method="post" action="post.php" id="form" role="form" autocomplete="off">
 <div class="aspNetHidden">
 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
@@ -1306,18 +1306,18 @@ include "nav.php";
                                 <span id="lblScheduleTestDrive">اختبار القيادة</span></h3>
                         </div>
                         <div class="modal-body">
-                            <div action="#" method="get">
+                            <form action="post.php" method="POST">
                                 <div class="form-group">
-                                    <input name="ctl00$fullName" type="text" id="fullName" class="form-control" placeholder="السم بلكامل" />
+                                    <input name="name" type="text" id="fullName" class="form-control" placeholder="السم بلكامل" />
                                 </div>
                                 <div class="form-group">
-                                    <input name="ctl00$Email" type="email" id="Email" class="form-control" placeholder="بريدك الالكتروني" />
+                                    <input name="email" type="email" id="Email" class="form-control" placeholder="بريدك الالكتروني" />
                                 </div>
                                 <div class="form-group">
-                                    <input name="ctl00$Phone" type="text" id="Phone" class="form-control" placeholder="رقم الهاتف" />
+                                    <input name="phone" type="text" id="Phone" class="form-control" placeholder="رقم الهاتف" />
                                 </div>
                                 <div class="form-group">
-                                    <input name="ctl00$BestTime" type="text" id="BestTime" class="form-control" placeholder="الوقت المفضل (00:00 صباحا)" />
+                                    <input name="best_time" type="text" id="BestTime" class="form-control" placeholder="الوقت المفضل (00:00 صباحا)" />
                                 </div>
                                 <div class="form-group">
                                     <input name="ctl00$BestDate" type="text" id="BestDate" class="form-control" placeholder="اليوم المفضل (يوم/شهر/سنة )" />
@@ -1326,9 +1326,9 @@ include "nav.php";
                                     <textarea name="ctl00$Message" id="Message" rows="4" class="form-control" placeholder="الرسالة"></textarea>
                                 </div>
                                 <div class="form-group">
-                                    <input name="ctl00$SubmitSchedule" type="submit" id="SubmitSchedule" value="ارسال" class="btn btn-block" />
+                                    <input name="ctl00$SubmitSchedule" type="submit"   value="ارسال" class="btn btn-block" />
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
