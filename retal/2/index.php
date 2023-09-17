@@ -362,9 +362,9 @@ var datetime = "" + currentdate.getDate() + "/"
    event_phn=$("#phn_id").val();
    snaptr('track','SIGN_UP');
     
-   //alert("تمت عملية التسجيل بنجاح وسيتم التواصل معك في اقرب وقت ");
+   alert("تمت عملية التسجيل بنجاح وسيتم التواصل معك في اقرب وقت ");
 
-   window.location.replace("done.php") ;
+   //window.location.replace("done.php") ;
 
 
 
