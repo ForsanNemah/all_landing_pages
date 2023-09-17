@@ -91,28 +91,13 @@ include 'info.php';
 
 
 
-<script>
-var event_phn="<?=$phn?>";
-var event_email="info@wmc-ksa.com";
-
-(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
-{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
-a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
-r.src=n;var u=t.getElementsByTagName(s)[0];
-u.parentNode.insertBefore(r,u);})(window,document,
-'https://sc-static.net/scevent.min.js');
-
-snaptr('init', '31104507-bf96-4c29-a273-a1bad59360d8', {
-  'user_email': event_email,
-    'user_phone_number': event_phn
-});
-
-snaptr('track', 'PAGE_VIEW');
- 
- 
-
-    </script>
-
+ <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NW5GN6RF');</script>
+<!-- End Google Tag Manager -->
 
  
 
