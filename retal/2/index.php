@@ -362,9 +362,9 @@ var datetime = "" + currentdate.getDate() + "/"
    event_phn=$("#phn_id").val();
    snaptr('track','SIGN_UP');
     
-   alert("تمت عملية التسجيل بنجاح وسيتم التواصل معك في اقرب وقت ");
+   //alert("تمت عملية التسجيل بنجاح وسيتم التواصل معك في اقرب وقت ");
 
-   //window.location.replace("https://api.whatsapp.com/send?phone="+phn+"&text=%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%83%D8%AB%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%A7%D8%B9%D9%84%D8%A7%D9%86%20") ;
+   window.location.replace("https://api.whatsapp.com/send?phone="+phn+"&text=%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%83%D8%AB%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%A7%D8%B9%D9%84%D8%A7%D9%86%20") ;
 
 
 
