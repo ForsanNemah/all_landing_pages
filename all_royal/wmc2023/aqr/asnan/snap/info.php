@@ -11,7 +11,9 @@ $logo_h='100px';
 $logo_w='20px';
 $sliders=0;
 $add_source="snap 1  ";
-$phn="966568430828";
+
+$phn="966534634746";
+//$phn="966568430828";
 $end_date="20-3-2023";
 $end_time="12:00";
 $insta_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
