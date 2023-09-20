@@ -18,7 +18,7 @@ $insta_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
-$site_name="مجمع رويال الطبي-الرياض-فرع قرطبة-اسنان";
+$site_name="مجمع المسواك الطبي-الرياض-فرع قرطبة-اسنان";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
