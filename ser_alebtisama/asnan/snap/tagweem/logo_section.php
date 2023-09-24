@@ -117,3 +117,21 @@ echo "
 
         </div>
     </section>
+
+
+
+
+    <?php
+
+
+echo "
+  
+  
+  
+<img   src='tabbey.jpeg' class='img-fluid' alt='Responsive image' width='100%' height='100dp' >
+
+
+
+";
+
+?>
