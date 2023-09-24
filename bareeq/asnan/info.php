@@ -7,8 +7,8 @@ error_reporting(E_ERROR | E_PARSE);
  
 $action_url="https://script.google.com/macros/s/AKfycbyk0OuGbQy14fOhEwteaHHPZpq8qUOQQOxtNH40GJ9JQGTim5LteSx53PKNJzF3-5r6IQ/exec";
 
-$logo_h='150px';
-$logo_w='150px';
+$logo_h='200px';
+$logo_w='200px';
 $form_bg_color="#3971bb";
 $bg_image="asnan.jpg";
 $sliders=0;
