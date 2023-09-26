@@ -7,6 +7,9 @@ use App\Http\Controllers\Controller;
 use App\Models\Brand;
 use App\Models\Car;
 use App\col;
+use App\drive_test_order;
+use App\q_order;
+use App\more_info_order;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Str;
 use Validator;
@@ -50,6 +53,155 @@ class ContactordersController extends Controller
                       
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public function datatables_drive_test_orders()
+    {
+        
+
+        //echo "cc";
+       
+        
+        
+
+ 
+
+            
+           
+         $datas =drive_test_order::orderBy('id','desc')->get();
+
+
+         return Datatables::of($datas)
+         
+         ->toJson(); //--- Returning Json Data To Client Side
+
+
+
+
+
+
+
+                             
+                      
+    }
+
+
+
+
+
+
+    public function datatables_q_orders()
+    {
+        
+
+        //echo "cc";
+       
+        
+        
+
+ 
+
+            
+           
+         $datas =q_order::orderBy('id','desc')->get();
+
+
+         return Datatables::of($datas)
+         
+         ->toJson(); //--- Returning Json Data To Client Side
+
+
+
+
+
+
+
+                             
+                      
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public function datatables_more_info_orders()
+    {
+        
+
+        //echo "cc";
+       
+        
+        
+
+ 
+
+            
+           
+         $datas =more_info_order::orderBy('id','desc')->get();
+
+
+         return Datatables::of($datas)
+         
+         ->toJson(); //--- Returning Json Data To Client Side
+
+
+
+
+
+
+
+                             
+                      
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
     //*** GET Request
     public function index()
     {
@@ -64,6 +216,62 @@ class ContactordersController extends Controller
 
         
     }
+
+
+
+    public function index_drive_test_orders()
+    {
+
+        //echo "index";
+        
+        $data['type'] = 'all';
+       
+        return view('admin.contact_orders.drive_test_orders', $data);
+
+        
+
+        
+    }
+
+
+
+    public function index_q_orders()
+    {
+
+        //echo "index";
+        
+        $data['type'] = 'all';
+       
+        return view('admin.contact_orders.q_orders', $data);
+
+        
+
+        
+    }
+
+
+
+
+    public function index_more_info_orders()
+    {
+
+        //echo "index";
+        
+        $data['type'] = 'all';
+       
+        return view('admin.contact_orders.more_info_orders', $data);
+
+        
+
+        
+    }
+
+
+
+
+
+
+
 
     //*** GET Request
     public function create()

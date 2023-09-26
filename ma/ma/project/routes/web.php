@@ -9,11 +9,12 @@
 Route::get('ss', 'Admin\ContactordersController@datatables')->name('admin-contact_orders-datatables');
 
 
+Route::get('drive_test_orders', 'Admin\ContactordersController@datatables_drive_test_orders')->name('admin-drive_test_orders-datatables');
 
 
 
-
-
+Route::get('q_orders', 'Admin\ContactordersController@datatables_q_orders')->name('admin-q_orders-datatables');
+Route::get('more_info_orders', 'Admin\ContactordersController@datatables_more_info_orders')->name('admin-more_info_orders-datatables');
 
 
 
@@ -151,9 +152,11 @@ Route::prefix('admin')->group(function() {
 Route::get('/contcat_orders', 'Admin\ContactordersController@index')->name('admin-contcat_orders-index');
 
 
+Route::get('/drive_test_orders', 'Admin\ContactordersController@index_drive_test_orders')->name('admin-drive_test_orders-index');
 
 
-
+Route::get('/q_orders', 'Admin\ContactordersController@index_q_orders')->name('admin-q_orders-index');
+Route::get('/more_info_orders', 'Admin\ContactordersController@index_more_info_orders')->name('admin-more_info_orders-index');
 
 
 
