@@ -10,7 +10,7 @@ $action_url="https://script.google.com/macros/s/AKfycbxp7_9lYGE3VUssc8dfW9pK2cMK
 $logo_h='150px';
 $logo_w='150px';
 $form_bg_color="#dab669";
-$bg_image="asnan.jpg";
+$bg_image="skin.jpg";
 $sliders=0;
 $add_source="snap 1  ";
 $phn="966538266972";
@@ -22,7 +22,7 @@ $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 $site_name="مجمع بسمات الشرقية الطبي";
 $dr_name=" د/ريم";
-$add_title="عروض اليوم الوطني للأسنان";
+$add_title="عروض اليوم الوطني للجلدية";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
