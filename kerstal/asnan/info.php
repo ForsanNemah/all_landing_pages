@@ -10,7 +10,7 @@ $action_url="https://script.google.com/macros/s/AKfycbxhqtzZO1Q3T-zir9XTqMPcMIbo
 $logo_h='200px';
 $logo_w='200px';
 $form_bg_color="#2596be";
-$bg_image="asnan.jpg";
+$bg_image="skin.jpg";
 $sliders=0;
 $add_source="snap 1  ";
 $phn="966538266972";
@@ -22,7 +22,7 @@ $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 $site_name="مجمع كرستال الخبر";
 $dr_name="   ";
-$add_title="عروض اليوم الوطني للأسنان";
+$add_title="عروض اليوم الوطني    ";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
