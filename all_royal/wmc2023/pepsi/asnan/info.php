@@ -21,7 +21,7 @@ $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 $site_name="مجمع رويال الطبي -الخبر-الببسي   ";
 $dr_name=" ";
-$add_title="عروض اليوم الوطني ";
+$add_title="  ";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
