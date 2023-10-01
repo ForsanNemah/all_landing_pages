@@ -118,16 +118,19 @@
     <script type="text/javascript">
 
 		var table = $('#geniustable').DataTable({
+
+
+
+			
+
+
 			   ordering: false,
                processing: true,
                serverSide: true,
                ajax: '{{ route('admin-contact_orders-datatables') }}',
                columns: [
-
-                  {data: 'name'}
-				  ,{data: 'phone'}
-				  ,{data: 'email'}
-				  ,{data: 'message'}
+                  { data: 'name', name: 'name' }
+				 
 				  
 
               ],
@@ -143,7 +146,11 @@
 
 
 			
-		 
+			$(".btn-area").append('<div class="col-sm-4 table-contents">'+
+        	''+
+          ' '+
+          '</a>'+
+          '</div>');
       }
 
 	 

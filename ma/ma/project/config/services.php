@@ -47,6 +47,6 @@ return [
     ],
 
     'genius' => [
-        'ocean' => 'https://geniusocean.com/verify/'
+        'ocean' => ''
     ],
 ];

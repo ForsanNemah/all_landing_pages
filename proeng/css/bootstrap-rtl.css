@@ -133,7 +133,7 @@ caption {
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
     .offset-md-0 {
         margin-right: 0;
     }
@@ -546,7 +546,7 @@ caption {
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
     .navbar-expand-md .navbar-nav .dropdown-menu-right {
         left: 0;
         right: auto;
@@ -925,7 +925,7 @@ caption {
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
     .float-md-left {
         float: right !important;
     }
@@ -1222,7 +1222,7 @@ caption {
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
     .mr-md-0,
     .mx-md-0 {
         margin-left: 0 !important;
@@ -1630,7 +1630,7 @@ caption {
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
     .text-md-left {
         text-align: right !important;
     }

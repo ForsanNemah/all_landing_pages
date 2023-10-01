@@ -118,90 +118,9 @@
 								</ul>
 							</li>
 
-
-							
-							{{-- <li>
+							<li>
 								<a href="{{ route('admin-pricing-index') }}" class="wave-effect active"><i class="fas fa-tags"></i> Pricing Ranges</a>
-							</li> --}}
-
-
-							<li>
-								<a href="{{ route('admin-contcat_orders-index') }}" class="wave-effect active"><i class="fas fa-user"></i> Contacts Orders</a>
 							</li>
-
-
-
-							<li>
-								<a href="{{ route('admin-drive_test_orders-index') }}" class="wave-effect active"><i class="fas fa-user"></i>Drive Test Orders</a>
-							</li>
-
-
-							
-
-							<li>
-								<a href="{{ route('admin-q_orders-index') }}" class="wave-effect active"><i class="fas fa-user"></i>Quotation Orders</a>
-							</li>
-
-
-
-
-
-
-							<li>
-								<a href="{{ route('admin-more_info_orders-index') }}" class="wave-effect active"><i class="fas fa-user"></i>More Info Orders</a>
-							</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{{-- 
-							
 
 							<li>
 								<a href="{{ route('admin-plan-index') }}" class="wave-effect active"><i class="fa fa-tasks" aria-hidden="true"></i>Plan Management</a>
@@ -361,10 +280,7 @@
 									<li><a href="{{route('admin-activation-form')}}"> {{ __('Activation') }}</a></li>
 									<li><a href="{{route('admin-generate-backup')}}"> {{ __('Generate Backup') }}</a></li>
 								</ul>
-							</li> --}}
-
-
-
+							</li>
 						</ul>
 					</nav>
 					<!-- Main Content Area Start -->
