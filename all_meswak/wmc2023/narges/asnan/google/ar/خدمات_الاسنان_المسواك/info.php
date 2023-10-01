@@ -21,7 +21,7 @@ $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 $site_name="مجمع المسواك لطب الاسنان-فرع النرجس";
 $dr_name=" ";
-$add_title="عروض  اليوم الوطني  ";
+$add_title="  ";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
