@@ -1,24 +1,5 @@
 <?php
 
-
-
-
-
-
-
-Route::get('ss', 'Admin\ContactordersController@datatables')->name('admin-contact_orders-datatables');
-
-
-Route::get('drive_test_orders', 'Admin\ContactordersController@datatables_drive_test_orders')->name('admin-drive_test_orders-datatables');
-
-
-
-Route::get('q_orders', 'Admin\ContactordersController@datatables_q_orders')->name('admin-q_orders-datatables');
-Route::get('more_info_orders', 'Admin\ContactordersController@datatables_more_info_orders')->name('admin-more_info_orders-datatables');
-
-
-
-
 // ************************************ CRON JOBS **********************************************
 Route::get('/checkvalidity', 'Front\FrontendController@checkvalidity')->name('front.checkvalidity');
 // ************************************ CRON JOBS **********************************************
@@ -27,39 +8,6 @@ Route::get('/checkvalidity', 'Front\FrontendController@checkvalidity')->name('fr
 
 
 // ************************************ ADMIN SECTION **********************************************
-
-
-
-
-
-
-
-
-Route::get('/update', function () {
-echo "migrate";
- 
-   Artisan::call('migrate --path=database/migrations/2023_08_31_151407_create_contact_orders_table.php --force');
-
-  
-
-
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Route::prefix('admin')->group(function() {
 
@@ -125,14 +73,7 @@ Route::prefix('admin')->group(function() {
   //------------ ADMIN BRAND SECTION ------------
 
   Route::get('/brand/datatables', 'Admin\BrandController@datatables')->name('admin-brand-datatables'); //JSON REQUEST
-
-
-
-
   Route::get('/brand', 'Admin\BrandController@index')->name('admin-brand-index');
-
-  Route::get('/contact_orders', 'Admin\ContactordersController@index')->name('admin-contact_orders-index');
-
   Route::get('/brand/create', 'Admin\BrandController@create')->name('admin-brand-create');
   Route::post('/brand/create', 'Admin\BrandController@store')->name('admin-brand-store');
   Route::get('/brand/edit/{id}', 'Admin\BrandController@edit')->name('admin-brand-edit');
@@ -141,27 +82,6 @@ Route::prefix('admin')->group(function() {
   Route::get('/brand/status/{id1}/{id2}', 'Admin\BrandController@status')->name('admin-brand-status');
 
   //------------ ADMIN BRAND SECTION ENDS------------
-
-
-
-
-
-
-//contcats orders 
-
-Route::get('/contcat_orders', 'Admin\ContactordersController@index')->name('admin-contcat_orders-index');
-
-
-Route::get('/drive_test_orders', 'Admin\ContactordersController@index_drive_test_orders')->name('admin-drive_test_orders-index');
-
-
-Route::get('/q_orders', 'Admin\ContactordersController@index_q_orders')->name('admin-q_orders-index');
-Route::get('/more_info_orders', 'Admin\ContactordersController@index_more_info_orders')->name('admin-more_info_orders-index');
-
-
-
-
-
 
 
   //------------ ADMIN MODEL SECTION ------------

@@ -4,11 +4,10 @@
 
   <div class="content-area">
       <div class="row row-cards-one">
-
               <div class="col-md-12 col-lg-6 col-xl-4">
                   <div class="mycard bg1">
                       <div class="left">
-                          <h5 class="title">Total Users! </h5>
+                          <h5 class="title">Total Sellers! </h5>
                           <span class="number">{{ \App\Models\User::where('status', 1)->count() }}</span>
                           <a href="{{ route('admin-user-index') }}" class="link">View All</a>
                       </div>
@@ -19,8 +18,7 @@
                       </div>
                   </div>
               </div>
-              
-              {{-- <div class="col-md-12 col-lg-6 col-xl-4">
+              <div class="col-md-12 col-lg-6 col-xl-4">
                   <div class="mycard bg2">
                       <div class="left">
                           <h5 class="title">Total Plans!</h5>
@@ -33,8 +31,7 @@
                           </div>
                       </div>
                   </div>
-              </div> --}}
-
+              </div>
               <div class="col-md-12 col-lg-6 col-xl-4">
                   <div class="mycard bg3">
                       <div class="left">
