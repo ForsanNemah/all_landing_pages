@@ -79,6 +79,21 @@ var des_php= $('#des_php').val();
     publishable_api_key: 'pk_test_EDdH3BPTMkHYycbCgphQ31zc1Xyu385zLttLFf4u',
     callback_url: 'https://wa.me/966568430828',
     methods: ['creditcard'],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
   })
 </script>
 
