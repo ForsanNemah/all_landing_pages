@@ -104,10 +104,7 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', '31104507-bf96-4c29-a273-a1bad59360d8', {
-  'user_email': event_email,
-    'user_phone_number': event_phn
-});
+snaptr('init', '31104507-bf96-4c29-a273-a1bad59360d8');
 
 snaptr('track', 'PAGE_VIEW');
  
