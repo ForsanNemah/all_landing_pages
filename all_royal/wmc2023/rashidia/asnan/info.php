@@ -21,7 +21,7 @@ $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 $site_name="مجمع رويال الطبي -الاحساء-الراشدية";
 $dr_name=" ";
-$add_title="  ";
+$add_title="اقوى العروض";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
