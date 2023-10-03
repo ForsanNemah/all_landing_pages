@@ -359,7 +359,7 @@ var datetime = "" + currentdate.getDate() + "/"
    done_icon.style.display = "block"
    
    event_phn=$("#phn_id").val();
-   snaptr('track','SIGN_UP',, {
+   snaptr('track','SIGN_UP', {
   'user_email': event_email,
     'user_phone_number': event_phn
 });
