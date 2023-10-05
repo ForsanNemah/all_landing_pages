@@ -21,7 +21,7 @@ $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 $site_name="مجمع رويال الطبي -الخبر-الببسي   ";
 $dr_name=" د محمد ناصف ";
-$add_title=" اخصائي جراحه الفم  ووراعة الاسنان ";
+$add_title=" اخصائي جراحه الفم و زراعة الاسنان ";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
