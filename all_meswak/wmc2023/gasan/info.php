@@ -21,7 +21,7 @@ $snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 $site_name="مجمع المسواك الطبي -الخبر-فرع غسانة";
-$dr_name="   ";
+$dr_name="  د/سارة هشام ";
 $add_title="اقوى العروض ";
 
 $sidebar1_msg="نحلم ونحقق";
