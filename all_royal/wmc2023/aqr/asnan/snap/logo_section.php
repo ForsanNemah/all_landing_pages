@@ -74,7 +74,7 @@ include 'info.php';
   
 
 echo "  <h4 style='color:black' class='pulsate'>".$info['ev_logo_name']."</h4>";
-echo "  <h4 style='color:black' class='pulsate'>د/عبد المجيد </h4>";
+echo "  <h4 style='color:black' class='pulsate'> د/عبد المجيد </h4>";
 echo "  <h2 style='color:green' class='pulsate'> </h2>";
 //echo "  <h3><a style='color:blue'  href='".$gmap_url."'>موقعنا على الخريطة </a></h3>";
 
