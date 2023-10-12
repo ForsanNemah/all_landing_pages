@@ -216,7 +216,7 @@ include "form.php";
 <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-12 text-center">
-                    <a class="btn btn-primary" style="background-color: #1c3c49 " href="#form">  سجل الان </a>
+ 
                 </div>
             </div>
         </div>
@@ -298,8 +298,8 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
                 //$("#includedContent").load("form_name_phn_type.php"); 
-                $("#slider1").load("slider1.php"); 
-                $("#slider2").load("slider2.php"); 
+                //$("#slider1").load("slider1.php"); 
+               // $("#slider2").load("slider2.php"); 
                 $("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
            // $("#cta_call").load("cta/cta_call.php"); 
                 $("#slider3").load("slider3.php"); 

@@ -8,8 +8,8 @@ error_reporting(E_ERROR | E_PARSE);
 $action_url="https://script.google.com/macros/s/AKfycbz624wKw3MDzsKDwRlx94KpHVinxwC-s8g0KQRyU_amNqUo_7YYfgckT64aw1seop40/exec";
 
 $logo_h='100px';
-$logo_w='20px';
-$sliders=1;
+$logo_w='100px';
+$sliders=0;
 $add_source="snap 1  ";
 
 $phn="966534634746";
