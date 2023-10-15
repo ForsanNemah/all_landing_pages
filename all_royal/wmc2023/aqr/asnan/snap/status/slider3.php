@@ -5,10 +5,12 @@
 
 
 
-make_slider("sidebar1/1","one");
-make_slider("sidebar1/2","tow");
-make_slider("sidebar1/3","three");
-make_slider("sidebar1/4","four");
+make_slider("0/1","one");
+make_slider("0/2","tow");
+make_slider("0/3","three");
+make_slider("0/4","four");
+make_slider("0/5","five");
+make_slider("0/6","six");
 //make_slider("sidebar2","tow");
 //make_slider("sidebar3","three");
 
