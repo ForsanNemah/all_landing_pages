@@ -12,7 +12,7 @@ $logo_w='100px';
 $sliders=0;
 $add_source="snap 1  ";
 
-$phn="966534634746";
+$phn="966551724220";
 //$phn="966568430828";
 $end_date="20-3-2023";
 $end_time="12:00";

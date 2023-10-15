@@ -1,6 +1,11 @@
 
 
 
+<?php
+include "../info.php";
+
+?>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <a href="" class="float" target="_blank" id="w_app_id">
 <i class="fa fa-whatsapp my-float"></i>
