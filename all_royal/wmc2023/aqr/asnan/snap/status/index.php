@@ -442,7 +442,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
 .carousel {
   width:700px;
-  height:700px;
+  height:500px;
   margin:0 auto;
 }
 
@@ -452,8 +452,8 @@ var datetime = "" + currentdate.getDate() + "/"
   
 
   .carousel {
-  width:400px;
-  height:500px;
+  width:430px;
+  height:430px;
   margin:0 auto;
 }
 
