@@ -32,7 +32,7 @@ if ($handle = opendir('logo')) {
   
   
   
-  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='250px' height='250px' >
+  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='300px' height='300px' >
   
 
   
@@ -75,6 +75,7 @@ include 'info.php';
 
 echo "  <h4 style='color:black' class='pulsate'>".$info['ev_logo_name']."</h4>";
 //echo "  <h4 style='color:black' class='pulsate'> </h4>";
+echo "<br>";
 echo "  <h2 style='color:green' class='pulsate'> حالات قبل وبعد </h2>";
 //echo "  <h3><a style='color:blue'  href='".$gmap_url."'>موقعنا على الخريطة </a></h3>";
 

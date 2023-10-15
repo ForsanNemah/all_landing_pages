@@ -5,12 +5,12 @@
 
 
 
-make_slider("0/1","one");
-make_slider("0/2","tow");
-make_slider("0/3","three");
-make_slider("0/4","four");
-make_slider("0/5","five");
-make_slider("0/6","six");
+make_slider("0/1","one","د /هبة شلباية");
+make_slider("0/2","tow","د/عبدالمجيد جاويش");
+make_slider("0/3","three"," د/محمد عبد العزيز");
+make_slider("0/4","four","د/محمد عمران");
+make_slider("0/5","five","د/فضل ابراهيم");
+make_slider("0/6","six","د/هادية حسون ");
 //make_slider("sidebar2","tow");
 //make_slider("sidebar3","three");
 
@@ -33,7 +33,7 @@ make_slider("0/6","six");
 
 
 
-  function  make_slider ($dir,$id)
+  function  make_slider ($dir,$id,$des)
 
 
 {
@@ -156,14 +156,26 @@ make_slider("0/6","six");
 
 
 
+
+
+
+
 echo "
 
  
 
+  <h2>  
+  
+ $des
 
 
  
 
+</h2>
+<br>
+
+ 
+<br>
 <div id='$id' class='carousel slide' data-ride='carousel'  >
     <!-- Indicators -->
     <ol class='carousel-indicators'>
