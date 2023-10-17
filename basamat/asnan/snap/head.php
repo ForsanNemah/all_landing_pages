@@ -103,7 +103,7 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', 'b5b57317-526c-4d79-bfd0-47513b1068f5', {
+snaptr('init', 'b03a5fe0-a066-4e30-a1e9-28ab9616adf9', {
   'user_email': event_email,
     'user_phone_number': event_phn
 });
