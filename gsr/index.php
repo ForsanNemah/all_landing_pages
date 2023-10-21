@@ -143,11 +143,16 @@ function get_sheet_data($sheet_id,$customer_name) {
     $json_array=json_decode($curl_response, TRUE);
     //echo $curl_response."<br>";
 
+    $today_date_just=date('j-n-Y');
+    //echo   $today_date_just   ;
+    $today_date_and_time= date('j-n-Y',strtotime( $date . "-1 day"));
 
-    $today_date_and_time= date('j-n-Y');
+    //echo   $today_date_and_time   ;
+    
     $today_date_and_time=$today_date_and_time." 00:00:00";
     
 
+    
 
     $customers_counter=0;
     foreach($json_array as $item) { 
