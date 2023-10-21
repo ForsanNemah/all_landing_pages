@@ -5,22 +5,22 @@ error_reporting(E_ERROR | E_PARSE);
 //$ad_source=echo "<script> alert(""); </script>";
 
  
-$action_url="https://script.google.com/macros/s/AKfycbzCCtj99nIg5oJ83AVKiZ9pwJcs8hVdLoFd0A3ILrJ3YoOg_ii8mRKG_DXRcnNw1ag-7A/exec";
+$action_url="https://script.google.com/macros/s/AKfycbzpx9b2SEjUzuj_NHrX41qvy3YF0cCbBIGqFMUr8dCsEKdof2R2E6qVtC6fyi4w2oJPdw/exec";
 
 $logo_h='200px';
 $logo_w='200px';
-$form_bg_color="#a7d270";
+$form_bg_color="#3cb4aa";
 $bg_image="asnan.jpg";
 $sliders=0;
 $add_source="snap 1  ";
-$phn="966552322293";
+$phn="966592785826";
 $end_date="20-3-2023";
 $end_time="12:00";
 $insta_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
-$site_name="مجمع ماسة الصفوة-خميس مشيط ";
+$site_name="ضحكة صبا للاسنان والجلدية ";
 $dr_name="  ";
 $add_title="اقوى العروض ";
 
