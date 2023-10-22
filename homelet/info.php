@@ -18,7 +18,7 @@ $end_date="20-3-2023";
 $end_time="12:00";
 $insta_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
-$gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
+$gmap_url="https://homeoutlet0.com/";
 
 $site_name="متجر هوم اوت لت";
 $dr_name="  ";
