@@ -166,7 +166,7 @@ echo  $add_source;
 
 
 
-//include "services_select.php";
+include "services_select.php";
 
 ?>
 
