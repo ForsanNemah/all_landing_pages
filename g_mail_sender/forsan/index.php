@@ -71,8 +71,8 @@ function send_mail($re,$sender_email,$sender_pass,$subject,$body,$host,$port) {
     
         //Content
         $mail->isHTML(true);                                  //Set email format to HTML
-        $mail->Subject = $subject."<br>";
-        $mail->Body    =$body."<br>";
+        $mail->Subject = $subject;
+        $mail->Body    =$body;
         $mail->AltBody = '
         
         
