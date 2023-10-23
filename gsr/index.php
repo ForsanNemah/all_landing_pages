@@ -145,7 +145,7 @@ function get_sheet_data($sheet_id,$customer_name) {
 
     $today_date_just=date('j-n-Y');
     //echo   $today_date_just   ;
-    $today_date_and_time= date('j-n-Y',strtotime( $date . "-1 day"));
+    $today_date_and_time= date('j-n-Y',strtotime( $date . "-0 day"));
 
     //echo   $today_date_and_time   ;
     
