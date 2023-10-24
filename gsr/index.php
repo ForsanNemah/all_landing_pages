@@ -1,3 +1,23 @@
+
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+
+
+
+<table>
+  <tr>
+    <th>الحملة</th>
+    <th>عدد المسجلين</th>
+    <th>  تاريخ التسجيل</th>
+    <th>     رابط الشيت</th>
+     
+  </tr>
+
 <?php
  
 
@@ -28,6 +48,16 @@ else{
  //$today_date_and_time=  date('d/m/Y H:i:s');
 
  //echo $today_date_and_time."<br>";
+
+ 
+
+
+
+
+
+
+
+
 
  
 
@@ -145,7 +175,7 @@ function get_sheet_data($sheet_id,$customer_name) {
 
     $today_date_just=date('j-n-Y');
     //echo   $today_date_just   ;
-    $today_date_and_time= date('j-n-Y',strtotime( $date . "-0 day"));
+    $today_date_and_time= date('j-n-Y',strtotime( $date . "-1 day"));
 
     //echo   $today_date_and_time   ;
     
@@ -209,16 +239,46 @@ continue;
 
 
 
+/*
 
-
-   echo  $customer_name."---". $customers_counter."
+   echo  $customer_name."\t". $customers_counter."
    
    
    
                           
    
    "."<br>";
+   
 
+*/
+
+   echo "
+   
+   
+   
+   
+   <tr>
+   <td>". $customer_name."</td>
+   <td>". $customers_counter."</td>
+   <td>". $date_and_time."</td>
+   <td>
+
+   <a href='https://docs.google.com/spreadsheets/d/".$sheet_id."'></a>
+ 
+   
+   
+   
+   
+   
+   
+   </td>
+ </tr>
+   
+   
+   
+   
+   
+   ";
 //echo "https://docs.google.com/spreadsheets/d/".$sheet_id."<br>";
 
 
@@ -242,3 +302,7 @@ continue;
 
  
 ?>
+
+
+
+</table>
