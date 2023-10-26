@@ -13,14 +13,21 @@ table, th, td {
   <tr>
     <th>الحملة</th>
     <th>عدد المسجلين</th>
-    <th>  تاريخ التسجيل</th>
+    
     <th>     رابط الشيت</th>
      
   </tr>
 
 <?php
  
+ $from_date=$_POST['from'];
+ $to_date=$_POST['to'];
 
+ echo  $from_date."<br>";
+ echo  $to_date;
+
+
+ /*
 
 /*
  $a = new DateTime("10-9-2023 19:24:13");
@@ -142,7 +149,8 @@ foreach($json_array as $item) { //foreach element in $arr
 
 function get_sheet_data($sheet_id,$customer_name) {
 
-
+  global  $from_date;
+  global  $to_date;
 
     
     try {
@@ -173,18 +181,21 @@ function get_sheet_data($sheet_id,$customer_name) {
     $json_array=json_decode($curl_response, TRUE);
     //echo $curl_response."<br>";
 
-    $today_date_just=date('j-n-Y');
+    //$today_date_just=date('j-n-Y');
     //echo   $today_date_just   ;
-    $today_date_and_time= date('j-n-Y',strtotime( $date . "-1 day"));
+    //$today_date_and_time= date('j-n-Y',strtotime( $date . "-1 day"));
 
     //echo   $today_date_and_time   ;
     
-    $today_date_and_time=$today_date_and_time." 00:00:00";
+    //$today_date_and_time=$today_date_and_time." 00:00:00";
     
 
     
 
     $customers_counter=0;
+//$from_date="1-9-2023";
+//$to_date="1-10-2023";
+
     foreach($json_array as $item) { 
 
         $date_and_time = $item['date_and_time'];
@@ -195,19 +206,25 @@ function get_sheet_data($sheet_id,$customer_name) {
         //echo $date_and_time."from sheet"."<br>";
         //echo  $today_date_and_time."today"."<br>";
 
+        //echo $from_date."form";
+
+       // echo "<br>";
+
+        //echo $to_date."to";
 
         $a = new DateTime(".$date_and_time.");
-        $b = new DateTime(".$today_date_and_time.");
+        $b = new DateTime(".$from_date.");
+        $c = new DateTime(".$to_date.");
 
 
-
+//echo "<br>".$date_and_time."<br>";
 
 
 //or(1==1 and  strlen($phone)>=9)
+//$a >= $b and $a<=$c and  strlen($phone)>=9 
+        if (( $a >= $b and $a<=$c  and  strlen($phone)>=9    ) ){
 
-        if (($a >= $b and strlen($phone)>=9      ) ){
-
-           // echo "ok";
+            //echo "ok";
     $customers_counter++;
              
         
@@ -260,10 +277,11 @@ continue;
    <tr>
    <td>". $customer_name."</td>
    <td>". $customers_counter."</td>
-   <td>". $date_and_time."</td>
+  
+
    <td>
 
-   <a href='https://docs.google.com/spreadsheets/d/".$sheet_id."'></a>
+   <a target='_blank' href='https://docs.google.com/spreadsheets/d/".$sheet_id."'>فتح</a>
  
    
    
