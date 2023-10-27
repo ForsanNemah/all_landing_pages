@@ -222,7 +222,7 @@ function get_sheet_data($sheet_id,$customer_name) {
 
 //or(1==1 and  strlen($phone)>=9)
 //$a >= $b and $a<=$c and  strlen($phone)>=9 
-        if (( $a >= $b and $a<=$c  and  strlen($phone)>=9    ) ){
+        if (( $a >= $b and $a<$c  and  strlen($phone)>=9    ) ){
 
             //echo "ok";
     $customers_counter++;
