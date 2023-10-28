@@ -65,10 +65,7 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', 'c530b9a9-f8d4-48df-ba97-3958aae4f9a6', {
-  'user_email': event_email,
-    'user_phone_number': event_phn
-});
+snaptr('init', 'c530b9a9-f8d4-48df-ba97-3958aae4f9a6');
 
 snaptr('track', 'PAGE_VIEW');
  
@@ -564,7 +561,10 @@ var datetime = "" + currentdate.getDate() + "/"
 
 
    event_phn=$("#phn_id").val();
-   snaptr('track','SIGN_UP');
+   snaptr('track','SIGN_UP', {
+  'user_email': event_email,
+    'user_phone_number': event_phn
+});
 
 
     //window.location.replace("https://wa.me/"+phn) ;
