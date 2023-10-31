@@ -5,7 +5,7 @@ error_reporting(E_ERROR | E_PARSE);
 //$ad_source=echo "<script> alert(""); </script>";
 
  
-$action_url="https://script.google.com/macros/s/AKfycbzpx9b2SEjUzuj_NHrX41qvy3YF0cCbBIGqFMUr8dCsEKdof2R2E6qVtC6fyi4w2oJPdw/exec";
+$action_url="https://script.google.com/macros/s/AKfycbwU7aFNnnUehK7YPu6QfRyAEDONM751JNWOnBInD4drV38qYcGNUsNurdCSceBdxFNJ/exec";
 
 $logo_h='200px';
 $logo_w='200px';

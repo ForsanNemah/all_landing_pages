@@ -5,12 +5,14 @@
 
 
 
-make_slider("0/1","one","د /هبة شلباية");
+make_slider("0","one","بنشر متنقل ");
+/*
 make_slider("0/2","tow","د/عبدالمجيد جاويش");
 make_slider("0/3","three"," د/محمد عبد العزيز");
 make_slider("0/4","four","د/محمد عمران");
 make_slider("0/5","five","د/فضل ابراهيم");
 make_slider("0/6","six","د/هادية حسون ");
+*/
 //make_slider("sidebar2","tow");
 //make_slider("sidebar3","three");
 
