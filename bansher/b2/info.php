@@ -13,7 +13,7 @@ $form_bg_color="#CC9900";
 $bg_image="skin.jpg";
 $sliders=0;
 $add_source="snap 1  ";
-$phn="966598350406";
+$phn="966545969858";
 $end_date="20-3-2023";
 $end_time="12:00";
 $insta_url="https://www.instagram.com/kalutara_resort";
@@ -24,7 +24,7 @@ $site_name="بنشر متنقل الرياض  ";
 $dr_name=" لبيع وإصلاح جميع انواع الإطارات والبطاريات والجنوط المكسره ";
 $add_title="اتصل نصل إليك خدمة 24 ساعه";
 
-$sidebar1_msg="اقرب بنشر متنقل من موقعى ";
+$sidebar1_msg="  ";
 $sidebar2_msg="نحلم ونحقق";
 $sidebar3_msg="خدماتنا ";
 
