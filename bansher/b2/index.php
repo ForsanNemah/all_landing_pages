@@ -326,7 +326,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
                 //$("#includedContent").load("form_name_phn_type.php"); 
                 $("#slider1").load("slider1.php"); 
-                $("#slider2").load("slider2.php"); 
+                //$("#slider2").load("slider2.php"); 
                 //$("#cta_whatsapp").load("cta/cta_whatsapp.php"); 
            // $("#cta_call").load("cta/cta_call.php"); 
                // $("#slider3").load("slider3.php"); 
@@ -469,7 +469,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
 .carousel {
   width:700px;
-  height:300px;
+  height:700px;
   margin:0 auto;
 }
 
@@ -479,8 +479,8 @@ var datetime = "" + currentdate.getDate() + "/"
   
 
   .carousel {
-  width:400px;
-  height:300px;
+  width:420px;
+  height:500px;
   margin:0 auto;
 }
 
