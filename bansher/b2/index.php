@@ -469,7 +469,7 @@ var datetime = "" + currentdate.getDate() + "/"
 
 .carousel {
   width:700px;
-  height:500px;
+  height:300px;
   margin:0 auto;
 }
 
