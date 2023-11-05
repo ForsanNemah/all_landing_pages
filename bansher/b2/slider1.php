@@ -66,7 +66,7 @@ if( $counter==0){
  
   echo "<div class='item  active '>
   
-  <img src='sidebar1/$entry' class='img-responsive' alt='Responsive image'   >
+  <img src='sidebar1/$entry' class='img-responsive' alt='Responsive image' style=' width:100%; height: 500px !important;'  >
 
   </div>
   ";

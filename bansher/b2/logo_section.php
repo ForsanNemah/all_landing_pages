@@ -76,7 +76,7 @@ include 'info.php';
 echo "  <h4 style='color:black' class='pulsate'>".$info['ev_logo_name']."</h4>";
 echo "  <h4 style='color:black' class='pulsate'> ".$dr_name."</h4>";
 echo "  <h2 style='color:green' class='pulsate'>".$add_title." </h2>";
-//echo "  <h3><a style='color:blue'  href='tell:'> اتصل بنا </a></h3>";
+echo "  <h3><a style='color:blue'  href='https://banshermotanakill.blogspot.com/'> المدونة</a></h3>";
 
 
 ?>
