@@ -20,7 +20,7 @@ $insta_url="https://www.instagram.com/dr.kareem_asran/";
 $snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
-$site_name="مجمع عيادات رويال ";
+$site_name="   ";
 $dr_name=
 "
 <br>
