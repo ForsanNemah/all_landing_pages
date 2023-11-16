@@ -7,8 +7,8 @@ error_reporting(E_ERROR | E_PARSE);
  
 $action_url="https://script.google.com/macros/s/AKfycbxPx9fo7Q2KRdX1twDRXF4AiIje3PTegmiKcuZj-Z2nFYVBY_h_Hf-c1CuOmmqjkk1A/exec";
 
-$logo_h='250px';
-$logo_w='250px';
+$logo_h='200px';
+$logo_w='200px';
 $form_bg_color="#8C730C";
 $bg_image="skin.jpg";
 $sliders=0;
