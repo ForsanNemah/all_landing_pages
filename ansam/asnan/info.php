@@ -5,34 +5,25 @@ error_reporting(E_ERROR | E_PARSE);
 //$ad_source=echo "<script> alert(""); </script>";
 
  
-$action_url="https://script.google.com/macros/s/AKfycbyhTAu7KbVAaa6Jl6uVyk00hCr0BHDtBpFlAbjmhz2jbAetXiqlelbxV8q4chFj3n1P-w/exec";
+$action_url="https://script.google.com/macros/s/AKfycbznVSQQBqdMOr_flA4_RxWCbiOY-rrIqNblKIj4tn0i_-CmtlmIk6Spkqy9GJI_5vtX/exec";
 
-$logo_h='250px';
-$logo_w='250px';
-$form_bg_color="#8C730C";
-$bg_image="skin.jpg";
+$logo_h='150px';
+$logo_w='150px';
+$form_bg_color="#3d6ab4";
+$bg_image="asnan.jpg";
 $sliders=0;
 $add_source="snap 1  ";
-$phn="966580137212";
+$phn="966562585111";
 $end_date="20-3-2023";
 $end_time="12:00";
 $insta_url="https://www.instagram.com/dr.kareem_asran/";
 $snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
-$site_name="   ";
+$site_name="   عيادة انسام الطبية";
 $dr_name=
 "
-<br>
-<br>
-دكتورة /اميرة
-<br>
  
-أخصائية الجلدية والتجميل والليزر 
-<br>
-حاصلة على ماجستير جلدية ودبلومة الليزر والدبلومة الأمريكية للتجميل 
-<br>
- خبرة أكثر من ١١ سنة  
 
 ";
 $add_title="اقوى العروض ";
