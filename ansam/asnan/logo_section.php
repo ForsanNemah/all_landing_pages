@@ -74,6 +74,7 @@ include 'info.php';
  
 
 echo "  <h4 style='color:black'  >".$info['ev_logo_name']."</h4>";
+echo "  <img   src='tandt.png' class='img-fluid' alt='Responsive image' >";
 echo "  <h4 style='color:black' > ".$dr_name."</h4>";
 echo "  <h2 style='color:green' class='pulsate'  >".$add_title." </h2>";
 
