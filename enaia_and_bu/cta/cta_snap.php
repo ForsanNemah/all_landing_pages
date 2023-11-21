@@ -65,7 +65,7 @@
 <script type="text/javascript">
 
  
-    document.getElementById("snap_id").href= var phn="<?=$snap_url?>";
+    document.getElementById("snap_id").href= "<?=$snap_url?>";
   
 //alert(phn);
 

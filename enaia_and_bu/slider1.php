@@ -3,7 +3,7 @@
 
  
 
-
+make_slider("sidebar1","one","احصل على ابتسامة المشاهير ","");
 /*
 make_slider("sidebar1","one","احصل على ابتسامة المشاهير ","");
 

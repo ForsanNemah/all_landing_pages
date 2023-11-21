@@ -16,8 +16,8 @@ $add_source="snap 1  ";
 $phn="966564756555";
 $end_date="20-3-2023";
 $end_time="12:00";
-$insta_url="https://www.instagram.com/dr.kareem_asran/";
-$snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
+$insta_url="https://www.instagram.com/cbmclinic/";
+$snap_url="https://t.snapchat.com/VkJrBKmg";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 $site_name=" مجمع عناية وجمال الطبي  ";
