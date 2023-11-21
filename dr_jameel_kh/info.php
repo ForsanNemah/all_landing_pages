@@ -7,8 +7,8 @@ error_reporting(E_ERROR | E_PARSE);
  
 $action_url="https://script.google.com/macros/s/AKfycbxHiGDQ4vC83fGgG0DlWxegLxUHk1NErEd7F76TsIN1gZvmcOOZVgrwUPT-H6njKtle/exec";
 
-$logo_h='250px';
-$logo_w='250px';
+$logo_h='200px';
+$logo_w='200px';
 $form_bg_color="#8C730C";
 $bg_image="asnan.jpg";
 $sliders=0;
@@ -20,10 +20,10 @@ $insta_url="https://www.instagram.com/dr.kareem_asran/";
 $snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
-$site_name=" مجمعات رويال الطبية-الاحساء  ";
+$site_name=" د جميل خطاب  ";
 $dr_name=
 "
- د/محمد عصام
+ 
 ";
 
 $add_title="اقوى العروض ";
