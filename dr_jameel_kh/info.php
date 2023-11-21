@@ -9,7 +9,7 @@ $action_url="https://script.google.com/macros/s/AKfycbxHiGDQ4vC83fGgG0DlWxegLxUH
 
 $logo_h='200px';
 $logo_w='200px';
-$form_bg_color="#8C730C";
+$form_bg_color="#d66908";
 $bg_image="asnan.jpg";
 $sliders=0;
 $add_source="snap 1  ";
