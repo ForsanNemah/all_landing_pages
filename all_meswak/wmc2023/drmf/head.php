@@ -215,6 +215,9 @@ $(document).click(function(evt) {
 }
 
 
+ngb-carousel:focus {
+    outline: none;
+}
 
 
 .carousel-inner {

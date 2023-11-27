@@ -73,10 +73,10 @@ include 'info.php';
 
  
 
-echo "  <h4 style='color:white'  >".$info['ev_logo_name']."</h4>";
+echo "  <h4 style='color:black'  >".$info['ev_logo_name']."</h4>";
 //include 'banners.php';
 echo "  <h4 style='color:black' > ".$dr_name."</h4>";
-echo "  <h2 style='color:white'    >".$add_title." </h2>";
+echo "  <h2 style='color:green'      >".$add_title." </h2>";
 
  
 $sn=$_SERVER['SCRIPT_FILENAME'];

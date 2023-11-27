@@ -76,8 +76,15 @@ include 'info.php';
 echo "  <h4 style='color:black'  >".$info['ev_logo_name']."</h4>";
 echo "  <h4 style='color:black' > ".$dr_name."</h4>";
 echo "  <h2 style='color:green' class='pulsate'  >".$add_title." </h2>";
+echo "  <h3><a style='color:blue'  href='https://maps.app.goo.gl/XLLVWeqq1jkjCMhP7'>موقعنا على الخريطة  </a></h3>";
 
+ echo "
  
+ 
+";
+
+
+
 $sn=$_SERVER['SCRIPT_FILENAME'];
 
 $current_script_file=explode("/",$sn);
@@ -125,7 +132,7 @@ echo "
 
 
 
-                      <
+                      
                     </div>
                 </div>
             </div>
@@ -134,6 +141,12 @@ echo "
     </section>
 
 
+
+<?php
+
+echo "  <img   src='b.jpeg' class='img-fluid' alt='Responsive image' >";
+
+?>
 
     <style>
 

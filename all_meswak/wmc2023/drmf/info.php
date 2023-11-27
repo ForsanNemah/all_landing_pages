@@ -9,7 +9,7 @@ $action_url="https://script.google.com/macros/s/AKfycbzlvaiH8XX95gMRdN_V4810oN-X
 
 $logo_h='300px';
 $logo_w='300px';
-$form_bg_color="#023020";
+$form_bg_color="#006400";
 $bg_image="asnan.jpg";
 $sliders=0;
 $add_source="snap 1  ";
@@ -25,7 +25,8 @@ $dr_name=
 "
  
 ";
-$add_title="50% خصومات تصل الى ";
+
+$add_title=" اقوى العروض  ";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
