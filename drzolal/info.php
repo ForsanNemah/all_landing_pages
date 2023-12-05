@@ -25,7 +25,7 @@ $dr_name=
 "
  
 ";
-$add_title="50% خصومات تصل الى ";
+$add_title="اقوى العروض  ";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";

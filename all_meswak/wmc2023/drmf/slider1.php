@@ -2,7 +2,7 @@
 
 
  
-
+/*
 make_slider("sidebar1","one","  ","
 
 
@@ -105,7 +105,7 @@ make_slider("sidebar1","three","  ","
 
 
 
-
+*/
 
 
 /*
