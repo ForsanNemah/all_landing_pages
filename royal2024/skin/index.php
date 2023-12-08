@@ -168,7 +168,7 @@ include "form.php";
 
           <?php
 
-include 'about.php';
+//include 'about.php';
 
  
 ?>
