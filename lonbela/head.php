@@ -185,7 +185,7 @@ $(document).click(function(evt) {
 
 
 
-header("Location: home/index.php");
+
 
 
  
