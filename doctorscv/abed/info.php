@@ -16,8 +16,8 @@ $add_source="snap 1  ";
 $phn="966535988145";
 $end_date="20-3-2023";
 $end_time="12:00";
-$insta_url="https://www.snapchat.com/add/dr_aabedm?share_id=opLNGapfKuI&locale=en-GB";
-$snap_url="https://instagram.com/dr.abed_eltaweel?utm_source=qr&igshid=OGIxMTE0OTdkZA==";
+$snap_url="https://www.snapchat.com/add/dr_aabedm?share_id=opLNGapfKuI&locale=en-GB";
+$insta_url="https://instagram.com/dr.abed_eltaweel?utm_source=qr&igshid=OGIxMTE0OTdkZA==";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 $site_name=" عيادات رويال الطبية   ";
