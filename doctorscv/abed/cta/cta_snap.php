@@ -53,7 +53,7 @@
 }
 
 .my-float_snap{
-	margin-top:64px;
+	margin-top:-16px;
 }
 
 
