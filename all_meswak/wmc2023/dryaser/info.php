@@ -23,7 +23,7 @@ $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 $site_name=" مجمع المسواك ";
 $dr_name=
 "
- عيادة د/ياسر 
+ عيادة د/ياسر حامد
 ";
 $add_title="50% خصومات تصل الى ";
 
