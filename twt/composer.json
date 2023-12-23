@@ -1,0 +1,17 @@
+{
+    "name": "dell/twt",
+    "require": {
+        "twilio/sdk": "^7.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dell\\Twt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ForsanNemah",
+            "email": "forsan20172017@gmail.com"
+        }
+    ]
+}
