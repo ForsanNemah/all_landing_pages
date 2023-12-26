@@ -1,0 +1,57 @@
+<div class="form-group " dir="rtl">
+                                        <select name="service" id="servicerb" class="form-control" aria-label="عرض زراعة الأسنان" required>
+
+                                        <?php
+
+include 'info.php';
+
+
+
+
+foreach ($items as $key => $value) {
+
+echo "<option value='$value'>$value</option>";
+
+}
+?>
+
+
+
+
+                                        </select>
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="form-group " dir="rtl">
+                                        <select name="service2" id="servicerb" class="form-control" aria-label="عرض زراعة الأسنان" required>
+
+                                        <?php
+
+include 'info.php';
+
+
+
+
+foreach ($items_services2 as $key => $value) {
+
+echo "<option value='$value'>$value</option>";
+
+}
+?>
+
+
+
+
+                                        </select>
+                                    </div>
+
