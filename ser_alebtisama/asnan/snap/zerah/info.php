@@ -22,7 +22,7 @@ $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 $site_name="عيادة سر الابتسامة";
 $dr_name="  ";
-$add_title="عروض اليوم الوطني ";
+$add_title="عروض نهاية العام  ";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
