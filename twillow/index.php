@@ -20,13 +20,8 @@ $message = $twilio->messages
     array( 
       "from" => "whatsapp:+966596945907",
       "body" => "
-      
-      
-      
-      
 خصومات تصل  الى 50% على منتجات متجر كيف الشيوخ 
-www.kaifalshiuokh.com رابط المتجر 
-      
+www.kaifalshiuokh.com رابط المتجر
       "
     )
   );
