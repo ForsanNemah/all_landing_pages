@@ -16,7 +16,7 @@ $token  = "f6274ff85fb2d186aefbef35ec106b5b";
 $twilio = new Client($sid, $token);
 
 $message = $twilio->messages
-  ->create("whatsapp:+967717228635", // to
+  ->create("whatsapp:+966568430828", // to
     array( 
       "from" => "whatsapp:+966596945907",
       "body" => "
