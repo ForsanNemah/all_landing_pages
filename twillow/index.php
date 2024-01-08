@@ -18,7 +18,7 @@ $twilio = new Client($sid, $token);
 $message = $twilio->messages
   ->create("whatsapp:+966577391793", // to
     array( 
-      "from" => "whatsapp:+966596945907",
+      "from" => "whatsapp:+967777917549",
       "body" => "
 خصومات تصل  الى 50% على منتجات متجر كيف الشيوخ 
 www.kaifalshiuokh.com رابط المتجر
