@@ -21,9 +21,7 @@ $message = $twilio->messages
     "contentSid" => "HX84738c3e35895c518f92b39b47fd8511",
     "from" => "whatsapp:+966596945907",
 
-    "contentVariables" => json_encode([
-        "1" => "Name"
-    ])
+     
 ]
 );
 /*
