@@ -19,7 +19,7 @@ $message = $twilio->messages
 ->create("whatsapp:+966552787822", // to
 [
     "contentSid" => "HX84738c3e35895c518f92b39b47fd8511",
-    "from" => "whatsapp:+966596945907",
+    "from" => "+966596945907",
 
      
 ]
