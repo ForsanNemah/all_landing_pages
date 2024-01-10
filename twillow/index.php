@@ -17,6 +17,14 @@ $twilio = new Client($sid, $token);
 
 $message = $twilio->messages
 ->create("whatsapp:+966552787822", // to
+array( 
+  "from" => "whatsapp:+966596945907",
+  "body" => "Discounts of up to 50% on all  Kaif Alshiuokh products.
+  store link www.kaifalshiuokh.com"
+)
+);
+/*
+->create("whatsapp:+966552787822", // to
 [
     "contentSid" => "HX84738c3e35895c518f92b39b47fd8511",
     "from" => "whatsapp:+966596945907",
@@ -25,6 +33,8 @@ $message = $twilio->messages
      
 ]
 );
+
+*/
 /*
   ->create("whatsapp:+966552787822", // to
     array( 
