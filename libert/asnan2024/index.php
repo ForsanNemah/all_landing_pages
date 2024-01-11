@@ -35,7 +35,7 @@ include 'head.php';
 <?php
 include 'info.php';
 //include 'cta/cta_call.php';
-//include 'cta/cta_whatsapp.php';
+include 'cta/cta_whatsapp.php';
 //include 'cta/cta_insta.php';
 //include 'cta/cta_snap.php';
 //include 'cta/cta_gmap.php';
