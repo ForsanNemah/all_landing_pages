@@ -103,7 +103,7 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', '8679bf87-98b3-4716-a52e-05d05e4ace92');
+snaptr('init', 'e3e2a007-3403-4350-9dbb-ae0661dfd9b8');
 
 snaptr('track', 'PAGE_VIEW');
  
