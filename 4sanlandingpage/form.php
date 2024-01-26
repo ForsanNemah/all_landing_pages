@@ -15,9 +15,7 @@
             <div class="st-seperator-right wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s"></div>
           </div>
           <div class="st-section-heading-subtitle">
-      سجل بيانتك وسيتم التواصل معك في  اقل من 24 سا
-          
-          
+      سجل بيانتك وسيتم التواصل معك في  اقل من 24 ساعة
           
           </div>
         </div>
@@ -26,7 +24,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 offset-lg-1">
-            <form method="POST" action="assets/php/appointment.php" class="st-appointment-form" id="appointment-form">
+            <form method="POST" action="assets/php/appointment.php" class="st-appointment-form form-bg" id="appointment-form">
               <div id="st-alert1"></div>
               <div class="row">
                 <div class="col-lg-6">
@@ -52,13 +50,7 @@ include "services_select.php";
 
 
 
-                <div class="col-lg-6">
-                  <div class="st-form-field st-style1">
-                    <label>تاريخ الحجز</label>
-                    <input name="udate" type="text" id="udate" placeholder="dd/mm/yy">
-                    <div class="form-field-icon"><i class="fa fa-calendar"></i></div>
-                  </div>
-                </div>
+               
                 
                 <div class="col-lg-12">
                   <div class="st-form-field st-style1">
@@ -67,8 +59,17 @@ include "services_select.php";
                       placeholder="اكتب شيئا هنا"></textarea>
                   </div>
                 </div>
+                
                 <div class="col-lg-12">
-                  <button class="st-btn st-style1 st-color1 st-size-medium" type="submit" id="appointment-submit"
+
+
+              
+      
+   
+
+
+               
+                  <button class="st-btn st-style1 st-color1 st-size-medium mybutton" type="submit" id=""
                     name="submit">حجز</button>
                 </div>
               </div>

@@ -281,23 +281,23 @@ include "form.php";
                 <ul class="st-shedule-list">
                   <li>
                     <div class="st-shedule-left">الاحد</div>
-                    <div class="st-shedule-right">8:00am–7:00pm </div>
+                    <div class="st-shedule-right">8:00am–9:00pm </div>
                   </li>
                   <li>
                     <div class="st-shedule-left">الاثنين</div>
-                    <div class="st-shedule-right">9:00am–6:00pm </div>
+                    <div class="st-shedule-right">8:00am–9:00pm </div>
                   </li>
                   <li>
                     <div class="st-shedule-left">الثلاثاء</div>
-                    <div class="st-shedule-right">9:00am–6:00pm </div>
+                    <div class="st-shedule-right">8:00am–9:00pm </div>
                   </li>
                   <li>
                     <div class="st-shedule-left">الاربعاء</div>
-                    <div class="st-shedule-right">8:00am–7:00pm</div>
+                    <div class="st-shedule-right">8:00am–9:00pm</div>
                   </li>
                   <li>
                     <div class="st-shedule-left">الخميس </div>
-                    <div class="st-shedule-right">8:00am–7:00pm</div>
+                    <div class="st-shedule-right">8:00am–9:00pm</div>
                   </li>
                  
                   
@@ -347,7 +347,17 @@ include "form.php";
                   </div>
                   <div class="st-call-text">
                     <div class="st-call-title">اتصل بنا </div>
-                    <div class="st-call-number">(966) - 568 432 828</div>
+                    <div class="st-call-number">
+                      
+                    
+                    <a href="tel:<?php echo $phn;?>">
+                    <?php echo $phn;?>
+                    </a>
+                    
+                  
+                  
+                  
+                  </div>
                   </div>
                 </div>
               </div>
@@ -1428,7 +1438,7 @@ include "form.php";
           <div class="col-xl-6 wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.2s">
             <div class="st-video-block st-style1 st-zoom">
               <div class="st-video-block-img st-zoom-in st-dynamic-bg" data-src="assets/img/video-block-img.jpg"></div>
-              <a href="https://www.youtube.com/embed/jRcfE2xxSAw?autoplay=1"
+              <a href="https://www.youtube.com/embed/z3srJVv4G90?si=dpoqzaTDdNnGbvmv?autoplay=1"
                 class="st-play-btn st-style1 st-video-open">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                   y="0px" viewBox="0 0 336 336" xml:space="preserve">

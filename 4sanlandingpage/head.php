@@ -65,23 +65,82 @@ body, html {
     color: #000;
     background-color: #fff;
     
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 400;
     line-height: 1.6em;
     overflow-x: hidden;
 }
 
 
+.st-hero.st-style1 .st-hero-subtitle {
+    font-size: 25px;
+    line-height: 1.6em;
+    margin-bottom: 42px;
+}
+
+
+
+
+.st-section-heading.st-style1 .st-section-heading-subtitle {
+    font-size: 20px;
+    line-height: 1.6em;
+}
 
 
 
 
 
+.st-form-field.st-style1 label {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 3px;
+}
+
+
+
+.form-bg {
+    background-color: #f1e7bd;
+}
+
+
+.mycontainer {
+      border: 1px solid black;
+      height: 200px;
+      position: relative;
+    }
+
+   .mybutton {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
 
 
 
 
- 
+    .st-form-field.st-style1 label {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 3px;
+}
+
+
+
+
+.st-shedule-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #264b59;
+    margin-bottom: 8px;
+}
+
+
+
+
 
 </style>
 

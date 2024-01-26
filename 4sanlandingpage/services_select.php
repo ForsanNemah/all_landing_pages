@@ -7,7 +7,7 @@
 
 
 
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-12">
 
 <div class="st-form-field st-style1">
   <label>الخدمة</label>
