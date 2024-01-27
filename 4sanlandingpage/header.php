@@ -77,7 +77,7 @@
                 
                 onclick="col_down()"
                 
-                >عنا</a></li>
+                >من نحن</a></li>
                 <li hidden><a href="#department" class="st-smooth-move">Department</a></li>
                 <li hidden><a href="#doctors" class="st-smooth-move">الدكاترة</a></li>
                 <li hidden><a href="#gallery" class="st-smooth-move"
