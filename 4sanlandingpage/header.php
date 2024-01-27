@@ -154,7 +154,7 @@
   
   <div class="st-content">
     <!-- Start Hero Seciton -->
-    <div class="st-hero-wrap st-gray-bg st-dynamic-bg overflow-hidden st-fixed-bg" data-src="assets/img/dental/hero-bg.jpg">
+    <div class="st-hero-wrap st-gray-bg st-dynamic-bg overflow-hidden st-fixed-bg"  >
       <div class="st-hero st-style1">
         <div class="container">
           <div class="st-hero-text">
@@ -193,7 +193,7 @@
             
             </div>
             <div class="st-hero-btn">
-              <a href="#appointment" class="st-btn st-style1 st-color1 st-smooth-move">حجز موعد</a>
+              <a href="#appointment" class="st-btn st-style1 st-color1 st-smooth-move  mybutton">حجز موعد</a>
             </div>
           </div>
         </div>

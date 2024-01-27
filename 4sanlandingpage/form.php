@@ -9,11 +9,9 @@
       <div class="container">
         <div class="st-section-heading st-style1">
           <h2 class="st-section-heading-title">احجز موعد الان </h2>
-          <div class="st-seperator">
-            <div class="st-seperator-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s"></div>
-            <div class="st-seperator-center"><img src="assets/img/icons/4.png" alt="icon"></div>
-            <div class="st-seperator-right wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s"></div>
-          </div>
+
+          
+
           <div class="st-section-heading-subtitle">
       سجل بيانتك وسيتم التواصل معك في  اقل من 24 ساعة
           

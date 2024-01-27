@@ -139,9 +139,16 @@ body, html {
 }
 
 
+ 
+
+@media screen and (max-width: 991px)
+{
+.st-hero.st-style1, .st-hero.st-style1.st-type3 {
+    height: 600px
+}
 
 
-
+}
 </style>
 
 
