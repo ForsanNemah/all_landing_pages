@@ -203,10 +203,24 @@ body, html {
 
 
 
+.st-gray-bg {
+    background-color: #f7f7f7;
+}
 
 
 
+ 
 
+
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 15px;
+}
 
 </style>
 

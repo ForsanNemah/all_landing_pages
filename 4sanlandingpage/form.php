@@ -28,13 +28,13 @@
                 <div class="col-lg-6">
                   <div class="st-form-field st-style1">
                     <label>الاسم</label>
-                    <input type="text" id="uname" name="name" placeholder="نورا حسن" required>
+                    <input type="text"  name="name" placeholder="نورا حسن" required>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="st-form-field st-style1">
                     <label>رقم الجوال</label>
-                    <input type="number" id="uemail" name="phone" placeholder="555444333" required>
+                    <input type="number"  name="phone" placeholder="555444333" required>
                   </div>
                 </div>
 
