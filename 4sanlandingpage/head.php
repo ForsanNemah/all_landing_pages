@@ -174,6 +174,40 @@ body, html {
 
 
 
+
+
+
+
+
+
+
+.st-form-field.st-style1 input, .st-form-field.st-style1 textarea, .st-form-field.st-style1 select {
+    display: block;
+    height: 55px;
+    border: 1px solid #eaeaea;
+    border-radius: 7px;
+    width: 100%;
+    padding: 10px 15px;
+    color: #111;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </style>
 
 

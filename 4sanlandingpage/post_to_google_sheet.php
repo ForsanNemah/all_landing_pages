@@ -6,10 +6,14 @@ include "info.php";
 $name=$_POST['name'];
 $phone=$_POST['phone'];
 $service=$_POST['service'];
+$is_w_app=$_POST['is_w_app'];
+$source="snap 1";
 $date = date('Y/m/d H:i:s');
 
 
-echo $name.$phone;
+
+$whatsapp_link="wa.me/966".$phone;
+echo $name.$phone.$is_w_app;
 
 
 
@@ -24,7 +28,9 @@ $postParameter = array(
     'date_and_time' => $date,
     'name' => $name,
     'phone' => $phone,
-    'service' => $service
+    'service' => $service,
+    'whatsapp_link' => $whatsapp_link,
+    'source' => $source
     
 );
 
@@ -39,15 +45,27 @@ curl_close($curlHandle);
 //echo $curlResponse."";
 
 
-echo '<script type="text/javascript">
 
-   var msg="
-   
-   
-   تمت عملية التسجيل بنجاح وسيتم التواصل معك في اسرع وقت 
-   
-   
-   ";   
+
+
+
+
+
+
+if($is_w_app=="1"){
+
+
+    header("Location:https://wa.me/".$phn);
+
+}
+
+else{
+
+
+
+    echo '<script type="text/javascript">
+
+   var msg=" تمت عملية التسجيل بنجاح وسيتم التواصل معك في اسرع وقت  ";   
 
 
 
@@ -59,6 +77,15 @@ window.history.go(-1);
 </script>
 
 ';
+
+}
+
+
+
+
+
+
+
 
 
 

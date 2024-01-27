@@ -5,7 +5,7 @@ error_reporting(E_ERROR | E_PARSE);
 //$ad_source=echo "<script> alert(""); </script>";
 
  
-$action_url="https://script.google.com/macros/s/AKfycbzwaM78h1WeINvaI35MzstwFMgX1qsZDz29VIhPkmv3sBXat-d-0RpnwYuZJt8KLky8/exec";
+$action_url="https://script.google.com/macros/s/AKfycbxSjvgbkh7DkvgzCOyuSy2n2XoLWinZShaLVa0JP2wsqQwFIhI7Ag_NBS6WBaUWyGq8/exec";
 
 $logo_h='300px';
 $logo_w='300px';
@@ -15,7 +15,7 @@ $form_bg_color="#8C730C";
 $bg_image="asnan.jpg";
 $sliders=0;
 $add_source="snap 1  ";
-$phn="966564756555";
+$phn="966599708654";
 $phn2="966564756555";
 $phn0="966564756555";
 $end_date="20-3-2023";

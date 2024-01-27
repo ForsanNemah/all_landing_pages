@@ -22,7 +22,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 offset-lg-1">
-            <form method="POST" action="post_to_google_sheet.php" class="st-appointment-form form-bg" id="appointment-form">
+            <form onsubmit="myFunction()"  method="POST" action="post_to_google_sheet.php" class="st-appointment-form form-bg" id="appointment-form">
               <div id="st-alert1"></div>
               <div class="row">
                 <div class="col-lg-6">
@@ -52,14 +52,7 @@ include "services_select.php";
 
 
                
-                
-                <div class="col-lg-12">
-                  <div class="st-form-field st-style1">
-                    <label>معلومات اضافية</label>
-                    <textarea cols="30" rows="5" id="umsg" name="umsg"
-                      placeholder="اكتب شيئا هنا"></textarea>
-                  </div>
-                </div>
+               
                 
                 <div class="col-lg-12">
 
@@ -70,7 +63,7 @@ include "services_select.php";
 
 
                
-                  <button class="st-btn st-style1 st-color1 st-size-medium mybutton" type="submit" id=""
+                  <button id="save_button_one" class="st-btn st-style1 st-color1 st-size-medium mybutton" type="submit" id=""
                     name="submit">حجز</button>
                 </div>
               </div>
@@ -79,3 +72,27 @@ include "services_select.php";
         </div>
       </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+function myFunction() {
+  //alert("The form was submitted");
+  
+   
+
+
+  document.getElementById('save_button_one').innerText = 'يرجى الإنتضار سيتم تحويلك الان';
+}
+</script>
+
+
+
