@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="assets/css/textRotate.css" />
   <link rel="stylesheet" href="assets/css/select2.min.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
-  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
 
@@ -166,6 +166,7 @@ body, html {
 
 include "info.php";
 include "slider.php";
+include "cta/cta_whatsapp.php";
 
 ?>
 

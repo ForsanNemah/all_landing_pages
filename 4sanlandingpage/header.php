@@ -116,6 +116,23 @@
 
 
 
+                <li><a href="#customers_testi" class="st-smooth-move"
+                
+                onclick="col_down()"
+                
+                >
+
+                اراء العملاء 
+
+
+
+                
+                </a></li>
+
+
+
+
+
 
 
 
