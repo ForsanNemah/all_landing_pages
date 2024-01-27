@@ -1,4 +1,3 @@
-footer.php
 
 <footer  class="st-site-footer st-sticky-footer st-dynamic-bg" data-src="assets/img/footer-bg.png">
     <div class="st-main-footer" id="contact">
@@ -51,10 +50,26 @@ footer.php
             <div class="st-footer-widget">
               <h2 class="st-footer-widget-title">تواصل معنا </h2>
               <ul class="st-footer-contact-list st-mp0">
-                <li><span class="st-footer-contact-title">العنوان:</span> 1223 Fulton Street San Diego CA 941-23 USA
+                <li><span class="st-footer-contact-title">العنوان:</span> 
+
+<?php echo $address;?>
+
+
                 </li>
-                <li><span class="st-footer-contact-title">الايميل:</span> nischinto@gmail.com</li>
-                <li><span class="st-footer-contact-title">رقم الهاتف:</span> (+01) - 234 567 890 <br>(+01) - 345 678 901</li>
+                <li><span class="st-footer-contact-title">الايميل:</span>
+                
+                
+                <?php echo $email;?>
+            
+            
+            </li>
+                <li><span class="st-footer-contact-title">رقم الهاتف:</span> 
+                
+                
+                <?php echo $phn0;?> <br>
+                <?php echo $phn;?>
+            
+            </li>
               </ul>
             </div>
           </div><!-- .col -->
@@ -65,7 +80,15 @@ footer.php
       <div class="container">
         <div class="st-copyright-in">
           <div class="st-left-copyright">
-            <div class="st-copyright-text">Copyright 2024. Design by Window Marketing Company</div>
+            <div class="st-copyright-text">
+                
+           
+
+        <a href="https://wmc-ksa.com/">
+        Copyright 2024. Design by Window Marketing Company
+        </a>
+        
+        </div>
           </div>
           <div class="st-right-copyright">
             <div id="st-backtotop"><i class="fas fa-angle-up"></i></div>

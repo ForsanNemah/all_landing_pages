@@ -9,12 +9,15 @@ $action_url="https://script.google.com/macros/s/AKfycbzwaM78h1WeINvaI35MzstwFMgX
 
 $logo_h='300px';
 $logo_w='300px';
+$address="الدمام الشاطئ";
 $email="info@wmc-ksa.com";
 $form_bg_color="#8C730C";
 $bg_image="asnan.jpg";
 $sliders=0;
 $add_source="snap 1  ";
 $phn="966564756555";
+$phn2="966564756555";
+$phn0="966564756555";
 $end_date="20-3-2023";
 $end_time="12:00";
 $insta_url="https://www.instagram.com/dr.kareem_asran/";
@@ -34,7 +37,7 @@ $sidebar3_msg="خدماتنا ";
 
 
 
-
+$full_map_url='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.6844033474076!2d50.20026868496789!3d26.30432918339334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49e98546b48e3f%3A0x389d0ec98a0f975c!2z2LnZitin2K_Yp9iqINix2YjZitin2YQ!5e0!3m2!1sar!2ssa!4v1706309168386!5m2!1sar!2ssa" width="600" height="450" style="border:s0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
 
 
 

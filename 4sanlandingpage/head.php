@@ -158,6 +158,7 @@ body, html {
 <?php
 
 include "info.php";
+include "slider.php";
 
 ?>
 

@@ -50,7 +50,7 @@
 
           
         <div class="st-main-header-left" >
-            <a class="st-site-branding " href="index.html"><img src="assets/img/logo.png" alt="Nischinto"  
+            <a class="st-site-branding " href="index.php"><img src="assets/img/logo.png" alt="Nischinto"  
             
             width="200px" height="150px"
             
@@ -80,7 +80,7 @@
                 >عنا</a></li>
                 <li hidden><a href="#department" class="st-smooth-move">Department</a></li>
                 <li hidden><a href="#doctors" class="st-smooth-move">الدكاترة</a></li>
-                <li><a href="#gallery" class="st-smooth-move"
+                <li hidden><a href="#gallery" class="st-smooth-move"
                 
                 
                 onclick="col_down()"
@@ -98,6 +98,28 @@
                     <li><a href="blog-details-no-sidebar.html">Blog Details No Sidebar</a></li>
                   </ul>
                 </li>
+
+
+
+
+                <li><a href="#cases" class="st-smooth-move"
+                
+                onclick="col_down()"
+                
+                >حالات قبل وبعد
+
+
+
+                
+                </a></li>
+
+
+
+
+
+
+
+
                 <li><a href="#contact" class="st-smooth-move"
                 
                 onclick="col_down()"
@@ -108,6 +130,8 @@
 
                 
                 </a></li>
+
+
               </ul>
             </div>
           </div>
@@ -130,7 +154,7 @@
   
   <div class="st-content">
     <!-- Start Hero Seciton -->
-    <div class="st-hero-wrap st-gray-bg st-dynamic-bg overflow-hidden st-fixed-bg" data-src="assets/img/hero-bg.jpg">
+    <div class="st-hero-wrap st-gray-bg st-dynamic-bg overflow-hidden st-fixed-bg" data-src="assets/img/dental/hero-bg.jpg">
       <div class="st-hero st-style1">
         <div class="container">
           <div class="st-hero-text">
@@ -208,5 +232,5 @@
           <div class="slick-arrow-right"><i class="fa fa-angle-right"></i></div>
         </div>
       </div><!-- .st-slider -->
-      <div class="st-hero-shape"><img src="assets/img/shape/hero-shape.png" alt="hero shape"></div>
+      
     </div>
