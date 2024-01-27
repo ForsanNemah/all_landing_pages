@@ -5,6 +5,7 @@ include "info.php";
 
 $name=$_POST['name'];
 $phone=$_POST['phone'];
+$service=$_POST['service'];
 $date = date('Y/m/d H:i:s');
 
 
@@ -22,7 +23,8 @@ echo $name.$phone;
 $postParameter = array(
     'date_and_time' => $date,
     'name' => $name,
-    'phone' => $phone
+    'phone' => $phone,
+    'service' => $service
     
 );
 
@@ -39,7 +41,13 @@ curl_close($curlHandle);
 
 echo '<script type="text/javascript">
 
-   var msg="f20 كود الخصم الخاص بك هو \n يمكنك استخدامة  عند زيارتك لاحد فروعنا \n او عند الطلب من المتجر الالكتروني ";   
+   var msg="
+   
+   
+   تمت عملية التسجيل بنجاح وسيتم التواصل معك في اسرع وقت 
+   
+   
+   ";   
 
 
 

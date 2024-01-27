@@ -13,7 +13,7 @@
   <label>الخدمة</label>
  
 
-  <select name="udepartment" id="udepartment" class="st_select1"
+  <select name="service" id="udepartment" class="st_select1"
       data-placeholder=" اختر الخدمة">
       <option></option>
 

@@ -210,7 +210,7 @@
             
             </div>
             <div class="st-hero-btn">
-              <a href="#appointment" class="st-btn st-style1 st-color1 st-smooth-move  mybutton">حجز موعد</a>
+              <a href="#appointment" class="st-btn st-style1 st-color1 st-smooth-move  mybutton ">حجز موعد</a>
             </div>
           </div>
         </div>

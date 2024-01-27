@@ -2,7 +2,7 @@
 
 
 
-<a target="_self" href="#w_app_form" class="float" target="_blank" id="w_app_id">
+<a target="_self" href="#w_app_form" class="float pulsate" target="_blank" id="w_app_id" >
 <i class="fa fa-whatsapp my-float"></i>
 </a>
 

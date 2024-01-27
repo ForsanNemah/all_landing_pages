@@ -12,7 +12,7 @@
 
           
 
-          <div class="st-section-heading-subtitle">
+          <div class="st-section-heading-subtitle pulsate">
  سجل بيانتك وسيتم تحويلك الى وتساب مباشرة
           
           </div>
@@ -22,22 +22,24 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 offset-lg-1">
-            <form method="POST" action="assets/php/appointment.php" class="st-appointment-form form-bg" id="appointment-form">
+            <form method="POST" action="post_to_google_sheet.php" class="st-appointment-form form-bg" id="appointment-form">
               <div id="st-alert1"></div>
               <div class="row">
                 <div class="col-lg-6">
                   <div class="st-form-field st-style1">
                     <label>الاسم</label>
-                    <input type="text" id="uname" name="uname" placeholder="نورا حسن" required>
+                    <input type="text" id="uname" name="name" placeholder="نورا حسن" required>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="st-form-field st-style1">
                     <label>رقم الجوال</label>
-                    <input type="text" id="uemail" name="uemail" placeholder="555444333" required>
+                    <input type="number" id="uemail" name="phone" placeholder="555444333" required>
                   </div>
                 </div>
                 
+
+                <input hidden type="number"   name="is_w_app" value="1" >
 
                
 
@@ -53,7 +55,7 @@ include "services_select.php";
                 <div class="col-lg-12">
                   <div class="st-form-field st-style1">
                     <label>معلومات اضافية</label>
-                    <textarea cols="30" rows="10" id="umsg" name="umsg"
+                    <textarea cols="30" rows="5" id="umsg" name="umsg"
                       placeholder="اكتب شيئا هنا"></textarea>
                   </div>
                 </div>
