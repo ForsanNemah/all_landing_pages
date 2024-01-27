@@ -1,3 +1,4 @@
+footer.php
 
 <footer  class="st-site-footer st-sticky-footer st-dynamic-bg" data-src="assets/img/footer-bg.png">
     <div class="st-main-footer" id="contact">
@@ -14,13 +15,19 @@
                 
                 
                 </div>
+
                 <div class="st-height-b25 st-height-lg-b25"></div>
-                <ul class="st-social-btn st-style1 st-mp0">
+
+              
+
+                <!--
+  <ul class="st-social-btn st-style1 st-mp0">
                   <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
                   <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
                   <li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
                   <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
                 </ul>
+-->
               </div>
             </div>
           </div><!-- .col -->
@@ -83,7 +90,6 @@
             <div class="st-copyright-text">
                 
            
-
         <a href="https://wmc-ksa.com/">
         Copyright 2024. Design by Window Marketing Company
         </a>
