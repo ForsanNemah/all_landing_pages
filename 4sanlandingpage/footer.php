@@ -116,3 +116,21 @@
       </div>
     </div>
   </footer>
+
+
+  <style>
+
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-tob: 15px;
+    margin-buttom: 15px;
+}
+
+  </style>

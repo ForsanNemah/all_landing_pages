@@ -49,6 +49,9 @@ body {
 
 
 
+.form-bg {
+    background-color: #f1e7bd;
+}
 
 
 h1, h2, h3, h4, h3, h6 {
@@ -100,9 +103,7 @@ body, html {
 
 
 
-.form-bg {
-    background-color: #f1e7bd;
-}
+
 
 
 .mycontainer {
@@ -213,14 +214,7 @@ body, html {
 
 
 
-.row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: 15px;
-}
+
 
 </style>
 
