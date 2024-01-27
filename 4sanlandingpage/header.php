@@ -159,6 +159,8 @@
         <div class="container">
           <div class="st-hero-text">
             <div class="st-height-b40 st-height-lg-b40"></div>
+            <br>
+            <br>
             <h1 class="st-hero-title cd-headline slide">
              
         مجمعات رويال الطبية 
@@ -166,9 +168,13 @@
             <br>
             
               <span class="cd-words-wrapper">
-                <b class="is-visible">خدماتنا</b>
-                <b>خدمات الجلدية</b>
+                <b class="is-visible">
+                    
+             خدمات الجلدية
+            </b>
                 <b>خدمات الاسنان </b>
+                <b>خدمات الجلدية</b>
+               
                 
               </span>
             </h1>

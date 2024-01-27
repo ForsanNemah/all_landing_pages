@@ -1,4 +1,4 @@
-footer.php
+ 
 
 <footer  class="st-site-footer st-sticky-footer st-dynamic-bg" data-src="assets/img/footer-bg.png">
     <div class="st-main-footer" id="contact">
@@ -70,13 +70,26 @@ footer.php
             
             
             </li>
-                <li><span class="st-footer-contact-title">رقم الهاتف:</span> 
+                <li><span class="st-footer-contact-title"> هاتف  :</span> 
                 
                 
-                <?php echo $phn0;?> <br>
-                <?php echo $phn;?>
+                <?php echo $phn0;?>  
+                
             
             </li>
+
+
+            </li>
+                <li><span class="st-footer-contact-title">جوال  :</span> 
+                
+                
+                <?php echo $phn;?>  
+                
+            
+            </li>
+
+
+
               </ul>
             </div>
           </div><!-- .col -->
