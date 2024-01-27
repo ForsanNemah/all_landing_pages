@@ -106,7 +106,7 @@
                       </g>
                     </svg>
                   </div>
-                  <h2 class="st-funfact-number st-counter">2354</h2>
+                  <h2 class="st-funfact-number st-counter">10254</h2>
                   <div class="st-funfact-title">عملاء راضون</div>
                 </div>
                 <div class="st-height-b30 st-height-lg-b30"></div>
@@ -190,7 +190,7 @@
                       </g>
                     </svg>
                   </div>
-                  <h2 class="st-funfact-number st-counter">99</h2>
+                  <h2 class="st-funfact-number st-counter">114</h2>
                   <div class="st-funfact-title">دكتور مؤهل</div>
                 </div>
                 <div class="st-height-b30 st-height-lg-b30"></div>
