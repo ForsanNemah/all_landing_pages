@@ -64,7 +64,7 @@ include "services_select.php";
 
                
                   <button  id="save_button_two" class="st-btn st-style1 st-color1 st-size-medium mybutton" type="submit" id=""
-                    name="submit">حجز</button>
+                    name="submit">فتح وتساب</button>
                 </div>
               </div>
             </form>
