@@ -1,17 +1,30 @@
  
 
 <footer  class="st-site-footer st-sticky-footer st-dynamic-bg" data-src="assets/img/footer-bg.png">
+
+
     <div class="st-main-footer" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
             <div class="st-footer-widget">
               <div class="st-text-field">
+
+              <div class="st-hero-btn">
+              <a href="#appointment" class="st-btn st-style1 st-color1 st-smooth-move  mybutton ">حجز موعد</a>
+            </div>
+
+
+            <br>
+            
                 <img src="assets/img/logo.png" alt="Nischinto" class="st-footer-logo">
                 <div class="st-height-b25 st-height-lg-b25"></div>
                 <div class="st-footer-text">
                   
-                يتكون فريقنا من استشاريين ومتخصصين ذوي مهارات عالية يقدمون الخدمات الطبية المتاحة الأكثر تقدمًا.
+<?php
+
+echo $footer_info;
+?>
                 
                 
                 </div>
@@ -96,6 +109,13 @@
         </div>
       </div>
     </div>
+
+
+
+
+
+
+
     <div class="st-copyright-wrap">
       <div class="container">
         <div class="st-copyright-in">
@@ -115,6 +135,11 @@
         </div>
       </div>
     </div>
+
+
+
+
+    
   </footer>
 
 
