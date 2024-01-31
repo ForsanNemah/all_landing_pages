@@ -181,7 +181,9 @@
        <?php
 
 
-echo $site_name
+echo $site_name;
+echo "<br>";
+echo $address;
 
 ?>
             

@@ -9,7 +9,7 @@ $action_url="https://script.google.com/macros/s/AKfycbyeeIqGS5yRFOwVn_BOA-HP7Zdx
 
 $logo_h='300px';
 $logo_w='300px';
-$address=" الدمام-الاتصالات  ";
+$address=" الدمام فرع الاتصالات  ";
 $email="info@wmc-ksa.com";
 $form_bg_color="#8C730C";
 $bg_image="asnan.jpg";
@@ -24,7 +24,7 @@ $insta_url="https://www.instagram.com/dr.kareem_asran/";
 $snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
-$site_name="  مجمع رويال فرع الاتصالات-الدمام       ";
+$site_name="   مجمع رويال الطبي     ";
 $dr_name=
 "
  
