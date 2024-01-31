@@ -7,19 +7,22 @@
 
 
 
-                                    <div class="col-lg-12">
 
-<div class="st-form-field st-style1">
-  <label>الخدمة</label>
- 
 
-  <select   name="service"  class="st_select1 "
-  
-      
-      <option></option>
+<div class="col-lg-12">
+                  <div class="st-form-field st-style1">
+                    <label>الخدمة</label>
+                    <div class="st-custom-select-wrap">
 
-      
-<?php
+
+
+                    <select name="udepartment" id=" " class="st_select1" data-placeholder="Select department">
+                      
+                 
+
+
+
+                      <?php
       foreach ($items as $key => $value) {
 
 echo "<option value='$value'>$value</option>";
@@ -29,8 +32,16 @@ echo "<option value='$value'>$value</option>";
 
 
 
-    </select>
-</div>
 
 
-</div>
+
+                    </select>
+
+
+
+
+
+
+                    </div>
+                  </div>
+                </div>

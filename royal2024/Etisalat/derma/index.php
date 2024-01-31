@@ -212,6 +212,7 @@ include "header.php";
 <?php
 
 include "form.php";
+include "w_app_form.php";
 
 
 ?>
@@ -231,7 +232,7 @@ include "about.php";
 
 <?php
 
-include "w_app_form.php";
+//include "w_app_form.php";
 
 
 ?>
