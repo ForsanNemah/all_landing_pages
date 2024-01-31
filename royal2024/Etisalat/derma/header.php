@@ -175,13 +175,14 @@
       <div class="st-hero st-style1">
         <div class="container">
           <div class="st-hero-text">
-            
+          <div class="st-height-b40 st-height-lg-b40"></div>
+            <br>
+            <br>
             <h1 class="st-hero-title cd-headline slide">
              
        <?php
 
-echo "<br>";
-echo "<br>";
+
 echo $site_name;
 echo "<br>";
 echo $address;
