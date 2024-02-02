@@ -8,6 +8,8 @@ $phone=$_POST['phone'];
 $service=$_POST['service'];
 $is_w_app=$_POST['is_w_app'];
 $source="snap 1";
+
+date_default_timezone_set("Asia/Riyadh");
 $date = date('Y/m/d H:i:s');
 
 
