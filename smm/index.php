@@ -269,8 +269,8 @@ echo '
   <tr>
      
     
-    <th scope="col">Status</th>
-    <th scope="col">Remains</th>
+    <th class="text-center" scope="col">Status</th>
+    <th class="text-center" scope="col">Remains</th>
   </tr>
 </thead>
 
@@ -289,8 +289,8 @@ echo '
   <tr>
    
      
-    <td>'.$array['status'].'</td>
-    <td>'.$array['remains'].'</td>
+    <td class="text-center">'.$array['status'].'</td>
+    <td class="text-center">'.$array['remains'].'</td>
 
     
 
@@ -318,8 +318,8 @@ echo '
   <tr>
      
     
-    <th scope="col">الحالة</th>
-    <th scope="col">المتبقي</th>
+    <th class="text-center" scope="col">الحالة</th>
+    <th class="text-center" scope="col">المتبقي</th>
   </tr>
 </thead>
 
@@ -338,8 +338,8 @@ echo '
   <tr>
    
      
-    <td>'.$array['status'].'</td>
-    <td>'.$array['remains'].'</td>
+    <td class="text-center">'.$array['status'].'</td>
+    <td class="text-center">'.$array['remains'].'</td>
 
     
 
@@ -404,20 +404,20 @@ else{
 
 
  
-<table class="table table-bordered">
+<table class="table table-bordered" style="background-color:#d3d3d3;">
   <thead>
     <tr>
      
-      <th scope="col">الحالة</th>
-      <th scope="col">الوصف </th>
+      <th class="text-center" scope="col">الحالة</th>
+      <th class="text-center" scope="col">الوصف </th>
       
     </tr>
   </thead>
   <tbody>
 
     <tr>
-      <td>Pending</td>
-      <td> 
+      <td class="text-center">Pending</td>
+      <td class="text-center"> 
         
       طلبك قيد الانتظار 
       </td>
@@ -427,8 +427,8 @@ else{
 
 
     <tr>
-      <td>In progress</td>
-      <td> 
+      <td class="text-center">In progress</td>
+      <td class="text-center"> 
         
       طلبك قيد التنفيذ  
       </td>
@@ -438,8 +438,8 @@ else{
 
 
     <tr>
-      <td>Processing</td>
-      <td> 
+      <td class="text-center">Processing</td>
+      <td class="text-center"> 
         
       طلبك قيد المعالجة  
       </td>
@@ -448,8 +448,8 @@ else{
 
 
     <tr>
-      <td>Completed</td>
-      <td> 
+      <td class="text-center">Completed</td>
+      <td class="text-center"> 
         
       تم الانتهاء من تنفيذ طلبك 
       </td>
@@ -466,8 +466,8 @@ else{
 
 
     <tr>
-      <td>Partial</td>
-      <td> 
+      <td class="text-center">Partial</td>
+      <td class="text-center"> 
         
      تم تنفيذ طلبك بشكل جزئي فتواصل معنا لتعويضك 
       </td>
@@ -478,8 +478,8 @@ else{
 
 
     <tr>
-      <td>Canceled</td>
-      <td> 
+      <td class="text-center">Canceled</td>
+      <td class="text-center"> 
         
   تم الغاء طلبك من قبل النظام ,تواصل معنا لاعادة تنفيذ الطلب 
       </td>
