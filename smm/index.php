@@ -1,6 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+   
+  </head>
+  <body>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
+
+
+
+
+
+
+
 <?php
 
-error_reporting(E_ERROR | E_PARSE);
+//error_reporting(E_ERROR | E_PARSE);
 
 
 class Api
@@ -185,6 +248,126 @@ $array = json_decode($status, true);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+echo '
+
+
+
+<table class="table table-bordered">
+<thead>
+  <tr>
+     
+    
+    <th scope="col">Status</th>
+    <th scope="col">Remains</th>
+  </tr>
+</thead>
+
+
+
+';
+
+ 
+
+echo '
+
+
+<tbody>
+
+
+  <tr>
+   
+     
+    <td>'.$array['status'].'</td>
+    <td>'.$array['remains'].'</td>
+
+    
+
+
+  </tr>
+  
+</tbody>
+</table>
+
+';
+
+
+
+
+
+
+
+
+echo '
+
+
+
+<table class="table table-bordered">
+<thead>
+  <tr>
+     
+    
+    <th scope="col">الحالة</th>
+    <th scope="col">المتبقي</th>
+  </tr>
+</thead>
+
+
+
+';
+
+ 
+
+echo '
+
+
+<tbody>
+
+
+  <tr>
+   
+     
+    <td>'.$array['status'].'</td>
+    <td>'.$array['remains'].'</td>
+
+    
+
+
+  </tr>
+  
+</tbody>
+</table>
+
+';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 echo "Start count= ".$array['start_count'];
 echo "<br>";
 echo "Status= ".$array['status'];
@@ -203,7 +386,7 @@ echo "<br>";
 echo "الباقي= ".$array['remains'];
 echo "<br>";
 
- 
+ */
 
 
 }
@@ -218,3 +401,93 @@ else{
 
 
 ?>
+
+
+ 
+<table class="table table-bordered">
+  <thead>
+    <tr>
+     
+      <th scope="col">الحالة</th>
+      <th scope="col">الوصف </th>
+      
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr>
+      <td>Pending</td>
+      <td> 
+        
+      طلبك قيد الانتظار 
+      </td>
+
+    </tr>
+    
+
+
+    <tr>
+      <td>In progress</td>
+      <td> 
+        
+      طلبك قيد التنفيذ  
+      </td>
+
+    </tr>
+
+
+
+    <tr>
+      <td>Processing</td>
+      <td> 
+        
+      طلبك قيد المعالجة  
+      </td>
+
+    </tr>
+
+
+    <tr>
+      <td>Completed</td>
+      <td> 
+        
+      تم الانتهاء من تنفيذ طلبك 
+      </td>
+
+    </tr>
+
+
+
+
+
+
+
+
+
+
+    <tr>
+      <td>Partial</td>
+      <td> 
+        
+     تم تنفيذ طلبك بشكل جزئي فتواصل معنا لتعويضك 
+      </td>
+
+    </tr>
+
+
+
+
+    <tr>
+      <td>Canceled</td>
+      <td> 
+        
+  تم الغاء طلبك من قبل النظام ,تواصل معنا لاعادة تنفيذ الطلب 
+      </td>
+
+    </tr>
+
+ 
+
+   
+  </tbody>
+</table>
