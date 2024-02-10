@@ -269,8 +269,8 @@ echo '
   <tr>
      
     
-    <th class="text-center" scope="col">Status</th>
-    <th class="text-center" scope="col">Remains</th>
+    <th class="text-center" scope="col">Status / الحالة</th>
+    <th class="text-center" scope="col">Remains / المتبقي</th>
   </tr>
 </thead>
 
@@ -309,48 +309,7 @@ echo '
 
 
 
-echo '
-
-
-
-<table class="table table-bordered">
-<thead>
-  <tr>
-     
-    
-    <th class="text-center" scope="col">الحالة</th>
-    <th class="text-center" scope="col">المتبقي</th>
-  </tr>
-</thead>
-
-
-
-';
-
  
-
-echo '
-
-
-<tbody>
-
-
-  <tr>
-   
-     
-    <td class="text-center">'.$array['status'].'</td>
-    <td class="text-center">'.$array['remains'].'</td>
-
-    
-
-
-  </tr>
-  
-</tbody>
-</table>
-
-';
-
 
 
 
@@ -404,7 +363,7 @@ else{
 
 
  
-<table class="table table-bordered" style="background-color:#d3d3d3;">
+<table   class="table table-bordered" style="background-color:#d3d3d3;">
   <thead>
     <tr>
      
